@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Crowns</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: monospace;
+      background: #fff;
+      color: #000;
+      padding: 20px;
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+
+    h1 { margin-bottom: 16px; font-size: 1.3rem; }
+
+    button {
+      border: 1px solid #000;
+      background: #fff;
+      color: #000;
+      padding: 4px 12px;
+      cursor: pointer;
+      font-family: monospace;
+      font-size: 0.9rem;
+    }
+    button:hover:not(:disabled) { background: #000; color: #fff; }
+    button:disabled { opacity: 0.35; cursor: default; }
+
+    input[type="text"] {
+      border: 1px solid #000;
+      padding: 4px 8px;
+      font-family: monospace;
+      font-size: 0.9rem;
+      width: 160px;
+    }
+    input[type="number"] {
+      border: 1px solid #000;
+      padding: 3px 4px;
+      font-family: monospace;
+      font-size: 0.9rem;
+      width: 60px;
+      text-align: center;
+    }
+    select {
+      border: 1px solid #000;
+      padding: 4px 6px;
+      font-family: monospace;
+      font-size: 0.9rem;
+      background: #fff;
+    }
+
+    .top-bar { display: flex; gap: 8px; align-items: center; margin-bottom: 20px; }
+
+    .add-row { display: flex; gap: 6px; align-items: center; margin-bottom: 10px; }
+
+    .player-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; min-height: 28px; }
+    .player-tag {
+      border: 1px solid #000;
+      padding: 2px 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
+    }
+    .rm-btn {
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 1rem;
+      padding: 0 2px;
+      line-height: 1;
+      font-family: monospace;
+    }
+    .rm-btn:hover { background: #000; color: #fff; }
+
+    .dealer-row { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; font-size: 0.9rem; }
+
+    .table-wrapper { overflow-x: auto; margin-bottom: 12px; }
+    table { border-collapse: collapse; min-width: 100%; }
+    th, td { border: 1px solid #000; padding: 6px 12px; text-align: center; white-space: nowrap; }
+    thead th { background: #000; color: #fff; }
+    tbody tr.totals td { font-weight: bold; border-top: 2px solid #000; }
+    tbody tr.current td { background: #eee; }
+
+    .submit-row { display: flex; justify-content: flex-end; margin-bottom: 16px; }
+
+    .winner { border: 2px solid #000; padding: 10px 16px; margin-bottom: 16px; font-weight: bold; }
+
+    .hint { font-size: 0.85rem; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Five Crowns</h1>
+
+  <div class="top-bar">
+    <button id="btn-new">New Game</button>
+    <button id="btn-undo" disabled>Undo</button>
+  </div>
+
+  <div id="app"></div>
+
+  <script>
+    const ROUNDS = [
+      { num: 1,  wild: '3s'     },
+      { num: 2,  wild: '4s'     },
+      { num: 3,  wild: '5s'     },
+      { num: 4,  wild: '6s'     },
+      { num: 5,  wild: '7s'     },
+      { num: 6,  wild: '8s'     },
+      { num: 7,  wild: '9s'     },
+      { num: 8,  wild: '10s'    },
+      { num: 9,  wild: 'Jacks'  },
+      { num: 10, wild: 'Queens' },
+      { num: 11, wild: 'Kings'  },
+    ];
+
+    let state = blankState();
+    let history = [];
+
+    function blankState() {
+      return {
+        phase: 'setup',      // 'setup' | 'playing' | 'complete'
+        players: [],         // string[]
+        firstDealerIndex: 0, // index into players[]
+        rounds: [],          // { roundIndex, dealerIndex, scores: number[] }[]
+      };
+    }
+
+    // ── State management ──────────────────────────────────────────────────────
+
+    function snapshot() { history.push(JSON.stringify(state)); }
+
+    function mutate(fn) { snapshot(); fn(); render(); }
+
+    // ── Actions ───────────────────────────────────────────────────────────────
+
+    function addPlayer(name) {
+      name = name.trim();
+      if (!name) return false;
+      mutate(() => { state.players = [...state.players, name]; });
+      return true;
+    }
+
+    function removePlayer(idx) {
+      mutate(() => {
+        const next = state.players.filter((_, i) => i !== idx);
+        let d = state.firstDealerIndex;
+        if (idx < d) d -= 1;
+        else if (idx === d) d = 0;
+        if (d >= next.length) d = 0;
+        state.players = next;
+        state.firstDealerIndex = d;
+      });
+    }
+
+    function setDealer(idx) {
+      mutate(() => { state.firstDealerIndex = idx; });
+    }
+
+    function startGame() {
+      if (state.players.length < 2) return;
+      mutate(() => { state.phase = 'playing'; });
+    }
+
+    function submitRound(scores) {
+      const roundIndex = state.rounds.length;
+      const dealerIndex = dealerFor(roundIndex);
+      mutate(() => {
+        state.rounds = [...state.rounds, { roundIndex, dealerIndex, scores }];
+        if (state.rounds.length === ROUNDS.length) state.phase = 'complete';
+      });
+    }
+
+    function resetGame() {
+      history = [];
+      state = blankState();
+      render();
+    }
+
+    function undo() {
+      if (!history.length) return;
+      state = JSON.parse(history.pop());
+      render();
+    }
+
+    // ── Helpers ───────────────────────────────────────────────────────────────
+
+    function dealerFor(roundIndex) {
+      return (state.firstDealerIndex + roundIndex) % state.players.length;
+    }
+
+    function runningTotals() {
+      return state.players.map((_, pi) =>
+        state.rounds.reduce((sum, r) => sum + (r.scores[pi] ?? 0), 0)
+      );
+    }
+
+    function el(tag, props = {}) {
+      const e = document.createElement(tag);
+      Object.assign(e, props);
+      return e;
+    }
+
+    function makeTh(text) { const t = el('th'); t.textContent = text; return t; }
+    function makeTd(text) { const t = el('td'); t.textContent = text; return t; }
+
+    // ── Phase renderers ───────────────────────────────────────────────────────
+
+    function renderSetup() {
+      const wrap = el('div');
+
+      const addRow = el('div', { className: 'add-row' });
+      const nameInput = el('input', { type: 'text', placeholder: 'Player name' });
+      const addBtn = el('button', { textContent: 'Add Player' });
+      addBtn.onclick = () => { if (addPlayer(nameInput.value)) nameInput.value = ''; nameInput.focus(); };
+      nameInput.onkeydown = e => { if (e.key === 'Enter') addBtn.click(); };
+      addRow.append(nameInput, addBtn);
+      wrap.appendChild(addRow);
+
+      const tags = el('div', { className: 'player-tags' });
+      state.players.forEach((name, i) => {
+        const tag = el('div', { className: 'player-tag' });
+        tag.appendChild(document.createTextNode(name));
+        const rm = el('button', { className: 'rm-btn', textContent: '×', title: 'Remove' });
+        rm.onclick = () => removePlayer(i);
+        tag.appendChild(rm);
+        tags.appendChild(tag);
+      });
+      wrap.appendChild(tags);
+
+      if (state.players.length >= 2) {
+        const dealerRow = el('div', { className: 'dealer-row' });
+        dealerRow.appendChild(document.createTextNode('First dealer: '));
+        const sel = el('select');
+        state.players.forEach((name, i) => {
+          const opt = el('option', { value: i, textContent: name });
+          if (i === state.firstDealerIndex) opt.selected = true;
+          sel.appendChild(opt);
+        });
+        sel.onchange = () => setDealer(+sel.value);
+        dealerRow.appendChild(sel);
+        wrap.appendChild(dealerRow);
+
+        const startBtn = el('button', { textContent: 'Start Game' });
+        startBtn.onclick = startGame;
+        wrap.appendChild(startBtn);
+      } else {
+        wrap.appendChild(el('p', { className: 'hint', textContent: 'Add at least 2 players to start.' }));
+      }
+
+      return wrap;
+    }
+
+    function buildTable(showInputRow) {
+      const wrapper = el('div', { className: 'table-wrapper' });
+      const table = el('table');
+
+      const thead = el('thead');
+      const hrow = el('tr');
+      ['Round', 'Wild', 'Dealer', ...state.players].forEach(t => hrow.appendChild(makeTh(t)));
+      thead.appendChild(hrow);
+      table.appendChild(thead);
+
+      const tbody = el('tbody');
+
+      state.rounds.forEach(r => {
+        const cfg = ROUNDS[r.roundIndex];
+        const tr = el('tr');
+        [cfg.num, cfg.wild, state.players[r.dealerIndex], ...r.scores].forEach(v => tr.appendChild(makeTd(v)));
+        tbody.appendChild(tr);
+      });
+
+      let currentInputs = null;
+      if (showInputRow && state.rounds.length < ROUNDS.length) {
+        const ri = state.rounds.length;
+        const cfg = ROUNDS[ri];
+        const tr = el('tr', { className: 'current' });
+        [cfg.num, cfg.wild, state.players[dealerFor(ri)]].forEach(v => tr.appendChild(makeTd(v)));
+        currentInputs = state.players.map(() => {
+          const inp = el('input');
+          inp.type = 'number';
+          inp.min = '0';
+          inp.placeholder = '0';
+          inp.setAttribute('inputmode', 'numeric');
+          const cell = el('td');
+          cell.appendChild(inp);
+          tr.appendChild(cell);
+          return inp;
+        });
+        tbody.appendChild(tr);
+      }
+
+      const tots = runningTotals();
+      const totRow = el('tr', { className: 'totals' });
+      ['Total', '', '', ...tots].forEach(v => totRow.appendChild(makeTd(v)));
+      tbody.appendChild(totRow);
+
+      table.appendChild(tbody);
+      wrapper.appendChild(table);
+      return { wrapper, currentInputs };
+    }
+
+    function renderPlaying() {
+      const wrap = el('div');
+      const { wrapper, currentInputs } = buildTable(true);
+      wrap.appendChild(wrapper);
+
+      const submitRow = el('div', { className: 'submit-row' });
+      const submitBtn = el('button', { textContent: 'Submit Round' });
+      submitBtn.onclick = () => {
+        const scores = currentInputs.map(inp => {
+          const v = parseInt(inp.value, 10);
+          return isNaN(v) ? 0 : Math.max(0, v);
+        });
+        submitRound(scores);
+      };
+      submitRow.appendChild(submitBtn);
+      wrap.appendChild(submitRow);
+
+      return wrap;
+    }
+
+    function renderComplete() {
+      const wrap = el('div');
+
+      const tots = runningTotals();
+      const min = Math.min(...tots);
+      const winners = state.players.filter((_, i) => tots[i] === min);
+      const banner = el('div', { className: 'winner' });
+      banner.textContent = winners.length === 1
+        ? `Winner: ${winners[0]} — ${min} pts`
+        : `Tie: ${winners.join(' & ')} — ${min} pts`;
+      wrap.appendChild(banner);
+
+      const { wrapper } = buildTable(false);
+      wrap.appendChild(wrapper);
+
+      return wrap;
+    }
+
+    // ── Main render ───────────────────────────────────────────────────────────
+
+    function render() {
+      const app = document.getElementById('app');
+      app.innerHTML = '';
+      if (state.phase === 'setup') app.appendChild(renderSetup());
+      else if (state.phase === 'playing') app.appendChild(renderPlaying());
+      else app.appendChild(renderComplete());
+      document.getElementById('btn-undo').disabled = history.length === 0;
+    }
+
+    document.getElementById('btn-new').onclick = resetGame;
+    document.getElementById('btn-undo').onclick = undo;
+
+    render();
+  </script>
+</body>
+</html>
