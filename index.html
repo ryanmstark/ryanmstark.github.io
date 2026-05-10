@@ -1,14 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ryanmstark</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scorekeeper Apps</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: monospace;
+      background: #fff;
+      color: #000;
+      padding: 24px 20px 40px;
+      min-height: 100vh;
+    }
+
+    h1 { font-size: 1.4rem; margin-bottom: 24px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .app-card {
+      border: 1px solid #000;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: #000;
+      transition: none;
+    }
+    .app-card:hover .card-link { background: #000; color: #fff; }
+
+    .art {
+      height: 130px;
+      background: #f5f5f5;
+      overflow: hidden;
+    }
+    .art svg { width: 100%; height: 100%; display: block; }
+
+    .card-info { padding: 12px 14px 10px; flex: 1; }
+    .card-info h2 { font-size: 1rem; margin-bottom: 5px; }
+    .card-info p  { font-size: 0.8rem; line-height: 1.45; color: #444; }
+
+    .card-link {
+      padding: 9px 14px;
+      font-size: 0.85rem;
+      border-top: 1px solid #000;
+    }
+  </style>
 </head>
 <body>
-    <h1>Projects</h1>
-    <ul>
-        <li><a href="/five-crowns/">Five Crowns Scorekeeper</a></li>
-    </ul>
+  <h1>Scorekeeper Apps</h1>
+
+  <div class="grid">
+
+    <!-- Five Crowns -->
+    <a class="app-card" href="/five-crowns/">
+      <div class="art">
+        <svg viewBox="0 0 300 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <text x="12"  y="96"  font-size="82" fill="#000" opacity="0.07" font-family="Georgia,serif">♛</text>
+          <text x="102" y="75"  font-size="56" fill="#000" opacity="0.09" font-family="Georgia,serif">♠</text>
+          <text x="160" y="102" font-size="64" fill="#000" opacity="0.07" font-family="Georgia,serif">♥</text>
+          <text x="221" y="72"  font-size="50" fill="#000" opacity="0.09" font-family="Georgia,serif">♦</text>
+          <text x="261" y="112" font-size="42" fill="#000" opacity="0.08" font-family="Georgia,serif">♣</text>
+        </svg>
+      </div>
+      <div class="card-info">
+        <h2>Five Crowns</h2>
+        <p>11 rounds with rotating wild cards. Lowest score wins.</p>
+      </div>
+      <div class="card-link">Open →</div>
+    </a>
+
+    <!-- Phase 10 -->
+    <a class="app-card" href="/phase-10/">
+      <div class="art">
+        <svg viewBox="0 0 300 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <g fill="none" stroke="#000" stroke-width="1.5" opacity="0.18">
+            <rect x="38"  y="22" width="40" height="28" rx="3"/>
+            <rect x="84"  y="22" width="40" height="28" rx="3"/>
+            <rect x="130" y="22" width="40" height="28" rx="3"/>
+            <rect x="176" y="22" width="40" height="28" rx="3"/>
+            <rect x="222" y="22" width="40" height="28" rx="3"/>
+            <rect x="38"  y="78" width="40" height="28" rx="3"/>
+            <rect x="84"  y="78" width="40" height="28" rx="3"/>
+            <rect x="130" y="78" width="40" height="28" rx="3"/>
+            <rect x="176" y="78" width="40" height="28" rx="3"/>
+            <rect x="222" y="78" width="40" height="28" rx="3"/>
+          </g>
+          <g text-anchor="middle" font-family="monospace" font-size="13" fill="#000" opacity="0.28">
+            <text x="58"  y="40">1</text>
+            <text x="104" y="40">2</text>
+            <text x="150" y="40">3</text>
+            <text x="196" y="40">4</text>
+            <text x="242" y="40">5</text>
+            <text x="58"  y="96">6</text>
+            <text x="104" y="96">7</text>
+            <text x="150" y="96">8</text>
+            <text x="196" y="96">9</text>
+            <text x="242" y="96">10</text>
+          </g>
+        </svg>
+      </div>
+      <div class="card-info">
+        <h2>Phase 10</h2>
+        <p>Complete all 10 phases in order. First to finish wins; lowest score breaks ties.</p>
+      </div>
+      <div class="card-link">Open →</div>
+    </a>
+
+    <!-- Skyjo -->
+    <a class="app-card" href="/skyjo/">
+      <div class="art">
+        <svg viewBox="0 0 300 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <g fill="none" stroke="#000" stroke-width="1.5" opacity="0.18">
+            <rect x="68"  y="18" width="36" height="26" rx="2"/>
+            <rect x="112" y="18" width="36" height="26" rx="2"/>
+            <rect x="156" y="18" width="36" height="26" rx="2"/>
+            <rect x="200" y="18" width="36" height="26" rx="2"/>
+            <rect x="68"  y="52" width="36" height="26" rx="2"/>
+            <rect x="112" y="52" width="36" height="26" rx="2"/>
+            <rect x="156" y="52" width="36" height="26" rx="2"/>
+            <rect x="200" y="52" width="36" height="26" rx="2"/>
+            <rect x="68"  y="86" width="36" height="26" rx="2"/>
+            <rect x="112" y="86" width="36" height="26" rx="2"/>
+            <rect x="156" y="86" width="36" height="26" rx="2"/>
+            <rect x="200" y="86" width="36" height="26" rx="2"/>
+          </g>
+          <g text-anchor="middle" font-family="monospace" font-size="11" fill="#000" opacity="0.25">
+            <text x="86"  y="35">-2</text>
+            <text x="130" y="35"> 5</text>
+            <text x="174" y="35">12</text>
+            <text x="218" y="35"> 3</text>
+            <text x="86"  y="69"> 7</text>
+            <text x="174" y="69">-1</text>
+            <text x="218" y="69">10</text>
+            <text x="86"  y="103"> 4</text>
+            <text x="130" y="103"> 8</text>
+            <text x="218" y="103"> 0</text>
+          </g>
+        </svg>
+      </div>
+      <div class="card-info">
+        <h2>Skyjo</h2>
+        <p>Flip and swap cards to build the lowest grid. Game ends when someone hits 100.</p>
+      </div>
+      <div class="card-link">Open →</div>
+    </a>
+
+    <!-- Flip 7 -->
+    <a class="app-card" href="/flip-7/">
+      <div class="art">
+        <svg viewBox="0 0 300 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <g fill="#f5f5f5" stroke="#000" stroke-width="1.5" opacity="0.2">
+            <rect x="132" y="30" width="36" height="52" rx="3" transform="rotate(-27,150,100)"/>
+            <rect x="132" y="30" width="36" height="52" rx="3" transform="rotate(-18,150,100)"/>
+            <rect x="132" y="30" width="36" height="52" rx="3" transform="rotate(-9,150,100)"/>
+            <rect x="132" y="30" width="36" height="52" rx="3"/>
+            <rect x="132" y="30" width="36" height="52" rx="3" transform="rotate(9,150,100)"/>
+            <rect x="132" y="30" width="36" height="52" rx="3" transform="rotate(18,150,100)"/>
+            <rect x="132" y="30" width="36" height="52" rx="3" transform="rotate(27,150,100)"/>
+          </g>
+          <g text-anchor="middle" font-family="monospace" font-size="13" fill="#000">
+            <g transform="rotate(-27,150,100)" opacity="0.22"><text x="150" y="62">1</text></g>
+            <g transform="rotate(-18,150,100)" opacity="0.22"><text x="150" y="62">2</text></g>
+            <g transform="rotate(-9,150,100)"  opacity="0.22"><text x="150" y="62">3</text></g>
+            <g opacity="0.22"><text x="150" y="62">4</text></g>
+            <g transform="rotate(9,150,100)"   opacity="0.22"><text x="150" y="62">5</text></g>
+            <g transform="rotate(18,150,100)"  opacity="0.22"><text x="150" y="62">6</text></g>
+            <g transform="rotate(27,150,100)"  opacity="0.22"><text x="150" y="62">7</text></g>
+          </g>
+        </svg>
+      </div>
+      <div class="card-info">
+        <h2>Flip 7</h2>
+        <p>Press your luck flipping cards. Bust on a duplicate. Highest score wins.</p>
+      </div>
+      <div class="card-link">Open →</div>
+    </a>
+
+  </div>
 </body>
 </html>

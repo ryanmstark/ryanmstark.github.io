@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Five Crowns</title>
+  <title>Flip 7</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -16,6 +16,9 @@
       margin: 0 auto;
     }
 
+    nav { margin-bottom: 16px; font-size: 0.85rem; }
+    nav a { color: #000; }
+
     h1 { margin-bottom: 16px; font-size: 1.3rem; }
 
     button {
@@ -26,6 +29,7 @@
       cursor: pointer;
       font-family: monospace;
       font-size: 0.9rem;
+      min-height: 36px;
     }
     button:hover:not(:disabled) { background: #000; color: #fff; }
     button:disabled { opacity: 0.35; cursor: default; }
@@ -36,6 +40,7 @@
       font-family: monospace;
       font-size: 0.9rem;
       width: 160px;
+      height: 36px;
     }
     input[type="number"] {
       border: 1px solid #000;
@@ -51,12 +56,11 @@
       font-family: monospace;
       font-size: 0.9rem;
       background: #fff;
+      height: 36px;
     }
 
-    .top-bar { display: flex; gap: 8px; align-items: center; margin-bottom: 20px; }
-
-    .add-row { display: flex; gap: 6px; align-items: center; margin-bottom: 10px; }
-
+    .top-bar   { display: flex; gap: 8px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; }
+    .add-row   { display: flex; gap: 6px; align-items: center; margin-bottom: 10px; }
     .player-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; min-height: 28px; }
     .player-tag {
       border: 1px solid #000;
@@ -66,17 +70,8 @@
       gap: 6px;
       font-size: 0.9rem;
     }
-    .rm-btn {
-      border: none;
-      background: none;
-      cursor: pointer;
-      font-size: 1rem;
-      padding: 0 2px;
-      line-height: 1;
-      font-family: monospace;
-    }
+    .rm-btn { border: none; background: none; cursor: pointer; font-size: 1rem; padding: 0 2px; line-height: 1; font-family: monospace; min-height: unset; }
     .rm-btn:hover { background: #000; color: #fff; }
-
     .dealer-row { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; font-size: 0.9rem; }
 
     .table-wrapper { overflow-x: auto; margin-bottom: 12px; }
@@ -87,53 +82,42 @@
     tbody tr.current td { background: #eee; }
 
     .submit-row { display: flex; justify-content: flex-end; margin-bottom: 16px; }
-
     .winner { border: 2px solid #000; padding: 10px 16px; margin-bottom: 16px; font-weight: bold; }
-
     .hint { font-size: 0.85rem; margin-top: 8px; }
+    .note { font-size: 0.8rem; margin-bottom: 14px; color: #555; }
+
+    @media (max-width: 480px) {
+      body { padding: 14px; }
+      input[type="number"] { width: 50px; }
+    }
   </style>
 </head>
 <body>
-  <h1>Five Crowns</h1>
+  <nav><a href="/">← Home</a></nav>
+  <h1>Flip 7</h1>
 
   <div class="top-bar">
     <button id="btn-new">New Game</button>
     <button id="btn-undo" disabled>Undo</button>
+    <button id="btn-end">End Game</button>
   </div>
 
   <div id="app"></div>
 
   <script>
-    const ROUNDS = [
-      { num: 1,  wild: '3s'     },
-      { num: 2,  wild: '4s'     },
-      { num: 3,  wild: '5s'     },
-      { num: 4,  wild: '6s'     },
-      { num: 5,  wild: '7s'     },
-      { num: 6,  wild: '8s'     },
-      { num: 7,  wild: '9s'     },
-      { num: 8,  wild: '10s'    },
-      { num: 9,  wild: 'Jacks'  },
-      { num: 10, wild: 'Queens' },
-      { num: 11, wild: 'Kings'  },
-    ];
-
     let state = blankState();
     let history = [];
 
     function blankState() {
       return {
-        phase: 'setup',      // 'setup' | 'playing' | 'complete'
-        players: [],         // string[]
-        firstDealerIndex: 0, // index into players[]
-        rounds: [],          // { roundIndex, dealerIndex, scores: number[] }[]
+        phase: 'setup',
+        players: [],
+        firstDealerIndex: 0,
+        rounds: [],   // { roundIndex, dealerIndex, scores: number[] }
       };
     }
 
-    // ── State management ──────────────────────────────────────────────────────
-
     function snapshot() { history.push(JSON.stringify(state)); }
-
     function mutate(fn) { snapshot(); fn(); render(); }
 
     // ── Actions ───────────────────────────────────────────────────────────────
@@ -157,9 +141,7 @@
       });
     }
 
-    function setDealer(idx) {
-      mutate(() => { state.firstDealerIndex = idx; });
-    }
+    function setDealer(idx) { mutate(() => { state.firstDealerIndex = idx; }); }
 
     function startGame() {
       if (state.players.length < 2) return;
@@ -171,21 +153,16 @@
       const dealerIndex = dealerFor(roundIndex);
       mutate(() => {
         state.rounds = [...state.rounds, { roundIndex, dealerIndex, scores }];
-        if (state.rounds.length === ROUNDS.length) state.phase = 'complete';
       });
     }
 
-    function resetGame() {
-      snapshot();
-      state = blankState();
-      render();
+    function endGame() {
+      if (state.phase !== 'playing' || state.rounds.length === 0) return;
+      mutate(() => { state.phase = 'complete'; });
     }
 
-    function undo() {
-      if (!history.length) return;
-      state = JSON.parse(history.pop());
-      render();
-    }
+    function resetGame() { snapshot(); state = blankState(); render(); }
+    function undo() { if (!history.length) return; state = JSON.parse(history.pop()); render(); }
 
     // ── Helpers ───────────────────────────────────────────────────────────────
 
@@ -204,7 +181,6 @@
       Object.assign(e, props);
       return e;
     }
-
     function makeTh(text) { const t = el('th'); t.textContent = text; return t; }
     function makeTd(text) { const t = el('td'); t.textContent = text; return t; }
 
@@ -212,6 +188,7 @@
 
     function renderSetup() {
       const wrap = el('div');
+      wrap.appendChild(el('p', { className: 'note', textContent: 'Press your luck flipping cards. Bust on a duplicate. Highest score wins. Use End Game when the group decides to stop.' }));
 
       const addRow = el('div', { className: 'add-row' });
       const nameInput = el('input', { type: 'text', placeholder: 'Player name' });
@@ -244,7 +221,6 @@
         sel.onchange = () => setDealer(+sel.value);
         dealerRow.appendChild(sel);
         wrap.appendChild(dealerRow);
-
         const startBtn = el('button', { textContent: 'Start Game' });
         startBtn.onclick = startGame;
         wrap.appendChild(startBtn);
@@ -261,34 +237,33 @@
 
       const thead = el('thead');
       const hrow = el('tr');
-      ['Round', 'Wild', 'Dealer', ...state.players].forEach(t => hrow.appendChild(makeTh(t)));
+      ['Round', 'Dealer', ...state.players].forEach(t => hrow.appendChild(makeTh(t)));
       thead.appendChild(hrow);
       table.appendChild(thead);
 
       const tbody = el('tbody');
 
       state.rounds.forEach(r => {
-        const cfg = ROUNDS[r.roundIndex];
         const tr = el('tr');
-        [cfg.num, cfg.wild, state.players[r.dealerIndex], ...r.scores].forEach(v => tr.appendChild(makeTd(v)));
+        tr.appendChild(makeTd(r.roundIndex + 1));
+        tr.appendChild(makeTd(state.players[r.dealerIndex]));
+        r.scores.forEach(v => tr.appendChild(makeTd(v)));
         tbody.appendChild(tr);
       });
 
       let currentInputs = null;
-      if (showInputRow && state.rounds.length < ROUNDS.length) {
+      if (showInputRow) {
         const ri = state.rounds.length;
-        const cfg = ROUNDS[ri];
         const tr = el('tr', { className: 'current' });
-        [cfg.num, cfg.wild, state.players[dealerFor(ri)]].forEach(v => tr.appendChild(makeTd(v)));
+        tr.appendChild(makeTd(ri + 1));
+        tr.appendChild(makeTd(state.players[dealerFor(ri)]));
         currentInputs = state.players.map(() => {
           const inp = el('input');
-          inp.type = 'number';
-          inp.min = '0';
-          inp.placeholder = '0';
+          inp.type = 'number'; inp.min = '0'; inp.placeholder = '0';
           inp.setAttribute('inputmode', 'numeric');
-          const cell = el('td');
-          cell.appendChild(inp);
-          tr.appendChild(cell);
+          const td = el('td');
+          td.appendChild(inp);
+          tr.appendChild(td);
           return inp;
         });
         tbody.appendChild(tr);
@@ -296,7 +271,9 @@
 
       const tots = runningTotals();
       const totRow = el('tr', { className: 'totals' });
-      ['Total', '', '', ...tots].forEach(v => totRow.appendChild(makeTd(v)));
+      totRow.appendChild(makeTd('Total'));
+      totRow.appendChild(makeTd(''));
+      tots.forEach(t => totRow.appendChild(makeTd(t)));
       tbody.appendChild(totRow);
 
       table.appendChild(tbody);
@@ -320,29 +297,23 @@
       };
       submitRow.appendChild(submitBtn);
       wrap.appendChild(submitRow);
-
       return wrap;
     }
 
     function renderComplete() {
       const wrap = el('div');
-
       const tots = runningTotals();
-      const min = Math.min(...tots);
-      const winners = state.players.filter((_, i) => tots[i] === min);
+      const max = Math.max(...tots);
+      const winners = state.players.filter((_, i) => tots[i] === max);
       const banner = el('div', { className: 'winner' });
       banner.textContent = winners.length === 1
-        ? `Winner: ${winners[0]} — ${min} pts`
-        : `Tie: ${winners.join(' & ')} — ${min} pts`;
+        ? `Winner: ${winners[0]} — ${max} pts`
+        : `Tie: ${winners.join(' & ')} — ${max} pts`;
       wrap.appendChild(banner);
-
       const { wrapper } = buildTable(false);
       wrap.appendChild(wrapper);
-
       return wrap;
     }
-
-    // ── Main render ───────────────────────────────────────────────────────────
 
     function render() {
       const app = document.getElementById('app');
@@ -351,11 +322,12 @@
       else if (state.phase === 'playing') app.appendChild(renderPlaying());
       else app.appendChild(renderComplete());
       document.getElementById('btn-undo').disabled = history.length === 0;
+      document.getElementById('btn-end').disabled = state.phase !== 'playing' || state.rounds.length === 0;
     }
 
     document.getElementById('btn-new').onclick = resetGame;
     document.getElementById('btn-undo').onclick = undo;
-
+    document.getElementById('btn-end').onclick = endGame;
     render();
   </script>
 </body>
