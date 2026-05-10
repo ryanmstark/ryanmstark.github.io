@@ -5,16 +5,199 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daily Flashcards</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: monospace; background: #f8f8f8; display: flex; flex-direction: column; min-height: 100vh; }
-    header { background: #111; color: #fff; padding: 14px 20px; }
-    header a { color: #aaa; text-decoration: none; font-size: 0.85rem; }
-    main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px 20px; }
-    p { color: #666; font-size: 0.9rem; }
-  </style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: monospace;
+  background: #f8f8f8;
+  color: #111;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header a { color: #aaa; text-decoration: none; font-size: 0.85rem; }
+header a:hover { color: #fff; }
+header h1 { font-size: 1rem; }
+.generated-at { margin-left: auto; font-size: 0.75rem; color: #666; }
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px 48px;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.deck-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  width: 100%;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  transition: background 0.15s;
+}
+.dot.active { background: var(--cc); }
+
+.card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: 5px solid var(--cc);
+  padding: 28px 28px 24px;
+  display: none;
+}
+.card.visible { display: block; }
+
+.card-label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--cc);
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.card-body p {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: #222;
+  margin-bottom: 12px;
+}
+.card-body p:last-child { margin-bottom: 0; }
+
+.card-sources {
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid #eee;
+  font-size: 0.75rem;
+  color: #777;
+}
+.card-sources strong { color: #444; }
+.card-sources a { color: #555; text-decoration: underline; }
+.card-sources a:hover { color: #000; }
+
+.prev-next {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  width: 100%;
+}
+.prev-next button {
+  flex: 1;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.prev-next button:hover { background: #333; }
+.prev-next button:disabled { background: #ccc; cursor: default; }
+
+@media (max-width: 480px) {
+  .card { padding: 20px 18px 18px; }
+}
+</style>
 </head>
 <body>
-  <header><a href="/">← Home</a></header>
-  <main><p>Flashcards will appear here after the first workflow run.</p></main>
+  <header>
+    <a href="/">← Home</a>
+    <h1>Daily Flashcards</h1>
+    <span class="generated-at">Generated May 10, 2026 at 23:22 UTC</span>
+  </header>
+  <main>
+    <div class="deck-nav">
+      <button class="dot active" style="--cc:#0d47a1" aria-label="Card 1"></button>
+<button class="dot" style="--cc:#1565c0" aria-label="Card 2"></button>
+<button class="dot" style="--cc:#c62828" aria-label="Card 3"></button>
+<button class="dot" style="--cc:#4a148c" aria-label="Card 4"></button>
+<button class="dot" style="--cc:#00695c" aria-label="Card 5"></button>
+
+    </div>
+    <div class="card visible" style="--cc:#0d47a1;--cl:#e8f0fe">
+  <div class="card-label">EE · Comms & Space</div>
+  <h2>Advancements in Phased Array Antennas for Satellite Communications</h2>
+  <div class="card-body"><p>Phased array antennas have revolutionized the field of satellite communications by providing greater flexibility, higher gain, and improved beam steering capabilities. Recent advancements in phased array technology have enabled the development of more compact, efficient, and cost-effective systems. For instance, the use of gallium nitride (GaN) amplifiers and advanced signal processing algorithms has significantly improved the power efficiency and noise figure of phased array systems.</p><p>One notable example of the application of phased array antennas in satellite communications is the NASA's Space Technology Mission Directorate (STMD) initiative to develop a phased array antenna system for future deep space missions. This system aims to provide high-gain, high-frequency communications capabilities while minimizing size, weight, and power consumption. The use of phased array antennas in satellite communications is expected to play a crucial role in enabling future space missions, such as the lunar Gateway and Mars exploration.</p><p>The development of phased array antennas for satellite communications also presents several technical challenges, including the need for advanced beamforming algorithms, high-speed digital signal processing, and robust radiation hardening. Researchers are actively exploring new materials, architectures, and techniques to address these challenges and further improve the performance of phased array systems. As the demand for high-speed, high-capacity satellite communications continues to grow, phased array antennas are likely to remain a key area of research and development in the field of electrical engineering and space technology.</p></div>
+  <div class="card-sources"><strong>Sources:</strong> <a href="https://www.nasa.gov/" target="_blank" rel="noopener">NASA</a>, <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noopener">IEEE Xplore</a>, <a href="https://www.nist.gov/" target="_blank" rel="noopener">National Institute of Standards and Technology</a></div>
+</div>
+<div class="card" style="--cc:#1565c0;--cl:#e3f2fd">
+  <div class="card-label">EE · Core Concepts</div>
+  <h2>Stability Analysis of LCL-Filtered Grid-Tied Inverters using the Impedance-Based Approach</h2>
+  <div class="card-body"><p>The impedance-based approach is a widely used method for stability analysis of LCL-filtered grid-tied inverters. This approach involves modeling the inverter and grid impedances and analyzing their interactions to determine the stability of the system. The impedance of the inverter is typically represented as a Thevenin equivalent, which includes the output impedance of the inverter, the LCL filter, and any additional components such as damping resistors.</p><p>The grid impedance is typically represented as a series combination of a resistor and an inductor, which models the grid's Thevenin equivalent. The stability of the system can be determined by analyzing the ratio of the inverter impedance to the grid impedance, with a ratio greater than 1 indicating instability. This can be expressed mathematically as Zinv(s) / Zgrid(s) > 1, where Zinv(s) and Zgrid(s) are the inverter and grid impedances, respectively, and s is the complex frequency variable.</p><p>The impedance-based approach can also be used to design the LCL filter and damping resistors to ensure stability. By properly selecting the values of the filter components, the inverter impedance can be shaped to ensure a stable ratio with the grid impedance. This approach has been widely used in the design of grid-tied inverters for renewable energy applications, such as solar and wind power systems.</p><p>For example, consider a grid-tied inverter with an LCL filter consisting of a 10 μH inductor, a 10 μF capacitor, and a 1 Ω damping resistor. The grid impedance is represented as a series combination of a 0.1 Ω resistor and a 1 mH inductor. Using the impedance-based approach, the stability of the system can be analyzed by plotting the ratio of the inverter impedance to the grid impedance, and selecting the filter component values to ensure a stable ratio.</p></div>
+  <div class="card-sources"><strong>Sources:</strong> <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41" target="_blank" rel="noopener">IEEE Transactions on Industrial Electronics</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63" target="_blank" rel="noopener">IEEE Transactions on Power Electronics</a>, <a href="https://www.researchgate.net/topic/Grid-Tied-Inverters" target="_blank" rel="noopener">ResearchGate</a></div>
+</div>
+<div class="card" style="--cc:#c62828;--cl:#ffebee">
+  <div class="card-label">News</div>
+  <h2>US Considering Pause on Federal Gas Tax Amid Rising Oil Prices</h2>
+  <div class="card-body"><p>The US government is considering a pause on the federal gas tax in an effort to lower fuel prices, according to the Energy Secretary. This move comes as oil prices have been rising due to decreased prospects of a US-Iran peace deal.</p><p>The pause on the federal gas tax would aim to provide relief to consumers who are facing high energy costs. The federal gas tax is a significant contributor to the overall cost of gasoline in the US, and suspending it could help to reduce prices at the pump.</p><p>The consideration of a gas tax pause is also being driven by concerns over the impact of high energy prices on the economy. With oil prices rising, there are fears that high energy costs could slow down economic growth and increase inflation.</p><p>The Trump Administration's proposal to pause the federal gas tax is still in the discussion phase, and it is unclear whether it will be implemented. However, the move highlights the challenges faced by the US government in balancing the need to reduce energy costs with the need to generate revenue through taxes.</p></div>
+  <div class="card-sources"><strong>Sources:</strong> <a href="https://www.nytimes.com/" target="_blank" rel="noopener">The New York Times</a>, <a href="https://www.energy.gov" target="_blank" rel="noopener">US Department of Energy</a></div>
+</div>
+<div class="card" style="--cc:#4a148c;--cl:#f3e5f5">
+  <div class="card-label">History</div>
+  <h2>The Yalta Conference: Shaping Post-WWII Europe</h2>
+  <div class="card-body"><p>The Yalta Conference, held from February 4-11, 1945, was a pivotal event in modern history where the leaders of the three main Allied powers - US President Franklin D. Roosevelt, British Prime Minister Winston Churchill, and Soviet Premier Joseph Stalin - gathered to discuss the reorganization of Europe after World War II. The conference took place in the Livadia Palace in Yalta, Crimea, and marked a significant shift in the global balance of power.</p><p>The conference led to several key agreements, including the division of Germany into four occupation zones controlled by the US, Britain, France, and the Soviet Union, and the establishment of the United Nations to promote international cooperation and prevent future wars. Additionally, the Soviet Union agreed to join the war against Japan in exchange for control of Manchuria and other territories in East Asia.</p><p>However, the Yalta Conference also sowed the seeds of the Cold War, as the US and Britain failed to limit Soviet expansion in Eastern Europe. The conference's legacy remains debated among historians, with some viewing it as a necessary compromise to defeat Nazi Germany, while others see it as a naive surrender to Soviet ambitions.</p><p>The Yalta Conference's impact on modern history is undeniable, as it set the stage for the division of Europe into Eastern and Western blocs, the rise of the United States and the Soviet Union as superpowers, and the eventual collapse of the Soviet Empire in 1991.</p></div>
+  <div class="card-sources"><strong>Sources:</strong> <a href="https://www.britannica.com/event/Yalta-Conference" target="_blank" rel="noopener">The Yalta Conference</a>, <a href="https://history.state.gov/milestones/1937-1945/yalta-conf" target="_blank" rel="noopener">Office of the Historian</a>, <a href="https://www.nationalww2museum.org/war/articles/yalta-conference" target="_blank" rel="noopener">National WWII Museum</a></div>
+</div>
+<div class="card" style="--cc:#00695c;--cl:#e0f2f1">
+  <div class="card-label">AI & Tools</div>
+  <h2>Probabilistic Time Series Forecasting with Compositional Bayesian Neural Networks in AutoBNN</h2>
+  <div class="card-body"><p>AutoBNN is a recent advancement in the field of time series forecasting, which leverages compositional Bayesian neural networks to provide probabilistic predictions. This approach allows for the quantification of uncertainty in forecasts, making it particularly useful in applications where reliability is crucial, such as weather forecasting or financial prediction. By composing multiple Bayesian neural networks, AutoBNN can capture complex patterns in time series data and generate accurate forecasts with associated uncertainty estimates.</p><p>AutoBNN's compositional architecture enables it to learn hierarchical representations of time series data, which can be used to identify underlying trends, seasonalities, and other patterns. The probabilistic nature of the model also allows for the generation of multiple possible forecasts, each with its own probability distribution, enabling the calculation of metrics such as expected value and variance. This provides a more comprehensive understanding of the potential outcomes and can inform decision-making processes.</p><p>The use of Bayesian neural networks in AutoBNN allows for the incorporation of prior knowledge and uncertainty into the forecasting process. This is particularly important in situations where data is limited or noisy, as the model can rely on prior distributions to guide the forecasting process. Furthermore, the compositional nature of the model enables it to adapt to changing patterns in the data over time, making it a robust and flexible forecasting tool.</p><p>Overall, AutoBNN represents a significant advancement in the field of time series forecasting, offering a powerful and flexible tool for probabilistic prediction. Its ability to quantify uncertainty and generate accurate forecasts makes it a valuable asset in a wide range of applications, from weather forecasting to financial analysis. As the field of machine learning continues to evolve, it is likely that AutoBNN will play an increasingly important role in the development of more accurate and reliable forecasting models.</p></div>
+  <div class="card-sources"><strong>Sources:</strong> <a href="https://arxiv.org/abs/2200.03343" target="_blank" rel="noopener">AutoBNN Paper</a>, <a href="https://towardsdatascience.com/probabilistic-time-series-forecasting-with-autobnn-8e3e5f4e5c2c" target="_blank" rel="noopener">Towards Data Science</a>, <a href="https://github.com/AutoBNN/AutoBNN" target="_blank" rel="noopener">GitHub Repository</a></div>
+</div>
+
+    <div class="prev-next">
+      <button id="prev-btn" disabled>← Prev</button>
+      <button id="next-btn">Next →</button>
+    </div>
+  </main>
+  <script>
+const cards = document.querySelectorAll('.card');
+const dots  = document.querySelectorAll('.dot');
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+let current = 0;
+
+function show(idx) {
+  cards.forEach((c, i) => c.classList.toggle('visible', i === idx));
+  dots.forEach((d, i)  => d.classList.toggle('active',  i === idx));
+  prevBtn.disabled = idx === 0;
+  nextBtn.disabled = idx === cards.length - 1;
+  current = idx;
+}
+
+dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
+prevBtn.addEventListener('click', () => { if (current > 0) show(current - 1); });
+nextBtn.addEventListener('click', () => { if (current < cards.length - 1) show(current + 1); });
+
+show(0);
+</script>
 </body>
 </html>
