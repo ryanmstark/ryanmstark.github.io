@@ -236,6 +236,8 @@ tbody tr:hover { background: #f6f8fa; cursor: pointer; }
 .back-top { display: inline-block; margin-top: 18px; font-size: 0.8rem; color: #0969da; text-decoration: none; }
 .back-top:hover { text-decoration: underline; }
 
+.chart-wrap { height: 120px; margin-bottom: 20px; }
+
 @media (max-width: 640px) {
     header { padding: 18px 20px; }
     header h1 { font-size: 1.2rem; }
@@ -298,7 +300,7 @@ def fetch_ticker_data(symbol: str) -> dict:
     try:
         ticker = yf.Ticker(symbol)
 
-        hist = ticker.history(period="2d")
+        hist = ticker.history(period="1mo")
         if hist.empty:
             return _error_result(symbol, "No price history available")
 
@@ -306,6 +308,11 @@ def fetch_ticker_data(symbol: str) -> dict:
         prev_close = float(hist["Close"].iloc[-2]) if len(hist) >= 2 else current_price
         change = current_price - prev_close
         change_pct = (change / prev_close * 100) if prev_close else 0.0
+
+        chart_data = [
+            {"t": row.Index.strftime("%b %d"), "c": round(float(row.Close), 4)}
+            for row in hist.itertuples()
+        ]
 
         try:
             info = ticker.info
@@ -319,6 +326,7 @@ def fetch_ticker_data(symbol: str) -> dict:
             "price": current_price,
             "change": change,
             "change_pct": change_pct,
+            "history": chart_data,
             "news": _parse_news(ticker.news or []),
             "events": _parse_calendar(ticker.calendar),
             "prev_earnings": _parse_previous_earnings(ticker),
@@ -336,6 +344,7 @@ def _error_result(symbol: str, message: str) -> dict:
         "price": None,
         "change": 0.0,
         "change_pct": 0.0,
+        "history": [],
         "news": [],
         "events": [],
         "prev_earnings": None,
@@ -687,6 +696,7 @@ def build_html(stocks: list[dict], generated_at: datetime, summaries: dict) -> s
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Stock Digest &mdash; {date_str}</title>
   <style>{_CSS}</style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 </head>
 <body>
 <header id="top">
@@ -794,6 +804,74 @@ def _prev_earnings_chip(prev: dict) -> str:
     return chip
 
 
+def _render_chart(stock: dict) -> str:
+    """
+    Renders a 30-day price chart for a single ticker as a canvas + inline script.
+
+    Intent:
+        Embeds chart data as JSON and initialises a Chart.js line chart showing
+        the closing price for each trading day over the past month. The line is
+        green when the day's change is positive, red otherwise.
+
+    Parameters:
+        stock (dict): Result from fetch_ticker_data(), must contain 'history'.
+
+    Returns:
+        str: HTML string with a <div>, <canvas>, and <script> block, or '' if
+             fewer than 5 data points are available.
+    """
+    history = stock.get("history", [])
+    if len(history) < 5:
+        return ""
+
+    symbol = stock["symbol"]
+    canvas_id = f"chart-{symbol}"
+    labels_json = json.dumps([p["t"] for p in history])
+    prices_json = json.dumps([p["c"] for p in history])
+    color = "#1a7f37" if stock["change"] >= 0 else "#cf222e"
+    fill_color = "rgba(26,127,55,0.06)" if stock["change"] >= 0 else "rgba(207,34,46,0.06)"
+
+    script = f"""(function() {{
+  var c = document.getElementById('{canvas_id}');
+  new Chart(c, {{
+    type: 'line',
+    data: {{
+      labels: {labels_json},
+      datasets: [{{
+        data: {prices_json},
+        borderColor: '{color}',
+        backgroundColor: '{fill_color}',
+        borderWidth: 1.5,
+        pointRadius: 0,
+        fill: true,
+        tension: 0.1
+      }}]
+    }},
+    options: {{
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {{
+        legend: {{ display: false }},
+        tooltip: {{ callbacks: {{ label: function(ctx) {{ return '$' + ctx.parsed.y.toFixed(2); }} }} }}
+      }},
+      scales: {{
+        x: {{ display: false }},
+        y: {{
+          position: 'right',
+          grid: {{ color: '#f0f0f0' }},
+          ticks: {{ font: {{ size: 10 }}, callback: function(v) {{ return '$' + v.toFixed(0); }} }}
+        }}
+      }}
+    }}
+  }});
+}})();"""
+
+    return (
+        f'<div class="chart-wrap"><canvas id="{canvas_id}"></canvas></div>'
+        f'<script>{script}</script>'
+    )
+
+
 def _ticker_section(stock: dict, summary: str) -> str:
     symbol = html.escape(stock["symbol"])
     name = html.escape(stock["name"])
@@ -816,6 +894,8 @@ def _ticker_section(stock: dict, summary: str) -> str:
         )
     else:
         price_html = '<div class="price-block"><span class="error-tag">No data</span></div>'
+
+    chart_html = _render_chart(stock)
 
     summary_html = ""
     if summary:
@@ -876,6 +956,7 @@ def _ticker_section(stock: dict, summary: str) -> str:
         f'</div>'
         f'{price_html}'
         f'</div>'
+        f'{chart_html}'
         f'{summary_html}'
         f'{events_html}'
         f'{news_html}'
