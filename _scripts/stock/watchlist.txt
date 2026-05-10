@@ -1,0 +1,22 @@
+# One ticker symbol per line. Lines starting with # are ignored.
+AAPL
+MSFT
+GOOGL
+NVDA
+RKLB
+FIG
+FLY
+MU
+IONQ
+UAMY
+BWXT
+AMPX
+CEG
+CDE
+
+VTI
+VXUS
+VGT
+QQQ
+SHLD
+SCHD

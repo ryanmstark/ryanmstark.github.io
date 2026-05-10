@@ -1,0 +1,37 @@
+name: Stock Report
+
+on:
+  schedule:
+    - cron: '0 14 * * 1-5'  # ~10 AM ET (exact during EDT/summer)
+    - cron: '0 21 * * 1-5'  # ~4 PM ET (exact during EST/winter)
+  workflow_dispatch:          # allow manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r _scripts/stock/requirements.txt
+
+      - name: Generate report
+        run: python _scripts/stock/generate_report.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+      - name: Commit and push report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stock-report/index.html
+          git diff --staged --quiet || git commit -m "Update stock report"
+          git push
