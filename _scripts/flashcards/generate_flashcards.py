@@ -688,6 +688,8 @@ def generate_card(
     raw = response.choices[0].message.content.strip()
     raw = re.sub(r"^```[a-z]*\n?", "", raw)
     raw = re.sub(r"\n?```$", "", raw)
+    # Escape lone backslashes that aren't valid JSON escapes (e.g. LaTeX: \frac, \omega)
+    raw = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', raw)
     return json.loads(raw)
 
 
