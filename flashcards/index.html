@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daily Flashcards</title>
-  <style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
+  <style>* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   font-family: monospace;
@@ -27,28 +26,45 @@ header {
 header a { color: #aaa; text-decoration: none; font-size: 0.85rem; }
 header a:hover { color: #fff; }
 header h1 { font-size: 1rem; }
-.generated-at { margin-left: auto; font-size: 0.75rem; color: #666; }
 
 main {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 16px 48px;
+  padding: 24px 16px 48px;
   max-width: 720px;
   width: 100%;
   margin: 0 auto;
 }
 
+.week-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.week-btn {
+  padding: 6px 12px;
+  font-family: monospace;
+  font-size: 0.78rem;
+  background: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #444;
+}
+.week-btn:hover { background: #f0f0f0; }
+.week-btn.active { background: #111; color: #fff; border-color: #111; }
+
 .deck-nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   width: 100%;
   justify-content: center;
 }
-
 .dot {
   width: 10px; height: 10px; border-radius: 50%;
   background: #ccc;
@@ -64,26 +80,43 @@ main {
   background: #fff;
   border: 1px solid #ddd;
   border-top: 5px solid var(--cc);
-  padding: 28px 28px 24px;
+  padding: 24px 24px 20px;
   display: none;
 }
 .card.visible { display: block; }
 
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
 .card-label {
   font-size: 0.7rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--cc);
-  margin-bottom: 10px;
 }
+.save-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #ccc;
+  padding: 0 0 0 10px;
+  line-height: 1;
+  transition: color 0.15s;
+  flex-shrink: 0;
+}
+.save-btn:hover { color: #999; }
+.save-btn.saved { color: #e6a817; }
 
 .card h2 {
-  font-size: 1.1rem;
-  margin-bottom: 18px;
+  font-size: 1.05rem;
+  margin-bottom: 16px;
   line-height: 1.4;
 }
-
 .card-body p {
   font-size: 0.875rem;
   line-height: 1.65;
@@ -92,9 +125,29 @@ main {
 }
 .card-body p:last-child { margin-bottom: 0; }
 
+.why-section {
+  margin-top: 18px;
+  padding: 12px 14px;
+  background: #f7f7f7;
+  border-left: 3px solid var(--cc);
+}
+.why-label {
+  font-size: 0.65rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--cc);
+  margin-bottom: 6px;
+}
+.why-section p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #333;
+}
+
 .card-sources {
-  margin-top: 20px;
-  padding-top: 14px;
+  margin-top: 18px;
+  padding-top: 12px;
   border-top: 1px solid #eee;
   font-size: 0.75rem;
   color: #777;
@@ -106,7 +159,7 @@ main {
 .prev-next {
   display: flex;
   gap: 12px;
-  margin-top: 20px;
+  margin-top: 16px;
   width: 100%;
 }
 .prev-next button {
@@ -122,82 +175,315 @@ main {
 .prev-next button:hover { background: #333; }
 .prev-next button:disabled { background: #ccc; cursor: default; }
 
-@media (max-width: 480px) {
-  .card { padding: 20px 18px 18px; }
+.saved-panel {
+  width: 100%;
+  margin-top: 28px;
+  border: 1px solid #ddd;
+  background: #fff;
 }
-</style>
+#saved-toggle {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  font-family: monospace;
+  font-size: 0.85rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+#saved-toggle:hover { background: #f5f5f5; }
+#saved-content {
+  border-top: 1px solid #eee;
+  padding: 12px 16px;
+}
+.saved-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.8rem;
+}
+.saved-item:last-of-type { border-bottom: none; }
+.saved-topic {
+  font-size: 0.65rem;
+  font-weight: bold;
+  color: var(--cc);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.saved-title { flex: 1; color: #222; }
+.saved-date { color: #aaa; font-size: 0.7rem; flex-shrink: 0; }
+.no-saved { color: #999; font-size: 0.85rem; padding: 4px 0; }
+#export-btn {
+  margin-top: 14px;
+  padding: 8px 14px;
+  font-family: monospace;
+  font-size: 0.8rem;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#export-btn:hover { background: #333; }
+.export-note {
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: #999;
+  line-height: 1.5;
+}
+
+.loading, .error-msg {
+  font-size: 0.85rem;
+  color: #999;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%;
+}
+.error-msg { color: #c62828; }
+
+@media (max-width: 480px) {
+  .card { padding: 18px 16px 16px; }
+  .week-btn { font-size: 0.72rem; padding: 5px 10px; }
+}</style>
 </head>
 <body>
   <header>
-    <a href="/">← Home</a>
+    <a href="/">&#x2190; Home</a>
     <h1>Daily Flashcards</h1>
-    <span class="generated-at">Generated May 10, 2026 at 23:38 UTC</span>
   </header>
   <main>
-    <div class="deck-nav">
-      <button class="dot active" style="--cc:#0d47a1" aria-label="Card 1"></button>
-<button class="dot" style="--cc:#1565c0" aria-label="Card 2"></button>
-<button class="dot" style="--cc:#c62828" aria-label="Card 3"></button>
-<button class="dot" style="--cc:#4a148c" aria-label="Card 4"></button>
-<button class="dot" style="--cc:#00695c" aria-label="Card 5"></button>
-
-    </div>
-    <div class="card visible" style="--cc:#0d47a1;--cl:#e8f0fe">
-  <div class="card-label">EE · Comms & Space</div>
-  <h2>NASA's Ka-Band Phased Array Antenna for Deep Space Communications</h2>
-  <div class="card-body"><p>NASA has been developing a Ka-Band phased array antenna system for deep space communications, aiming to enhance the data transfer rates between spacecraft and Earth. This system utilizes advanced beamforming techniques and a large array of antennas to achieve high gain and directivity, allowing for more efficient data transmission over vast distances.</p><p>The Ka-Band phased array antenna operates at a frequency range of 26.5-40 GHz, providing higher data rates compared to traditional X-Band and S-Band systems. The antenna's phased array design enables electronic beam steering, which eliminates the need for mechanical movement and allows for faster and more precise beam pointing.</p><p>The development of this technology has significant implications for future deep space missions, such as those to Mars and beyond. By providing higher data rates and more efficient communication, the Ka-Band phased array antenna will enable scientists to receive more detailed and accurate data from spacecraft, leading to a better understanding of the universe.</p><p>NASA's Jet Propulsion Laboratory (JPL) has been leading the development of the Ka-Band phased array antenna, in collaboration with industry partners and other research institutions. The technology has undergone extensive testing and validation, demonstrating its potential for future deep space missions.</p></div>
-  <div class="card-sources"><strong>Sources:</strong> <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener">NASA Jet Propulsion Laboratory</a>, <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noopener">IEEE Xplore</a>, <a href="https://ntrs.nasa.gov/" target="_blank" rel="noopener">NASA Technical Reports Server</a></div>
-</div>
-<div class="card" style="--cc:#1565c0;--cl:#e3f2fd">
-  <div class="card-label">EE · Core Concepts</div>
-  <h2>Modeling and Analysis of Frequency-Dependent Transmission Lines using the Telegrapher's Equations</h2>
-  <div class="card-body"><p>The Telegrapher's Equations are a pair of coupled partial differential equations that describe the voltage and current along a transmission line. These equations are derived from the distributed circuit model of a transmission line, which takes into account the line's resistance, inductance, capacitance, and conductance per unit length. The equations are given by: ∂²V/∂x² = R*I/L + (R*C + G*L)*∂V/∂t + L*C*∂²V/∂t² and ∂²I/∂x² = G*C*V + (G*L + R*C)*∂I/∂t + R*C*∂²I/∂t², where V and I are the voltage and current along the line, x is the distance along the line, t is time, and R, L, G, and C are the resistance, inductance, conductance, and capacitance per unit length, respectively.</p><p>To solve these equations, we can use the method of separation of variables, which assumes that the voltage and current can be expressed as products of functions of x and t. This leads to the frequency-domain Telegrapher's Equations, which are given by: d²V/dx² + (ω²L*C - R*G)*V = 0 and d²I/dx² + (ω²L*C - R*G)*I = 0, where ω is the angular frequency. These equations can be solved using standard techniques from ordinary differential equations, such as the characteristic equation method.</p><p>The solution to the Telegrapher's Equations can be used to analyze the behavior of transmission lines in a variety of applications, including power transmission, telecommunications, and high-speed digital systems. For example, the equations can be used to calculate the attenuation and distortion of signals as they propagate along a transmission line, as well as the impedance mismatch between the line and its terminations. The equations can also be used to design and optimize transmission line systems, such as filters, amplifiers, and antennas.</p><p>In practice, the Telegrapher's Equations are often solved numerically using computer simulations, such as the finite-difference time-domain (FDTD) method or the method of moments. These simulations can be used to model complex transmission line systems, including those with non-uniform geometries and frequency-dependent materials.</p></div>
-  <div class="card-sources"><strong>Sources:</strong> <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=22" target="_blank" rel="noopener">IEEE Transactions on Microwave Theory and Techniques</a>, <a href="https://en.wikipedia.org/wiki/Telegrapher%27s_equations" target="_blank" rel="noopener">Wikipedia - Telegrapher's equations</a>, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-013-electromagnetics-and-applications-spring-2009/" target="_blank" rel="noopener">MIT OpenCourseWare - Electromagnetics and Applications</a></div>
-</div>
-<div class="card" style="--cc:#c62828;--cl:#ffebee">
-  <div class="card-label">News</div>
-  <h2>Escalating Economic Pressures in Iran Amid Wartime Conditions</h2>
-  <div class="card-body"><p>Iran has been facing significant economic challenges due to ongoing wartime pressures, resulting in mass layoffs across various industries. The country's businesses are struggling to stay afloat, leading to widespread job losses and economic instability.</p><p>The economic downturn in Iran is further complicated by rising oil prices, which have been driven in part by diminished prospects for a U.S.-Iran peace deal. As oil prices continue to rise, the economic situation in Iran is likely to worsen, exacerbating the already difficult conditions faced by Iranian businesses and citizens.</p><p>The situation in Iran has significant implications for global energy markets and international relations. As the country's economic crisis deepens, it may lead to increased tensions between Iran and other nations, potentially destabilizing the region and affecting global oil prices.</p></div>
-  <div class="card-sources"><strong>Sources:</strong> <a href="https://www.nytimes.com/" target="_blank" rel="noopener">The New York Times</a>, <a href="https://www.bbc.com/news" target="_blank" rel="noopener">BBC News</a></div>
-</div>
-<div class="card" style="--cc:#4a148c;--cl:#f3e5f5">
-  <div class="card-label">History</div>
-  <h2>The Yalta Conference: Shaping the Post-WWII World Order</h2>
-  <div class="card-body"><p>The Yalta Conference, which took place from February 4 to 11, 1945, was a pivotal event in modern history. The conference was attended by the leaders of the three main Allied powers: Winston Churchill of the United Kingdom, Franklin D. Roosevelt of the United States, and Joseph Stalin of the Soviet Union. The primary objective of the conference was to discuss the reorganization of Europe and the post-war world order.</p><p>The conference resulted in several key agreements, including the division of Germany into four occupation zones controlled by the United States, Great Britain, France, and the Soviet Union. The conference also established the United Nations and laid the groundwork for the formation of the Security Council, with the five permanent members being the United States, Great Britain, France, China, and the Soviet Union. Furthermore, the conference addressed the issue of Soviet influence in Eastern Europe, with the Soviet Union being granted a significant sphere of influence in the region.</p><p>The Yalta Conference had significant consequences for the modern world. The division of Europe into Eastern and Western blocs, with the Soviet Union dominating the East and the United States and its allies dominating the West, set the stage for the Cold War. The conference also marked the beginning of the end of the British Empire, as the United States and the Soviet Union emerged as the two dominant world powers. The establishment of the United Nations, on the other hand, provided a framework for international cooperation and diplomacy, which has played a crucial role in shaping global affairs to this day.</p><p>The legacy of the Yalta Conference continues to be debated among historians and scholars. Some argue that the conference marked a significant turning point in modern history, as it established the framework for the post-war world order and set the stage for the Cold War. Others argue that the conference was a betrayal of the principles of freedom and democracy, as it allowed the Soviet Union to dominate Eastern Europe and establish a communist sphere of influence.</p></div>
-  <div class="card-sources"><strong>Sources:</strong> <a href="https://history.state.gov/milestones/1937-1945/yalta-conf" target="_blank" rel="noopener">United States Department of State</a>, <a href="https://www.britannica.com/event/Yalta-Conference" target="_blank" rel="noopener">The British History Encyclopedia</a>, <a href="https://www.nationalww2museum.org/war/articles/yalta-conference" target="_blank" rel="noopener">The National WWII Museum</a></div>
-</div>
-<div class="card" style="--cc:#00695c;--cl:#e0f2f1">
-  <div class="card-label">AI & Tools</div>
-  <h2>Probabilistic Time Series Forecasting with AutoBNN and Compositional Bayesian Neural Networks</h2>
-  <div class="card-body"><p>AutoBNN is a recent development in time series forecasting that utilizes probabilistic methods to improve the accuracy and reliability of predictions. By employing compositional Bayesian neural networks (BNNs), AutoBNN can effectively model complex temporal dependencies and relationships in data, allowing for more accurate forecasts and uncertainty quantification.</p><p>Compositional BNNs are particularly well-suited for time series forecasting tasks due to their ability to capture non-linear relationships and long-term dependencies in data. This is achieved through the use of a hierarchical, compositional architecture that combines the strengths of Bayesian neural networks with those of traditional time series models. The compositional aspect of the model allows for the incorporation of domain knowledge and the handling of multiple scales and frequencies in the data.</p><p>The key advantages of using AutoBNN for time series forecasting include its ability to provide probabilistic predictions, handle missing data, and adapt to changing patterns in the data. Furthermore, the model can be trained using a variety of objective functions and optimization algorithms, allowing for flexibility and customization to specific forecasting tasks. The use of probabilistic methods also enables the quantification of uncertainty in predictions, which is critical for high-stakes decision-making applications.</p><p>Recent studies have demonstrated the effectiveness of AutoBNN in various time series forecasting applications, including weather forecasting, financial prediction, and traffic flow forecasting. These studies have shown that AutoBNN can outperform traditional machine learning models and statistical methods, particularly in situations where data is limited or uncertain. As a result, AutoBNN has the potential to become a valuable tool for practitioners and researchers in the field of time series forecasting.</p><p>Overall, AutoBNN represents a significant advancement in probabilistic time series forecasting, offering a powerful and flexible framework for modeling complex temporal relationships and quantifying uncertainty in predictions. As the field continues to evolve, it is likely that we will see further developments and applications of AutoBNN and compositional Bayesian neural networks in a wide range of domains.</p></div>
-  <div class="card-sources"><strong>Sources:</strong> <a href="https://arxiv.org/abs/2200.03341" target="_blank" rel="noopener">AutoBNN: Probabilistic Time Series Forecasting with Compositional Bayesian Neural Networks</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0167739X21002835" target="_blank" rel="noopener">Probabilistic Time Series Forecasting: A Survey</a>, <a href="https://jmlr.org/papers/v22/20-138.html" target="_blank" rel="noopener">Time Series Forecasting with Bayesian Neural Networks</a></div>
-</div>
-
+    <div class="week-nav" id="week-nav"></div>
+    <div class="deck-nav" id="dot-nav"></div>
+    <div id="cards-container"></div>
     <div class="prev-next">
-      <button id="prev-btn" disabled>← Prev</button>
-      <button id="next-btn">Next →</button>
+      <button id="prev-btn" disabled>&#x2190; Prev</button>
+      <button id="next-btn">Next &#x2192;</button>
+    </div>
+    <div class="saved-panel">
+      <button id="saved-toggle">&#x2606; Saved cards (0)</button>
+      <div id="saved-content" hidden>
+        <div id="saved-list"></div>
+        <button id="export-btn">Download favorites.json</button>
+        <p class="export-note">
+          Commit the downloaded file to flashcards/favorites.json in the repo.<br>
+          The generator will use your saved cards as style examples for future decks.
+        </p>
+      </div>
     </div>
   </main>
   <script>
-const cards = document.querySelectorAll('.card');
-const dots  = document.querySelectorAll('.dot');
-const prevBtn = document.getElementById('prev-btn');
-const nextBtn = document.getElementById('next-btn');
-let current = 0;
+const AVAILABLE_DATES = ["2026-05-11"];
+const TOPICS_CONFIG = {"ee_comms": {"label": "EE \u00b7 Comms & Space", "color": "#0d47a1"}, "ee_core": {"label": "EE \u00b7 Core Concepts", "color": "#1565c0"}, "news": {"label": "News", "color": "#c62828"}, "history": {"label": "History", "color": "#4a148c"}, "ai": {"label": "AI & Tools", "color": "#00695c"}};
 
-function show(idx) {
-  cards.forEach((c, i) => c.classList.toggle('visible', i === idx));
-  dots.forEach((d, i)  => d.classList.toggle('active',  i === idx));
-  prevBtn.disabled = idx === 0;
-  nextBtn.disabled = idx === cards.length - 1;
-  current = idx;
+let currentDate = AVAILABLE_DATES[0] || null;
+let currentDeck = null;
+let currentCard = 0;
+
+function formatDateLabel(dateStr) {
+  const todayStr = new Date().toISOString().split('T')[0];
+  const yesterdayStr = new Date(Date.now() - 864e5).toISOString().split('T')[0];
+  if (dateStr === todayStr) return 'Today';
+  if (dateStr === yesterdayStr) return 'Yesterday';
+  const d = new Date(dateStr + 'T12:00:00Z');
+  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' });
 }
 
-dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
-prevBtn.addEventListener('click', () => { if (current > 0) show(current - 1); });
-nextBtn.addEventListener('click', () => { if (current < cards.length - 1) show(current + 1); });
+function buildWeekNav() {
+  const nav = document.getElementById('week-nav');
+  nav.innerHTML = '';
+  AVAILABLE_DATES.forEach(function(dateStr) {
+    const btn = document.createElement('button');
+    btn.className = 'week-btn' + (dateStr === currentDate ? ' active' : '');
+    btn.textContent = formatDateLabel(dateStr);
+    btn.onclick = function() { loadDeck(dateStr); };
+    nav.appendChild(btn);
+  });
+}
 
-show(0);
-</script>
+async function loadDeck(dateStr) {
+  currentDate = dateStr;
+  buildWeekNav();
+  document.getElementById('cards-container').innerHTML = '<p class="loading">Loading…</p>';
+  document.getElementById('dot-nav').innerHTML = '';
+  document.getElementById('prev-btn').disabled = true;
+  document.getElementById('next-btn').disabled = true;
+  try {
+    const resp = await fetch(dateStr + '.json');
+    if (!resp.ok) throw new Error('not found');
+    currentDeck = await resp.json();
+    currentCard = 0;
+    renderDeck();
+  } catch(e) {
+    document.getElementById('cards-container').innerHTML =
+      '<p class="error-msg">Could not load flashcards for this date.</p>';
+  }
+}
+
+function renderDeck() {
+  if (!currentDeck) return;
+  const cards = currentDeck.cards || [];
+
+  const dotNav = document.getElementById('dot-nav');
+  dotNav.innerHTML = '';
+  cards.forEach(function(card, i) {
+    const dot = document.createElement('button');
+    dot.className = 'dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('aria-label', 'Card ' + (i + 1));
+    const meta = TOPICS_CONFIG[card.id] || {};
+    dot.style.setProperty('--cc', meta.color || '#888');
+    dot.onclick = function() { showCard(i); };
+    dotNav.appendChild(dot);
+  });
+
+  const container = document.getElementById('cards-container');
+  container.innerHTML = '';
+  cards.forEach(function(card, i) { container.appendChild(makeCardEl(card, i)); });
+  updateNavBtns();
+}
+
+function makeCardEl(card, idx) {
+  const meta = TOPICS_CONFIG[card.id] || { label: card.id, color: '#888' };
+  const saved = isSaved(currentDate, card.id);
+
+  const div = document.createElement('div');
+  div.className = 'card' + (idx === currentCard ? ' visible' : '');
+  div.style.setProperty('--cc', meta.color);
+
+  const paras = (card.body || []).map(function(p) { return '<p>' + p + '</p>'; }).join('');
+
+  const whyHtml = card.why
+    ? '<div class="why-section"><div class="why-label">Why it matters</div><p>' + card.why + '</p></div>'
+    : '';
+
+  const srcLinks = (card.sources || [])
+    .map(function(s) { return '<a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a>'; })
+    .join(', ');
+  const sourcesHtml = srcLinks
+    ? '<div class="card-sources"><strong>Sources:</strong> ' + srcLinks + '</div>'
+    : '';
+
+  div.innerHTML =
+    '<div class="card-top">' +
+      '<div class="card-label">' + meta.label + '</div>' +
+      '<button class="save-btn' + (saved ? ' saved' : '') + '" title="' + (saved ? 'Unsave' : 'Save as favorite') + '">' +
+        (saved ? '★' : '☆') +
+      '</button>' +
+    '</div>' +
+    '<h2>' + (card.title || '') + '</h2>' +
+    '<div class="card-body">' + paras + '</div>' +
+    whyHtml +
+    sourcesHtml;
+
+  div.querySelector('.save-btn').onclick = function(e) {
+    const btn = e.currentTarget;
+    const nowSaved = toggleSave(card);
+    btn.textContent = nowSaved ? '★' : '☆';
+    btn.classList.toggle('saved', nowSaved);
+    btn.title = nowSaved ? 'Unsave' : 'Save as favorite';
+    updateSavedPanel();
+  };
+
+  return div;
+}
+
+function showCard(idx) {
+  currentCard = idx;
+  document.querySelectorAll('.card').forEach(function(c, i) { c.classList.toggle('visible', i === idx); });
+  document.querySelectorAll('.dot').forEach(function(d, i) { d.classList.toggle('active', i === idx); });
+  updateNavBtns();
+}
+
+function updateNavBtns() {
+  const total = currentDeck ? (currentDeck.cards || []).length : 0;
+  document.getElementById('prev-btn').disabled = currentCard === 0;
+  document.getElementById('next-btn').disabled = currentCard >= total - 1;
+}
+
+function getFavorites() {
+  try { return JSON.parse(localStorage.getItem('flashcard-favorites') || '[]'); }
+  catch(e) { return []; }
+}
+
+function isSaved(dateStr, topicId) {
+  return getFavorites().some(function(f) { return f.date === dateStr && f.topic === topicId; });
+}
+
+function toggleSave(card) {
+  var favs = getFavorites();
+  var match = function(f) { return f.date === currentDate && f.topic === card.id; };
+  if (favs.some(match)) {
+    favs = favs.filter(function(f) { return !match(f); });
+    localStorage.setItem('flashcard-favorites', JSON.stringify(favs));
+    return false;
+  }
+  favs.push({
+    saved_at: new Date().toISOString().split('T')[0],
+    date: currentDate,
+    topic: card.id,
+    title: card.title,
+    body: card.body || [],
+    why: card.why || '',
+    sources: card.sources || [],
+  });
+  localStorage.setItem('flashcard-favorites', JSON.stringify(favs));
+  return true;
+}
+
+function updateSavedPanel() {
+  var favs = getFavorites();
+  var n = favs.length;
+  document.getElementById('saved-toggle').textContent =
+    (n > 0 ? '★' : '☆') + ' Saved cards (' + n + ')';
+
+  var list = document.getElementById('saved-list');
+  if (n === 0) {
+    list.innerHTML = '<p class="no-saved">No saved cards yet. Click ☆ on any card to save it.</p>';
+    return;
+  }
+  list.innerHTML = favs.slice().reverse().map(function(f) {
+    var meta = TOPICS_CONFIG[f.topic] || { label: f.topic, color: '#888' };
+    return '<div class="saved-item" style="--cc:' + meta.color + '">' +
+      '<span class="saved-topic">' + meta.label + '</span>' +
+      '<span class="saved-title">' + f.title + '</span>' +
+      '<span class="saved-date">' + f.date + '</span>' +
+      '</div>';
+  }).join('');
+}
+
+function exportFavorites() {
+  var favs = getFavorites();
+  var blob = new Blob([JSON.stringify(favs, null, 2)], { type: 'application/json' });
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement('a');
+  a.href = url;
+  a.download = 'favorites.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+document.getElementById('prev-btn').onclick = function() {
+  if (currentCard > 0) showCard(currentCard - 1);
+};
+document.getElementById('next-btn').onclick = function() {
+  if (currentDeck && currentCard < (currentDeck.cards || []).length - 1) showCard(currentCard + 1);
+};
+document.getElementById('saved-toggle').onclick = function() {
+  var content = document.getElementById('saved-content');
+  var willShow = content.hidden;
+  content.hidden = !willShow;
+  if (willShow) updateSavedPanel();
+};
+document.getElementById('export-btn').onclick = exportFavorites;
+
+buildWeekNav();
+updateSavedPanel();
+if (AVAILABLE_DATES.length > 0) loadDeck(AVAILABLE_DATES[0]);
+
+  </script>
 </body>
 </html>
