@@ -595,6 +595,38 @@ def load_favorites() -> list[dict]:
     return []
 
 
+def _recent_titles_context(topic_id: str) -> str:
+    """
+    Reads titles of recently generated cards for this topic from daily JSON files.
+
+    Skips today's file (not yet written) and looks back up to 6 prior days.
+    Returns a prompt fragment listing titles to avoid so Groq picks a fresh topic.
+
+    Parameters
+    ----------
+    topic_id : str
+        The topic ID to look up in each daily JSON file.
+    """
+    titles: list[str] = []
+    files = sorted(OUTPUT_DIR.glob("????-??-??.json"), reverse=True)
+    for f in files[:6]:
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for card in data.get("cards", []):
+                if card.get("id") == topic_id and card.get("title"):
+                    titles.append(card["title"])
+        except Exception:
+            pass
+    if not titles:
+        return ""
+    lines = [
+        "\n\nYou have already covered these topics recently — choose something DIFFERENT today:"
+    ]
+    for t in titles:
+        lines.append(f"  - {t}")
+    return "\n".join(lines)
+
+
 def _favorites_context(favorites: list[dict], topic_id: str) -> str:
     """
     Formats saved favorites as a Groq system-prompt appendix.
@@ -657,7 +689,11 @@ def generate_card(
             f"- {h}" for h in headlines
         )
 
-    system = topic["prompt"] + _favorites_context(favorites, topic["id"])
+    system = (
+        topic["prompt"]
+        + _recent_titles_context(topic["id"])
+        + _favorites_context(favorites, topic["id"])
+    )
     user = (
         f"Today is {today}. Generate exactly ONE flashcard in this JSON format:\n\n"
         '{"id": "<topic_id>", "title": "<specific descriptive title>", '

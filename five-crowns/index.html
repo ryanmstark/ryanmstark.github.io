@@ -101,6 +101,16 @@
     table.score-history .player-name { text-align: left; }
     table.score-history .player-total { font-weight: bold; background: var(--primary-light); }
     table.score-history tbody tr:nth-child(even) { background: #fafafa; }
+    /* Sticky player name column */
+    table.score-history th:first-child { position: sticky; left: 0; z-index: 2; background: var(--primary); }
+    table.score-history td:first-child { position: sticky; left: 0; z-index: 1; background: #fff; }
+    table.score-history tbody tr:nth-child(even) td:first-child { background: #fafafa; }
+    .dealer-hist td:first-child { background: #fff !important; }
+    /* Sticky total column */
+    table.score-history th:last-child { position: sticky; right: 0; z-index: 2; background: var(--primary); border-left: 2px solid var(--primary-dark); }
+    table.score-history td:last-child { position: sticky; right: 0; z-index: 1; border-left: 2px solid #bbb; }
+    table.score-history .player-total { background: var(--primary-light); }
+    .dealer-hist td:last-child { background: #fff !important; }
 
     .winner {
       border: 2px solid var(--accent);
@@ -424,6 +434,10 @@
       else                                 app.appendChild(renderComplete());
       document.getElementById('btn-undo').disabled = history.length === 0;
       saveToStorage();
+      requestAnimationFrame(() => {
+        const wrapper = document.querySelector('.table-wrapper');
+        if (wrapper) wrapper.scrollLeft = wrapper.scrollWidth;
+      });
     }
 
     document.getElementById('btn-new').onclick = resetGame;

@@ -831,6 +831,11 @@ def _render_chart(stock: dict) -> str:
     color = "#1a7f37" if stock["change"] >= 0 else "#cf222e"
     fill_color = "rgba(26,127,55,0.06)" if stock["change"] >= 0 else "rgba(207,34,46,0.06)"
 
+    from datetime import datetime as _dt
+    def _fmt(iso: str) -> str:
+        return _dt.strptime(iso, "%Y-%m-%d").strftime("%b %-d")
+    span_label = f"{_fmt(history[0]['t'])} – {_fmt(history[-1]['t'])}"
+
     script = f"""(function() {{
   var c = document.getElementById('{canvas_id}');
   new Chart(c, {{
@@ -852,6 +857,14 @@ def _render_chart(stock: dict) -> str:
       maintainAspectRatio: false,
       plugins: {{
         legend: {{ display: false }},
+        title: {{
+          display: true,
+          text: '{span_label}',
+          position: 'bottom',
+          font: {{ size: 9, weight: 'normal' }},
+          color: '#aaa',
+          padding: {{ top: 4, bottom: 0 }}
+        }},
         tooltip: {{ callbacks: {{ label: function(ctx) {{ return '$' + ctx.parsed.y.toFixed(2); }} }} }}
       }},
       scales: {{
