@@ -60,14 +60,31 @@ main { max-width: 1160px; margin: 0 auto; padding: 24px 16px; }
 }
 .skills-label {
   font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
-  color: #999; margin-bottom: 5px; margin-top: 9px;
+  color: #999; margin-bottom: 6px; margin-top: 10px;
 }
+.req-list { list-style: none; padding: 0; margin: 0; }
+.req-list li {
+  font-size: 0.82rem; color: #1e293b; line-height: 1.5;
+  padding: 5px 0 5px 20px; position: relative; border-bottom: 1px solid #f0f0f8;
+}
+.req-list li:last-child { border-bottom: none; }
+.req-list li::before {
+  content: counter(req-counter);
+  counter-increment: req-counter;
+  position: absolute; left: 0; top: 5px;
+  font-size: 0.7rem; font-weight: 700; color: #2563eb;
+  background: #eef2ff; border-radius: 50%;
+  width: 15px; height: 15px; display: flex; align-items: center; justify-content: center;
+  line-height: 15px; text-align: center;
+}
+.req-list { counter-reset: req-counter; }
 .pill-row { display: flex; flex-wrap: wrap; gap: 5px; }
-.pill {
-  font-size: 0.74rem; padding: 3px 9px; border-radius: 12px;
-}
-.pill-key { background: #eef2ff; color: #3730a3; border: 1px solid #c7d2fe; }
+.pill { font-size: 0.74rem; padding: 3px 9px; border-radius: 12px; }
 .pill-bonus { background: #fdf4ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+.startup-badge {
+  font-size: 0.68rem; padding: 2px 7px; border-radius: 10px;
+  background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa;
+}
 .job-summary { font-size: 0.84rem; color: #444; line-height: 1.55; margin-top: 10px; }
 .loading { text-align: center; color: #aaa; padding: 80px 0; }
 .empty { text-align: center; color: #bbb; padding: 40px 0; font-size: 0.9rem; }
@@ -114,10 +131,16 @@ function cardHtml(job) {
     ? `<a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>`
     : job.title;
 
-  const keyPills = (job.key_skills || []).length
-    ? `<div class="skills-label">Key Skills</div>
-       <div class="pill-row">${job.key_skills.map(s => `<span class="pill pill-key">${s}</span>`).join('')}</div>`
+  const startupBadge = job.is_startup
+    ? `<span class="startup-badge">Startup</span>`
     : '';
+
+  const reqs = job.top_requirements || job.key_skills || [];
+  const reqList = reqs.length
+    ? `<div class="skills-label">What You'd Need to Know</div>
+       <ol class="req-list">${reqs.map(r => `<li>${r}</li>`).join('')}</ol>`
+    : '';
+
   const bonusPills = (job.bonus_skills || []).length
     ? `<div class="skills-label">Bonus</div>
        <div class="pill-row">${job.bonus_skills.map(s => `<span class="pill pill-bonus">${s}</span>`).join('')}</div>`
@@ -128,9 +151,10 @@ function cardHtml(job) {
     <div class="job-meta">
       <span class="job-company">${job.company}</span>
       <span class="loc-badge">${job.location_label}</span>
+      ${startupBadge}
     </div>
     ${job.pay_range ? `<div class="pay-range">${job.pay_range}</div>` : ''}
-    ${keyPills}${bonusPills}
+    ${reqList}${bonusPills}
     ${job.summary ? `<div class="job-summary">${job.summary}</div>` : ''}
   </div>`;
 }
