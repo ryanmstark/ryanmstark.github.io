@@ -46,6 +46,16 @@ SF_LOCATION = {
     "region": "sf",
 }
 
+# Separate search targeting SF startups — "startup" in the query surfaces smaller companies
+SF_STARTUP_LOCATION = {
+    "country": "us",
+    "where": "San Francisco",
+    "distance": 50,
+    "label": "San Francisco Bay Area",
+    "region": "sf",
+    "startup_search": True,
+}
+
 NON_SF_LOCATIONS = [
     {"country": "us", "where": "San Diego",  "distance": 25, "label": "San Diego, CA",        "region": "outside_sf"},
     {"country": "us", "where": "New York",   "distance": 25, "label": "New York City, NY",     "region": "outside_sf"},
@@ -198,11 +208,19 @@ For relevant:
 {{
   "idx": N,
   "relevant": true,
-  "pay_range": "e.g. $140K–$180K (estimate if not listed)",
-  "key_skills": ["3–5 must-have technical skills"],
-  "bonus_skills": ["2–4 nice-to-have skills"],
-  "summary": "Two sentences: what the role does and why it suits this candidate."
+  "pay_range": "e.g. $140K–$180K (estimate from role/location/seniority if not listed)",
+  "top_requirements": [
+    "Full sentence describing a specific technical requirement — e.g. 'Hands-on experience designing and validating OFDM modem architectures, from link budget through hardware bring-up'",
+    "Second requirement as a full sentence",
+    "Third requirement as a full sentence"
+  ],
+  "bonus_skills": ["2–4 short nice-to-have skills"],
+  "summary": "Two sentences: what the role does and why it suits this candidate.",
+  "is_startup": true or false
 }}
+
+For top_requirements: extract the 3 most specific, actionable technical requirements from the posting — written as full sentences describing what you would need to know or be able to do. These should be study-worthy (e.g. 'Proficiency in RF system analysis: noise figure, gain, IIP3, EVM characterization across the full signal chain'). Not generic buzzwords.
+For is_startup: true if the company appears to be a startup or small company (<100 employees) based on language, name, or any context clues.
 
 Postings:
 {chr(10).join(snippets)}"""
@@ -232,9 +250,10 @@ def _build_posting(raw: dict, summary: dict) -> dict:
         "region": raw.get("_region", "outside_sf"),
         "url": raw.get("redirect_url", ""),
         "pay_range": summary.get("pay_range", ""),
-        "key_skills": summary.get("key_skills", []),
+        "top_requirements": summary.get("top_requirements", []),
         "bonus_skills": summary.get("bonus_skills", []),
         "summary": summary.get("summary", ""),
+        "is_startup": bool(summary.get("is_startup", False)),
         "adzuna_id": str(raw.get("id", "")),
     }
 
@@ -297,14 +316,31 @@ main { max-width: 1160px; margin: 0 auto; padding: 24px 16px; }
 }
 .skills-label {
   font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
-  color: #999; margin-bottom: 5px; margin-top: 9px;
+  color: #999; margin-bottom: 6px; margin-top: 10px;
 }
+.req-list { list-style: none; padding: 0; margin: 0; }
+.req-list li {
+  font-size: 0.82rem; color: #1e293b; line-height: 1.5;
+  padding: 5px 0 5px 20px; position: relative; border-bottom: 1px solid #f0f0f8;
+}
+.req-list li:last-child { border-bottom: none; }
+.req-list li::before {
+  content: counter(req-counter);
+  counter-increment: req-counter;
+  position: absolute; left: 0; top: 5px;
+  font-size: 0.7rem; font-weight: 700; color: #2563eb;
+  background: #eef2ff; border-radius: 50%;
+  width: 15px; height: 15px; display: flex; align-items: center; justify-content: center;
+  line-height: 15px; text-align: center;
+}
+.req-list { counter-reset: req-counter; }
 .pill-row { display: flex; flex-wrap: wrap; gap: 5px; }
-.pill {
-  font-size: 0.74rem; padding: 3px 9px; border-radius: 12px;
-}
-.pill-key { background: #eef2ff; color: #3730a3; border: 1px solid #c7d2fe; }
+.pill { font-size: 0.74rem; padding: 3px 9px; border-radius: 12px; }
 .pill-bonus { background: #fdf4ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+.startup-badge {
+  font-size: 0.68rem; padding: 2px 7px; border-radius: 10px;
+  background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa;
+}
 .job-summary { font-size: 0.84rem; color: #444; line-height: 1.55; margin-top: 10px; }
 .loading { text-align: center; color: #aaa; padding: 80px 0; }
 .empty { text-align: center; color: #bbb; padding: 40px 0; font-size: 0.9rem; }
@@ -341,10 +377,15 @@ function cardHtml(job) {
     ? `<a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>`
     : job.title;
 
-  const keyPills = (job.key_skills || []).length
-    ? `<div class="skills-label">Key Skills</div>
-       <div class="pill-row">${job.key_skills.map(s => `<span class="pill pill-key">${s}</span>`).join('')}</div>`
+  const startupBadge = job.is_startup
+    ? `<span class="startup-badge">Startup</span>`
     : '';
+
+  const reqList = (job.top_requirements || []).length
+    ? `<div class="skills-label">What You'd Need to Know</div>
+       <ol class="req-list">${job.top_requirements.map(r => `<li>${r}</li>`).join('')}</ol>`
+    : '';
+
   const bonusPills = (job.bonus_skills || []).length
     ? `<div class="skills-label">Bonus</div>
        <div class="pill-row">${job.bonus_skills.map(s => `<span class="pill pill-bonus">${s}</span>`).join('')}</div>`
@@ -355,9 +396,10 @@ function cardHtml(job) {
     <div class="job-meta">
       <span class="job-company">${job.company}</span>
       <span class="loc-badge">${job.location_label}</span>
+      ${startupBadge}
     </div>
     ${job.pay_range ? `<div class="pay-range">${job.pay_range}</div>` : ''}
-    ${keyPills}${bonusPills}
+    ${reqList}${bonusPills}
     ${job.summary ? `<div class="job-summary">${job.summary}</div>` : ''}
   </div>`;
 }
@@ -467,7 +509,15 @@ def main() -> None:
 
     print("Fetching SF Bay Area candidates…")
     sf_pool = _collect(app_id, app_key, SF_LOCATION, terms, seen)
-    print(f"  {len(sf_pool)} candidates")
+    print(f"  {len(sf_pool)} general candidates")
+
+    # Startup-targeted SF search: appending "startup" to the query surfaces smaller companies
+    startup_terms = [f"{t} startup" for t in terms[:1]]
+    sf_startup_pool = _collect(app_id, app_key, SF_STARTUP_LOCATION, startup_terms, seen)
+    # Mark startup candidates so we can prioritize them in selection
+    for job in sf_startup_pool:
+        job["_startup_search"] = True
+    print(f"  {len(sf_startup_pool)} startup-search candidates")
 
     print("Fetching non-SF candidates…")
     non_sf_pool: list[dict] = []
@@ -476,7 +526,8 @@ def main() -> None:
         print(f"  {loc['label']}: {len(batch)} candidates")
         non_sf_pool.extend(batch)
 
-    all_pool = sf_pool[:15] + non_sf_pool[:20]
+    # Interleave startup candidates with general SF so Groq sees them mixed
+    all_pool = sf_startup_pool[:8] + sf_pool[:12] + non_sf_pool[:20]
     print(f"\nSending {len(all_pool)} candidates to Groq…")
     summaries = _groq_process(all_pool, client)
     summary_map = {s["idx"]: s for s in summaries if s.get("relevant")}
@@ -485,22 +536,40 @@ def main() -> None:
     sf_postings: list[dict] = []
     non_sf_postings: list[dict] = []
     used_companies: set[str] = set()
+    sf_has_startup = False
 
-    for idx, raw in enumerate(all_pool):
-        if idx not in summary_map:
-            continue
-        company = (raw.get("company") or {}).get("display_name", "")
-        if company in used_companies:
-            continue
-        posting = _build_posting(raw, summary_map[idx])
-        if raw["_region"] == "sf" and len(sf_postings) < 3:
-            sf_postings.append(posting)
-            used_companies.add(company)
-        elif raw["_region"] == "outside_sf" and len(non_sf_postings) < 3:
-            non_sf_postings.append(posting)
-            used_companies.add(company)
-        if len(sf_postings) >= 3 and len(non_sf_postings) >= 3:
-            break
+    # Two passes for SF: first pass fills up to 2 slots + reserves slot 3 for a startup;
+    # second pass fills any remaining slots if no startup was found.
+    for pass_num in range(2):
+        for idx, raw in enumerate(all_pool):
+            if len(sf_postings) >= 3 and len(non_sf_postings) >= 3:
+                break
+            if idx not in summary_map:
+                continue
+            company = (raw.get("company") or {}).get("display_name", "")
+            if company in used_companies:
+                continue
+            posting = _build_posting(raw, summary_map[idx])
+
+            if raw["_region"] == "sf" and len(sf_postings) < 3:
+                is_startup = posting["is_startup"] or raw.get("_startup_search", False)
+                if pass_num == 0:
+                    # First pass: take up to 2 non-startup SF jobs, plus any startup
+                    if is_startup and not sf_has_startup:
+                        sf_postings.append(posting)
+                        used_companies.add(company)
+                        sf_has_startup = True
+                    elif not is_startup and len(sf_postings) < (2 if not sf_has_startup else 3):
+                        sf_postings.append(posting)
+                        used_companies.add(company)
+                else:
+                    # Second pass: fill remaining SF slots without startup restriction
+                    sf_postings.append(posting)
+                    used_companies.add(company)
+
+            elif raw["_region"] == "outside_sf" and len(non_sf_postings) < 3:
+                non_sf_postings.append(posting)
+                used_companies.add(company)
 
     all_postings = sf_postings + non_sf_postings
     print(f"Selected: {len(sf_postings)} SF, {len(non_sf_postings)} non-SF")
