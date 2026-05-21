@@ -1,0 +1,100 @@
+{
+  "date": "2026-05-21",
+  "postings": [
+    {
+      "title": "Staff Hardware Engineer: Connectivity Modules",
+      "company": "General Motors",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5730842726?se=oDOKAt9U8RG9I4lbySjo0A&utm_medium=api&utm_source=9349c45d&v=E401466C67D3CF2CCCDC83DF217127895B67C438",
+      "pay_range": "$237,917\u2013$237,917/yr",
+      "key_skills": [
+        "communications systems design",
+        "RF systems",
+        "signal processing"
+      ],
+      "bonus_skills": [
+        "team management",
+        "connectivity modules"
+      ],
+      "summary": "This role involves designing and developing connectivity modules for General Motors, which aligns with the candidate's experience in communications systems design and RF systems. The candidate's team lead experience is also a plus for this position.",
+      "adzuna_id": "5730842726"
+    },
+    {
+      "title": "Systems Software Engineer, Wireless Technologies & Ecosystems",
+      "company": "Apple",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5729084388?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$161,114\u2013$161,114/yr",
+      "key_skills": [
+        "wireless technologies",
+        "system design",
+        "signal processing"
+      ],
+      "bonus_skills": [
+        "software development",
+        "N1 networking chip"
+      ],
+      "summary": "This role involves developing core wireless technologies for Apple, which aligns with the candidate's experience in communications systems design and RF systems. The candidate's experience in signal processing is also a plus for this position.",
+      "adzuna_id": "5729084388"
+    },
+    {
+      "title": "RF / Wireless Systems Engineer",
+      "company": "Sweep360",
+      "location_label": "New York City, NY",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5691595978?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$160,000\u2013$240,000/yr",
+      "key_skills": [
+        "RF systems",
+        "wireless signals",
+        "intelligence"
+      ],
+      "bonus_skills": [
+        "system modeling",
+        "signal processing"
+      ],
+      "summary": "This role involves turning noisy wireless signals into reliable, actionable intelligence for Sweep360, which aligns with the candidate's experience in RF systems and signal processing. The candidate's experience in system modeling is also a plus for this position.",
+      "adzuna_id": "5691595978"
+    },
+    {
+      "title": "Principal Product Manager, Connectivity",
+      "company": "Axon",
+      "location_label": "Boston, MA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5694099378?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$162,000\u2013$259,200/yr",
+      "key_skills": [
+        "connectivity",
+        "product development",
+        "system design"
+      ],
+      "bonus_skills": [
+        "project management",
+        "cross-functional teams"
+      ],
+      "summary": "This role involves leading the development of connectivity products for Axon, which aligns with the candidate's experience in communications systems design and RF systems. The candidate's experience in product development and team management is also a plus for this position.",
+      "adzuna_id": "5694099378"
+    },
+    {
+      "title": "Senior Embedded Software Engineer - IoT Wireless Applications",
+      "company": "Silicon Laboratories",
+      "location_label": "Boston, MA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5608727347?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$124,600\u2013$231,400/yr",
+      "key_skills": [
+        "embedded software",
+        "IoT",
+        "wireless applications"
+      ],
+      "bonus_skills": [
+        "system design",
+        "signal processing"
+      ],
+      "summary": "This role involves developing embedded software for IoT wireless applications for Silicon Laboratories, which aligns with the candidate's experience in communications systems design and RF systems. The candidate's experience in system design and signal processing is also a plus for this position.",
+      "adzuna_id": "5608727347"
+    }
+  ]
+}

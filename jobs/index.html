@@ -4,10 +4,174 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Market Research</title>
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f4f5f7; color: #1a1a2e; min-height: 100vh;
+}
+header {
+  background: #1a1a2e; color: white; padding: 14px 24px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+}
+header h1 { font-size: 1.1rem; font-weight: 700; letter-spacing: 0.02em; }
+.week-nav { display: flex; align-items: center; gap: 8px; }
+.week-nav button {
+  background: rgba(255,255,255,0.15); border: none; color: white;
+  padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.85rem;
+  transition: background 0.15s;
+}
+.week-nav button:hover { background: rgba(255,255,255,0.27); }
+.week-nav button:disabled { opacity: 0.3; cursor: default; }
+.week-nav .date-label {
+  font-size: 0.9rem; opacity: 0.85; min-width: 96px; text-align: center;
+}
+main { max-width: 1160px; margin: 0 auto; padding: 24px 16px; }
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 720px) { .columns { grid-template-columns: 1fr; } }
+.col-header {
+  font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.1em; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 8px; color: #333;
+}
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.dot-sf { background: #2563eb; }
+.dot-non-sf { background: #7c3aed; }
+.job-card {
+  background: white; border-radius: 10px; padding: 16px;
+  border: 1px solid #e4e5ef; margin-bottom: 14px;
+  transition: box-shadow 0.15s;
+}
+.job-card:hover { box-shadow: 0 4px 18px rgba(0,0,0,0.07); }
+.job-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 5px; }
+.job-title a { color: #1a1a2e; text-decoration: none; }
+.job-title a:hover { color: #2563eb; }
+.job-meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-bottom: 10px; }
+.job-company { font-size: 0.84rem; color: #555; }
+.loc-badge {
+  font-size: 0.73rem; padding: 2px 8px; border-radius: 12px;
+  background: #f0f0f9; color: #444; border: 1px solid #dde;
+}
+.pay-range {
+  font-size: 0.84rem; font-weight: 600; color: #166534;
+  background: #f0fdf4; border-radius: 6px; padding: 4px 10px;
+  display: inline-block; margin-bottom: 10px; border: 1px solid #bbf7d0;
+}
+.skills-label {
+  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: #999; margin-bottom: 5px; margin-top: 9px;
+}
+.pill-row { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill {
+  font-size: 0.74rem; padding: 3px 9px; border-radius: 12px;
+}
+.pill-key { background: #eef2ff; color: #3730a3; border: 1px solid #c7d2fe; }
+.pill-bonus { background: #fdf4ff; color: #6b21a8; border: 1px solid #e9d5ff; }
+.job-summary { font-size: 0.84rem; color: #444; line-height: 1.55; margin-top: 10px; }
+.loading { text-align: center; color: #aaa; padding: 80px 0; }
+.empty { text-align: center; color: #bbb; padding: 40px 0; font-size: 0.9rem; }
+</style>
 </head>
 <body>
-  <p style="font-family:sans-serif;padding:40px;color:#888;">
-    No data yet — check back after the first automated run.
-  </p>
+  <header>
+    <h1>Market Research</h1>
+    <div class="week-nav" id="week-nav"></div>
+  </header>
+  <main id="main-content">
+    <div class="loading">Loading&hellip;</div>
+  </main>
+  <script>
+    const AVAILABLE_DATES = ["2026-05-21"];
+    
+let currentDate = AVAILABLE_DATES[AVAILABLE_DATES.length - 1] || null;
+
+function fmtDate(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString('en-US',
+    {weekday: 'short', month: 'short', day: 'numeric'});
+}
+
+function renderNav() {
+  const idx = AVAILABLE_DATES.indexOf(currentDate);
+  document.getElementById('week-nav').innerHTML = `
+    <button onclick="navigate(-1)" ${idx <= 0 ? 'disabled' : ''}>&larr;</button>
+    <span class="date-label">${currentDate ? fmtDate(currentDate) : '&mdash;'}</span>
+    <button onclick="navigate(1)" ${idx >= AVAILABLE_DATES.length - 1 ? 'disabled' : ''}>&rarr;</button>
+  `;
+}
+
+function navigate(dir) {
+  const idx = AVAILABLE_DATES.indexOf(currentDate) + dir;
+  if (idx >= 0 && idx < AVAILABLE_DATES.length) {
+    currentDate = AVAILABLE_DATES[idx];
+    loadDate(currentDate);
+  }
+}
+
+function cardHtml(job) {
+  const title = job.url
+    ? `<a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>`
+    : job.title;
+
+  const keyPills = (job.key_skills || []).length
+    ? `<div class="skills-label">Key Skills</div>
+       <div class="pill-row">${job.key_skills.map(s => `<span class="pill pill-key">${s}</span>`).join('')}</div>`
+    : '';
+  const bonusPills = (job.bonus_skills || []).length
+    ? `<div class="skills-label">Bonus</div>
+       <div class="pill-row">${job.bonus_skills.map(s => `<span class="pill pill-bonus">${s}</span>`).join('')}</div>`
+    : '';
+
+  return `<div class="job-card">
+    <div class="job-title">${title}</div>
+    <div class="job-meta">
+      <span class="job-company">${job.company}</span>
+      <span class="loc-badge">${job.location_label}</span>
+    </div>
+    ${job.pay_range ? `<div class="pay-range">${job.pay_range}</div>` : ''}
+    ${keyPills}${bonusPills}
+    ${job.summary ? `<div class="job-summary">${job.summary}</div>` : ''}
+  </div>`;
+}
+
+function renderData(data) {
+  const sf    = (data.postings || []).filter(p => p.region === 'sf');
+  const nonSf = (data.postings || []).filter(p => p.region === 'outside_sf');
+  const sfHtml    = sf.length    ? sf.map(cardHtml).join('')    : '<div class="empty">No SF postings today</div>';
+  const nonSfHtml = nonSf.length ? nonSf.map(cardHtml).join('') : '<div class="empty">No postings outside SF today</div>';
+  document.getElementById('main-content').innerHTML = `
+    <div class="columns">
+      <div>
+        <div class="col-header"><span class="dot dot-sf"></span>SF Bay Area</div>
+        ${sfHtml}
+      </div>
+      <div>
+        <div class="col-header"><span class="dot dot-non-sf"></span>Beyond SF</div>
+        ${nonSfHtml}
+      </div>
+    </div>`;
+}
+
+async function loadDate(iso) {
+  renderNav();
+  if (!iso) {
+    document.getElementById('main-content').innerHTML = '<div class="empty">No data yet — check back after the first run.</div>';
+    return;
+  }
+  document.getElementById('main-content').innerHTML = '<div class="loading">Loading&hellip;</div>';
+  try {
+    const resp = await fetch(`${iso}.json`);
+    if (!resp.ok) throw new Error(resp.status);
+    renderData(await resp.json());
+  } catch {
+    document.getElementById('main-content').innerHTML =
+      `<div class="empty">Could not load data for ${fmtDate(iso)}.</div>`;
+  }
+}
+
+loadDate(currentDate);
+
+  </script>
 </body>
 </html>
