@@ -200,8 +200,9 @@ Candidate profile:
 - Last 4 years as engineering team lead — now targeting Senior IC roles
 - Prefers to move away from aerospace/space industry
 - NOT interested in: power electronics, power systems, antenna design
+- Target compensation: $200K+ total (prioritize roles that appear to meet this; do not exclude roles that don't list salary)
 
-IMPORTANT: Only mark a posting relevant if it is a hands-on individual contributor engineering role. Immediately mark irrelevant: Product Manager, Program Manager, Engineering Manager, Director, VP, Sales Engineer, or any role without direct technical/design work.
+IMPORTANT: Only mark a posting relevant if it involves hands-on technical/engineering work. Immediately mark irrelevant: Product Manager, Program Manager, Director, VP, Sales Engineer, or any role without direct technical/design work. Engineering Manager roles are acceptable if they involve significant hands-on technical contribution.
 
 Review these {len(jobs)} postings. Return ONLY a valid JSON array with one object per posting.
 
@@ -507,8 +508,8 @@ def main() -> None:
     ]
     print(f"Search terms: {terms}")
 
-    # Four non-SF locations today, rotating through the list
-    non_sf_locs = [NON_SF_LOCATIONS[(day_idx + i) % len(NON_SF_LOCATIONS)] for i in range(4)]
+    # Six non-SF locations today, rotating through the list
+    non_sf_locs = [NON_SF_LOCATIONS[(day_idx + i) % len(NON_SF_LOCATIONS)] for i in range(6)]
 
     print("Fetching SF Bay Area candidates…")
     sf_pool = _collect(app_id, app_key, SF_LOCATION, terms, seen)
@@ -525,12 +526,12 @@ def main() -> None:
     print("Fetching non-SF candidates…")
     non_sf_pool: list[dict] = []
     for loc in non_sf_locs:
-        batch = _collect(app_id, app_key, loc, [terms[0]], seen)
+        batch = _collect(app_id, app_key, loc, terms, seen)
         print(f"  {loc['label']}: {len(batch)} candidates")
         non_sf_pool.extend(batch)
 
     # Interleave startup candidates with general SF so Groq sees them mixed
-    all_pool = sf_startup_pool[:8] + sf_pool[:12] + non_sf_pool[:20]
+    all_pool = sf_startup_pool[:8] + sf_pool[:12] + non_sf_pool[:30]
     print(f"\nSending {len(all_pool)} candidates to Groq…")
     summaries = _groq_process(all_pool, client)
     summary_map = {s["idx"]: s for s in summaries if s.get("relevant")}
