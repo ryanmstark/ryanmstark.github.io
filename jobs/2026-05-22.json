@@ -1,0 +1,110 @@
+{
+  "date": "2026-05-22",
+  "postings": [
+    {
+      "title": "Modem Software Power Engineer, Wireless Technologies & Ecosystems",
+      "company": "Apple",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5730131854?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$185,509\u2013$185,509/yr",
+      "top_requirements": [
+        "Experience with power modeling and deep system analysis of cellular modems is required.",
+        "Ability to optimize the power performance of next-generation cellular modems is necessary.",
+        "Knowledge of lab automation and ensuring devices deliver incredible battery life while maintaining exceptional 5G and LTE performance is needed."
+      ],
+      "bonus_skills": [
+        "Lab automation",
+        "Power modeling",
+        "System analysis"
+      ],
+      "summary": "This role involves defining and optimizing the power performance of Apple's next-generation cellular modems, which suits the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing could be beneficial in this position.",
+      "is_startup": false,
+      "adzuna_id": "5730131854"
+    },
+    {
+      "title": "Firmware Engineer, Modem NAS Protocol and Emergency Call Performance Improvement",
+      "company": "Google",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5720165546?se=5DASPgZW8RGvjPD20Sc1wQ&utm_medium=api&utm_source=9349c45d&v=A38D68EDA67362B689DE370A1A448D9D2D615F8F",
+      "pay_range": "$163,000\u2013$237,000/yr",
+      "top_requirements": [
+        "Experience with software development in one or more programming languages, such as C/C++, Java, or Rust, is required.",
+        "Knowledge of 3GPP LTE/NR protocols and experience with C/C++ and Embedded RTOS is necessary.",
+        "Ability to develop and improve modem protocol development, with a focus on 3GPP LTE and 5G NR data or audio path development, is needed."
+      ],
+      "bonus_skills": [
+        "C/C++",
+        "Embedded RTOS",
+        "3GPP LTE/NR protocols"
+      ],
+      "summary": "This role involves developing and improving modem protocol development, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing could be beneficial in this position.",
+      "is_startup": false,
+      "adzuna_id": "5720165546"
+    },
+    {
+      "title": "Sr. Satcom Modem Engineer",
+      "company": "Planet",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5717548166?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$162,600\u2013$203,200/yr",
+      "top_requirements": [
+        "Experience with satcom modem design and development is required.",
+        "Knowledge of RF systems and signal processing is necessary.",
+        "Ability to design and develop high-performance satcom modems is needed."
+      ],
+      "bonus_skills": [
+        "Satcom modem design",
+        "RF systems",
+        "Signal processing"
+      ],
+      "summary": "This role involves designing and developing high-performance satcom modems, which suits the candidate's experience in communications systems design and test. However, the candidate prefers to move away from the aerospace/space industry, so this role may not be the best fit.",
+      "is_startup": false,
+      "adzuna_id": "5717548166"
+    },
+    {
+      "title": "RF Engineer",
+      "company": "MIT Lincoln Laboratory",
+      "location_label": "Boston, MA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5713838355?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$166,708\u2013$166,708/yr",
+      "top_requirements": [
+        "Experience with RF systems and signal processing is required.",
+        "Knowledge of complex systems analysis and advanced algorithm development is necessary.",
+        "Ability to develop and improve RF systems is needed."
+      ],
+      "bonus_skills": [
+        "RF systems",
+        "Signal processing",
+        "Complex systems analysis"
+      ],
+      "summary": "This role involves developing and improving RF systems for MIT Lincoln Laboratory, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing could be beneficial in this position.",
+      "is_startup": false,
+      "adzuna_id": "5713838355"
+    },
+    {
+      "title": "Principal Digital Signal Processing System Engineer",
+      "company": "The Charles Stark Draper Laboratory",
+      "location_label": "Boston, MA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5698865512?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$95,000\u2013$245,000/yr",
+      "top_requirements": [
+        "Experience with digital signal processing system design and development is required.",
+        "Knowledge of complex systems analysis and advanced algorithm development is necessary.",
+        "Ability to develop and improve digital signal processing systems is needed."
+      ],
+      "bonus_skills": [
+        "Digital signal processing",
+        "Complex systems analysis",
+        "Advanced algorithm development"
+      ],
+      "summary": "This role involves developing and improving digital signal processing systems for The Charles Stark Draper Laboratory, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing could be beneficial in this position.",
+      "is_startup": false,
+      "adzuna_id": "5698865512"
+    }
+  ]
+}
