@@ -1,0 +1,126 @@
+{
+  "date": "2026-05-25",
+  "postings": [
+    {
+      "title": "Embedded Firmware Engineer, Digital Signal Processing",
+      "company": "Google",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5738661958?se=2miYM19Y8RGTDdJK-7cL6w&utm_medium=api&utm_source=9349c45d&v=BE35768FC766FA1E21C1879B2D44C9906C64A4A6",
+      "pay_range": "$192,000\u2013$278,000/yr",
+      "top_requirements": [
+        "Experience with high-speed I/O (HSIO), high-bandwidth transceivers, or physical layer (PHY) control software is required.",
+        "Experience in real-time operating systems (RTOS) and multi-threaded embedded programming is necessary.",
+        "Proficiency in digital signal processing (DSP) development is essential."
+      ],
+      "bonus_skills": [
+        "Python",
+        "C++",
+        "RTOS"
+      ],
+      "summary": "This role involves designing and developing embedded firmware for digital signal processing applications. The candidate will work on high-speed I/O, high-bandwidth transceivers, and physical layer control software. This role suits the candidate due to their experience in communications systems design and test, RF systems, and signal processing.",
+      "is_startup": false,
+      "adzuna_id": "5738661958"
+    },
+    {
+      "title": "Principal Hardware Engineer, DSP",
+      "company": "Arycs Technologies",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5736105990?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$196,832/yr",
+      "top_requirements": [
+        "Experience with digital signal processing (DSP) and optical communications is required.",
+        "Proficiency in designing and developing next-generation optical modules is necessary.",
+        "Experience with rapid execution and solving real-world problems is desirable."
+      ],
+      "bonus_skills": [
+        "Optical communications",
+        "Rapid execution"
+      ],
+      "summary": "This role involves designing and developing next-generation optical modules for optical communications. The candidate will work on digital signal processing and rapid execution. This role suits the candidate due to their experience in communications systems design and test, RF systems, and signal processing.",
+      "is_startup": true,
+      "adzuna_id": "5736105990"
+    },
+    {
+      "title": "Senior Hardware Design Engineer",
+      "company": "1st Avenue Power",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5731268314?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$190,000\u2013$225,000/yr",
+      "top_requirements": [
+        "Experience with Time Domain Reflectometry (TDR) equipment design is required.",
+        "Proficiency in designing and developing instruments and systems for renewable energy applications is necessary.",
+        "Experience with leading the design, development, and validation of complex systems is desirable."
+      ],
+      "bonus_skills": [
+        "TDR equipment design",
+        "Renewable energy"
+      ],
+      "summary": "This role involves designing and developing instruments and systems for renewable energy applications. The candidate will work on TDR equipment design and leading complex system design. This role suits the candidate due to their experience in communications systems design and test, RF systems, and signal processing.",
+      "is_startup": false,
+      "adzuna_id": "5731268314"
+    },
+    {
+      "title": "Communication Systems Engineer",
+      "company": "KBR",
+      "location_label": "Melbourne, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5738197190?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$140K\u2013$180K",
+      "top_requirements": [
+        "Experience with communication systems design is required.",
+        "Proficiency in designing and developing complex systems is necessary.",
+        "Experience with leading the design, development, and validation of complex systems is desirable."
+      ],
+      "bonus_skills": [
+        "Communication systems",
+        "System design"
+      ],
+      "summary": "This role involves designing and developing complex communication systems. The candidate will work on system design and leading complex system design. This role suits the candidate due to their experience in communications systems design and test, RF systems, and signal processing.",
+      "is_startup": false,
+      "adzuna_id": "5738197190"
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "Babcock",
+      "location_label": "Melbourne, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/land/ad/5728215269?se=1JKiN19Y8RGvjPD20Sc1wQ&utm_medium=api&utm_source=9349c45d&v=5BCAC9E9DC9A04EFA2136DBB4193E56DAD1DCF8E",
+      "pay_range": "$120K\u2013$160K",
+      "top_requirements": [
+        "Experience with systems engineering principles is required.",
+        "Proficiency in designing and developing complex systems is necessary.",
+        "Experience with investigating technical issues and developing practical solutions is desirable."
+      ],
+      "bonus_skills": [
+        "Systems engineering",
+        "Complex systems"
+      ],
+      "summary": "This role involves designing and developing complex systems using systems engineering principles. The candidate will work on system design and investigating technical issues. This role suits the candidate due to their experience in communications systems design and test, RF systems, and signal processing.",
+      "is_startup": false,
+      "adzuna_id": "5728215269"
+    },
+    {
+      "title": "Staff Systems Engineer (R4315)",
+      "company": "Shield AI",
+      "location_label": "Melbourne, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5684816086?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$150K\u2013$200K",
+      "top_requirements": [
+        "Experience with systems engineering principles is required.",
+        "Proficiency in designing and developing complex systems is necessary.",
+        "Experience with investigating technical issues and developing practical solutions is desirable."
+      ],
+      "bonus_skills": [
+        "Systems engineering",
+        "Complex systems"
+      ],
+      "summary": "This role involves designing and developing complex systems using systems engineering principles. The candidate will work on system design and investigating technical issues. This role suits the candidate due to their experience in communications systems design and test, RF systems, and signal processing.",
+      "is_startup": true,
+      "adzuna_id": "5684816086"
+    }
+  ]
+}
