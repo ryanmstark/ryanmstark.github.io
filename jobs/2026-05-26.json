@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-26",
+  "postings": [
+    {
+      "title": "Wireless Firmware Engineer (Starlink Mobile)",
+      "company": "SpaceX",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5735314829?se=_iWWby9Z8RGi88jHpizchQ&utm_medium=api&utm_source=9349c45d&v=8164E72A7935C128B5C47DD116272680C97A0C8B",
+      "pay_range": "$172,540\u2013$172,540/yr",
+      "top_requirements": [
+        "Hands-on experience designing and validating wireless communication systems, including firmware development for Starlink Mobile",
+        "Proficiency in developing novel wireless communication systems, including those for global cellular connectivity from space",
+        "Experience with RF system analysis, including noise figure, gain, IIP3, and EVM characterization"
+      ],
+      "bonus_skills": [
+        "RF system design",
+        "firmware development",
+        "wireless communication systems"
+      ],
+      "summary": "This role involves developing and validating wireless communication systems for Starlink Mobile, including firmware development and RF system analysis. The candidate will have hands-on experience with wireless communication systems and proficiency in developing novel systems.",
+      "is_startup": false,
+      "adzuna_id": "5735314829"
+    },
+    {
+      "title": "Senior FPGA Engineer, LEO Payload FPGA",
+      "company": "Amazon",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5730225127?se=_iWWby9Z8RGi88jHpizchQ&utm_medium=api&utm_source=9349c45d&v=C4D7F9F9B50BA7802DDC23FBDD7A62FA36106E51",
+      "pay_range": "$167,433\u2013$167,433/yr",
+      "top_requirements": [
+        "Experience with FPGA design and development for LEO payload systems",
+        "Proficiency in designing and implementing digital signal processing algorithms for satellite communication systems",
+        "Knowledge of satellite communication systems, including modulation, coding, and signal processing techniques"
+      ],
+      "bonus_skills": [
+        "FPGA design",
+        "digital signal processing",
+        "satellite communication systems"
+      ],
+      "summary": "This role involves designing and developing FPGA systems for LEO payload, including digital signal processing algorithm development. The candidate will have experience with FPGA design and proficiency in satellite communication systems.",
+      "is_startup": false,
+      "adzuna_id": "5730225127"
+    },
+    {
+      "title": "Sr. Connectivity Systems Engineer, Connectivity Systems",
+      "company": "Amazon Lab126",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5728712311?se=_iWWby9Z8RGi88jHpizchQ&utm_medium=api&utm_source=9349c45d&v=D4A956591A3C3111442012917DC1098B24F79BCD",
+      "pay_range": "$210,947\u2013$210,947/yr",
+      "top_requirements": [
+        "Experience with wireless architecture design for consumer electronics devices",
+        "Proficiency in designing and implementing connectivity systems, including Wi-Fi, Bluetooth, and cellular technologies",
+        "Knowledge of RF system analysis, including noise figure, gain, IIP3, and EVM characterization"
+      ],
+      "bonus_skills": [
+        "wireless architecture design",
+        "connectivity systems",
+        "RF system analysis"
+      ],
+      "summary": "This role involves designing and implementing wireless architecture for consumer electronics devices, including connectivity systems and RF system analysis. The candidate will have experience with wireless architecture design and proficiency in connectivity systems.",
+      "is_startup": false,
+      "adzuna_id": "5728712311"
+    },
+    {
+      "title": "AI Audio Codec Algorithm and Standardization Engineer",
+      "company": "TikTok",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5639204980?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "not listed",
+      "top_requirements": [
+        "Experience with audio codec algorithm development and standardization for immersive audio technologies",
+        "Proficiency in designing and implementing audio signal processing algorithms, including noise reduction and echo cancellation",
+        "Knowledge of audio coding standards, including MPEG and AC-3"
+      ],
+      "bonus_skills": [
+        "audio codec development",
+        "audio signal processing",
+        "immersive audio technologies"
+      ],
+      "summary": "This role involves developing and standardizing audio codec algorithms for immersive audio technologies, including audio signal processing algorithm development. The candidate will have experience with audio codec development and proficiency in audio signal processing.",
+      "is_startup": false,
+      "adzuna_id": "5639204980"
+    },
+    {
+      "title": "Senior Frontend PHY IC Design Engineer (DSP focus)",
+      "company": "Morse Micro",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/land/ad/5700176218?se=qCjOcS9Z8RGi88jHpizchQ&utm_medium=api&utm_source=9349c45d&v=78873605994EEDFCA88D84901F9D1C53E38FD230",
+      "pay_range": "not listed",
+      "top_requirements": [
+        "Experience with Wi-Fi chip design, including PHY layer development and DSP implementation",
+        "Proficiency in designing and implementing wireless communication systems, including Wi-Fi and Bluetooth technologies",
+        "Knowledge of wireless communication standards, including IEEE 802.11 and Bluetooth"
+      ],
+      "bonus_skills": [
+        "Wi-Fi chip design",
+        "PHY layer development",
+        "DSP implementation"
+      ],
+      "summary": "This role involves designing and implementing Wi-Fi chip systems, including PHY layer development and DSP implementation. The candidate will have experience with Wi-Fi chip design and proficiency in wireless communication systems.",
+      "is_startup": true,
+      "adzuna_id": "5700176218"
+    },
+    {
+      "title": "Communication Systems Engineer",
+      "company": "KBR",
+      "location_label": "Melbourne, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5738197190?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "not listed",
+      "top_requirements": [
+        "Experience with communication systems design and development for defence applications",
+        "Proficiency in designing and implementing communication protocols, including TCP/IP and UDP",
+        "Knowledge of communication system security, including encryption and authentication techniques"
+      ],
+      "bonus_skills": [
+        "communication systems design",
+        "communication protocols",
+        "communication system security"
+      ],
+      "summary": "This role involves designing and developing communication systems for defence applications, including communication protocol development and communication system security. The candidate will have experience with communication systems design and proficiency in communication protocols.",
+      "is_startup": false,
+      "adzuna_id": "5738197190"
+    }
+  ]
+}
