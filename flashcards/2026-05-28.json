@@ -1,0 +1,126 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "May 28, 2026 at 16:02 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "On-Orbit Servicing: A New Paradigm for Satellite Maintenance and Upgrades",
+      "body": [
+        "On-orbit servicing, also known as in-orbit servicing, refers to the ability to perform maintenance, repairs, and upgrades on satellites while they are still in orbit. This emerging technology has the potential to revolutionize the way we manage and operate satellite constellations. By enabling on-orbit servicing, satellite operators can extend the lifespan of their assets, reduce the need for replacement satellites, and improve overall system performance.",
+        "Companies like Lux Aeterna and others are at the forefront of this development, with CEO Brian Taylor emphasizing the importance of on-orbit servicing for the future of the space industry. The technology involves the use of specialized spacecraft that can dock with and service other satellites, providing a range of capabilities including fuel replenishment, component replacement, and software updates.",
+        "The benefits of on-orbit servicing are numerous, including reduced launch costs, improved satellite reliability, and enhanced flexibility. By extending the lifespan of satellites, operators can also reduce the amount of space debris in orbit, which is a growing concern for the space community. Additionally, on-orbit servicing can enable the upgrade of satellite capabilities, allowing them to take on new missions and tasks without the need for a complete replacement.",
+        "The development of on-orbit servicing technology is also closely tied to the growth of the space industry as a whole. As more countries and companies become involved in space exploration and development, the need for reliable and efficient satellite operations will continue to increase. On-orbit servicing provides a key solution to this challenge, enabling the space industry to become more sustainable and resilient in the long term."
+      ],
+      "why": "The ability to service and upgrade satellites on-orbit has significant implications for the space industry, from reducing launch costs and improving satellite reliability to enabling new missions and reducing space debris. As the space industry continues to grow and evolve, on-orbit servicing will play a critical role in ensuring the long-term sustainability and resilience of space-based systems, making it an important area of focus for engineers and industry professionals.",
+      "sources": [
+        {
+          "name": "SpaceNews",
+          "url": "https://spacenews.com/"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Modeling and Analysis of Metamaterial-Based Antennas for Millimeter-Wave Applications",
+      "body": [
+        "Metamaterials are artificial structures engineered to have specific properties not typically found in naturally occurring materials. In the context of antenna design, metamaterials can be used to create compact, high-gain antennas with unique radiation patterns. For millimeter-wave applications, such as 5G wireless communication systems and high-resolution imaging, metamaterial-based antennas offer a promising solution to achieve high directivity and efficiency.",
+        "Metamaterial-based antennas typically consist of a periodic arrangement of unit cells, each comprising a metallic pattern and a dielectric substrate. The unit cell design can be tailored to exhibit specific electromagnetic properties, such as negative refractive index or perfect absorption. By carefully designing the unit cell structure and arrangement, metamaterial-based antennas can be optimized for specific frequency ranges and radiation patterns. For example, a metamaterial-based antenna can be designed to exhibit a high-gain, directional radiation pattern at 28 GHz, a frequency band allocated for 5G wireless communication systems.",
+        "The analysis of metamaterial-based antennas typically involves numerical simulation using methods such as finite-difference time-domain (FDTD) or method of moments (MoM). These simulations allow engineers to model the electromagnetic behavior of the antenna and optimize its design for specific performance metrics, such as gain, efficiency, and bandwidth. Additionally, analytical models, such as the transmission line model, can be used to provide insight into the underlying physics of the metamaterial-based antenna and guide the design process.",
+        "The design and analysis of metamaterial-based antennas require a multidisciplinary approach, combining expertise in electromagnetics, materials science, and numerical simulation. By leveraging advances in these fields, engineers can develop innovative antenna solutions for a wide range of applications, from wireless communication systems to biomedical imaging and sensing."
+      ],
+      "why": "Metamaterial-based antennas have the potential to revolutionize the way we design and use antennas in various applications, from 5G wireless communication systems to medical imaging and sensing. By enabling the creation of compact, high-gain antennas with unique radiation patterns, metamaterials can help address the increasing demand for high-speed, high-bandwidth communication systems and advanced sensing technologies. As a result, engineers should care about metamaterial-based antennas because they offer a promising solution to many of the technical challenges associated with modern communication and sensing systems.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "Nature Materials",
+          "url": "https://www.nature.com/nmat/"
+        },
+        {
+          "name": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "US-Iran Tensions Escalate with Exchange of Strikes",
+      "body": [
+        "The United States and Iran have engaged in a recent exchange of strikes, further straining already tense negotiations between the two nations. The US has been conducting military operations in the region, citing concerns over Iranian aggression and the need to protect American interests.",
+        "The situation has been exacerbated by a series of incidents, including attacks on US personnel and facilities, as well as Iranian-backed militia groups. The US has responded with targeted strikes against Iranian military assets, sparking fears of a wider conflict.",
+        "The exchange of strikes has significant implications for regional stability, with many countries in the Middle East watching the situation closely. The US and Iran have a long history of tensions, and the current escalation has raised concerns about the potential for further conflict."
+      ],
+      "why": "The escalation of tensions between the US and Iran has significant implications for global stability, particularly in the Middle East. The conflict has the potential to disrupt oil supplies, impact regional economies, and draw in other nations, making it a critical issue for international observers and policymakers to monitor. As the situation continues to unfold, it is essential to understand the complex geopolitical dynamics at play and the potential consequences for the region and the world.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1947 Truman Doctrine: A Pivotal Moment in the Cold War and US Foreign Policy",
+      "body": [
+        "The Truman Doctrine, introduced by US President Harry S. Truman on March 12, 1947, marked a significant shift in US foreign policy. In the aftermath of World War II, the United States and the Soviet Union emerged as superpowers with fundamentally different ideologies. The Truman Doctrine was a response to the spread of communism in Europe, particularly in Greece and Turkey, where the Soviet Union was attempting to expand its influence.",
+        "The doctrine committed the United States to providing economic and military aid to countries threatened by communism, with the goal of containing the spread of Soviet influence. This marked a departure from the US policy of isolationism and signaled the beginning of the Cold War. The Truman Doctrine was met with approval from Congress, which allocated $400 million in aid to Greece and Turkey.",
+        "The implementation of the Truman Doctrine had far-reaching consequences. It led to the establishment of the Marshall Plan, a comprehensive economic aid program aimed at rebuilding war-torn Europe. The doctrine also contributed to the formation of the North Atlantic Treaty Organization (NATO) in 1949, a military alliance of Western nations designed to counter the Soviet Union's military power.",
+        "The Truman Doctrine played a significant role in shaping the modern world order. It cemented the United States' position as a global leader and set the stage for decades of Cold War rivalry with the Soviet Union. The doctrine's emphasis on containment and deterrence continues to influence US foreign policy to this day."
+      ],
+      "why": "The Truman Doctrine is significant because it marked the beginning of the Cold War and the United States' emergence as a global superpower. The doctrine's emphasis on containment and deterrence continues to shape US foreign policy, and its legacy can be seen in modern-day conflicts and alliances. Understanding the Truman Doctrine is essential for grasping the complexities of international relations and the ongoing struggle for global influence.",
+      "sources": [
+        {
+          "name": "The Truman Library",
+          "url": "https://www.trumanlibrary.org"
+        },
+        {
+          "name": "The History Channel",
+          "url": "https://www.history.com"
+        },
+        {
+          "name": "The US Department of State",
+          "url": "https://www.state.gov"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Deep Deterministic Policy Gradients for Continuous Control Tasks",
+      "body": [
+        "Deep Deterministic Policy Gradients (DDPG) is a model-free, off-policy actor-critic algorithm that is used for continuous control tasks. It combines the advantages of Deep Q-Networks (DQN) and Policy Gradient Methods, enabling it to learn continuous actions. The algorithm uses two neural networks: an actor network that learns the policy, and a critic network that learns the action-value function. The actor network outputs the mean of a Gaussian distribution, from which the actions are sampled.",
+        "DDPG uses a technique called target networks to stabilize learning. The target networks are used to compute the target values for the critic network, and they are updated slowly over time to track the changes in the actor and critic networks. This helps to reduce the oscillations in the learning process and improves the stability of the algorithm. Additionally, DDPG uses a replay buffer to store the experiences and sample them randomly to update the networks.",
+        "The algorithm has been widely used in various continuous control tasks, such as robotics and autonomous driving. It has been shown to outperform other algorithms, such as DQN and Policy Gradient Methods, in many tasks. The reason for its success is its ability to learn continuous actions and its stability in learning.",
+        "DDPG can be implemented using popular deep learning frameworks such as TensorFlow or PyTorch. The implementation involves defining the actor and critic networks, initializing the target networks, and updating the networks using the experiences sampled from the replay buffer. The algorithm can be used in a variety of applications, including robotics, autonomous driving, and game playing."
+      ],
+      "why": "DDPG is significant because it enables robots and other machines to learn complex tasks that require continuous actions, such as walking, driving, or manipulating objects. This has the potential to revolutionize industries such as manufacturing, logistics, and healthcare, where robots can be used to perform tasks that are difficult or dangerous for humans. By using DDPG, engineers can develop more sophisticated and autonomous systems that can learn and adapt to new situations, which can lead to increased efficiency, productivity, and safety.",
+      "sources": [
+        {
+          "name": "Lillicrap et al.",
+          "url": "https://arxiv.org/abs/1509.02971"
+        },
+        {
+          "name": "TensorFlow",
+          "url": "https://www.tensorflow.org"
+        },
+        {
+          "name": "PyTorch",
+          "url": "https://pytorch.org"
+        }
+      ]
+    }
+  ]
+}
