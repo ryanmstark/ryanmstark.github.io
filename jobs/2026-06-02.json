@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-02",
+  "postings": [
+    {
+      "title": "SR. SatCom Engineer HFSS- Hybrid / Remote with Security Clearance",
+      "company": "Associates Systems LLC",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5740503856?se=cqPJgrpe8RGO9PaDeq7KTA&utm_medium=api&utm_source=9349c45d&v=4ADC9409D206F55956432F08D47980B3C2B43A55",
+      "pay_range": "$157,628\u2013$157,628/yr",
+      "top_requirements": [
+        "Experience with satellite communication systems design, operation, and optimization is required.",
+        "Ability to obtain a security clearance is necessary.",
+        "Knowledge of next-generation space and ground communication technologies is desired."
+      ],
+      "bonus_skills": [
+        "HFSS",
+        "Hybrid"
+      ],
+      "summary": "This role involves designing and optimizing satellite communication systems, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing is also relevant.",
+      "is_startup": false,
+      "adzuna_id": "5740503856"
+    },
+    {
+      "title": "Embedded Firmware Engineer, Digital Signal Processing",
+      "company": "Google",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5738661958?se=cqPJgrpe8RGO9PaDeq7KTA&utm_medium=api&utm_source=9349c45d&v=BE35768FC766FA1E21C1879B2D44C9906C64A4A6",
+      "pay_range": "$192,000\u2013$278,000/yr",
+      "top_requirements": [
+        "Experience with embedded firmware or digital signal processing development is required.",
+        "Knowledge of high-speed I/O, high-bandwidth transceivers, or physical layer control software is necessary.",
+        "Experience with real-time operating systems and multi-threaded embedded programming is desired."
+      ],
+      "bonus_skills": [
+        "DSP",
+        "RTOS"
+      ],
+      "summary": "This role involves developing embedded firmware for digital signal processing applications, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing is also relevant.",
+      "is_startup": false,
+      "adzuna_id": "5738661958"
+    },
+    {
+      "title": "Principal Hardware Engineer, DSP",
+      "company": "Arycs Technologies",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5736105990?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$196,832\u2013$196,832/yr",
+      "top_requirements": [
+        "Experience with hardware engineering, particularly in optical communications, is required.",
+        "Knowledge of building next-generation optical modules is necessary.",
+        "Ability to work in a fast-paced startup environment is desired."
+      ],
+      "bonus_skills": [
+        "Optical Communications",
+        "Startup"
+      ],
+      "summary": "This role involves designing and building next-generation optical modules, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing is also relevant.",
+      "is_startup": true,
+      "adzuna_id": "5736105990"
+    },
+    {
+      "title": "Industrial Communications Engineer",
+      "company": "Aramco",
+      "location_label": "Chicago, IL",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5749248727?se=SOb0hLpe8RGO9PaDeq7KTA&utm_medium=api&utm_source=9349c45d&v=4B9733B3A949E455DC3D8E0A79C8B9FD163BBEC4",
+      "pay_range": "$122,196\u2013$122,196/yr",
+      "top_requirements": [
+        "Experience with industrial communications engineering is required.",
+        "Knowledge of hydrocarbon energy and chemicals is necessary.",
+        "Ability to work in a global company is desired."
+      ],
+      "bonus_skills": [
+        "Industrial Communications",
+        "Energy"
+      ],
+      "summary": "This role involves designing and implementing industrial communications systems, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing is also relevant.",
+      "is_startup": false,
+      "adzuna_id": "5749248727"
+    },
+    {
+      "title": "Digital Communications Engineer",
+      "company": "Chicago Housing Authority",
+      "location_label": "Chicago, IL",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5707995254?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$105,000\u2013$115,000/yr",
+      "top_requirements": [
+        "Experience with digital communications engineering is required.",
+        "Knowledge of unified communications and VoIP systems is necessary.",
+        "Ability to design and implement enterprise-wide telephone solutions is desired."
+      ],
+      "bonus_skills": [
+        "Unified Communications",
+        "VoIP"
+      ],
+      "summary": "This role involves designing and implementing digital communications systems, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing is also relevant.",
+      "is_startup": false,
+      "adzuna_id": "5707995254"
+    },
+    {
+      "title": "Senior Systems Engineer",
+      "company": "Spire",
+      "location_label": "Glasgow, Scotland",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.co.uk/jobs/details/5723446330?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$50,577\u2013$50,577/yr",
+      "top_requirements": [
+        "Experience with systems engineering, particularly in space missions, is required.",
+        "Knowledge of space-based data and analytics is necessary.",
+        "Ability to work in a fast-paced environment is desired."
+      ],
+      "bonus_skills": [
+        "Space Missions",
+        "Data Analytics"
+      ],
+      "summary": "This role involves designing and implementing systems for space missions, which aligns with the candidate's experience in communications systems design and test. The candidate's background in RF systems and signal processing is also relevant.",
+      "is_startup": false,
+      "adzuna_id": "5723446330"
+    }
+  ]
+}
