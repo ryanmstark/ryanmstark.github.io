@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-03",
+  "postings": [
+    {
+      "title": "Principal RF Payload Lead Engineer",
+      "company": "Skylo Technologies",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5750516834?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$255,000\u2013$270,000/yr",
+      "top_requirements": [
+        "Hands-on experience designing and validating RF payload systems for satellite communications",
+        "Proficiency in RF system analysis: noise figure, gain, IIP3, EVM characterization across the full signal chain",
+        "Experience with standards-based approaches to satellite connectivity, including integration with existing networks and devices"
+      ],
+      "bonus_skills": [
+        "satellite communications",
+        "RF system design",
+        "standards-based approaches"
+      ],
+      "summary": "This role leads the design and development of RF payload systems for satellite communications, focusing on standards-based approaches and integration with existing networks and devices. The candidate will utilize their experience in RF system analysis and design to drive the technical vision of the company's satellite connectivity solutions.",
+      "is_startup": false,
+      "adzuna_id": "5750516834"
+    },
+    {
+      "title": "Electrical Engineer, Optical Communications",
+      "company": "Cowboy Space",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5750245184?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$150,000\u2013$200,000/yr",
+      "top_requirements": [
+        "Experience with optical communications systems, including design and development of space-to-earth and space-to-space optical data transmission systems",
+        "Proficiency in digital signal processing and algorithm development for communication systems",
+        "Knowledge of infrared laser technology and its applications in space-based power and communication systems"
+      ],
+      "bonus_skills": [
+        "optical communications",
+        "digital signal processing",
+        "infrared laser technology"
+      ],
+      "summary": "This role involves designing and developing optical communications systems for space-based applications, including the use of infrared lasers for power and data transmission. The candidate will apply their expertise in digital signal processing and algorithm development to drive the technical vision of the company's optical communications solutions.",
+      "is_startup": true,
+      "adzuna_id": "5750245184"
+    },
+    {
+      "title": "Senior Architect, Digital Signal Processing",
+      "company": "Google",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5748932990?se=eO7xcIRf8RGdlNmLCL9B1Q&utm_medium=api&utm_source=9349c45d&v=FAADDA7F3AA147504CDF83008245C0AF23588E21",
+      "pay_range": "$163,000\u2013$237,000/yr",
+      "top_requirements": [
+        "Experience in digital signal processing, communication theory, and algorithm development for communication systems",
+        "Proficiency in the design and implementation of algorithms for communication systems, including FEC or modulation techniques",
+        "Knowledge of digital signal processing architectures and their applications in communication systems"
+      ],
+      "bonus_skills": [
+        "digital signal processing",
+        "communication theory",
+        "algorithm development"
+      ],
+      "summary": "This role involves designing and developing digital signal processing architectures for communication systems, including the application of algorithms for FEC and modulation techniques. The candidate will utilize their expertise in digital signal processing and communication theory to drive the technical vision of the company's communication systems solutions.",
+      "is_startup": false,
+      "adzuna_id": "5748932990"
+    },
+    {
+      "title": "AI Audio Codec Algorithm and Standardization Engineer",
+      "company": "TikTok",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/land/ad/5639204980?se=uv1qdIRf8RGgx-r2Yz_8QQ&utm_medium=api&utm_source=9349c45d&v=50F49759759FF0F5C733C290EF70187A4A688BAF",
+      "pay_range": "not listed",
+      "top_requirements": [
+        "Experience in audio codec algorithm development and standardization for immersive communication systems",
+        "Proficiency in AI and machine learning techniques for audio processing and compression",
+        "Knowledge of audio codec standards and their applications in immersive communication systems"
+      ],
+      "bonus_skills": [
+        "audio codec development",
+        "AI and machine learning",
+        "immersive communication systems"
+      ],
+      "summary": "This role involves developing and standardizing audio codec algorithms for immersive communication systems, including the application of AI and machine learning techniques. The candidate will utilize their expertise in audio codec development and standardization to drive the technical vision of the company's immersive communication systems solutions.",
+      "is_startup": false,
+      "adzuna_id": "5639204980"
+    },
+    {
+      "title": "Senior Frontend PHY IC Design Engineer (DSP focus)",
+      "company": "Morse Micro",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5700176218?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "not listed",
+      "top_requirements": [
+        "Experience in Wi-Fi chip design, including PHY layer development and implementation",
+        "Proficiency in digital signal processing and algorithm development for communication systems",
+        "Knowledge of Wi-Fi standards and their applications in wireless communication systems"
+      ],
+      "bonus_skills": [
+        "Wi-Fi chip design",
+        "digital signal processing",
+        "PHY layer development"
+      ],
+      "summary": "This role involves designing and developing Wi-Fi chips, including PHY layer development and implementation. The candidate will apply their expertise in digital signal processing and algorithm development to drive the technical vision of the company's Wi-Fi solutions.",
+      "is_startup": true,
+      "adzuna_id": "5700176218"
+    },
+    {
+      "title": "6G Research & Standardization, Senior Engineer/Technical Manager (Project Based)",
+      "company": "MediaTek",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5732426486?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "not listed",
+      "top_requirements": [
+        "Experience in 6G wireless communication technologies, including research and development of new standards and technologies",
+        "Proficiency in technical proposal development and presentation for international standards organizations",
+        "Knowledge of emerging trends and technologies in wireless communication systems, including AI and energy efficiency"
+      ],
+      "bonus_skills": [
+        "6G wireless communication",
+        "technical proposal development",
+        "emerging trends and technologies"
+      ],
+      "summary": "This role involves researching and developing new standards and technologies for 6G wireless communication systems, including the application of AI and energy efficiency techniques. The candidate will utilize their expertise in technical proposal development and presentation to drive the technical vision of the company's 6G solutions.",
+      "is_startup": false,
+      "adzuna_id": "5732426486"
+    }
+  ]
+}
