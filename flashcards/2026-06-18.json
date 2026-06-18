@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "June 18, 2026 at 15:29 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Orbital Refueling Spacecraft and Their Impact on Space Mission Sustainability",
+      "body": [
+        "Orbital refueling spacecraft are a new class of satellites designed to extend the lifespan of existing space missions by providing them with additional propellant. This technology has the potential to revolutionize the way space agencies and private companies approach space mission planning and execution. By enabling spacecraft to refuel in orbit, orbital refueling spacecraft can help reduce the number of new launches required, thereby decreasing the amount of space debris and minimizing the environmental impact of space exploration.",
+        "Quantum Space, a leading player in this field, has recently been awarded a contract by the Pentagon to develop an orbital refueling spacecraft. This contract marks a significant milestone in the development of orbital refueling technology and demonstrates the growing interest in sustainable space mission operations. The spacecraft will be designed to rendezvous with existing satellites and transfer propellant, allowing them to extend their mission duration and perform new tasks.",
+        "Orbital refueling spacecraft rely on advanced technologies such as autonomous navigation, robotic arms, and high-precision propulsion systems. These technologies enable the spacecraft to safely approach and dock with the target satellite, and then transfer the propellant. The development of orbital refueling spacecraft also requires significant advances in areas such as mission planning, trajectory optimization, and spacecraft design.",
+        "The use of orbital refueling spacecraft can have a significant impact on the sustainability of space missions. By extending the lifespan of existing satellites, orbital refueling spacecraft can help reduce the number of new launches required, thereby minimizing the environmental impact of space exploration. Additionally, orbital refueling spacecraft can enable new types of space missions, such as deep space exploration and long-duration satellite operations, which can help advance our understanding of the universe and improve life on Earth."
+      ],
+      "why": "The development of orbital refueling spacecraft is significant because it has the potential to revolutionize the way space agencies and private companies approach space mission planning and execution. By enabling spacecraft to refuel in orbit, orbital refueling spacecraft can help reduce the number of new launches required, decrease the amount of space debris, and minimize the environmental impact of space exploration. This technology can also enable new types of space missions, such as deep space exploration and long-duration satellite operations, which can help advance our understanding of the universe and improve life on Earth.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "Quantum Space",
+          "url": "https://www.quantum.space/"
+        },
+        {
+          "name": "SpaceNews",
+          "url": "https://spacenews.com/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Mitigation of Common-Mode Electromagnetic Interference in High-Speed Differential Signaling",
+      "body": [
+        "High-speed differential signaling is widely used in modern electronic systems, including high-speed serial links, Ethernet, and storage interfaces. However, these systems are prone to common-mode electromagnetic interference (EMI), which can degrade signal integrity and cause errors. Common-mode EMI occurs when a noise signal is coupled to both the positive and negative legs of a differential pair, causing the receiver to interpret the noise as a valid signal.",
+        "Several techniques can be used to mitigate common-mode EMI in high-speed differential signaling, including the use of differential amplifiers, common-mode chokes, and shielded cables. Differential amplifiers can reject common-mode noise by amplifying only the difference between the positive and negative signals. Common-mode chokes can be used to filter out common-mode noise by presenting a high impedance to common-mode signals while allowing differential signals to pass through. Shielded cables can also be used to reduce EMI by absorbing or reflecting electromagnetic radiation.",
+        "The effectiveness of these mitigation techniques depends on various factors, including the frequency range of the signal, the amplitude of the common-mode noise, and the design of the differential signaling system. For example, common-mode chokes are most effective at low frequencies, while differential amplifiers are more effective at high frequencies. Shielded cables can be effective at all frequencies but may add significant cost and complexity to the system.",
+        "Modeling and simulation tools, such as SPICE and finite-element analysis, can be used to analyze and optimize the performance of high-speed differential signaling systems and mitigate common-mode EMI. These tools can help engineers to design and optimize differential amplifiers, common-mode chokes, and shielded cables, as well as to simulate the behavior of the system under various operating conditions."
+      ],
+      "why": "Mitigating common-mode electromagnetic interference is crucial in high-speed differential signaling systems, as it can significantly impact the reliability and performance of modern electronic systems. By understanding and applying techniques to reduce common-mode EMI, engineers can design more robust and reliable systems, which is essential for a wide range of applications, from high-speed computing and storage to telecommunications and networking.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "EDN Network",
+          "url": "https://www.edn.com/"
+        },
+        {
+          "name": "Analog Devices",
+          "url": "https://www.analog.com"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Ukraine's Large-Scale Drone Attack on Moscow Refinery",
+      "body": [
+        "Ukraine has launched a large-scale drone attack on a refinery in Moscow, marking a significant escalation in the conflict between the two countries. The attack is part of Ukraine's ongoing drone campaign, which has been causing significant damage to Russian infrastructure and military capabilities.",
+        "The drone campaign has been described as a 'game-changer' in the conflict, allowing Ukraine to strike deep into Russian territory and target key military and industrial sites. The use of drones has also allowed Ukraine to conserve its military resources and minimize casualties.",
+        "The attack on the Moscow refinery is seen as a major blow to Russia's energy sector, which is a critical component of the country's economy. The refinery is one of the largest in Russia, and the damage caused by the attack is likely to have significant economic and strategic implications."
+      ],
+      "why": "The drone attack on the Moscow refinery has significant implications for the global energy market and the ongoing conflict between Ukraine and Russia. The use of drones in the conflict marks a new era in modern warfare, and the economic and strategic implications of the attack will be closely watched by governments and analysts around the world.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1947 Partition of India: A Lasting Impact on Global Politics and Human Migration",
+      "body": [
+        "The 1947 Partition of India was a pivotal event in modern world history, resulting in the division of British India into two separate nations: India and Pakistan. This partition was the result of decades of nationalist movements and negotiations between Indian leaders and the British government. The Indian National Congress, led by Jawaharlal Nehru and Mahatma Gandhi, had been pushing for independence from British rule, while the Muslim League, led by Muhammad Ali Jinnah, advocated for a separate homeland for Muslims.",
+        "The partition led to one of the largest mass migrations in history, with millions of people crossing the newly drawn borders in search of safety and a new home. This migration was marked by widespread violence, with estimates suggesting that up to 2 million people lost their lives in the ensuing chaos. The partition also had a profound impact on the global politics of the time, as it marked the beginning of the Cold War and the emergence of India and Pakistan as key players in regional and international affairs.",
+        "The legacy of the 1947 Partition of India can still be seen today, with ongoing tensions between India and Pakistan, particularly over the disputed region of Kashmir. The partition also had a lasting impact on the global debate over nationalism, self-determination, and human rights, with many arguing that the event marked a failure of the international community to protect vulnerable populations.",
+        "The partition of India also led to significant economic and social changes in the region, with the creation of new industries and infrastructure in both India and Pakistan. However, the event also led to significant economic disparities between the two nations, with India emerging as a major economic power and Pakistan struggling to develop its economy."
+      ],
+      "why": "The 1947 Partition of India is significant because it highlights the complexities and challenges of nation-building and the importance of addressing the needs and concerns of all communities. The event serves as a reminder of the devastating consequences of unchecked nationalism and the importance of promoting tolerance, understanding, and cooperation between different groups. As the world continues to grapple with issues of migration, nationalism, and global politics, the lessons of the 1947 Partition of India remain highly relevant today.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-37084711"
+        },
+        {
+          "name": "The Partition of India",
+          "url": "https://www.britannica.com/event/partition-of-India"
+        },
+        {
+          "name": "Stanford University Library",
+          "url": "https://library.stanford.edu/collections/south-asia-partition-archive"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Efficient Deployment of Large Language Models using Model Pruning and Quantization",
+      "body": [
+        "Model pruning and quantization are two techniques used to reduce the computational requirements and memory footprint of large language models, making them more suitable for deployment on edge devices or in resource-constrained environments. Model pruning involves removing redundant or unnecessary weights and connections in the neural network, resulting in a smaller and more efficient model. Quantization, on the other hand, involves reducing the precision of the model's weights and activations from 32-bit floating-point numbers to lower precision formats such as 16-bit or 8-bit integers.",
+        "The combination of model pruning and quantization can result in significant reductions in model size and computational requirements, making it possible to deploy large language models on devices with limited resources. For example, a recent study demonstrated that a pruned and quantized version of the BERT language model achieved a 90% reduction in model size and a 70% reduction in computational requirements, while maintaining 95% of the original model's accuracy.",
+        "To implement model pruning and quantization, developers can use libraries such as TensorFlow Model Optimization Toolkit or PyTorch Quantization. These libraries provide tools and APIs for pruning and quantizing models, as well as for evaluating the impact of these techniques on model performance. Additionally, developers can use techniques such as knowledge distillation to train smaller models that mimic the behavior of larger models, further reducing the computational requirements of the deployed model."
+      ],
+      "why": "The ability to efficiently deploy large language models is crucial for a wide range of applications, from virtual assistants and chatbots to language translation and text summarization. By reducing the computational requirements and memory footprint of these models, developers can deploy them on a wider range of devices, from smartphones and smart home devices to edge servers and data centers, making them more accessible and useful to a broader audience. This can have a significant impact on the way we interact with technology and access information, and can enable new use cases and applications that were previously not possible.",
+      "sources": [
+        {
+          "name": "TensorFlow Model Optimization Toolkit",
+          "url": "https://www.tensorflow.org/model_optimization"
+        },
+        {
+          "name": "PyTorch Quantization",
+          "url": "https://pytorch.org/docs/stable/quantization.html"
+        },
+        {
+          "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "url": "https://arxiv.org/abs/1810.04805"
+        }
+      ]
+    }
+  ]
+}
