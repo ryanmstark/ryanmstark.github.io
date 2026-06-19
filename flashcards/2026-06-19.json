@@ -1,0 +1,131 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "June 19, 2026 at 15:22 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Mitigating the MEO Durability Crisis: Design Considerations for LEO Hardware in Medium Earth Orbit",
+      "body": [
+        "The recent shift towards Medium Earth Orbit (MEO) has raised concerns about the durability of hardware designed for Low Earth Orbit (LEO). MEO presents a unique set of challenges, including increased radiation exposure and higher operating temperatures, which can significantly impact the lifespan of spacecraft and their components. As the space industry continues to expand, it is essential to address the MEO durability crisis and develop strategies for mitigating its effects.",
+        "LEO hardware is typically designed to withstand the harsh conditions of low Earth orbit, including radiation, extreme temperatures, and atomic oxygen. However, MEO poses additional challenges, such as increased radiation exposure due to the Van Allen belts and higher operating temperatures due to the reduced Earth shadow. To mitigate these effects, spacecraft designers must consider using radiation-hardened components, advanced thermal management systems, and robust materials that can withstand the extreme conditions of MEO.",
+        "One approach to addressing the MEO durability crisis is to develop new materials and technologies that can withstand the harsh conditions of MEO. For example, researchers are exploring the use of advanced composites, such as carbon fiber reinforced polymers, which offer improved strength-to-weight ratios and resistance to radiation damage. Additionally, the development of new radiation-hardened electronics and advanced thermal management systems can help to reduce the risk of component failure and extend the lifespan of spacecraft in MEO.",
+        "The MEO durability crisis has significant implications for the space industry, as it can impact the reliability and performance of spacecraft and their components. As the industry continues to shift towards MEO, it is essential to develop strategies for mitigating the effects of radiation and extreme temperatures on spacecraft hardware. By investing in research and development, spacecraft designers and manufacturers can develop new technologies and materials that can withstand the harsh conditions of MEO and ensure the long-term sustainability of space missions."
+      ],
+      "why": "The MEO durability crisis has significant implications for the space industry, as it can impact the reliability and performance of spacecraft and their components. As the industry continues to shift towards MEO, it is essential to develop strategies for mitigating the effects of radiation and extreme temperatures on spacecraft hardware, ensuring the long-term sustainability of space missions and the advancement of space exploration and development.",
+      "sources": [
+        {
+          "name": "SpaceNews",
+          "url": "https://spacenews.com/"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Mode Locking and Pulse Compression in High-Power Fiber Amplifiers",
+      "body": [
+        "Mode locking is a technique used in high-power fiber amplifiers to generate ultrashort pulses with high peak powers. This is achieved by locking the phases of multiple longitudinal modes in the laser cavity, resulting in a single pulse with a duration of tens to hundreds of femtoseconds. The mode-locked pulse train can be further compressed using techniques such as soliton compression or dispersion compensation, allowing for the generation of pulses with peak powers exceeding several megawatts.",
+        "Mode locking can be achieved through various methods, including active mode locking, where an external modulator is used to modulate the gain or loss of the laser, and passive mode locking, where a saturable absorber is used to selectively absorb light and initiate mode locking. The choice of method depends on the specific application and the desired pulse characteristics. For example, active mode locking can provide more precise control over the pulse repetition rate, while passive mode locking can be more compact and reliable.",
+        "The pulse compression process can be described using the nonlinear Schr\u00f6dinger equation (NLSE), which models the propagation of ultrashort pulses in nonlinear media. The NLSE takes into account the effects of self-phase modulation, dispersion, and nonlinear absorption, allowing for the simulation of pulse compression and the optimization of the compression process. The equation is given by: \u2202u/\u2202z = -i\u03b2\u2082\u2202\u00b2u/\u2202t\u00b2 + i\u03b3|u|\u00b2u, where u is the pulse envelope, z is the propagation distance, \u03b2\u2082 is the group velocity dispersion, and \u03b3 is the nonlinear coefficient.",
+        "The mode-locked pulse train can be characterized using various metrics, including the pulse duration, peak power, and spectral width. The pulse duration can be measured using techniques such as autocorrelation or frequency-resolved optical gating (FROG), while the peak power can be measured using a photodetector or a power meter. The spectral width can be measured using a spectrometer or an optical spectrum analyzer."
+      ],
+      "why": "High-power fiber amplifiers with mode locking and pulse compression have numerous applications in fields such as materials processing, medical imaging, and spectroscopy. These amplifiers can generate ultrashort pulses with high peak powers, allowing for the precise manipulation of materials and the detection of subtle changes in molecular structures. The development of mode-locked fiber amplifiers has also enabled the creation of compact and reliable sources of ultrashort pulses, which can be used in a variety of applications, from industrial manufacturing to scientific research.",
+      "sources": [
+        {
+          "name": "Optics Express",
+          "url": "https://www.osapublishing.org/oe/"
+        },
+        {
+          "name": "IEEE Journal of Quantum Electronics",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3"
+        },
+        {
+          "name": "Nature Photonics",
+          "url": "https://www.nature.com/nphoton/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "U.S.-Canada-Mexico Trade Talks Intensify Amid Congressional Anxiety",
+      "body": [
+        "The U.S., Canada, and Mexico are currently engaged in intense trade talks, with Congress expressing anxiety over the potential outcomes.",
+        "These talks are a follow-up to the United States-Mexico-Canada Agreement (USMCA) and aim to address various trade issues, including tariffs, agricultural products, and labor standards.",
+        "The negotiations are being closely watched by lawmakers, businesses, and industries that rely on cross-border trade, as the outcome could have significant implications for the economies of all three countries."
+      ],
+      "why": [
+        "The U.S.-Canada-Mexico trade talks are significant because they could impact the flow of goods, services, and investments between the three countries, affecting jobs, economic growth, and consumer prices, making it a critical issue for businesses, policymakers, and individuals alike."
+      ],
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1955 Bandung Conference: A Pivotal Moment in the Non-Aligned Movement",
+      "body": [
+        "The 1955 Bandung Conference was a landmark event that took place in Bandung, Indonesia, from April 18 to 24, 1955. The conference was attended by 29 countries from Asia and Africa, with the aim of promoting economic and cultural cooperation, as well as opposing colonialism and imperialism. The conference was a significant moment in the development of the Non-Aligned Movement, which sought to establish a third way between the Western and Eastern blocs during the Cold War.",
+        "The conference was the brainchild of Indonesian President Sukarno, who played a key role in organizing the event. Other notable attendees included Indian Prime Minister Jawaharlal Nehru, Chinese Premier Zhou Enlai, and Egyptian President Gamal Abdel Nasser. The conference resulted in the adoption of a 10-point declaration, which emphasized the importance of sovereignty, non-interference, and cooperation among nations.",
+        "The Bandung Conference had far-reaching consequences, as it helped to establish the Non-Aligned Movement as a major force in international politics. The movement's principles of neutrality and non-alignment resonated with many countries in the Global South, and it played a significant role in shaping the course of the Cold War. The conference also marked a significant shift in the global balance of power, as it demonstrated the growing influence of Asian and African countries in international affairs."
+      ],
+      "why": "The 1955 Bandung Conference is significant because it marked a turning point in the history of the Global South, as countries from Asia and Africa began to assert their independence and challenge the dominant Western powers. The conference's emphasis on non-alignment and cooperation among nations also had a lasting impact on international relations, as it helped to establish a more multipolar world order. Today, the principles of the Non-Aligned Movement continue to shape the foreign policies of many countries, and its legacy can be seen in the growing influence of emerging powers such as China, India, and Indonesia.",
+      "sources": [
+        {
+          "name": "United Nations",
+          "url": "https://www.un.org/en/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        },
+        {
+          "name": "Journal of Asian Studies",
+          "url": "https://www.jstor.org/journal/jasianstudies"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Neural Architecture Search for Time Series Forecasting with Bayesian Optimization",
+      "body": [
+        "Neural architecture search (NAS) has gained significant attention in recent years as a method to automate the design of neural networks. In the context of time series forecasting, NAS can be used to find the optimal neural network architecture for a given dataset. One approach to NAS is to use Bayesian optimization, which involves defining a search space of possible architectures and using a probabilistic approach to search for the best architecture. This can be done using libraries such as Optuna or Hyperopt.",
+        "Bayesian optimization works by defining a prior distribution over the search space and then iteratively updating this distribution based on the performance of the architectures that have been tried so far. This process can be computationally expensive, but it can lead to significant improvements in performance compared to manually designed architectures. For example, a study by [1] used Bayesian optimization to search for the best architecture for forecasting a dataset of electricity demand, and found that the resulting architecture outperformed a range of manually designed architectures.",
+        "The key components of a Bayesian optimization approach to NAS for time series forecasting include the definition of the search space, the choice of the prior distribution, and the selection of the acquisition function. The search space defines the set of possible architectures that can be considered, and can include factors such as the number of layers, the type of layers, and the number of units in each layer. The prior distribution defines the probability of each architecture in the search space, and is typically chosen to be a uniform distribution or a Gaussian distribution. The acquisition function defines the criteria used to select the next architecture to try, and can include factors such as the expected improvement in performance or the uncertainty of the performance.",
+        "Real-world applications of NAS for time series forecasting include forecasting stock prices, weather forecasting, and demand forecasting for retail or manufacturing. In these applications, the goal is to use historical data to make accurate predictions about future values, and NAS can be used to automate the design of the neural network architecture. For example, a company might use NAS to design a neural network to forecast sales of a product, and then use the resulting architecture to make predictions about future sales."
+      ],
+      "why": "Neural architecture search has the potential to revolutionize the field of time series forecasting by automating the design of neural networks, which can lead to significant improvements in performance and reduce the need for manual tuning. This can have a major impact on a wide range of industries, from finance to retail to manufacturing, where accurate forecasting is critical to making informed decisions. By using Bayesian optimization to search for the best architecture, engineers can unlock the full potential of neural networks for time series forecasting and make more accurate predictions about future values.",
+      "sources": [
+        {
+          "name": "Optuna",
+          "url": "https://optuna.org/"
+        },
+        {
+          "name": "Hyperopt",
+          "url": "https://github.com/hyperopt/hyperopt"
+        },
+        {
+          "name": "IEEE Transactions on Neural Networks and Learning Systems",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=72"
+        }
+      ]
+    }
+  ]
+}
