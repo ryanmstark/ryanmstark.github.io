@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "June 22, 2026 at 17:00 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "In-Orbit Servicing and Debris Removal: Emerging Trends and Technologies",
+      "body": [
+        "In-orbit servicing and debris removal have become crucial aspects of maintaining a sustainable and reliable space environment. With the increasing number of satellites in Earth's orbit, the risk of collisions and debris generation has risen significantly. To address this issue, companies like Astroscale and Astrobotic are developing technologies to remove debris and service satellites in orbit.",
+        "One of the key challenges in in-orbit servicing is the development of reliable and efficient propulsion systems. Traditional propulsion systems are often bulky and heavy, making them impractical for small satellites. However, advances in electric propulsion and Hall effect thrusters have enabled the development of more compact and efficient systems.",
+        "In addition to propulsion systems, in-orbit servicing also requires advanced robotics and manipulation technologies. These technologies enable satellites to perform complex tasks such as refueling, component replacement, and debris removal. Companies like MDA Space and Blue Canyon Technologies are at the forefront of developing these technologies.",
+        "The emergence of in-orbit servicing and debris removal technologies has significant implications for the space industry. It enables satellite operators to extend the lifespan of their satellites, reducing the need for frequent replacements and minimizing the risk of debris generation. Furthermore, it also enables the development of new business models, such as satellite servicing and debris removal as a service."
+      ],
+      "why": "In-orbit servicing and debris removal are critical for maintaining a sustainable space environment and ensuring the long-term viability of space-based communications and other applications. As the number of satellites in orbit continues to grow, the risk of collisions and debris generation will increase, making it essential to develop and deploy effective in-orbit servicing and debris removal technologies. By doing so, we can reduce the risk of accidents, minimize the environmental impact of space activities, and create new business opportunities in the space industry.",
+      "sources": [
+        {
+          "name": "Astroscale",
+          "url": "https://astroscale.com/"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "SpaceNews",
+          "url": "https://spacenews.com/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Terahertz Time-Domain Spectroscopy for Non-Destructive Inspection of Multilayered Structures",
+      "body": [
+        "Terahertz time-domain spectroscopy (THz-TDS) is a non-destructive inspection technique that utilizes terahertz radiation to analyze the properties of materials. It is particularly useful for inspecting multilayered structures, such as coatings, laminates, and composites. The technique involves transmitting a terahertz pulse through the material and measuring the reflected or transmitted signal as a function of time. The time-domain signal can then be transformed into the frequency domain using a Fourier transform, allowing for the extraction of material properties such as refractive index, absorption coefficient, and thickness.",
+        "THz-TDS has several advantages over other non-destructive inspection techniques, including high spatial resolution, high sensitivity, and the ability to inspect materials in real-time. It is also non-ionizing and non-invasive, making it safe for use on a wide range of materials. The technique has been used to inspect a variety of materials, including paints, coatings, and composites, as well as biological tissues and pharmaceuticals. One of the key challenges in THz-TDS is the analysis of the time-domain signal, which can be complex and require sophisticated algorithms to extract the desired information.",
+        "The analysis of the time-domain signal in THz-TDS typically involves the use of numerical methods, such as finite-difference time-domain (FDTD) simulations or inverse algorithms. These methods can be used to extract material properties, such as refractive index and absorption coefficient, from the time-domain signal. The extracted properties can then be used to identify defects or anomalies in the material, such as delaminations or voids. THz-TDS has also been used to inspect the properties of materials at the nanoscale, such as the dielectric properties of nanomaterials.",
+        "Recent advances in THz-TDS have focused on improving the spatial resolution and sensitivity of the technique. This has been achieved through the development of new terahertz sources, such as quantum cascade lasers and photoconductive antennas, as well as the use of advanced numerical methods, such as machine learning algorithms. These advances have enabled the inspection of materials with higher resolution and sensitivity, and have opened up new applications for THz-TDS, such as the inspection of nanomaterials and biological tissues."
+      ],
+      "why": "Terahertz time-domain spectroscopy is an important technique for non-destructive inspection of materials, with applications in a wide range of fields, including aerospace, automotive, and biomedical engineering. The ability to inspect materials without damaging them is crucial in many industries, where the cost of replacing faulty or defective materials can be high. THz-TDS offers a non-invasive and non-destructive method for inspecting materials, allowing for the detection of defects and anomalies without compromising the material's integrity. This can help to improve the safety and reliability of materials, and can also help to reduce waste and improve manufacturing efficiency.",
+      "sources": [
+        {
+          "name": "Nature Photonics",
+          "url": "https://www.nature.com/nphoton/"
+        },
+        {
+          "name": "IEEE Transactions on Terahertz Science and Technology",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6449024"
+        },
+        {
+          "name": "Optics Express",
+          "url": "https://www.osapublishing.org/oe"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "U.S.-Iran Talks Conclude First Round with Optimism and Challenges",
+      "body": [
+        "The first round of U.S.-Iran talks has concluded, with both parties expressing optimism about the potential for a deal, but also acknowledging significant challenges that lie ahead. The talks, which were held in a neutral location, aimed to address a range of issues, including Iran's nuclear program and regional security concerns.",
+        "According to reports, the talks were constructive and both sides were able to engage in meaningful discussions. However, it is clear that there are still significant differences between the two parties, and it will likely take several more rounds of negotiations to reach a comprehensive agreement.",
+        "The U.S. and Iran have had a complicated relationship in recent years, with tensions escalating over issues such as Iran's nuclear program and its support for militant groups in the region. However, with the new round of talks, there is hope that the two countries can find common ground and work towards a more peaceful and stable relationship."
+      ],
+      "why": "The U.S.-Iran talks are significant because they have the potential to reshape the Middle East and impact global security. A successful agreement could lead to a reduction in tensions and an increase in economic cooperation, which would have far-reaching consequences for the region and the world. It is important for engineers and non-specialists alike to understand the implications of these talks, as they could have a significant impact on global stability and economic development.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1989 Fall of the Berlin Wall: A Symbolic End to the Cold War",
+      "body": [
+        "The Berlin Wall, erected in 1961, was a physical barrier that divided East and West Berlin during the Cold War. It was a potent symbol of the division between Eastern and Western Europe, and its fall marked a significant turning point in modern history. On November 9, 1989, the East German government announced that it would allow East Germans to travel to the West, effective immediately. Thousands of people gathered at the wall, and border guards began to open the gates. As the crowds surged through the gates, the Berlin Wall was effectively breached, and its fall marked the beginning of a new era of German reunification and European integration.",
+        "The fall of the Berlin Wall was the result of a combination of factors, including mass protests in Eastern Europe, economic stagnation in the Soviet Union, and a shift in Soviet policy under Mikhail Gorbachev. The wall's fall also marked the beginning of a period of rapid change in Eastern Europe, as communist governments in Poland, Hungary, and Czechoslovakia began to collapse. The fall of the Berlin Wall was a powerful symbol of the end of the Cold War and the beginning of a new era of international relations.",
+        "In the years that followed, Germany was reunified, and the country began to rebuild and reintegrate into the European community. The fall of the Berlin Wall also marked a significant shift in the global balance of power, as the Soviet Union's influence began to wane and the United States emerged as the world's sole superpower. The event has had a lasting impact on international relations, European integration, and global politics."
+      ],
+      "why": "The fall of the Berlin Wall is significant because it marked the end of the Cold War and the beginning of a new era of international relations. It symbolized the triumph of democracy and freedom over communism and oppression, and it paved the way for a more integrated and cooperative Europe. The event has had a lasting impact on global politics, and it continues to shape international relations and European integration to this day. Understanding the significance of the fall of the Berlin Wall can help us better understand the complexities of modern history and the ongoing challenges of building a more peaceful and cooperative world.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-europe-50357305"
+        },
+        {
+          "name": "The History Channel",
+          "url": "https://www.history.com/topics/cold-war/berlin-wall"
+        },
+        {
+          "name": "German History Museum",
+          "url": "https://www.dhm.de/en/"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Differential Privacy in Deep Learning for Secure Data Release",
+      "body": [
+        "Differential privacy is a framework for measuring the privacy of statistical computations, which is essential in deep learning for secure data release. It ensures that the output of a model does not reveal individual data points. Recently, researchers have been exploring the application of differential privacy in deep learning models to protect sensitive information. ",
+        "One approach to achieve differential privacy in deep learning is to add noise to the model's gradients during training. This noise calibrates the model's sensitivity to individual data points, preventing it from memorizing specific examples. The amount of noise added is controlled by a hyperparameter called epsilon, which determines the trade-off between model accuracy and privacy.",
+        "The differential privacy framework provides a rigorous mathematical guarantee about the worst-case privacy loss. This guarantee allows data curators to confidently release models trained on sensitive data, knowing that the models will not compromise individual privacy. The framework is particularly relevant in applications such as healthcare and finance, where data is highly sensitive and regulated by laws like HIPAA and GDPR.",
+        "To implement differential privacy in deep learning, researchers and practitioners can utilize libraries such as TensorFlow Privacy and PyTorch-DP. These libraries provide pre-built modules and tools for adding noise to gradients and tracking epsilon values, making it easier to integrate differential privacy into existing deep learning workflows."
+      ],
+      "why": "Differential privacy in deep learning is crucial for ensuring the secure release of sensitive data, which has significant real-world implications. By protecting individual data points, differential privacy helps prevent data breaches, identity theft, and other malicious activities. As a result, engineers should care about differential privacy because it enables the development of trustworthy and compliant AI systems that can handle sensitive data, ultimately leading to more reliable and secure AI applications.",
+      "sources": [
+        {
+          "name": "TensorFlow Privacy",
+          "url": "https://github.com/tensorflow/privacy"
+        },
+        {
+          "name": "PyTorch-DP",
+          "url": "https://github.com/pytorch/pytorch-dp"
+        },
+        {
+          "name": "Differential Privacy in Deep Learning",
+          "url": "https://dl.acm.org/doi/abs/10.1145/3379489"
+        }
+      ]
+    }
+  ]
+}
