@@ -1,0 +1,123 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "July 04, 2026 at 13:36 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Resilient Satellite Communications through Adaptive Modulation and Coding",
+      "body": [
+        "Satellite communications are prone to disruptions due to atmospheric interference, solar flare activity, and equipment failures. To mitigate these issues, adaptive modulation and coding techniques have been developed to ensure reliable data transmission. Adaptive modulation involves adjusting the modulation scheme in real-time to optimize the signal-to-noise ratio (SNR) and bit error rate (BER) based on the current channel conditions. This can be achieved through techniques such as quadrature amplitude modulation (QAM) or phase-shift keying (PSK).",
+        "In addition to adaptive modulation, forward error correction (FEC) coding is used to detect and correct errors that occur during transmission. FEC codes such as Reed-Solomon, convolutional, or low-density parity-check (LDPC) codes can be employed to achieve a desired level of error correction. The combination of adaptive modulation and FEC coding enables satellite communication systems to maintain a high level of reliability and performance even in the presence of interference or equipment failures.",
+        "The implementation of adaptive modulation and coding techniques requires sophisticated signal processing algorithms and hardware. Modern satellite communication systems often employ software-defined radios (SDRs) and field-programmable gate arrays (FPGAs) to enable real-time processing and adaptation to changing channel conditions. The use of SDRs and FPGAs also allows for increased flexibility and reconfigurability, enabling satellite communication systems to support a wide range of applications and services.",
+        "Recent advances in machine learning and artificial intelligence (AI) are also being applied to improve the resilience of satellite communications. For example, AI-powered algorithms can be used to predict channel conditions and optimize modulation and coding schemes accordingly. This can lead to further improvements in system performance and reliability."
+      ],
+      "why": "The development of resilient satellite communication systems is crucial for maintaining global connectivity and enabling critical applications such as navigation, weather forecasting, and emergency response. By employing adaptive modulation and coding techniques, satellite communication systems can ensure reliable data transmission even in the presence of interference or equipment failures, ultimately supporting a wide range of economic, social, and environmental activities.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/"
+        },
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Stability Analysis of Grid-Tied Inverters using the Lyapunov Method and Droop Control",
+      "body": [
+        "The stability of grid-tied inverters is crucial for ensuring reliable operation of distributed power generation systems. One approach to analyze stability is by using the Lyapunov method, which involves defining a Lyapunov function that represents the energy stored in the system. By examining the derivative of this function, the stability of the system can be determined. For grid-tied inverters, the Lyapunov function can be defined as a combination of the energy stored in the inverter's output filter and the energy associated with the grid voltage.",
+        "Droop control is a widely used control strategy for grid-tied inverters, where the inverter's output power is regulated based on the grid frequency and voltage magnitude. The droop control strategy can be modeled using a set of nonlinear differential equations, which can be linearized around an operating point to analyze stability. The Lyapunov method can be applied to the linearized model to determine the stability of the system.",
+        "The Lyapunov method provides a powerful tool for analyzing the stability of grid-tied inverters, allowing designers to optimize the control parameters and ensure reliable operation. By selecting an appropriate Lyapunov function and analyzing the derivative, designers can determine the stability of the system and identify potential instability issues. This approach can be applied to a wide range of grid-tied inverter applications, including solar, wind, and energy storage systems.",
+        "Recent research has focused on extending the Lyapunov method to more complex grid-tied inverter systems, including multi-inverter configurations and systems with non-linear loads. These advances have improved the accuracy and applicability of the Lyapunov method, enabling designers to optimize the performance and stability of grid-tied inverters in a wide range of applications."
+      ],
+      "why": "The stability of grid-tied inverters is critical for ensuring the reliable operation of distributed power generation systems, which are becoming increasingly important for renewable energy integration and grid resilience. By using the Lyapunov method and droop control, engineers can design and optimize grid-tied inverters that operate stably and efficiently, reducing the risk of power outages and equipment damage, and enabling the widespread adoption of renewable energy sources.",
+      "sources": [
+        {
+          "name": "IEEE Transactions on Power Electronics",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63"
+        },
+        {
+          "name": "Renewable Energy",
+          "url": "https://www.journals.elsevier.com/renewable-energy"
+        },
+        {
+          "name": "National Renewable Energy Laboratory",
+          "url": "https://www.nrel.gov/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Iran's Leadership Faces Deepening Divisions After Funeral",
+      "body": [
+        "A recent funeral in Iran brought about a brief moment of unity among the country's leaders, but this unity was short-lived as deep divisions resurfaced soon after.",
+        "The funeral, which was attended by various high-ranking officials, highlighted the complex and often contentious relationships within Iran's leadership.",
+        "Despite the temporary display of unity, the underlying tensions and power struggles within the Iranian government remain a significant concern.",
+        "These divisions have the potential to impact Iran's domestic and foreign policies, as well as its relationships with other countries."
+      ],
+      "why": "The divisions among Iran's leaders are significant because they can affect the country's stability and its position on the global stage, potentially influencing regional politics, international relations, and global security.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1973 Chilean Coup: A Watershed Moment in Latin American Politics and US Foreign Policy",
+      "body": [
+        "On September 11, 1973, a military coup led by General Augusto Pinochet overthrew the democratically elected government of President Salvador Allende in Chile. The coup was the culmination of a period of social and economic unrest, as well as intense opposition from the Chilean military and the United States, which had been actively working to undermine Allende's socialist government.",
+        "The US involvement in the coup was significant, with the CIA providing financial and military support to the Chilean military. The coup resulted in the deaths of thousands of Chileans, including President Allende, who died in the presidential palace during the coup. The Pinochet regime, which ruled Chile from 1973 to 1990, was marked by widespread human rights abuses, including torture, disappearances, and extrajudicial killings.",
+        "The 1973 Chilean coup had significant regional and global implications. It marked a turning point in the Cold War, as the US sought to prevent the spread of socialism and communism in Latin America. The coup also led to a wave of right-wing military coups in other Latin American countries, including Argentina, Uruguay, and Brazil.",
+        "The legacy of the 1973 Chilean coup continues to be felt today, with ongoing debates about the role of the US in the coup and the human rights abuses committed by the Pinochet regime. In 2013, Chile's Center for Human Rights released a report detailing the regime's human rights abuses, including the killing of over 3,000 people and the disappearance of over 1,000.",
+        "The 1973 Chilean coup serves as a reminder of the complex and often fraught history of US-Latin American relations, and the ongoing struggles for democracy and human rights in the region."
+      ],
+      "why": "The 1973 Chilean coup is significant because it highlights the complex and often troubled history of US foreign policy in Latin America, and the ongoing struggles for democracy and human rights in the region. Understanding this event can provide valuable insights into the ongoing debates about US interventionism, human rights, and the role of the US in global affairs, and can help engineers and policymakers consider the broader social and political implications of their work.",
+      "sources": [
+        {
+          "name": "The CIA and the Cult of Intelligence",
+          "url": "https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/the-cia-and-the-cult-of-intelligence"
+        },
+        {
+          "name": "Chile: The Other 9/11",
+          "url": "https://www.bbc.com/news/world-latin-america-24026531"
+        },
+        {
+          "name": "Report of the Chilean National Commission on Truth and Reconciliation",
+          "url": "https://www.usip.org/publications/1991/report-chilean-national-commission-truth-and-reconciliation"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Graph Neural Networks with Attention Mechanisms for Node Classification",
+      "body": [
+        "Graph Neural Networks (GNNs) have gained popularity in recent years due to their ability to learn effective representations of graph-structured data. One key challenge in GNNs is the ability to focus on the most relevant nodes or neighbors when making predictions. Attention mechanisms have been widely adopted in deep learning to enable models to focus on specific parts of the input data. In the context of GNNs, attention mechanisms can be used to weigh the importance of different nodes or neighbors when aggregating information.",
+        "The Graph Attention Network (GAT) is a type of GNN that uses attention mechanisms to learn node representations. In a GAT, each node computes attention coefficients with its neighbors, which are used to compute a weighted sum of neighbor representations. This weighted sum is then used to update the node's representation. The attention coefficients are learned using a neural network, which allows the model to learn complex patterns in the data.",
+        "GATs have been shown to outperform other GNN models on a variety of node classification tasks, including citation networks and social networks. They are particularly effective in cases where the graph structure is complex or noisy, as the attention mechanism helps to filter out irrelevant information."
+      ],
+      "why": "Graph Neural Networks with attention mechanisms have the potential to revolutionize the way we analyze and understand complex networks, such as social media platforms, traffic patterns, or molecular structures. By enabling models to focus on the most relevant parts of the data, attention mechanisms can help improve the accuracy and efficiency of node classification tasks, which has significant implications for applications such as recommendation systems, fraud detection, and drug discovery.",
+      "sources": [
+        {
+          "name": "Graph Attention Networks",
+          "url": "https://arxiv.org/abs/1710.10903"
+        },
+        {
+          "name": "PyTorch Geometric",
+          "url": "https://pytorch-geometric.readthedocs.io/en/latest/"
+        }
+      ]
+    }
+  ]
+}
