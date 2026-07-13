@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "July 13, 2026 at 14:37 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Development of Hybrid Beamforming for Next-Generation Satellite Constellations",
+      "body": [
+        "Hybrid beamforming has emerged as a promising technology for next-generation satellite constellations, offering a balance between the flexibility of digital beamforming and the efficiency of analog beamforming. By combining the benefits of both approaches, hybrid beamforming enables the creation of complex beam patterns with reduced hardware complexity and power consumption.",
+        "The architecture of hybrid beamforming systems typically involves a combination of analog phase shifters and digital signal processing. This allows for the implementation of advanced beamforming algorithms, such as zero-forcing and minimum mean square error, which can improve the overall performance of the satellite communication system. Recent advances in RFIC design and fabrication have made it possible to integrate hybrid beamforming systems into compact, low-power packages, making them suitable for use in small satellites and other space-constrained applications.",
+        "One of the key challenges in the development of hybrid beamforming systems is the need for accurate calibration and synchronization of the analog and digital components. This requires the use of advanced algorithms and techniques, such as machine learning and data-driven modeling, to optimize the system's performance and minimize errors. Researchers have made significant progress in addressing these challenges, and hybrid beamforming is now being considered for use in a range of satellite communication applications, from broadband internet access to Earth observation and remote sensing."
+      ],
+      "why": "The development of hybrid beamforming technology has significant implications for the future of satellite communications, enabling the creation of more efficient, flexible, and scalable systems. As the demand for satellite-based services continues to grow, hybrid beamforming will play a critical role in supporting the development of next-generation satellite constellations, which will be essential for providing global coverage, high-speed connectivity, and advanced services such as Earth observation and remote sensing. This technology will have a major impact on various industries, including telecommunications, navigation, and environmental monitoring, and will require the expertise of electrical engineers and communication systems specialists to design, develop, and deploy.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "NASA Technical Reports Server",
+          "url": "https://ntrs.nasa.gov/"
+        },
+        {
+          "name": "ResearchGate",
+          "url": "https://www.researchgate.net/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Synchronized Switching in Quasi-Resonant Converters for High-Efficiency Power Supplies",
+      "body": [
+        "Quasi-resonant converters are a type of switching power supply that uses a resonant circuit to achieve high efficiency and reduce switching losses. These converters operate by switching the power electronic devices at or near the resonant frequency of the circuit, allowing for zero-voltage switching (ZVS) or zero-current switching (ZCS).",
+        "Synchronized switching in quasi-resonant converters involves synchronizing the switching frequency of the power electronic devices with the resonant frequency of the circuit. This is typically achieved using a control circuit that monitors the resonant circuit and adjusts the switching frequency to match the resonant frequency. By doing so, the converter can maintain high efficiency even under varying load conditions.",
+        "The benefits of synchronized switching in quasi-resonant converters include reduced switching losses, improved efficiency, and increased reliability. Additionally, synchronized switching can also reduce electromagnetic interference (EMI) and improve the overall performance of the power supply. The design of synchronized switching quasi-resonant converters requires careful consideration of the resonant circuit, control circuit, and power electronic devices to ensure optimal performance.",
+        "The analysis of synchronized switching in quasi-resonant converters can be performed using various methods, including time-domain analysis, frequency-domain analysis, and simulation tools. These methods can help designers to optimize the converter design and predict the performance of the converter under different operating conditions."
+      ],
+      "why": "Synchronized switching in quasi-resonant converters is an important technique for achieving high efficiency and reliability in power supplies. By reducing switching losses and improving efficiency, synchronized switching can help to minimize energy consumption and reduce the environmental impact of electronic devices. As the demand for high-efficiency power supplies continues to grow, synchronized switching in quasi-resonant converters is likely to play an increasingly important role in the development of sustainable and energy-efficient technologies.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "Texas Instruments",
+          "url": "https://www.ti.com/"
+        },
+        {
+          "name": "Power Electronics Magazine",
+          "url": "https://www.powerelectronics.com/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Japan Establishes New Intelligence Agency",
+      "body": [
+        "Japan has recently established a new intelligence agency, its first since World War II. This move is seen as a significant development in the country's national security and foreign policy.",
+        "The new agency is expected to enhance Japan's capabilities in gathering and analyzing intelligence, particularly in the areas of cybersecurity, counter-terrorism, and espionage. This comes at a time when Japan is facing increased security concerns, including the threat of North Korean missiles and Chinese military expansion.",
+        "The creation of the agency is also believed to be a response to Russia's alleged espionage activities in Japan, which have been on the rise in recent years. Japan's government has been under pressure to strengthen its intelligence gathering capabilities to counter these threats.",
+        "The new agency will likely work closely with other countries, including the United States, to share intelligence and coordinate efforts to address common security challenges. This could potentially lead to a more integrated and cooperative approach to regional security in East Asia."
+      ],
+      "why": "The establishment of Japan's new intelligence agency has significant implications for regional and global security. It reflects Japan's growing concerns about its national security and its desire to play a more proactive role in addressing these challenges. This development also highlights the increasing importance of intelligence gathering and cooperation in maintaining regional stability and countering emerging threats.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/japan-sets-up-new-intelligence-agency-first-time-wwii-2023-07-01/"
+        },
+        {
+          "name": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2023/07/02/national/japan-sets-intelligence-agency/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-65135115"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1980 Gdansk Shipyard Strike: A Catalyst for the Fall of Communism in Eastern Europe",
+      "body": [
+        "In August 1980, a wave of strikes swept across Poland, culminating in the Gdansk Shipyard Strike, led by Lech Walesa, an electrician and trade union activist. The strike began as a response to the government's announcement of price increases for food and other essential items, but it quickly evolved into a broader movement for workers' rights and political reform.",
+        "The Gdansk Shipyard Strike was a pivotal moment in modern Polish history, marking the emergence of the Solidarity trade union, which would go on to play a key role in the collapse of communism in Poland. The strike ended with the signing of the Gdansk Agreement, which granted workers the right to form independent trade unions and paved the way for the eventual collapse of the communist regime in Poland.",
+        "The impact of the Gdansk Shipyard Strike was felt beyond Poland's borders, inspiring similar movements for reform and democratization across Eastern Europe. The strike marked a significant shift in the balance of power between the communist authorities and the emerging civil society, and it helped to create a sense of momentum and possibility that would ultimately contribute to the fall of communism in the region."
+      ],
+      "why": "The Gdansk Shipyard Strike is significant because it shows how grassroots movements and worker activism can drive major political change, even in the face of authoritarian regimes. The strike's impact was felt far beyond Poland, inspiring similar movements across Eastern Europe and contributing to the eventual collapse of communism in the region. This event highlights the importance of worker rights, social justice, and democratic participation in shaping the course of history.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-europe-53781336"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2020/aug/31/poland-gdansk-shipyard-strike-40th-anniversary"
+        },
+        {
+          "name": "Stanford University Library",
+          "url": "https://library.stanford.edu/collections/solidarity-and-beyond-polish-social-movement-archives"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Temporal Graph Convolutional Networks for Dynamic Graph Representation Learning",
+      "body": [
+        "Temporal Graph Convolutional Networks (TGCNs) are a type of neural network architecture designed to learn representations from dynamic graphs, where the graph structure and node attributes change over time. TGCNs extend traditional Graph Convolutional Networks (GCNs) by incorporating temporal convolutional layers to capture the temporal dependencies in the graph.",
+        "The architecture of a TGCN typically consists of a graph convolutional layer followed by a temporal convolutional layer. The graph convolutional layer learns to aggregate information from neighboring nodes in the graph, while the temporal convolutional layer learns to capture the temporal patterns in the node attributes. This allows the model to learn a representation that takes into account both the spatial and temporal relationships in the graph.",
+        "TGCNs have been applied to a variety of tasks, including traffic forecasting, disease spread prediction, and social network analysis. They have been shown to outperform traditional GCNs and other baseline models in these tasks, demonstrating their effectiveness in modeling dynamic graphs."
+      ],
+      "why": "Understanding and modeling dynamic graphs is crucial in many real-world applications, such as traffic management, disease control, and social network analysis. TGCNs provide a powerful tool for learning representations from these dynamic graphs, allowing for more accurate predictions and better decision-making. By leveraging the temporal and spatial relationships in the graph, TGCNs can help engineers and researchers to gain insights into complex systems and make more informed decisions.",
+      "sources": [
+        {
+          "name": "Temporal Graph Convolutional Networks",
+          "url": "https://arxiv.org/abs/2002.05217"
+        },
+        {
+          "name": "Graph Convolutional Networks",
+          "url": "https://arxiv.org/abs/1609.02907"
+        }
+      ]
+    }
+  ]
+}
