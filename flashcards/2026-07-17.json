@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "July 17, 2026 at 13:41 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "In-Orbit Power Beaming for Space-Based Solar Power Systems",
+      "body": [
+        "In-orbit power beaming is a crucial aspect of space-based solar power systems, which involve collecting solar energy in orbit and wirelessly transmitting it to Earth or other spacecraft. This technology has the potential to provide a constant and reliable source of energy, mitigating the effects of solar eclipses, atmospheric interference, and other environmental factors that affect terrestrial solar power generation. Recent studies have explored the use of microwave and laser beams for power transmission, with some demonstrations achieving efficiencies of up to 30% over distances of several kilometers.",
+        "Space-based solar power systems can be designed to operate in various orbits, including geosynchronous orbit (GEO), medium Earth orbit (MEO), and low Earth orbit (LEO). Each orbit has its advantages and disadvantages, and the choice of orbit depends on factors such as energy requirements, transmission distance, and system complexity. For example, GEO offers a relatively constant distance from Earth, making it suitable for large-scale power transmission, while LEO provides a shorter transmission distance and lower latency, but requires more complex beam steering and tracking systems.",
+        "The development of in-orbit power beaming technology is driven by advances in materials science, antenna design, and power electronics. High-efficiency solar panels, high-power microwave amplifiers, and advanced beamforming algorithms are some of the key components that enable efficient and reliable power transmission. Additionally, the use of modular and scalable system architectures can facilitate the integration of multiple power transmission units and receivers, allowing for increased power capacity and flexibility.",
+        "Challenges associated with in-orbit power beaming include ensuring safety and regulatory compliance, mitigating interference with other space-based systems, and addressing concerns related to beam stability and pointing accuracy. Researchers and engineers are working to address these challenges through the development of sophisticated beam control systems, advanced materials, and standardized protocols for power transmission and reception."
+      ],
+      "why": "In-orbit power beaming has significant implications for the development of sustainable and reliable energy sources in space, enabling the creation of persistent and autonomous space-based systems that can support a wide range of applications, from satellite communications and navigation to space exploration and scientific research. By providing a constant and efficient source of energy, in-orbit power beaming can help reduce the dependence on traditional fossil fuels, minimize the environmental impact of space missions, and facilitate the growth of a sustainable space economy.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "Space News",
+          "url": "https://spacenews.com/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Design and Optimization of Metamaterial-Based Antennas for Millimeter-Wave Applications",
+      "body": [
+        "Metamaterials are artificial materials engineered to have properties not typically found in naturally occurring materials. They are composed of periodic structures that can be designed to exhibit specific electromagnetic properties, such as negative refractive index, perfect absorption, or perfect lensing. In the context of millimeter-wave antennas, metamaterials can be used to create high-gain, compact, and low-profile antennas. One approach is to use a metamaterial-based substrate, which can be designed to have a high effective permittivity, allowing for a smaller antenna size while maintaining a high gain.",
+        "Another approach is to use metamaterial-based resonators, which can be used to enhance the radiation efficiency of the antenna. For example, a metamaterial-based resonator can be used to create a high-gain antenna with a narrow beamwidth, making it suitable for applications such as wireless communication systems or radar systems. The design and optimization of metamaterial-based antennas require careful consideration of the electromagnetic properties of the metamaterial, as well as the antenna's geometry and configuration.",
+        "The optimization of metamaterial-based antennas can be performed using numerical methods, such as finite-element methods or method of moments. These methods allow for the simulation of the electromagnetic behavior of the antenna and the metamaterial, enabling the designer to optimize the antenna's performance. Additionally, machine learning algorithms can be used to optimize the design of metamaterial-based antennas, allowing for the exploration of a large design space and the identification of optimal solutions.",
+        "Metamaterial-based antennas have been demonstrated in various millimeter-wave applications, including wireless communication systems, radar systems, and imaging systems. For example, a metamaterial-based antenna has been used to demonstrate a high-gain, compact antenna for 5G wireless communication systems. Another example is the use of a metamaterial-based antenna in a radar system for target detection and tracking."
+      ],
+      "why": "The design and optimization of metamaterial-based antennas is significant because it enables the creation of high-performance antennas that can operate at millimeter-wave frequencies, which are increasingly important for applications such as 5G wireless communication systems, radar systems, and imaging systems. The use of metamaterials allows for the creation of compact, low-profile antennas with high gain and radiation efficiency, making them suitable for a wide range of applications. As a result, engineers should care about this topic because it has the potential to enable the development of new and innovative systems that can operate at high frequencies and provide high-performance capabilities.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "Nature Materials",
+          "url": "https://www.nature.com/nmat/"
+        },
+        {
+          "name": "MIT OpenCourseWare",
+          "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-007-electromagnetic-energy-from-motors-to-lasers-spring-2011/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "UK Economic Challenges Amid New Prime Minister's Term",
+      "body": [
+        "The United Kingdom is facing significant economic challenges as a new Prime Minister takes office. The country's economy has been struggling with stagnant growth, high inflation, and a significant trade deficit. The new Prime Minister will need to address these issues in order to restore confidence in the UK economy.",
+        "One of the major challenges facing the UK economy is the impact of Brexit. The country's decision to leave the European Union has led to a decline in investment and a decrease in trade with other European countries. The new Prime Minister will need to negotiate new trade agreements with the EU and other countries in order to mitigate the effects of Brexit.",
+        "Another challenge facing the UK economy is the rising cost of living. Inflation has been increasing in recent months, driven by higher food and energy prices. The new Prime Minister will need to take steps to address the root causes of inflation and ensure that the most vulnerable members of society are protected from its effects."
+      ],
+      "why": "The UK's economic challenges have significant implications for the global economy, as the country is a major player in international trade and finance. The new Prime Minister's ability to address these challenges will have a major impact on the UK's economic growth and stability, and will also have implications for the global economy as a whole.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1960 Sharpeville Massacre: A Pivotal Moment in the Fight Against Apartheid in South Africa",
+      "body": [
+        "The Sharpeville massacre occurred on March 21, 1960, in the township of Sharpeville, South Africa. On this day, a peaceful protest against the country's pass laws turned violent when police opened fire on the crowd, killing 69 people and injuring over 180. The pass laws required black South Africans to carry identification documents at all times, and failure to produce these documents could result in arrest, detention, and even deportation to a 'homeland' or 'Bantustan'.",
+        "The event marked a turning point in the fight against apartheid, as it drew international attention to the injustices faced by black South Africans. The massacre led to widespread outrage and protests across the country, prompting the government to declare a state of emergency and ban the African National Congress (ANC) and the Pan Africanist Congress (PAC). Many anti-apartheid leaders, including Nelson Mandela, were arrested and imprisoned in the aftermath.",
+        "The Sharpeville massacre also had significant international repercussions. The United Nations condemned the massacre, and many countries imposed economic sanctions on South Africa. The event marked a significant shift in the global perception of apartheid, with many countries beginning to view the South African government as a pariah state. The massacre also inspired a new wave of activism and resistance against apartheid, both within South Africa and internationally."
+      ],
+      "why": "The Sharpeville massacre is significant because it marked a pivotal moment in the fight against apartheid, highlighting the brutal nature of the regime and galvanizing international opposition to it. The event's impact can still be felt today, serving as a reminder of the importance of standing against injustice and promoting human rights. As the world continues to grapple with issues of racism and inequality, the legacy of Sharpeville serves as a powerful reminder of the need for collective action and solidarity in the pursuit of justice and equality.",
+      "sources": [
+        {
+          "name": "United Nations",
+          "url": "https://www.un.org/en/"
+        },
+        {
+          "name": "Nelson Mandela Foundation",
+          "url": "https://www.nelsonmandela.org/"
+        },
+        {
+          "name": "South African History Online",
+          "url": "https://www.sahistory.org.za/"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Contrastive Multiview Coding for Self-Supervised Representation Learning",
+      "body": [
+        "Contrastive multiview coding is a self-supervised learning technique that involves training a model to predict whether two views of the same data are similar or not. This approach has gained popularity in recent years due to its ability to learn effective representations of data without requiring labeled examples.",
+        "The key idea behind contrastive multiview coding is to create multiple views of the same data, such as different augmentation strategies for images or different masking strategies for text. The model is then trained to maximize the similarity between the representations of the same view and minimize the similarity between the representations of different views.",
+        "One of the most popular algorithms for contrastive multiview coding is the SimCLR model, which uses a combination of contrastive loss and self-supervised learning to learn effective representations of data. The SimCLR model has been shown to achieve state-of-the-art results on a variety of tasks, including image classification and object detection.",
+        "In addition to its applications in computer vision, contrastive multiview coding has also been used in natural language processing tasks, such as text classification and language modeling. The technique has been shown to be particularly effective in low-resource settings, where labeled data is scarce."
+      ],
+      "why": "Contrastive multiview coding is significant because it allows engineers to train effective models without requiring large amounts of labeled data. This has the potential to revolutionize the field of artificial intelligence, where data labeling is often a time-consuming and expensive process. By using self-supervised learning techniques like contrastive multiview coding, engineers can build models that are more accurate, efficient, and cost-effective, which can have a major impact on a wide range of industries, from healthcare to finance.",
+      "sources": [
+        {
+          "name": "SimCLR: A Simple Framework for Contrastive Learning of Visual Representations",
+          "url": "https://arxiv.org/abs/2002.05709"
+        },
+        {
+          "name": "Contrastive Multiview Coding",
+          "url": "https://arxiv.org/abs/1906.05849"
+        },
+        {
+          "name": "Self-Supervised Learning of Visual Representations",
+          "url": "https://arxiv.org/abs/2006.07733"
+        }
+      ]
+    }
+  ]
+}
