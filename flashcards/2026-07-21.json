@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "July 21, 2026 at 13:53 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Laser Power-Beaming Technology for Space Applications: Recent Advances and Future Prospects",
+      "body": [
+        "Laser power-beaming technology has gained significant attention in recent years due to its potential to enable efficient and reliable power transfer over long distances, particularly in space-based applications. This technology involves the use of lasers to transmit power wirelessly, which can be used to charge satellites, power spacecraft, or even support lunar or planetary bases.",
+        "The Italian startup ORiS has recently raised funding to develop this technology, which is expected to play a crucial role in the future of space exploration. Laser power-beaming can offer several advantages over traditional power transmission methods, including higher efficiency, longer range, and reduced mass.",
+        "One of the key challenges in developing laser power-beaming technology is ensuring safe and efficient power transfer. This requires careful design of the laser system, as well as the development of advanced beam control and tracking algorithms. Additionally, the technology must be able to operate effectively in a variety of environmental conditions, including extreme temperatures and radiation.",
+        "Despite these challenges, the potential benefits of laser power-beaming technology make it an exciting area of research and development. As the space industry continues to evolve, it is likely that this technology will play an increasingly important role in enabling efficient and sustainable space exploration."
+      ],
+      "why": "Laser power-beaming technology has the potential to revolutionize the way we power spacecraft and satellites, enabling longer mission durations and more efficient use of resources. This technology could also have significant implications for a wide range of applications, from lunar bases to planetary exploration, and could help to support the growth of the space economy. As such, it is an area that engineers and researchers should be aware of and engaged with, as it has the potential to shape the future of space exploration and development.",
+      "sources": [
+        {
+          "name": "SpaceNews",
+          "url": "https://spacenews.com/"
+        },
+        {
+          "name": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/"
+        },
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Nonlinear Frequency Domain Analysis of Power Electronic Converters using Harmonic Balance",
+      "body": [
+        "The harmonic balance method is a frequency domain technique used to analyze nonlinear systems, including power electronic converters. This method is based on the idea of representing the system's response as a summation of harmonics, which are integer multiples of the fundamental frequency. By applying this method, engineers can accurately model and predict the behavior of power electronic converters, such as DC-DC converters and inverters, under various operating conditions.",
+        "Harmonic balance is particularly useful for analyzing power electronic converters because it can capture the effects of nonlinearities, such as switching and saturation, on the system's frequency response. The method involves solving a set of nonlinear equations that describe the system's behavior at each harmonic frequency. The resulting solution provides a comprehensive picture of the system's frequency response, including the magnitude and phase of each harmonic component.",
+        "The harmonic balance method has several advantages over traditional time-domain analysis techniques, including improved accuracy and reduced computational complexity. Additionally, harmonic balance can be used to analyze systems with multiple inputs and outputs, making it a powerful tool for designing and optimizing complex power electronic systems. For example, engineers can use harmonic balance to optimize the design of a DC-DC converter to minimize electromagnetic interference (EMI) or to maximize efficiency.",
+        "One of the key challenges in applying harmonic balance to power electronic converters is the need to accurately model the system's nonlinearities. This can be achieved using various techniques, such as the use of nonlinear circuit models or the implementation of advanced numerical methods. Furthermore, the harmonic balance method can be combined with other analysis techniques, such as small-signal analysis, to provide a more comprehensive understanding of the system's behavior."
+      ],
+      "why": "The harmonic balance method is a crucial tool for engineers designing power electronic systems, as it allows them to accurately predict and optimize the behavior of these systems under various operating conditions. This is particularly important in applications where efficiency, reliability, and electromagnetic compatibility are critical, such as in renewable energy systems, electric vehicles, and aerospace systems. By using harmonic balance, engineers can create more efficient, reliable, and compact power electronic systems, which can have a significant impact on the overall performance and cost-effectiveness of these applications.",
+      "sources": [
+        {
+          "name": "IEEE Transactions on Power Electronics",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63"
+        },
+        {
+          "name": "Harmonic Balance Analysis of Nonlinear Systems",
+          "url": "https://www.researchgate.net/publication/224145531_Harmonic_Balance_Analysis_of_Nonlinear_Systems"
+        },
+        {
+          "name": "Power Electronics Handbook",
+          "url": "https://www.elsevier.com/books/power-electronics-handbook/krishnan/978-0-12-811407-5"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "US-Canada Trade Relations Strained by Proposed 50% Tariff on Canadian Goods",
+      "body": [
+        "The United States has announced plans to impose a 50% tariff on many Canadian goods, a move that could significantly strain trade relations between the two countries. This decision has been met with concern from Canadian officials and businesses, who warn that it could lead to retaliatory measures and harm both economies.",
+        "The tariff is expected to affect a wide range of Canadian products, including lumber, steel, and agricultural goods. The move is seen as a response to long-standing trade disputes between the two countries, particularly with regards to dairy and softwood lumber.",
+        "Canada has already begun to explore options for retaliation, including imposing its own tariffs on US goods. The situation has the potential to escalate into a full-blown trade war, which could have far-reaching consequences for both countries and the global economy."
+      ],
+      "why": "The proposed tariff on Canadian goods is significant because it could lead to a trade war between two of the world's largest economies, disrupting global supply chains and affecting businesses and consumers on both sides of the border. This development has broader implications for international trade and could set a precedent for future trade disputes, making it a critical issue for policymakers, businesses, and individuals to follow.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1955 Bandung Conference: A Pivotal Moment in the Non-Aligned Movement",
+      "body": [
+        "The 1955 Bandung Conference was a seminal event in modern history, marking a significant shift in the global balance of power. Held in Bandung, Indonesia, from April 18 to 24, 1955, the conference brought together 29 countries from Asia and Africa to discuss issues of common concern, including colonialism, imperialism, and economic development. The conference was the brainchild of Indonesian President Sukarno, who sought to create a platform for newly independent nations to assert their sovereignty and promote cooperation among non-aligned countries.",
+        "The conference was attended by prominent leaders, including Jawaharlal Nehru of India, Gamal Abdel Nasser of Egypt, and Zhou Enlai of China. The delegates issued a joint statement, known as the Bandung Declaration, which called for an end to colonialism, racial discrimination, and nuclear proliferation. The declaration also emphasized the importance of economic cooperation, cultural exchange, and mutual respect among nations.",
+        "The Bandung Conference had far-reaching consequences, as it marked the emergence of the Non-Aligned Movement, a loose coalition of countries that sought to maintain their independence from the dominant Cold War blocs. The movement gained momentum in the following years, with the establishment of the Non-Aligned Movement summit in 1961. The conference also paved the way for the formation of the Organization of African Unity (OAU) in 1963 and the Association of Southeast Asian Nations (ASEAN) in 1967.",
+        "The Bandung Conference also had significant implications for the global economy, as it led to increased cooperation among developing countries and the establishment of the Group of 77, a coalition of developing countries that sought to promote their economic interests. The conference also marked a shift in the global balance of power, as newly independent nations began to assert their sovereignty and challenge the dominance of Western powers."
+      ],
+      "why": "The 1955 Bandung Conference is significant because it marked a pivotal moment in the emergence of the Global South as a major force in international relations. The conference showed that newly independent nations could come together to promote their common interests and challenge the dominant powers of the time. Today, the legacy of the Bandung Conference can be seen in the growing economic and political influence of countries such as China, India, and Indonesia, which are increasingly shaping the global agenda and promoting a more multipolar world order.",
+      "sources": [
+        {
+          "name": "United Nations",
+          "url": "https://www.un.org/en/"
+        },
+        {
+          "name": "Britannica",
+          "url": "https://www.britannica.com/event/Bandung-Conference"
+        },
+        {
+          "name": "History.com",
+          "url": "https://www.history.com/topics/cold-war/bandung-conference"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Adversarial Training for Robustness in Deep Learning with FGSM and PGD Attacks",
+      "body": [
+        "Adversarial training is a technique used to improve the robustness of deep learning models by training them on adversarial examples. These examples are specifically designed to mislead the model, often by adding small amounts of noise to the input data. One of the most popular methods for generating adversarial examples is the Fast Gradient Sign Method (FGSM), which uses the gradient of the loss function to determine the direction of the perturbation.",
+        "Another popular method is the Projected Gradient Descent (PGD) attack, which is an iterative method that uses multiple steps to find the optimal perturbation. Both FGSM and PGD attacks have been shown to be effective in generating adversarial examples that can fool state-of-the-art models. By training models on these examples, we can improve their robustness to adversarial attacks and reduce the risk of them being compromised in real-world applications.",
+        "Adversarial training can be implemented using various techniques, including the use of adversarial loss functions, defensive distillation, and input preprocessing. The choice of technique depends on the specific application and the type of attack being defended against. For example, in image classification tasks, adversarial training can be used to defend against attacks that add noise to the input images, while in natural language processing tasks, it can be used to defend against attacks that manipulate the input text.",
+        "The benefits of adversarial training extend beyond just improving robustness to adversarial attacks. It can also help to improve the overall performance of the model by reducing overfitting and promoting more generalizable features. This is because adversarial training encourages the model to learn features that are more robust and less sensitive to small changes in the input data."
+      ],
+      "why": "Adversarial training is important because it helps to ensure that deep learning models are secure and reliable in real-world applications. By training models to be robust to adversarial attacks, we can reduce the risk of them being compromised and used for malicious purposes. This is particularly important in applications such as self-driving cars, medical diagnosis, and financial systems, where the consequences of a model failure can be severe. By using adversarial training, engineers can develop more robust and trustworthy models that can perform well even in the presence of adversarial attacks.",
+      "sources": [
+        {
+          "name": "Towards Robustness of Deep Learning Systems",
+          "url": "https://www.microsoft.com/en-us/research/publication/towards-robustness-of-deep-learning-systems/"
+        },
+        {
+          "name": "Adversarial Training for Robustness",
+          "url": "https://arxiv.org/abs/1906.06763"
+        },
+        {
+          "name": "Explaining and Harnessing Adversarial Examples",
+          "url": "https://arxiv.org/abs/1412.6572"
+        }
+      ]
+    }
+  ]
+}
