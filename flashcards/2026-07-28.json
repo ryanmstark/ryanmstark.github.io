@@ -1,0 +1,127 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "July 28, 2026 at 14:09 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Intel's New Chip for Space Computing: Enhancing On-Board Processing Capabilities",
+      "body": [
+        "Intel has recently debuted a new chip specifically designed for space computing, marking a significant advancement in the field of space technology. This chip is designed to provide high-performance computing capabilities while withstanding the harsh conditions of space, such as extreme temperatures and radiation. The new chip is expected to enhance the on-board processing capabilities of satellites, enabling them to perform more complex tasks and process larger amounts of data.",
+        "Traditionally, space missions have relied on ground-based processing for complex computations, which can lead to significant latency and communication overhead. With Intel's new chip, satellites will be able to perform real-time processing and analysis of data, reducing the need for ground-based intervention and enabling more autonomous operation. This is particularly important for applications such as Earth observation, where timely processing and analysis of data can be critical for decision-making.",
+        "The new chip is also expected to have a significant impact on the development of future space missions, including those related to lunar and Mars exploration. By providing a reliable and high-performance computing platform, Intel's chip will enable scientists and engineers to design and implement more complex and ambitious space missions, driving innovation and advancement in the field of space exploration.",
+        "One of the key challenges in developing chips for space computing is ensuring their reliability and radiation hardness. Intel's new chip has been designed with these challenges in mind, incorporating advanced radiation-hardening techniques and fault-tolerant architectures to ensure reliable operation in the harsh environment of space."
+      ],
+      "why": "The development of Intel's new chip for space computing has significant implications for the future of space exploration and satellite technology. By enabling more autonomous and real-time processing of data, this chip will drive innovation and advancement in a range of applications, from Earth observation to deep space exploration. As the space industry continues to evolve and grow, the need for reliable and high-performance computing capabilities will only continue to increase, making Intel's new chip a critical component of future space missions.",
+      "sources": [
+        {
+          "name": "Intel",
+          "url": "https://www.intel.com"
+        },
+        {
+          "name": "SpaceNews",
+          "url": "https://spacenews.com/"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Mitigation of Intermodulation Distortion in RF Power Amplifiers using Digital Predistortion",
+      "body": [
+        "Intermodulation distortion (IMD) is a significant concern in RF power amplifiers, particularly in modern wireless communication systems where high-power amplifiers are used to transmit complex modulated signals. IMD occurs when two or more frequency components in the input signal mix with each other, generating unwanted spectral components at the output. To mitigate IMD, digital predistortion (DPD) techniques can be employed. DPD involves pre-distorting the input signal in a way that, when passed through the power amplifier, the distortions introduced by the amplifier are effectively cancelled out.",
+        "DPD systems typically consist of a power amplifier, an input signal source, and a feedback loop that measures the output of the amplifier. The feedback signal is then used to adapt the predistortion function, which is usually implemented using a nonlinear model such as a polynomial or a neural network. The goal of the DPD algorithm is to minimize the difference between the desired output signal and the actual output signal, thereby reducing IMD and improving the overall linearity of the power amplifier.",
+        "The performance of DPD systems can be evaluated using metrics such as the adjacent channel power ratio (ACPR) and the error vector magnitude (EVM). ACPR measures the ratio of the power in the desired channel to the power in an adjacent channel, while EVM measures the difference between the ideal and actual constellation points in a modulated signal. By optimizing the DPD algorithm and adapting it to the specific characteristics of the power amplifier, significant reductions in IMD can be achieved, leading to improved spectral efficiency and reduced interference in wireless communication systems.",
+        "Recent advances in DPD techniques have focused on the development of more sophisticated nonlinear models and adaptive algorithms, as well as the integration of DPD with other linearization techniques such as feedforward and feedback linearization. These advancements have enabled the use of DPD in a wide range of applications, from base station power amplifiers in cellular networks to satellite communication systems and radar transmitters."
+      ],
+      "why": "The mitigation of intermodulation distortion in RF power amplifiers is crucial for maintaining the integrity and efficiency of modern wireless communication systems. By reducing IMD, DPD techniques can help to minimize spectral interference, improve transmission quality, and increase the overall capacity of wireless networks. As the demand for high-speed wireless communication continues to grow, the development of advanced DPD techniques will play an important role in enabling the efficient and reliable transmission of complex modulated signals.",
+      "sources": [
+        {
+          "name": "IEEE Transactions on Microwave Theory and Techniques",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=22"
+        },
+        {
+          "name": "Digital Predistortion of Power Amplifiers for Wireless Communications",
+          "url": "https://www.researchgate.net/publication/224145440_Digital_Predistortion_of_Power_Amplifiers_for_Wireless_Communications"
+        },
+        {
+          "name": "RF Power Amplifiers for Wireless Communications",
+          "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9780470756634"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Ukraine's Strike on Iranian Ship Raises Concerns of Escalation",
+      "body": [
+        "A recent strike by Ukraine on an Iranian ship has sparked concerns that the conflict in Ukraine could become intertwined with the ongoing tensions between the US and Iran.",
+        "The incident occurred amidst a complex geopolitical landscape, with the US having paused its strikes on Iran and Iran showing no urgency to resume cease-fire talks.",
+        "This development has the potential to draw in multiple countries and escalate the situation, making it increasingly challenging to achieve a peaceful resolution.",
+        "The strike on the Iranian ship is seen as a significant event, as it may indicate a widening of the conflict and a greater involvement of various nations."
+      ],
+      "why": "The strike on the Iranian ship by Ukraine is significant because it highlights the interconnectedness of global conflicts and the potential for escalation, which can have far-reaching consequences for international relations, global security, and the economy, making it essential for nations to pursue diplomatic efforts to prevent further escalation.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1956 Suez Crisis: A Watershed Moment in Decolonization and Global Politics",
+      "body": [
+        "The 1956 Suez Crisis was a pivotal event in modern history, marking a significant shift in the global balance of power and the decline of colonial empires. On October 29, 1956, Israel, backed by Britain and France, launched a surprise attack on Egypt, aiming to regain control of the Suez Canal, which had been nationalized by the Egyptian government earlier that year. The invasion sparked widespread international condemnation, and the United States, in particular, opposed the action, fearing it would undermine its own interests in the region and push Arab nations towards the Soviet Union.",
+        "The crisis was eventually resolved through a combination of diplomatic pressure and economic coercion, with the United States threatening to sell British bonds, which would have led to a devaluation of the pound, and the Soviet Union issuing a veiled threat of military intervention. The invaders were forced to withdraw, and the Suez Canal was placed under the control of the United Nations.",
+        "The Suez Crisis had far-reaching consequences, marking the end of Britain and France's status as dominant world powers and the beginning of the United States' emergence as the leading global power. It also hastened the process of decolonization, as newly independent nations began to assert their sovereignty and resist the influence of their former colonial masters.",
+        "The crisis also had significant implications for the Middle East, contributing to ongoing instability and conflict in the region. The failure of the invasion and the subsequent withdrawal of British and French forces created a power vacuum, which was filled by the United States and the Soviet Union, setting the stage for future proxy wars and interventions in the region."
+      ],
+      "why": "The Suez Crisis is significant because it marked a turning point in the decline of colonial empires and the emergence of new global powers. It showed that the old colonial powers, Britain and France, could no longer impose their will on other nations, and that the United States had become the dominant world power. This event also had a lasting impact on the Middle East, contributing to ongoing conflict and instability in the region, and its legacy can still be seen in modern-day geopolitics.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-middle-east-37396679"
+        },
+        {
+          "name": "The National Archives",
+          "url": "https://www.nationalarchives.gov.uk/cabinetpapers/war-and-peace/suez-crisis.htm"
+        },
+        {
+          "name": "The History Channel",
+          "url": "https://www.history.com/topics/middle-east/suez-crisis"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Knowledge Graph Embeddings with Hypernetworks for Improved Entity Disambiguation",
+      "body": [
+        "Knowledge graph embeddings are a crucial component in various natural language processing and artificial intelligence applications, enabling the representation of entities and relationships in a low-dimensional vector space. Traditional methods such as TransE and ConvE have shown promising results but often struggle with entity disambiguation due to the lack of contextual understanding. Recently, hypernetworks have been introduced as a means to generate entity-specific embeddings, allowing for more nuanced representations of entities in different contexts.",
+        "Hypernetworks are neural networks that generate the weights of another neural network. In the context of knowledge graph embeddings, hypernetworks can be used to generate entity-specific embeddings by taking the entity's identifier as input and producing a set of weights that are used to compute the embedding. This approach enables the model to capture complex relationships between entities and adapt to different contexts, leading to improved entity disambiguation performance.",
+        "The use of hypernetworks for knowledge graph embeddings has been explored in various studies, demonstrating the effectiveness of this approach in improving entity disambiguation. For example, the HyperKA model uses a hypernetwork to generate entity-specific embeddings, which are then used for link prediction and entity disambiguation tasks. The results show that HyperKA outperforms traditional methods, achieving state-of-the-art performance on several benchmarks.",
+        "The implementation of hypernetworks for knowledge graph embeddings can be achieved using popular deep learning frameworks such as PyTorch or TensorFlow. The hypernetwork can be defined as a neural network that takes the entity's identifier as input and produces a set of weights, which are then used to compute the entity's embedding. The entity's embedding can be computed using a combination of the generated weights and the entity's attributes, such as its name, description, or relationships with other entities."
+      ],
+      "why": "The development of knowledge graph embeddings with hypernetworks has significant implications for various applications, including question answering, sentiment analysis, and recommender systems. By improving entity disambiguation, these models can provide more accurate and context-specific representations of entities, leading to better performance in downstream tasks. This technology has the potential to revolutionize the way we interact with knowledge graphs, enabling more efficient and effective information retrieval and decision-making.",
+      "sources": [
+        {
+          "name": "HyperKA: Hypernetworks for Knowledge Graph Embeddings",
+          "url": "https://arxiv.org/abs/2106.03744"
+        },
+        {
+          "name": "PyTorch",
+          "url": "https://pytorch.org/"
+        },
+        {
+          "name": "TensorFlow",
+          "url": "https://www.tensorflow.org/"
+        }
+      ]
+    }
+  ]
+}
