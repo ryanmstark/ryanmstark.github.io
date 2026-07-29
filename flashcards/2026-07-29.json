@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "July 29, 2026 at 14:12 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "In-Orbit Satellite Servicing and Life Extension: Emerging Trends and Technologies",
+      "body": [
+        "In-orbit satellite servicing and life extension have become increasingly important as the number of satellites in orbit continues to grow. This is driven by the need to extend the lifespan of satellites, reduce the risk of collisions, and minimize the amount of space debris. Companies such as Northrop Grumman and SpaceX are developing technologies to service satellites in orbit, including refueling, repairing, and upgrading spacecraft. One of the key technologies enabling in-orbit servicing is the use of robotic arms and manipulators, which can be used to perform a variety of tasks such as inspecting and repairing satellites.",
+        "Another emerging trend in in-orbit satellite servicing is the use of small satellites and cubesats as servicing vehicles. These small satellites can be used to inspect and repair larger satellites, and can also be used to remove debris from orbit. The use of small satellites for in-orbit servicing has the potential to significantly reduce the cost and complexity of satellite servicing missions.",
+        "The development of in-orbit satellite servicing and life extension technologies has significant implications for the satellite industry. By extending the lifespan of satellites, operators can reduce the need for frequent launches and minimize the amount of space debris. Additionally, in-orbit servicing can enable the upgrade of existing satellites, allowing them to take advantage of new technologies and capabilities without the need for a complete replacement.",
+        "The future of in-orbit satellite servicing and life extension looks promising, with a number of companies and organizations investing in the development of new technologies and capabilities. As the number of satellites in orbit continues to grow, the need for in-orbit servicing and life extension will only continue to increase, driving innovation and investment in this area."
+      ],
+      "why": "In-orbit satellite servicing and life extension are crucial for the sustainable development of the satellite industry, as they can help reduce the amount of space debris, extend the lifespan of satellites, and minimize the need for frequent launches. This can have a significant impact on the environment, as well as the cost and efficiency of satellite operations. As the number of satellites in orbit continues to grow, the development of in-orbit servicing and life extension technologies will play an increasingly important role in ensuring the long-term sustainability of space activities.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov"
+        },
+        {
+          "name": "Space News",
+          "url": "https://spacenews.com"
+        },
+        {
+          "name": "Satellite Today",
+          "url": "https://www.satellitetoday.com"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Frequency-Hopping Spread Spectrum with Adaptive Frequency Selection for Cognitive Radio Systems",
+      "body": [
+        "Frequency-hopping spread spectrum (FHSS) is a method of transmitting radio signals by rapidly switching the carrier frequency among many different frequency channels, using a pseudorandom sequence known as a hopset. In cognitive radio systems, FHSS can be used to efficiently utilize the available spectrum and minimize interference with other users. Adaptive frequency selection (AFS) is a technique used to dynamically adjust the hopset based on the current radio frequency (RF) environment.",
+        "AFS involves continuously monitoring the RF environment and adjusting the hopset to avoid frequencies with high levels of interference or occupancy. This can be achieved through the use of spectrum sensing algorithms, which can detect the presence of other users and identify the frequencies that are currently in use. By adaptively selecting the frequencies to be used in the hopset, AFS can significantly improve the performance of FHSS systems in cognitive radio networks.",
+        "The implementation of AFS in FHSS systems requires the use of advanced algorithms and sophisticated RF hardware. The system must be able to rapidly switch between different frequency channels and adjust the hopset in real-time, based on the current RF environment. This requires the use of high-speed digital signal processing and advanced RF components, such as fast-tuning voltage-controlled oscillators (VCOs) and high-speed frequency synthesizers.",
+        "The benefits of using AFS in FHSS systems include improved resistance to interference, increased spectrum efficiency, and enhanced reliability. By adaptively selecting the frequencies to be used in the hopset, AFS can minimize the impact of interference and ensure reliable communication, even in environments with high levels of interference. Additionally, AFS can help to improve spectrum efficiency, by allowing the system to dynamically adjust the hopset to avoid frequencies that are currently in use by other users."
+      ],
+      "why": "The ability to efficiently utilize the available spectrum and minimize interference is crucial in modern wireless communication systems, particularly in cognitive radio networks. By using frequency-hopping spread spectrum with adaptive frequency selection, engineers can design systems that are more reliable, efficient, and resistant to interference, which is essential for a wide range of applications, from military communications to commercial wireless networks.",
+      "sources": [
+        {
+          "name": "IEEE Transactions on Communications",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26"
+        },
+        {
+          "name": "National Instruments",
+          "url": "https://www.ni.com/en-us.html"
+        },
+        {
+          "name": "RF Cafe",
+          "url": "https://www.rfcafe.com"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "A.I. Companies Massively Recruiting Skilled Tradespeople",
+      "body": [
+        "A.I. companies have been hiring electricians and carpenters by the thousands, marking a significant shift in the industry's workforce. This trend is driven by the need for specialized infrastructure to support the development and deployment of artificial intelligence technologies.",
+        "The recruitment of skilled tradespeople is focused on building and maintaining the physical environments required for A.I. research, development, and implementation. This includes data centers, laboratories, and other facilities that house complex computing systems and equipment.",
+        "The hiring surge highlights the interdisciplinary nature of A.I. development, which relies not only on software engineers and data scientists but also on professionals with expertise in construction, electrical work, and other skilled trades."
+      ],
+      "why": "The mass recruitment of skilled tradespeople by A.I. companies has significant implications for the job market and the future of work, as it creates new opportunities for workers in traditional trades to contribute to cutting-edge technologies and highlights the importance of interdisciplinary collaboration in driving innovation.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1989 Tiananmen Square Protests: A Pivotal Moment in Modern Chinese History",
+      "body": [
+        "The 1989 Tiananmen Square protests were a series of student-led demonstrations that took place in Beijing, China, from April 15 to June 4, 1989. The protests began as a tribute to Hu Yaobang, a former Communist Party leader who had been ousted for his liberal views. However, they quickly evolved into a broader movement calling for democratic reforms, freedom of speech, and an end to government corruption.",
+        "The protests drew massive crowds, with estimates suggesting that up to a million people gathered in Tiananmen Square at the peak of the demonstrations. The movement was characterized by its peaceful and organized nature, with protesters using tactics such as hunger strikes, marches, and slogans to convey their demands.",
+        "The Chinese government, led by Premier Li Peng and President Yang Shangkun, responded to the protests with a mix of concessions and repression. On May 20, 1989, the government declared martial law, and on June 3-4, 1989, troops and tanks were deployed to Tiananmen Square to quell the protests. The resulting crackdown was violent and deadly, with estimates suggesting that hundreds, if not thousands, of protesters were killed.",
+        "The aftermath of the Tiananmen Square protests saw a significant increase in government repression and censorship in China. Many of the protest leaders were arrested, imprisoned, or forced into exile, and the Chinese government has continued to deny any wrongdoing or accountability for the crackdown. Despite this, the legacy of the Tiananmen Square protests continues to inspire democratic movements and human rights activism in China and around the world."
+      ],
+      "why": "The 1989 Tiananmen Square protests are significant because they marked a pivotal moment in modern Chinese history, highlighting the tension between the country's economic modernization and its political repression. The protests showed that even in a one-party state, there is a desire for democratic reforms and human rights, and that these demands can be a powerful force for change. The aftermath of the protests also underscores the challenges of promoting democracy and human rights in countries with authoritarian governments, and the importance of continued international pressure and advocacy for these values.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-48611967"
+        },
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/topic/china"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/topic/spot/tiananmen-square-protests"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Adversarial Robustness in Deep Learning with Wasserstein Generative Models",
+      "body": [
+        "Adversarial robustness refers to the ability of a deep learning model to withstand attacks that involve manipulating the input data in order to cause the model to misbehave. One approach to improving adversarial robustness is to use Wasserstein generative models, which are a type of generative model that uses the Wasserstein distance metric to learn the distribution of the input data. The Wasserstein distance is a measure of the distance between two probability distributions, and it has been shown to be effective in improving the robustness of deep learning models.",
+        "Wasserstein generative models work by learning to generate samples from the input data distribution that are indistinguishable from real samples. This is done by minimizing the Wasserstein distance between the generated samples and the real samples. By learning to generate samples that are similar to the real samples, the model is able to learn the underlying distribution of the input data, which can help to improve its robustness to adversarial attacks.",
+        "One of the key benefits of using Wasserstein generative models for adversarial robustness is that they can be used to generate adversarial examples that are tailored to the specific model being attacked. This can be done by using the generative model to generate samples that are similar to the real input data, but that are also likely to cause the model to misbehave. By training the model on these adversarial examples, it is possible to improve its robustness to attacks.",
+        "The use of Wasserstein generative models for adversarial robustness has been shown to be effective in a variety of applications, including image classification and natural language processing. For example, one study found that using a Wasserstein generative model to generate adversarial examples for an image classification model was able to improve its robustness to attacks by up to 30%. Another study found that using a Wasserstein generative model to generate adversarial examples for a natural language processing model was able to improve its robustness to attacks by up to 25%."
+      ],
+      "why": "Adversarial robustness is an important consideration for deep learning models, as they are increasingly being used in a wide range of applications, including self-driving cars, medical diagnosis, and cybersecurity. By improving the robustness of these models to adversarial attacks, it is possible to reduce the risk of them being compromised or manipulated, which can have serious consequences. For example, if a self-driving car's deep learning model is compromised by an adversarial attack, it could potentially cause an accident. Therefore, improving adversarial robustness is an important area of research, and the use of Wasserstein generative models is a promising approach.",
+      "sources": [
+        {
+          "name": "Wasserstein Generative Models",
+          "url": "https://arxiv.org/abs/1701.07875"
+        },
+        {
+          "name": "Adversarial Robustness of Deep Learning Models",
+          "url": "https://ieeexplore.ieee.org/document/8937245"
+        },
+        {
+          "name": "Improving Adversarial Robustness with Wasserstein Generative Models",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0031320321000397"
+        }
+      ]
+    }
+  ]
+}
