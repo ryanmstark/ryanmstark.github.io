@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "July 30, 2026 at 14:05 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Advancements in Space-Based Data Centers and their Impact on Satellite Communications",
+      "body": [
+        "The concept of space-based data centers has gained significant attention in recent years, with companies like Sophia Space and Caltech claiming patents for this technology. A space-based data center is essentially a satellite that stores and processes data in orbit, providing a unique solution for cloud computing and data storage. This technology has the potential to revolutionize the way we handle data, especially in remote or disaster-stricken areas where traditional data centers may not be feasible.",
+        "Space-based data centers can provide several advantages, including reduced latency, improved security, and increased reliability. By storing and processing data in orbit, these satellites can reduce the need for data to be transmitted back to Earth, which can significantly reduce latency. Additionally, space-based data centers can provide an additional layer of security, as they are less vulnerable to cyber attacks and physical damage. However, there are also several challenges associated with this technology, including the high cost of launching and maintaining satellites, as well as the need for advanced cooling systems to prevent overheating.",
+        "The development of space-based data centers is closely tied to advancements in satellite communications. As the demand for satellite-based services continues to grow, the need for reliable and efficient data storage and processing solutions becomes increasingly important. Companies like LatConnect 60 are already working on constellations of satellites that can provide a range of services, including data storage and processing. The growth of this market is expected to drive innovation in areas like phased array antennas, link budgets, and orbital mechanics.",
+        "The partnership between Fortastra and Hadrian is another example of how companies are working together to streamline satellite production and reduce costs. This collaboration has the potential to make satellite-based services more accessible and affordable, which could have a significant impact on the development of space-based data centers. As the technology continues to evolve, we can expect to see new and innovative applications of space-based data centers, from providing connectivity in remote areas to supporting critical infrastructure like military satellite networks."
+      ],
+      "why": "The development of space-based data centers has the potential to revolutionize the way we handle data, providing a secure, reliable, and low-latency solution for cloud computing and data storage. This technology could have a significant impact on a range of industries, from finance and healthcare to education and government, and could play a critical role in supporting the growth of satellite-based services. As an engineer, understanding the advancements and challenges associated with space-based data centers is essential for developing innovative solutions that can support the growing demand for satellite communications.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "Space News",
+          "url": "https://spacenews.com/"
+        },
+        {
+          "name": "Satellite Today",
+          "url": "https://www.satellitetoday.com/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Time-Domain Analysis of Electromagnetic Pulse Interactions with Non-Uniform Transmission Lines",
+      "body": [
+        "The interaction between electromagnetic pulses (EMPs) and non-uniform transmission lines is a complex phenomenon that has garnered significant attention in recent years. Non-uniform transmission lines, which exhibit variations in their characteristic impedance along their length, can significantly alter the propagation characteristics of EMPs. The time-domain analysis of such interactions is crucial for understanding the potential effects of EMPs on modern electronic systems.",
+        "Time-domain analysis involves solving the telegrapher's equations, which describe the propagation of voltage and current waves along a transmission line. For non-uniform lines, these equations must be modified to account for the spatial variations in the line's parameters. This can be achieved through the use of numerical methods, such as the finite-difference time-domain (FDTD) method or the method of characteristics. These methods allow for the simulation of EMP interactions with non-uniform transmission lines, enabling the prediction of the resulting voltage and current distributions along the line.",
+        "The analysis of EMP interactions with non-uniform transmission lines has important implications for the design and protection of electronic systems. By understanding how EMPs propagate along non-uniform lines, engineers can develop more effective protection strategies, such as the use of surge protectors or filtering circuits, to mitigate the effects of EMPs on sensitive electronic components. Additionally, the time-domain analysis of EMP interactions with non-uniform lines can inform the development of more resilient and robust electronic systems, capable of withstanding the potentially disruptive effects of EMPs.",
+        "Recent research has focused on the development of more accurate and efficient numerical methods for simulating EMP interactions with non-uniform transmission lines. This includes the use of advanced techniques, such as the use of non-uniform grids or the incorporation of frequency-dependent line parameters. These advances have enabled the simulation of more complex scenarios, including the interaction of EMPs with non-uniform lines in the presence of non-linear components or frequency-dependent materials."
+      ],
+      "why": "Understanding how electromagnetic pulses interact with non-uniform transmission lines is crucial for designing and protecting electronic systems against the potentially disruptive effects of EMPs. This knowledge can inform the development of more resilient and robust systems, capable of withstanding the effects of EMPs, and can help prevent damage to sensitive electronic components. As electronic systems become increasingly pervasive in modern life, the importance of this research will only continue to grow.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "ResearchGate",
+          "url": "https://www.researchgate.net/"
+        },
+        {
+          "name": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "US Economy and Inflation Amid Ongoing Conflict with Iran",
+      "body": [
+        "The US economy has experienced a slowdown in GDP growth during the second quarter of 2026, with various factors contributing to this trend. One significant factor is the ongoing conflict with Iran, which has led to increased uncertainty and volatility in global markets. Additionally, the Federal Reserve's approach to taming inflation has been challenged by recent market developments.",
+        "The Fed's preferred inflation gauge showed a slight easing during the pause in the Iran war, but this pause has been short-lived, and the conflict has resumed. The resumption of hostilities has raised concerns about the potential for further economic disruption and inflationary pressures. The situation is further complicated by the involvement of other countries, including Saudi Arabia, and the risk of drawing in other regional actors.",
+        "The conflict with Iran has also had a significant impact on the healthcare system in the US, with a surge in uninsured patients seeking medical attention. This has put a strain on hospitals and healthcare providers, who are struggling to cope with the increased demand for services. The situation is likely to worsen if the conflict continues to escalate, with more troops being deployed and more civilians being affected."
+      ],
+      "why": "The ongoing conflict with Iran and its impact on the US economy and inflation have significant implications for global stability and economic growth. The situation is being closely watched by investors, policymakers, and ordinary citizens, who are concerned about the potential for further escalation and the impact on their daily lives. As the conflict continues to unfold, it is essential to stay informed about the latest developments and their potential consequences.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1960 Sharpeville Massacre: A Turning Point in the Fight Against Apartheid in South Africa",
+      "body": [
+        "The Sharpeville massacre occurred on March 21, 1960, in the township of Sharpeville, South Africa. On this day, a peaceful protest against the pass laws, which required black South Africans to carry identification documents, turned violent when police opened fire on the crowd, killing 69 people and injuring over 180. The event marked a significant escalation of violence in the fight against apartheid, a system of institutionalized racial segregation and discrimination that had been in place since 1948.",
+        "The massacre led to widespread international condemnation and a significant increase in resistance to apartheid, both within South Africa and internationally. The African National Congress (ANC), a key organization in the fight against apartheid, was banned in the aftermath of the massacre, but this only served to galvanize opposition to the government. Many anti-apartheid leaders, including Nelson Mandela, were forced into exile or imprisoned, but the movement continued to grow in strength and determination.",
+        "In the years following the Sharpeville massacre, the international community began to take a stronger stance against apartheid. The United Nations General Assembly passed a resolution in 1962 calling for economic sanctions against South Africa, and many countries, including the United States, eventually imposed sanctions on the country. The pressure from the international community, combined with the ongoing resistance of the South African people, ultimately contributed to the dismantling of apartheid in the 1990s."
+      ],
+      "why": "The Sharpeville massacre is significant because it marked a turning point in the fight against apartheid, highlighting the brutality of the system and galvanizing international opposition to it. The event shows how a single incident can have far-reaching consequences, shaping the course of history and inspiring movements for justice and equality. Understanding the Sharpeville massacre and its aftermath can help us appreciate the importance of human rights, the power of nonviolent resistance, and the need for international cooperation in promoting social justice.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-africa-18507792"
+        },
+        {
+          "name": "South African History Online",
+          "url": "https://www.sahistory.org.za/article/sharpeville-massacre-21-march-1960"
+        },
+        {
+          "name": "United Nations",
+          "url": "https://www.un.org/en/sections/issues-depth/apartheid/index.html"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Deep Learning with Orthogonal Neural Networks for Improved Generalization and Regularization",
+      "body": [
+        "Orthogonal neural networks are a type of neural network where the weight matrices are constrained to be orthogonal, meaning that the matrix multiplied by its transpose equals the identity matrix. This constraint has been shown to improve the generalization and regularization of deep neural networks, as it reduces the capacity of the network to overfit the training data.",
+        "Orthogonal neural networks can be implemented using various techniques, such as parameterizing the weight matrices using orthogonal matrices, or using regularization techniques to encourage the weight matrices to be orthogonal. One popular method is to use the Cayley transform, which maps a skew-symmetric matrix to an orthogonal matrix.",
+        "The benefits of orthogonal neural networks include improved generalization, reduced overfitting, and faster convergence. Additionally, orthogonal neural networks have been shown to be more robust to adversarial attacks, as the orthogonal constraint reduces the sensitivity of the network to small perturbations in the input data.",
+        "Overall, orthogonal neural networks offer a promising approach to improving the performance and robustness of deep neural networks, and are an active area of research in the field of deep learning. To implement orthogonal neural networks, engineers can use libraries such as PyTorch or TensorFlow, which provide tools and functions for working with orthogonal matrices and implementing orthogonal neural networks."
+      ],
+      "why": "Orthogonal neural networks have the potential to significantly improve the performance and robustness of deep learning models, which is critical for many real-world applications such as image and speech recognition, natural language processing, and autonomous vehicles. By reducing overfitting and improving generalization, orthogonal neural networks can help engineers build more accurate and reliable models, which can have a major impact on industries such as healthcare, finance, and transportation.",
+      "sources": [
+        {
+          "name": "Orthogonal Neural Networks",
+          "url": "https://arxiv.org/abs/1804.03801"
+        },
+        {
+          "name": "PyTorch",
+          "url": "https://pytorch.org/"
+        },
+        {
+          "name": "TensorFlow",
+          "url": "https://www.tensorflow.org/"
+        }
+      ]
+    }
+  ]
+}
