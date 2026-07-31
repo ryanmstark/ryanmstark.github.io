@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "July 31, 2026 at 14:09 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Orbital Data Center Constellations: Technical and Regulatory Challenges",
+      "body": [
+        "Orbital data center constellations are a new concept in space technology, where multiple satellites are launched into orbit to form a network of data centers. This allows for increased data processing and storage capabilities in space, reducing the need for data to be transmitted back to Earth. However, this concept also presents several technical and regulatory challenges. One of the main challenges is ensuring the satellites can communicate with each other efficiently and securely.",
+        "Another challenge is the issue of space debris. With multiple satellites in orbit, there is a higher risk of collisions and the creation of space debris. This can have serious consequences, including damage to other satellites and even the International Space Station. To mitigate this risk, satellite operators must implement collision avoidance maneuvers and ensure that their satellites can be safely de-orbited at the end of their lifespan.",
+        "Regulatory challenges also exist, as there is currently a lack of clear guidelines and rules for orbital data center constellations. This can make it difficult for companies to navigate the regulatory landscape and ensure compliance with existing laws and regulations. To address this issue, industry leaders and government agencies are working together to develop new rules and guidelines for orbital data center constellations.",
+        "Despite these challenges, orbital data center constellations have the potential to revolutionize the way we process and store data in space. They could enable new applications such as real-time data analytics, artificial intelligence, and machine learning, and could even support the development of new space-based industries such as space tourism and asteroid mining."
+      ],
+      "why": "The development of orbital data center constellations has significant implications for the future of space technology and the way we process and store data in space. As the amount of data generated in space continues to grow, the need for efficient and secure data processing and storage capabilities will become increasingly important. By understanding the technical and regulatory challenges associated with orbital data center constellations, engineers and industry leaders can work together to develop innovative solutions that support the growth of this emerging technology and enable new applications and industries to emerge.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "Federal Communications Commission",
+          "url": "https://www.fcc.gov/"
+        },
+        {
+          "name": "Space News",
+          "url": "https://spacenews.com/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Synchronized Switching in Multilevel Converters for Reduced Electromagnetic Interference",
+      "body": [
+        "Multilevel converters have become increasingly popular in high-power applications due to their ability to reduce electromagnetic interference (EMI) and improve overall system efficiency. One key aspect of multilevel converter design is synchronized switching, which involves coordinating the switching patterns of individual power devices to minimize EMI. This is typically achieved through the use of advanced pulse-width modulation (PWM) techniques, such as phase-shifted PWM or level-shifted PWM.",
+        "In a multilevel converter, synchronized switching helps to reduce the dv/dt and di/dt of the switching waveforms, resulting in lower EMI emissions. This is particularly important in applications where the converter is operating in close proximity to sensitive electronics or communication systems. Additionally, synchronized switching can help to reduce the switching losses in the power devices, leading to improved overall system efficiency.",
+        "The implementation of synchronized switching in multilevel converters typically requires sophisticated control systems and high-speed communication networks. This can add complexity and cost to the system, but the benefits of reduced EMI and improved efficiency can be significant. As a result, synchronized switching is becoming an increasingly important aspect of multilevel converter design, particularly in high-power applications where EMI is a major concern.",
+        "Recent research has focused on developing new PWM techniques and control strategies for synchronized switching in multilevel converters. These advances have the potential to further reduce EMI emissions and improve system efficiency, making multilevel converters an even more attractive option for high-power applications."
+      ],
+      "why": "Synchronized switching in multilevel converters is important because it helps to reduce electromagnetic interference, which can be a major problem in high-power applications. By minimizing EMI, synchronized switching can help to prevent interference with sensitive electronics and communication systems, reducing the risk of system failures and improving overall reliability. This is particularly important in applications such as renewable energy systems, industrial power supplies, and electric vehicles, where high-power converters are commonly used.",
+      "sources": [
+        {
+          "name": "IEEE Transactions on Industrial Electronics",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41"
+        },
+        {
+          "name": "IEEE Transactions on Power Electronics",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=63"
+        },
+        {
+          "name": "National Institute of Standards and Technology",
+          "url": "https://www.nist.gov/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Cyberattack on U.S. Water Systems Highlights Growing Threat to Critical Infrastructure",
+      "body": [
+        "A recent cyberattack on U.S. water systems has raised concerns about the vulnerability of critical infrastructure to cyber threats. The attack, which targeted a water treatment facility, highlighted the potential for malicious actors to disrupt essential services and put public health at risk.",
+        "The incident is part of a growing trend of cyberattacks on critical infrastructure, including water and energy systems. These attacks can have significant consequences, including disruption of services, economic losses, and even loss of life.",
+        "The cyberattack on the U.S. water system is a reminder of the need for increased investment in cybersecurity measures to protect critical infrastructure. This includes implementing robust security protocols, conducting regular vulnerability assessments, and providing training for personnel to respond to cyber threats."
+      ],
+      "why": "The cyberattack on U.S. water systems is significant because it highlights the vulnerability of critical infrastructure to cyber threats, which can have serious consequences for public health and safety. As the use of digital technologies in critical infrastructure continues to grow, the risk of cyberattacks will only increase, making it essential to invest in cybersecurity measures to protect these systems.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Cybersecurity and Infrastructure Security Agency",
+          "url": "https://www.cisa.gov/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1973 Chilean Coup: A Turning Point in Latin American Politics and US Foreign Policy",
+      "body": [
+        "The 1973 Chilean Coup, which occurred on September 11, 1973, was a pivotal event in modern Latin American history. It marked the overthrow of the democratically-elected government of President Salvador Allende, a Marxist who had been in office since 1970. The coup was led by General Augusto Pinochet, who would go on to rule Chile with an iron fist for the next 17 years. The coup was supported by the United States, with the CIA providing financial and logistical support to the Chilean military.",
+        "The consequences of the coup were far-reaching and devastating. Thousands of Chileans were killed, tortured, or disappeared during Pinochet's rule, and the country's economy was severely impacted. The coup also had significant implications for US foreign policy, as it marked a turning point in the US approach to Latin America. The US had long been concerned about the spread of communism in the region, and the coup in Chile was seen as a way to prevent the spread of Marxist ideology.",
+        "The legacy of the 1973 Chilean Coup can still be seen today. In 1990, Chile transitioned back to democracy, and in 1998, Pinochet was arrested in London on charges of human rights abuses. In 2004, the Chilean government established a commission to investigate human rights abuses during Pinochet's rule, and in 2013, the Chilean Supreme Court ruled that the US was responsible for the deaths of two American citizens who were killed during the coup."
+      ],
+      "why": "The 1973 Chilean Coup is significant because it highlights the complex and often fraught relationship between the US and Latin America. The coup marked a turning point in US foreign policy, as it showed that the US was willing to support authoritarian regimes in order to prevent the spread of communism. This has had long-lasting implications for the region, and understanding the history of the coup is essential for grasping the complexities of modern Latin American politics.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-latin-america-24098526"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/1973/09/12/archives/chilean-forces-outrule-allende-government-takes-helm.html"
+        },
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/report/2013/07/25/legacy-ashes/Chile-30-years-after-coup"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Contrastive Multitask Learning for Vision-and-Language Pre-training",
+      "body": [
+        "Contrastive multitask learning is a pre-training approach for vision-and-language models that leverages contrastive loss to align the representations of images and text. This approach has gained significant attention in recent years due to its ability to learn effective representations from large-scale, uncurated datasets. The core idea behind contrastive multitask learning is to train a model to distinguish between positive and negative pairs of image-text examples, where positive pairs are semantically similar and negative pairs are semantically dissimilar.",
+        "Recent works have demonstrated the effectiveness of contrastive multitask learning in pre-training vision-and-language models for downstream tasks such as visual question answering, image-text retrieval, and visual grounding. For example, the CLIP (Contrastive Language-Image Pre-training) model uses a contrastive loss function to align the representations of images and text in a shared embedding space. This allows the model to learn a rich set of visual and linguistic features that can be fine-tuned for specific downstream tasks.",
+        "The key advantage of contrastive multitask learning is its ability to learn from large-scale, uncurated datasets without requiring explicit annotations or labels. This makes it an attractive approach for pre-training vision-and-language models, as it can leverage the vast amount of image-text data available on the web. Additionally, contrastive multitask learning can be used to pre-train models for a wide range of vision-and-language tasks, making it a versatile and powerful approach for natural language processing and computer vision applications.",
+        "One of the challenges in implementing contrastive multitask learning is the need to design effective contrastive loss functions and sampling strategies. The choice of contrastive loss function and sampling strategy can significantly impact the performance of the model, and requires careful tuning and experimentation. Additionally, contrastive multitask learning requires large-scale computing resources and large datasets, which can be a limitation for some researchers and practitioners."
+      ],
+      "why": "Contrastive multitask learning has the potential to revolutionize the way we approach vision-and-language tasks, enabling models to learn from large-scale, uncurated datasets and adapt to a wide range of downstream tasks. This technology has significant real-world implications, from improving image search and visual question answering to enhancing accessibility and assistive technologies. As a result, engineers and researchers should care about contrastive multitask learning because it represents a powerful tool for building more effective and efficient vision-and-language models.",
+      "sources": [
+        {
+          "name": "CLIP: Learning Transferable Visual Features From Large Collections of Images",
+          "url": "https://arxiv.org/abs/2103.00020"
+        },
+        {
+          "name": "Contrastive Multitask Learning for Vision-and-Language Pre-training",
+          "url": "https://arxiv.org/abs/2203.11373"
+        }
+      ]
+    }
+  ]
+}
