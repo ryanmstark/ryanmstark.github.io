@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "August 03, 2026 at 14:41 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Advancements in Laser Communications for Space-Based Systems",
+      "body": [
+        "Laser communications, also known as optical communications, have been gaining significant attention in recent years due to their potential to provide high-speed data transfer in space-based systems. This technology uses lasers to transmit data through space, offering several advantages over traditional radio frequency (RF) communications, including higher data rates, lower power consumption, and increased security.",
+        "Space agencies and private companies have been actively working on developing laser communications systems for various applications, including deep space missions, satellite constellations, and satellite-to-ground communications. For example, the European Space Agency (ESA) has been developing the European Data Relay System (EDRS), which uses laser communications to provide high-speed data transfer between satellites in low Earth orbit and ground stations.",
+        "One of the key challenges in laser communications is the need for precise pointing and tracking of the laser beam, as well as the impact of atmospheric interference on signal quality. Researchers have been working on developing advanced technologies, such as beamforming and adaptive optics, to address these challenges and improve the performance of laser communications systems.",
+        "The development of laser communications has significant implications for future space missions, including the ability to transmit large amounts of data from distant spacecraft, such as those on Mars or in the outer planets, back to Earth. This technology also has the potential to enable new applications, such as high-speed satellite-to-satellite communications and satellite-based quantum key distribution."
+      ],
+      "why": "The development of laser communications has the potential to revolutionize the way we communicate in space, enabling faster and more secure data transfer over long distances. This technology has significant implications for a wide range of applications, from deep space missions to satellite constellations, and could play a critical role in supporting future space exploration and development. As space agencies and private companies continue to invest in laser communications, engineers should be aware of the latest advancements and challenges in this field to contribute to its development and deployment.",
+      "sources": [
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "Optical Society of America",
+          "url": "https://www.osa.org/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Stabilization of Power Factor Correction Converters using Sliding Mode Control with Hysteresis Modulation",
+      "body": [
+        "Power factor correction (PFC) converters are widely used in power supplies to improve the power factor and reduce total harmonic distortion (THD). However, these converters are often prone to instability due to the presence of right-half plane (RHP) zeros in their transfer functions. To address this issue, sliding mode control (SMC) with hysteresis modulation can be employed. SMC is a nonlinear control technique that forces the system to slide along a predefined manifold, ensuring stability and robustness.",
+        "Sliding mode control with hysteresis modulation involves defining a sliding surface, which is a function of the system's state variables. The controller then switches between two different control signals, depending on whether the system's state is above or below the sliding surface. The hysteresis modulation is used to prevent chattering, which can occur when the system's state oscillates rapidly around the sliding surface. This technique has been shown to be effective in stabilizing PFC converters and improving their dynamic performance.",
+        "The design of the SMC with hysteresis modulation involves selecting the sliding surface and the hysteresis band. The sliding surface is typically chosen to be a linear function of the system's state variables, while the hysteresis band is selected based on the system's parameters and the desired level of chattering. The stability of the system can be analyzed using Lyapunov theory, which provides a framework for designing stable SMC systems.",
+        "Simulation and experimental results have demonstrated the effectiveness of SMC with hysteresis modulation in stabilizing PFC converters. These results have shown that the technique can improve the converter's dynamic performance, reduce THD, and increase the power factor. Additionally, the technique has been shown to be robust to parameter variations and disturbances, making it a reliable choice for PFC converter control."
+      ],
+      "why": "The stabilization of power factor correction converters is crucial in many power supply applications, as it directly affects the efficiency, reliability, and overall performance of the system. By using sliding mode control with hysteresis modulation, engineers can design more robust and efficient PFC converters, which can lead to significant energy savings, reduced heat generation, and increased system lifespan. This technique has the potential to impact a wide range of industries, from consumer electronics to industrial power systems, and is an important area of research for electrical engineers.",
+      "sources": [
+        {
+          "name": "IEEE Transactions on Industrial Electronics",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41"
+        },
+        {
+          "name": "ResearchGate",
+          "url": "https://www.researchgate.net/topic/Sliding-Mode-Control"
+        },
+        {
+          "name": "ScienceDirect",
+          "url": "https://www.sciencedirect.com/journal/control-engineering-practice"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Iran and US Tensions: Understanding the Current Geopolitical Landscape",
+      "body": [
+        "The recent statements from Iran and the US have highlighted the ongoing tensions between the two nations. Iran has denied any current talks with the US, contradicting claims made by former US President Trump about progress on the Strait of Hormuz.",
+        "The Strait of Hormuz is a vital shipping lane, with a significant portion of the world's oil passing through it. Any escalation in the region could have far-reaching consequences for global energy markets and stability.",
+        "The US and Iran have a complex history, with periods of heightened tensions and diplomatic efforts. The current situation is further complicated by regional dynamics and the involvement of other global powers."
+      ],
+      "why": "The tensions between Iran and the US have significant implications for global stability, energy security, and regional politics. Understanding the current geopolitical landscape is crucial for navigating the complex web of international relations and predicting potential flashpoints.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1955 Bandung Conference: A Pivotal Moment in the Non-Aligned Movement",
+      "body": [
+        "The 1955 Bandung Conference was a landmark event in modern history, held in Bandung, Indonesia, from April 18 to 24, 1955. The conference brought together 29 countries from Asia and Africa, with the aim of promoting economic and cultural cooperation, and opposing colonialism and imperialism. The conference was attended by prominent leaders such as Jawaharlal Nehru of India, Sukarno of Indonesia, and Gamal Abdel Nasser of Egypt.",
+        "The conference resulted in the adoption of a 10-point declaration, which emphasized the principles of sovereignty, non-interference, and cooperation among nations. The declaration also called for the recognition of the equality of all nations, and the promotion of economic development and social justice. The Bandung Conference marked a significant turning point in the history of the Non-Aligned Movement, which would go on to play a major role in shaping international relations during the Cold War era.",
+        "The conference also had a significant impact on the global balance of power, as it marked a shift away from the dominance of Western powers and towards a more multipolar world. The Non-Aligned Movement, which emerged from the conference, would go on to influence international relations for decades to come, and would play a key role in shaping the United Nations and other international organizations."
+      ],
+      "why": "The 1955 Bandung Conference is significant because it marked a pivotal moment in the emergence of the Global South as a major force in international relations. The conference showed that countries from Asia and Africa could come together to promote their common interests and challenge the dominance of Western powers. This has had a lasting impact on global politics, and continues to shape international relations today, with the Non-Aligned Movement remaining an important platform for cooperation and dialogue among nations from the Global South.",
+      "sources": [
+        {
+          "name": "United Nations",
+          "url": "https://www.un.org/en/about-un/history-of-the-un"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-41146294"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2020/4/18/the-bandung-conference-65-years-on"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Explainability Techniques for Graph Neural Networks using Graph Attention and Layer-wise Relevance Propagation",
+      "body": [
+        "Graph Neural Networks (GNNs) are powerful models for graph-structured data, but their lack of explainability hinders their adoption in high-stakes domains. To address this, researchers have developed techniques like graph attention, which highlights the most relevant nodes and edges in the graph. Another approach is Layer-wise Relevance Propagation (LRP), which assigns a relevance score to each node based on its contribution to the model's prediction.",
+        "Graph attention mechanisms, such as Graph Attention Networks (GATs) and Graph Transformers, learn to weight the importance of neighboring nodes when aggregating their features. This attention mechanism can be used to explain the model's predictions by visualizing the attention weights.",
+        "LRP is a technique that propagates the relevance of the model's output back to the input nodes, allowing for the identification of the most influential nodes in the graph. This can be particularly useful in understanding how the model is using the graph structure to make predictions.",
+        "The combination of graph attention and LRP provides a powerful framework for explaining GNNs. By visualizing the attention weights and relevance scores, researchers and practitioners can gain insights into how the model is using the graph structure to make predictions, and identify potential biases or flaws in the model."
+      ],
+      "why": "Explainability techniques for Graph Neural Networks are crucial for their adoption in real-world applications, such as drug discovery, social network analysis, and recommendation systems. By understanding how GNNs make predictions, engineers can build more trustworthy and transparent models, which is essential for high-stakes domains where model interpretability is a top priority. This can lead to better decision-making, improved model performance, and increased user trust.",
+      "sources": [
+        {
+          "name": "Graph Attention Networks",
+          "url": "https://arxiv.org/abs/1710.10903"
+        },
+        {
+          "name": "Layer-wise Relevance Propagation for Neural Networks",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130140"
+        },
+        {
+          "name": "Explainability Techniques for Graph Neural Networks",
+          "url": "https://dl.acm.org/doi/abs/10.1145/3442381.3442383"
+        }
+      ]
+    }
+  ]
+}
