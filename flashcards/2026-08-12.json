@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "August 12, 2026 at 13:11 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Modular Open Systems Approach (MOSA) for Space Systems Interoperability",
+      "body": [
+        "The Modular Open Systems Approach (MOSA) is a design methodology that aims to create interoperable space systems by using open standards and modular components. This approach allows for the integration of different systems and components from various vendors, reducing the risk of vendor lock-in and increasing the overall flexibility of the system. MOSA is being adopted by various space agencies and organizations, including NASA, as a way to improve the interoperability of their systems and reduce costs.",
+        "MOSA is based on a set of principles that include the use of open standards, modular design, and a focus on interoperability. This approach requires a fundamental shift in the way space systems are designed and developed, with a focus on creating modular components that can be easily integrated with other systems. The use of open standards, such as those defined by the Open Group, is a key aspect of MOSA, as it allows for the creation of systems that can communicate with each other seamlessly.",
+        "The adoption of MOSA is driven by the need for greater interoperability in space systems, as well as the need to reduce costs and improve efficiency. By using open standards and modular components, space agencies and organizations can reduce the risk of vendor lock-in and improve the overall flexibility of their systems. This approach also allows for the integration of new technologies and components, as they become available, without the need for significant upgrades or redesigns.",
+        "The use of MOSA in space systems has the potential to transform the way space missions are conducted, by enabling the creation of more flexible and interoperable systems. This approach can also help to reduce the costs associated with space missions, by allowing for the reuse of components and systems across multiple missions. As the space industry continues to evolve, the adoption of MOSA is likely to play a key role in shaping the future of space exploration and development."
+      ],
+      "why": "The Modular Open Systems Approach (MOSA) is significant because it has the potential to transform the way space systems are designed and developed, by enabling the creation of more flexible and interoperable systems. This approach can help to reduce costs, improve efficiency, and enable the integration of new technologies and components, which is critical for the success of future space missions. As space agencies and organizations continue to push the boundaries of space exploration and development, the adoption of MOSA will play a key role in shaping the future of the industry.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "The Open Group",
+          "url": "https://www.opengroup.org/"
+        },
+        {
+          "name": "Space News",
+          "url": "https://spacenews.com/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Electromagnetic Modeling of Metamaterial-Based Antennas for Millimeter-Wave and Terahertz Applications",
+      "body": [
+        "Metamaterials are artificial materials engineered to have properties not typically found in naturally occurring materials. In the context of antenna design, metamaterials can be used to create antennas with unique properties, such as negative refractive index or perfect absorption. For millimeter-wave and terahertz applications, metamaterial-based antennas can provide enhanced directivity, gain, and bandwidth. The design of such antennas typically involves the use of numerical methods, such as the finite-difference time-domain (FDTD) method or the method of moments (MoM), to model the electromagnetic behavior of the metamaterial and the antenna structure.",
+        "The FDTD method is a popular choice for modeling metamaterial-based antennas due to its ability to handle complex geometries and nonlinear materials. The method involves discretizing the antenna structure and the surrounding space into a grid of cells, and then solving the Maxwell's equations at each cell using a time-stepping algorithm. The MoM, on the other hand, is a frequency-domain method that involves solving the electromagnetic equations using a set of basis functions and testing functions. Both methods can provide accurate results, but the choice of method depends on the specific application and the complexity of the antenna design.",
+        "One of the key challenges in designing metamaterial-based antennas is the need to balance the trade-offs between directivity, gain, and bandwidth. For example, a high-gain antenna may have a narrow bandwidth, while a wideband antenna may have a lower gain. Metamaterials can be used to mitigate these trade-offs by providing a high degree of design flexibility. For instance, a metamaterial with a negative refractive index can be used to create a compact, high-gain antenna with a wide bandwidth.",
+        "In addition to the design challenges, metamaterial-based antennas also pose fabrication challenges. The fabrication of metamaterials typically involves the use of advanced nanofabrication techniques, such as electron beam lithography or focused ion beam milling. These techniques can be expensive and time-consuming, and may require significant expertise and resources."
+      ],
+      "why": "The development of metamaterial-based antennas has the potential to revolutionize a wide range of applications, from wireless communication systems to medical imaging and sensing. By providing enhanced directivity, gain, and bandwidth, these antennas can enable faster data transfer rates, improved image resolution, and more accurate sensing capabilities. As a result, engineers should care about this topic because it has the potential to impact a broad range of fields and industries, and can help to drive innovation and technological advancement.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "Nature Photonics",
+          "url": "https://www.nature.com/nphoton/"
+        },
+        {
+          "name": "Optics Express",
+          "url": "https://www.osapublishing.org/oe/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "Trump's Secret Evacuation from Air Force One Amid Security Threats",
+      "body": [
+        "A recent report revealed that former US President Donald Trump was secretly evacuated from Air Force One due to a security threat.",
+        "The evacuation was part of a high-stakes operation to ensure Trump's safety, with a decoy plane being used to distract potential attackers.",
+        "According to sources, Iran had obtained information about Trump's stay at the NATO summit, which may have contributed to the security concerns.",
+        "The secret evacuation and use of a decoy plane demonstrate the extreme measures taken to protect high-profile targets like the President of the United States."
+      ],
+      "why": "This event highlights the ongoing concerns about security threats to high-profile individuals and the extraordinary measures taken to protect them, which has significant implications for international relations, diplomacy, and global stability.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1979 Iranian Revolution: A Turning Point in Modern Middle Eastern Politics",
+      "body": [
+        "The 1979 Iranian Revolution was a pivotal event in modern history, marking the overthrow of the Pahlavi dynasty and the establishment of an Islamic republic. The revolution began in January 1978 with widespread protests against the government of Mohammad Reza Pahlavi, who had ruled Iran since 1941. The protests were sparked by economic grievances, corruption, and the perceived Westernization of Iranian society. As the protests gained momentum, Ayatollah Ruhollah Khomeini, a prominent Shia cleric, emerged as a key leader of the opposition.",
+        "The revolution reached its climax in February 1979, when Khomeini returned to Iran from exile and the military declared its neutrality. The Pahlavi government collapsed, and Khomeini established a new government based on Islamic principles. The revolution had far-reaching consequences, including the establishment of a theocratic government, the nationalization of industries, and a significant shift in Iran's foreign policy. The new government's anti-Western stance and support for Islamist movements across the Middle East contributed to increased tensions with the United States and other Western countries.",
+        "The Iranian Revolution also had a profound impact on the global energy market, as Iran's oil production was disrupted and the country's relations with Western oil companies were severed. The revolution marked a significant turning point in the modern history of the Middle East, as it challenged the dominance of secular and Western-backed governments in the region and paved the way for the rise of Islamist movements.",
+        "The legacy of the Iranian Revolution can still be seen today, with Iran playing a major role in regional politics and continuing to be a key player in the global energy market. The revolution also serves as a reminder of the complex and often fraught relationship between the West and the Middle East, with ongoing tensions and conflicts in the region continuing to shape global politics and international relations."
+      ],
+      "why": "The 1979 Iranian Revolution is significant because it marked a major shift in the balance of power in the Middle East and had far-reaching consequences for global politics, energy markets, and international relations. The revolution's legacy continues to shape the region today, with Iran playing a key role in regional politics and the ongoing tensions between the West and the Middle East remaining a major challenge for global stability and security.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-middle-east-46733275"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/interactive/2019/02/01/world/middleeast/iran-revolution-40th-anniversary.html"
+        },
+        {
+          "name": "Brookings Institution",
+          "url": "https://www.brookings.edu/articles/the-iranian-revolution-at-40-lessons-for-the-future/"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Adversarial Robustness in Deep Learning using Adversarial Training and Input Preprocessing",
+      "body": [
+        "Adversarial robustness is a critical aspect of deep learning, as it refers to a model's ability to withstand adversarial attacks, which are small, intentional perturbations to the input data designed to cause the model to misbehave. One approach to improving adversarial robustness is adversarial training, where the model is trained on both clean and adversarially perturbed data. This can be achieved using techniques such as projected gradient descent (PGD) or the fast gradient sign method (FGSM).",
+        "Another approach to improving adversarial robustness is input preprocessing, which involves transforming the input data in a way that reduces the impact of adversarial perturbations. This can include techniques such as data normalization, feature scaling, or more advanced methods like adversarial example detection and rejection. By combining adversarial training with input preprocessing, it is possible to develop deep learning models that are more robust to adversarial attacks and can maintain their performance in the presence of adversaries.",
+        "The implementation of adversarial training and input preprocessing can be achieved using popular deep learning frameworks such as TensorFlow or PyTorch. For example, in PyTorch, the `torchattacks` library provides a range of adversarial attack methods, including PGD and FGSM, which can be used to generate adversarial examples for training. Additionally, libraries like `torchvision` provide tools for input preprocessing, such as data normalization and feature scaling."
+      ],
+      "why": "Adversarial robustness is crucial in real-world applications of deep learning, such as self-driving cars, medical diagnosis, and security systems, where the consequences of model failure can be severe. By developing models that are more robust to adversarial attacks, engineers can help ensure the reliability and trustworthiness of deep learning systems, which is essential for their widespread adoption and deployment. As a result, adversarial robustness is an active area of research, with significant potential for impact and improvement in the field of deep learning.",
+      "sources": [
+        {
+          "name": "Adversarial Robustness - Theory and Practice",
+          "url": "https://arxiv.org/abs/2102.06567"
+        },
+        {
+          "name": "PyTorch Adversarial Robustness",
+          "url": "https://pytorch.org/tutorials/advanced/adversarial_tutorials.html"
+        },
+        {
+          "name": "Adversarial Attacks and Defenses in Deep Learning",
+          "url": "https://ieeexplore.ieee.org/document/8953876"
+        }
+      ]
+    }
+  ]
+}
