@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "August 14, 2026 at 13:08 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "In-Orbit Servicing and Manufacturing: A New Frontier for Satellite Constellations",
+      "body": [
+        "In-orbit servicing and manufacturing refer to the ability to perform repairs, upgrades, and assembly of satellites in space. This technology has the potential to significantly extend the lifespan of satellites, reduce the need for replacement launches, and enable the creation of more complex and capable space-based systems. Recent advances in robotics, artificial intelligence, and materials science have made in-orbit servicing and manufacturing more feasible.",
+        "The market for in-orbit services is expected to generate $3 billion in revenue over the next decade, with companies such as Intuitive Machines and CesiumAstro already investing in the development of in-orbit servicing capabilities. The US Space Force has also awarded contracts to several companies to test multi-vendor satellite networks, which could potentially include in-orbit servicing and manufacturing capabilities.",
+        "One of the key challenges in implementing in-orbit servicing and manufacturing is the need for standardized interfaces and protocols to enable communication and cooperation between different satellites and systems. The Modular Open Systems Approach (MOSA) is being explored as a potential solution to this challenge, as it allows for the integration of different systems and components from multiple vendors.",
+        "The development of in-orbit servicing and manufacturing capabilities is also driving innovation in areas such as robotics, propulsion systems, and materials science. For example, the use of advanced robotics and artificial intelligence can enable more precise and efficient satellite assembly and repair, while the development of new materials and propulsion systems can enable more efficient and sustainable satellite operations."
+      ],
+      "why": "The ability to service and manufacture satellites in orbit has the potential to revolutionize the space industry by enabling the creation of more complex and capable space-based systems, reducing the need for replacement launches, and extending the lifespan of satellites. This technology can also have significant economic and environmental benefits, such as reducing the amount of space debris and minimizing the environmental impact of satellite launches.",
+      "sources": [
+        {
+          "name": "Space News",
+          "url": "https://spacenews.com/"
+        },
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "Satellite Today",
+          "url": "https://www.satellitetoday.com/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Synchronized Switching in High-Power DC-DC Converters for Reduced Electromagnetic Interference",
+      "body": [
+        "Synchronized switching in high-power DC-DC converters involves coordinating the switching of multiple power electronic devices to minimize electromagnetic interference (EMI). This is particularly important in high-power applications, such as electric vehicle charging stations and renewable energy systems, where EMI can have significant consequences. By synchronizing the switching of these devices, the resulting EMI can be reduced, improving the overall reliability and efficiency of the system.",
+        "Mathematically, the synchronized switching can be represented by the equation: \u03b4 = (1/2) \\* (T_on1 - T_on2), where \u03b4 is the timing mismatch between the two switching signals, and T_on1 and T_on2 are the on-times of the two switches. By minimizing \u03b4, the EMI can be significantly reduced.",
+        "The benefits of synchronized switching are not limited to EMI reduction. It also improves the overall efficiency of the system by reducing the switching losses. This is because the synchronized switching allows for a more efficient use of the switching devices, resulting in lower energy losses and higher overall system efficiency.",
+        "In practice, synchronized switching can be implemented using a variety of techniques, including phase-locked loops (PLLs) and digital signal processing (DSP) algorithms. These techniques allow for precise control over the switching of the power electronic devices, enabling the reduction of EMI and improvement of system efficiency."
+      ],
+      "why": "Synchronized switching in high-power DC-DC converters is important because it helps reduce electromagnetic interference, which can have significant consequences in high-power applications. By minimizing EMI, synchronized switching improves the reliability and efficiency of the system, making it a crucial technique for engineers to understand and implement. This, in turn, can lead to more efficient and reliable electric vehicle charging stations, renewable energy systems, and other high-power applications.",
+      "sources": [
+        {
+          "name": "IEEE Xplore",
+          "url": "https://ieeexplore.ieee.org/"
+        },
+        {
+          "name": "National Renewable Energy Laboratory",
+          "url": "https://www.nrel.gov/"
+        },
+        {
+          "name": "ResearchGate",
+          "url": "https://www.researchgate.net/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "US Authorizes Private Companies to Counter Cybercriminals with Hacking",
+      "body": [
+        "The US government has given permission to American companies to hack back against cybercriminals, marking a significant shift in the country's approach to cybersecurity. This move is part of a broader effort to combat the growing threat of cybercrime, which has become an increasingly significant concern for businesses and individuals alike.",
+        "The decision to allow private companies to engage in counter-hacking operations is intended to help level the playing field against cybercriminals, who often operate with impunity. By granting companies the authority to strike back at their attackers, the US government hopes to deter cybercrime and reduce the financial losses associated with these types of attacks.",
+        "However, this new policy has also raised concerns about the potential risks and unintended consequences of allowing private companies to engage in hacking operations. Some experts have warned that this could lead to a escalation of cyberconflict, as companies and cybercriminals engage in a cycle of retaliation and counter-retaliation."
+      ],
+      "why": "This development matters because it represents a significant shift in the way the US approaches cybersecurity, and has important implications for the future of cybercrime and cybersecurity. As cyber threats continue to grow and evolve, the ability of private companies to counter these threats will become increasingly important, and this policy could set a precedent for other countries to follow.",
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1989 Tiananmen Square Protests: A Watershed Moment in Modern Chinese History",
+      "body": [
+        "The 1989 Tiananmen Square protests were a series of student-led demonstrations that took place in Beijing, China, from April 15 to June 4, 1989. The protests began as a tribute to the late Communist Party leader Hu Yaobang, who was known for his liberalizing reforms, but soon evolved into a broader movement calling for democratic reforms, freedom of speech, and an end to government corruption. The protests were marked by large gatherings in Tiananmen Square, where students and workers erected a replica of the Statue of Liberty and staged hunger strikes.",
+        "The Chinese government, led by Premier Li Peng and Paramount Leader Deng Xiaoping, responded to the protests with a mix of concessions and repression. On May 20, 1989, the government declared martial law, and on June 3-4, 1989, the military was deployed to Tiananmen Square to quell the protests. The resulting crackdown was marked by violence and bloodshed, with estimates suggesting that hundreds, if not thousands, of protesters were killed or injured.",
+        "The aftermath of the Tiananmen Square protests saw a significant increase in government repression and censorship in China. Many protest leaders were arrested, imprisoned, or forced into exile, and the government implemented a range of measures to suppress dissent and maintain control. The event marked a turning point in modern Chinese history, as the government's response to the protests signaled a shift away from liberalizing reforms and towards a more authoritarian approach to governance."
+      ],
+      "why": "The 1989 Tiananmen Square protests are significant because they highlight the ongoing struggle for democratic freedoms and human rights in China. The event marked a watershed moment in modern Chinese history, as the government's response to the protests signaled a shift towards a more authoritarian approach to governance. This has had lasting implications for China's development and its relationships with the rest of the world, and serves as a reminder of the importance of protecting human rights and democratic freedoms.",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-48550747"
+        },
+        {
+          "name": "Human Rights Watch",
+          "url": "https://www.hrw.org/topic/china"
+        },
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/topic/subject/tiananmen-square-protests"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Cognitive Architectures for Multimodal Human-Computer Interaction",
+      "body": [
+        "Cognitive architectures are computational frameworks that simulate human cognition and provide a structured approach to modeling complex cognitive processes. They have been widely used in various applications, including human-computer interaction, natural language processing, and decision-making systems. In the context of multimodal human-computer interaction, cognitive architectures can be used to integrate multiple modalities, such as speech, gesture, and vision, to create a more natural and intuitive user experience.",
+        "In recent years, there has been a growing interest in developing cognitive architectures that can handle multimodal input and output. One of the key challenges in this area is to develop architectures that can effectively integrate multiple modalities and provide a seamless user experience. To address this challenge, researchers have proposed various cognitive architectures, such as SOAR, LIDA, and CLARION, that can handle multimodal input and output. These architectures provide a framework for integrating multiple modalities and simulating human cognition in a more realistic way.",
+        "For example, the SOAR cognitive architecture has been used to develop a multimodal interface that allows users to interact with a virtual assistant using speech, gesture, and vision. The interface uses a combination of natural language processing and computer vision to recognize user input and generate a response. The SOAR architecture provides a framework for integrating multiple modalities and simulating human cognition, allowing the virtual assistant to understand and respond to user input in a more natural and intuitive way.",
+        "The development of cognitive architectures for multimodal human-computer interaction has the potential to revolutionize the way we interact with computers and other devices. By providing a more natural and intuitive user experience, these architectures can make it easier for people to use technology and access information, which can have a significant impact on various aspects of our lives, including education, healthcare, and entertainment."
+      ],
+      "why": "The development of cognitive architectures for multimodal human-computer interaction is significant because it has the potential to make technology more accessible and user-friendly. By providing a more natural and intuitive user experience, these architectures can help to bridge the gap between humans and machines, making it easier for people to use technology and access information. This can have a significant impact on various aspects of our lives, including education, healthcare, and entertainment, and can help to improve the overall quality of life for many people.",
+      "sources": [
+        {
+          "name": "MIT Press",
+          "url": "https://mitpress.mit.edu/"
+        },
+        {
+          "name": "Association for the Advancement of Artificial Intelligence",
+          "url": "https://www.aaai.org/"
+        },
+        {
+          "name": "IEEE Computer Society",
+          "url": "https://www.computer.org"
+        }
+      ]
+    }
+  ]
+}
