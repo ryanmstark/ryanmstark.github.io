@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "August 16, 2026 at 12:40 UTC",
+  "cards": [
+    {
+      "id": "ee_comms",
+      "title": "Advancements in Satellite Disposal Technologies for Mitigating Orbital Debris",
+      "body": [
+        "Satellite disposal has become a critical aspect of space sustainability, as the increasing number of satellites in orbit raises concerns about collisions and orbital debris. The U.S. defense agencies have recently tapped three companies to conduct a study on satellite disposal, highlighting the importance of developing effective technologies for removing defunct satellites from orbit. One approach being explored is the use of drag sails, which increase the surface area of a satellite, causing it to experience greater atmospheric drag and thereby accelerating its descent into the Earth's atmosphere.",
+        "Another technique being developed is the use of propulsion systems specifically designed for de-orbiting, such as electric propulsion or hall effect thrusters. These systems can provide a controlled and efficient means of lowering a satellite's orbit, ensuring it burns up in the atmosphere or lands in a designated area. The development of these technologies is crucial for mitigating the risks associated with orbital debris and ensuring the long-term sustainability of space operations.",
+        "Orbital debris poses significant risks to operational satellites and spacecraft, as even small pieces of debris can cause catastrophic damage. The implementation of effective satellite disposal technologies can help reduce the amount of debris in orbit, minimizing the risks of collisions and ensuring the continued safety of space-based assets. As the number of satellites in orbit continues to grow, the development of reliable and efficient satellite disposal methods will become increasingly important for maintaining the integrity of space-based systems.",
+        "The development of satellite disposal technologies also has significant implications for the environment, as it can help reduce the amount of hazardous materials released into the atmosphere during the de-orbiting process. Furthermore, the use of controlled de-orbiting techniques can help minimize the risk of damage to people and property on the ground, ensuring that satellite disposal is conducted in a responsible and sustainable manner."
+      ],
+      "why": "The development of satellite disposal technologies is critical for ensuring the long-term sustainability of space operations, as it helps mitigate the risks associated with orbital debris and reduces the environmental impact of satellite de-orbiting. As the number of satellites in orbit continues to grow, the implementation of effective satellite disposal methods will become increasingly important for maintaining the safety and integrity of space-based systems, and for minimizing the risks of collisions and environmental damage.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/"
+        },
+        {
+          "name": "Space News",
+          "url": "https://spacenews.com/"
+        },
+        {
+          "name": "European Space Agency",
+          "url": "https://www.esa.int/"
+        }
+      ]
+    },
+    {
+      "id": "ee_core",
+      "title": "Fractional-Order Control Systems for Improved Robustness and Stability in Power Electronics",
+      "body": [
+        "Fractional-order control systems have gained significant attention in recent years due to their ability to provide improved robustness and stability in power electronics applications. Unlike traditional integer-order control systems, fractional-order systems utilize fractional calculus to model and analyze systems with non-integer order dynamics. This allows for a more accurate representation of real-world systems, which often exhibit non-integer order behavior.",
+        "Fractional-order control systems can be designed using various methods, including the CRONE (Commande Robuste d'Ordre Non Entier) method and the fractional-order PID (Proportional-Integral-Derivative) controller. The CRONE method involves designing a controller that takes into account the fractional-order dynamics of the plant, while the fractional-order PID controller uses a fractional-order integral and derivative terms to improve the system's robustness and stability.",
+        "The advantages of fractional-order control systems include improved disturbance rejection, reduced sensitivity to parameter variations, and enhanced stability margins. These benefits make fractional-order control systems particularly suitable for power electronics applications, such as DC-DC converters, where high performance and reliability are critical. However, the design and implementation of fractional-order control systems can be more complex than traditional integer-order systems, requiring advanced mathematical tools and computational methods.",
+        "Recent research has focused on developing practical design methods and implementation techniques for fractional-order control systems. This includes the development of software tools and hardware platforms that can efficiently implement fractional-order controllers. Additionally, researchers are exploring the application of fractional-order control systems to other fields, such as robotics and process control, where improved robustness and stability are essential."
+      ],
+      "why": "Fractional-order control systems have the potential to significantly improve the performance and reliability of power electronics systems, which are critical components in a wide range of applications, from renewable energy systems to electric vehicles. By providing improved robustness and stability, fractional-order control systems can help reduce the risk of system failures and improve overall efficiency, making them an important area of research and development for engineers and scientists.",
+      "sources": [
+        {
+          "name": "IEEE Transactions on Industrial Electronics",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41"
+        },
+        {
+          "name": "Fractional-Order Systems and Control: Fundamentals and Applications",
+          "url": "https://www.springer.com/gp/book/9783319050396"
+        },
+        {
+          "name": "Journal of Power Electronics",
+          "url": "https://www.jpe.koreaseme.com/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "US Military's Pursuit of AI Dominance Faces Challenges",
+      "body": [
+        "The US military is seeking to achieve dominance in artificial intelligence (AI) to gain a strategic advantage over its competitors, particularly China.",
+        "However, this goal is being hindered by internal feuds and the rising capabilities of China's AI sector.",
+        "The US military's AI initiatives are focused on developing and deploying AI-powered systems for various applications, including cybersecurity, surveillance, and autonomous weapons.",
+        "Despite the potential benefits of AI, the US military faces significant challenges in achieving its goals, including the need for significant investment in research and development, as well as addressing concerns about the ethics and safety of AI systems."
+      ],
+      "why": [
+        "The US military's pursuit of AI dominance has significant implications for global security and the future of warfare, as AI-powered systems could potentially change the nature of conflict and give the US a strategic advantage over its competitors."
+      ],
+      "sources": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/"
+        },
+        {
+          "name": "Defense News",
+          "url": "https://www.defensenews.com/"
+        },
+        {
+          "name": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "The 1973 Chilean Coup: A Watershed Moment in Latin American Politics and US Foreign Policy",
+      "body": [
+        "The 1973 Chilean Coup, which occurred on September 11, 1973, was a pivotal event in modern Latin American history. The coup overthrew the democratically elected government of President Salvador Allende, a Marxist, and installed a military dictatorship led by General Augusto Pinochet. The coup was backed by the United States, particularly the Nixon administration, which saw Allende's government as a threat to its interests in the region.",
+        "The consequences of the coup were severe, with thousands of Chileans killed, tortured, or forced into exile. The Pinochet regime implemented neoliberal economic policies, which led to significant economic growth but also increased income inequality. The coup also had a profound impact on US-Latin American relations, marking a turning point in the Cold War and the beginning of a period of increased US intervention in the region.",
+        "The coup was also notable for the role of the CIA and other US agencies in supporting the military uprising. Declassified documents have revealed that the US provided financial and military aid to the Chilean military, and that the CIA had been involved in efforts to destabilize the Allende government from the beginning. The legacy of the coup continues to be felt in Chile and beyond, with ongoing debates about the role of the US in the region and the impact of neoliberal economic policies on social and economic development."
+      ],
+      "why": "The 1973 Chilean Coup is significant because it highlights the complex and often fraught relationship between the US and Latin America, and the ways in which US foreign policy can have far-reaching and unintended consequences. Understanding this event can help us better appreciate the ongoing challenges and opportunities in the region, and the need for a more nuanced and equitable approach to international relations.",
+      "sources": [
+        {
+          "name": "The National Security Archive",
+          "url": "https://nsarchive.gwu.edu/"
+        },
+        {
+          "name": "The CIA Library",
+          "url": "https://www.cia.gov/library/"
+        },
+        {
+          "name": "The Chilean Ministry of Foreign Affairs",
+          "url": "https://www.minrel.gob.cl/en"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "Graph Neural Networks for Node Classification and Graph Generation",
+      "body": [
+        "Graph Neural Networks (GNNs) are a type of neural network designed to work directly with graph-structured data. They have been successfully applied to various tasks such as node classification, graph classification, and graph generation. The key idea behind GNNs is to learn a representation for each node in the graph by aggregating information from its neighbors.",
+        "Node classification is a fundamental task in graph learning, where the goal is to predict the label of each node based on the node's attributes and the graph structure. GNNs can be used for node classification by learning a representation for each node and then using a classifier to predict the label. For example, in a social network, node classification can be used to predict the interests of users based on their connections and attributes.",
+        "GNNs can also be used for graph generation, which involves generating new graphs that are similar to the training graphs. This can be useful in various applications such as molecular generation and graph-based data augmentation. Graph generation can be formulated as a sequence-to-sequence problem, where the input is a graph and the output is a new graph. GNNs can be used as the encoder and decoder in the sequence-to-sequence model to generate new graphs.",
+        "One of the key challenges in training GNNs is the over-smoothing problem, where the node representations become indistinguishable after multiple layers of aggregation. This can be mitigated by using techniques such as residual connections, dilated aggregations, and attention mechanisms. Another challenge is the scalability of GNNs to large graphs, which can be addressed by using techniques such as graph sampling, mini-batching, and distributed training."
+      ],
+      "why": "Graph Neural Networks have the potential to revolutionize the way we analyze and generate complex network data, with applications in social networks, molecular biology, and traffic prediction. By learning to represent and generate graphs, GNNs can help us better understand the underlying structures and relationships in these networks, and make predictions and recommendations that are more accurate and personalized.",
+      "sources": [
+        {
+          "name": "GraphSAGE",
+          "url": "https://arxiv.org/abs/1706.02216"
+        },
+        {
+          "name": "Graph Attention Networks",
+          "url": "https://arxiv.org/abs/1710.10903"
+        },
+        {
+          "name": "Graph Neural Networks: A Review of Methods and Applications",
+          "url": "https://arxiv.org/abs/2010.05723"
+        }
+      ]
+    }
+  ]
+}
