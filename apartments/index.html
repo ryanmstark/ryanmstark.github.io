@@ -41,6 +41,16 @@
       background: #fff; border: 1px solid #ccc; border-top: 4px solid #7a3b14;
       box-shadow: 0 1px 3px rgba(0,0,0,0.06); display: flex; flex-direction: column;
     }
+    .card.is-new { border-top-color: #2e7d32; }
+    .new-banner {
+      background: #2e7d32; color: #fff; font-weight: bold; font-size: 0.75rem;
+      letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 14px;
+    }
+    .date { font-size: 0.75rem; color: #555; margin-top: 4px; }
+    .date b { color: #000; }
+    tr.is-new td { background: #edf7ee; }
+    .new-chip { display: inline-block; background: #2e7d32; color: #fff; font-size: 0.65rem; font-weight: bold; padding: 1px 5px; margin-left: 4px; letter-spacing: 0.06em; }
+    .addr { color: #555; }
     .mini-map { height: 150px; border-bottom: 1px solid #ddd; background: #eef0ee; }
     .map-note { font-size: 0.65rem; color: #888; padding: 3px 14px 0; }
     .card-head { padding: 10px 14px 8px; }
@@ -102,9 +112,8 @@
   <a class="back" href="/">← Sandbox Apps</a>
   <h1>Apartment Summary</h1>
   <p class="sub">
-    San Francisco 1BR search · snapshot of listings found <b id="asof"></b>.
-    Listings move fast, so confirm a unit is still available before reaching out.
-    "All-in" means rent plus parking.
+    San Francisco 1BR search · newest postings first. <span id="checked"></span>
+    Removed or expired postings drop off automatically. "All-in" means rent plus parking.
   </p>
 
   <div class="criteria">
@@ -119,7 +128,7 @@
 
   <div class="section">
     <div class="section-label">Unique listings · condos, flats &amp; small buildings</div>
-    <p class="section-note">One-off units from individual owners or small buildings, ranked by fit. All have parking. Map pins are approximate (block level).</p>
+    <p class="section-note">One-off units from individual owners or small buildings, newest first. All have parking. Map pins are approximate (block level).</p>
     <div class="grid" id="unique"></div>
   </div>
 
@@ -127,12 +136,12 @@
     <div class="section-label">Repeat posters &amp; big complexes</div>
     <p class="section-note">
       Buildings and management companies that post the same units over and over, often with shifting prices,
-      plus large managed complexes. Prices shown are for true 1-bedrooms only. Numbers match the map pins.
+      plus large managed complexes. Prices shown are for true 1-bedrooms only. Newest first; numbers match the map pins.
     </p>
     <div id="complex-map"></div>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>#</th><th>Building</th><th>Area</th><th>1BR price</th><th>Parking</th><th>What stands out</th><th>Seen</th></tr></thead>
+        <thead><tr><th>#</th><th>Complex</th><th>Address</th><th>Area</th><th>Posted</th><th>1BR price</th><th>Parking</th><th>What stands out</th><th>Seen</th></tr></thead>
         <tbody id="complexes"></tbody>
       </table>
     </div>
@@ -158,7 +167,7 @@
         Potrero Hill loft ($3,600, 1,350 sq ft): its bedroom is glass-walled with no confirmed exterior window, and it hits two scam hallmarks
         (price far below market for the size, and no name or phone in the post).
         Listings without parking (920½ Broderick, 235 Mississippi) and buildings directly on Oak or Fell (600 Oak, 250 Fell) were also dropped.
-        Avalon Hayes Valley was dropped because it lists no 1-bedroom prices.
+        Avalon Hayes Valley was dropped because it lists no 1-bedroom prices. 368 Elm St (expired Oct 27) and 355 Fulton #308 (deleted by its author) are gone too.
       </p>
     </details>
     <details>
@@ -185,172 +194,12 @@
       <ul>
         <li>Craigslist SF apartments (Hayes Valley, Cole Valley, Potrero Hill and 1BR searches)</li>
         <li>Zumper neighborhood and building pages, PadMapper, Apartments.com</li>
-        <li>Map tiles © OpenStreetMap contributors © CARTO</li>
+        <li>Map tiles © OpenStreetMap contributors</li>
       </ul>
     </details>
   </div>
 
-  <script id="data" type="application/json">
-{
-  "asof": "Nov 2, 2026",
-  "unique": [
-    {
-      "name": "430 Hayes St #202",
-      "hood": "Hayes Valley · 3rd-floor condo in a 6-unit building",
-      "lat": 37.7767, "lng": -122.4234,
-      "rent": 4595, "allin": "$4,595 + parking (cost not listed)",
-      "tags": [["Assigned garage spot", "yes"], ["In-unit W/D", "yes"], ["Dishwasher", "yes"], ["Rooftop deck", "yes"], ["730 sq ft", "yes"], ["Bedroom window: confirm", "maybe"], ["Condo: likely no rent cap", "maybe"], ["No pets", "no"]],
-      "notes": ["Galley kitchen with stainless appliances, hardwood floors, big windows, decorative fireplace, walk-in closet and a storage locker. In-unit washer/dryer is small-load, with a free shared pair in the garage.",
-                "<span class='flag'>Garage space is described as fitting a medium or compact car. Confirm your Mazda 3 fits.</span>"],
-      "scam": ["Low risk", "named listing agent (ReLISTO), full address, in-person tours offered."],
-      "who": "ReLISTO (listing agent)", "posted": "listed ~Oct 31",
-      "url": "https://www.zumper.com/address/430-hayes-st-san-francisco-ca-94102-usa", "src": "Zumper"
-    },
-    {
-      "name": "Frederick St & Belvedere St",
-      "hood": "Cole Valley · 2 blocks from Golden Gate Park",
-      "lat": 37.7663, "lng": -122.4489,
-      "rent": 4475, "allin": "$4,875 all-in",
-      "tags": [["Garage spot +$400", "yes"], ["In-unit W/D (combo unit)", "yes"], ["Dishwasher", "yes"], ["Brand-new kitchen", "yes"], ["575 sq ft", "maybe"], ["1.5 bath", "yes"], ["Bedroom window: confirm", "maybe"], ["Pets OK", "yes"]],
-      "notes": ["Newly remodeled unit with a private entrance, en-suite bath, new cabinets and counters, kitchen bar, hardwood floors and high ceilings. Water, garbage and PG&E included.",
-                "<span class='flag'>Private entrance suggests a garden-level unit. Confirm the bedroom has an exterior window before touring.</span>"],
-      "scam": ["Low risk", "established SF property manager with a named agent and phone number."],
-      "who": "J.Wavro Associates", "posted": "updated Nov 1–2",
-      "url": "https://www.zumper.com/listings/65619312/1-bedroom-cole-valley-san-francisco-ca", "src": "Zumper"
-    },
-    {
-      "name": "339 Lyon St, Unit 2",
-      "hood": "NoPa / Panhandle · 4-unit building (Lyon between Fell & Hayes)",
-      "lat": 37.7739, "lng": -122.4436,
-      "rent": 3595, "allin": "$3,595 all-in",
-      "tags": [["Garage space included", "yes"], ["In-unit laundry", "yes"], ["Remodeled eat-in kitchen", "yes"], ["Rent-control candidate", "yes"], ["Dishwasher?", "maybe"], ["Availability unclear", "maybe"]],
-      "notes": ["Best value and closest to the classic SF rent-controlled setup you described: a whole 1BR in a well-kept 4-unit building with a shared backyard, a block from the Panhandle. The address is mid-block on Lyon, not on Fell.",
-                "<span class='flag'>Page says “check back soon for upcoming availability,” so it may be rented or not yet open.</span>"],
-      "scam": ["Some caution", "price is low for a 1BR with garage and laundry, and the manager's name isn't shown. Tour in person and confirm the manager before paying anything."],
-      "who": "Small property manager (name not shown)", "posted": "page updated Nov 2",
-      "url": "https://www.apartments.com/nopa-1-bedroom-w-parking-laundry-san-francisco-ca-unit-2/cse1xee/", "src": "Apartments.com"
-    },
-    {
-      "name": "368 Elm St (near Turk)",
-      "hood": "Civic Center edge · top floor",
-      "lat": 37.7813, "lng": -122.4198, "approx": true,
-      "rent": 4500, "allin": "$4,500 all-in",
-      "tags": [["Deeded indoor parking, included", "yes"], ["In-unit W/D", "yes"], ["Dishwasher", "yes"], ["~700 sq ft", "yes"], ["Top floor", "yes"], ["Pets OK", "yes"], ["Bedroom window: confirm", "maybe"]],
-      "notes": ["Modern top-floor 1BR/1BA with attached indoor parking deeded to the unit, gas fireplace, high ceilings and redone hardwood floors.",
-                "<span class='flag'>Posted Sep 27 for a Nov 1 move-in, so it may already be taken. Elm St is an alley on the Civic Center side, so walk the block at night before committing.</span>"],
-      "scam": ["Some caution", "no name or phone in the post. The price is in line with the market, so it's probably real, but tour in person before sending money."],
-      "who": "Not stated", "posted": "Sep 27 (updated Oct 12)",
-      "url": "https://www.craigslist.org/view/d/san-francisco-top-floor-modern-1br-1ba/nTdfNo8u8AKXCFLVXm6L54", "src": "Craigslist"
-    },
-    {
-      "name": "741 Kansas St",
-      "hood": "Potrero Hill · 6-unit building",
-      "lat": 37.7598, "lng": -122.4037, "approx": true,
-      "rent": 4500, "allin": "$4,500 + parking fee (not listed)",
-      "tags": [["Off-street parking for a fee", "yes"], ["647 sq ft", "yes"], ["Laundry on-site only", "maybe"], ["No dishwasher", "no"], ["No outdoor space", "no"]],
-      "notes": ["Small building with an updated kitchen (granite counters). Sunny side of the city with quick freeway access. Lower on the list because it lacks a dishwasher and in-unit laundry."],
-      "scam": ["Low risk", "managed by an established SF management company."],
-      "who": "Pacific Management Group", "posted": "active",
-      "url": "https://www.zumper.com/apartment-buildings/p319627/741-potrero-hill-san-francisco-ca", "src": "Zumper"
-    },
-    {
-      "name": "2200 Sacramento St #104",
-      "hood": "Pacific Heights · condo (stretch)",
-      "lat": 37.7896, "lng": -122.4290,
-      "rent": 5495, "allin": "$5,495+ (over budget)",
-      "tags": [["Garage parking", "yes"], ["In-unit W/D", "yes"], ["Private 30-ft terrace", "yes"], ["Over $5k", "no"], ["Further north", "maybe"]],
-      "notes": ["Only here as a stretch option: a condo with a big private terrace and garage. It's over your ceiling and further north than you wanted, but closest to the Presidio."],
-      "scam": ["Low risk", "full unit address and market-rate price."],
-      "who": "Individual condo", "posted": "active",
-      "url": "https://www.zumper.com/address/2200-sacramento-st-san-francisco-ca-94115-usa", "src": "Zumper"
-    }
-  ],
-  "complexes": [
-    {"name": "Tennessee St near 20th (40-unit, built 2019)", "area": "Dogpatch", "lat": 37.7604, "lng": -122.3895, "price": "$4,950 · 653 sq ft", "parking": "Attached garage (cost unclear)", "notes": "Best of the complexes: in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled.", "seen": "1 post", "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ"},
-    {"name": "One Henry Adams", "area": "Potrero / Design District", "lat": 37.7689, "lng": -122.4037, "price": "$4,440–$4,752 · 653–727 sq ft", "parking": "Garage, $275/mo", "notes": "Five 1BR floor plans, in-unit W/D. About $4,715–$5,027 all-in.", "seen": "Zumper", "url": "https://www.zumper.com/apartment-buildings/p208324/one-henry-adams-potrero-hill-san-francisco-ca"},
-    {"name": "Potrero 1010 (1010 16th St)", "area": "Potrero Hill", "lat": 37.7663, "lng": -122.3962, "price": "$4,158–$4,334 · 648–804 sq ft", "parking": "Assigned garage, $250/mo (confirm)", "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in.", "seen": "Zumper", "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca"},
-    {"name": "Sunset Towers (8 Locksley Ave)", "area": "Inner Sunset edge", "lat": 37.7590, "lng": -122.4626, "price": "$4,789–$5,619 · 631–771 sq ft", "parking": "Garage (cost not listed)", "notes": "In-unit W/D, dishwasher, balconies. On the far western edge of your range.", "seen": "Zumper + PadMapper", "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca"},
-    {"name": "1395 Golden Gate Ave", "area": "Western Addition", "lat": 37.7801, "lng": -122.4336, "price": "$4,340–$6,900", "parking": "Garage (optional fee)", "notes": "Elevator building, on-site laundry. Three 1BRs available.", "seen": "Zumper", "url": "https://www.zumper.com/apartment-buildings/p364939/1395-golden-gate-avenue-western-addition-san-francisco-ca"},
-    {"name": "340 Arguello Blvd #206", "area": "Laurel Heights", "lat": 37.7826, "lng": -122.4590, "price": "$3,995", "parking": "Private garage +$200", "notes": "$4,195 all-in with a dishwasher; laundry on-site. North of your preferred area.", "seen": "Zumper", "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca"},
-    {"name": "520 Buchanan St", "area": "Hayes Valley / Alamo Sq", "lat": 37.7746, "lng": -122.4283, "price": "$4,340–$4,640", "parking": "None listed", "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Ask whether any parking comes with them.", "seen": "7+ posts", "url": "https://www.craigslist.org/view/d/san-francisco-520-buchanan-stunning-1x1/nG8c4tkPUNgvmxMNk82WG6"},
-    {"name": "355 Fulton St", "area": "Hayes Valley", "lat": 37.7787, "lng": -122.4225, "price": "$4,240–$4,700", "parking": "None listed", "notes": "Unit #308, in-unit W/D. Price differs between reposts.", "seen": "3 posts", "url": "https://www.craigslist.org/view/d/san-francisco-355-fulton-amazing-1x1-wd/khYc4Cc1w8nY4yK4orYeiX"},
-    {"name": "RentSFNow: 1720 Golden Gate Ave", "area": "NoPa", "lat": 37.7790, "lng": -122.4402, "price": "$4,395 · 460 sq ft", "parking": "Unassigned, monthly fee", "notes": "9-unit 1900 Victorian with a remodeled kitchen and dishwasher, but small and parking isn't assigned.", "seen": "Zumper", "url": "https://www.zumper.com/apartment-buildings/p276007/1720-golden-gate-nopa-san-francisco-ca"},
-    {"name": "“3 WEEKS FREE” Hayes Valley high-rise", "area": "Hayes Valley", "lat": null, "lng": null, "price": "$3,934–$4,278", "parking": "None listed", "notes": "Same promo template on 6th-floor, 7th-floor and penthouse 1BRs. No address in the posts, so it isn't on the map.", "seen": "3+ posts", "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-6th-flrcorner/hTYTWafB5SxFKafFjt7rwt"}
-  ]
-}
-  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-  <script>
-    const data = JSON.parse(document.getElementById('data').textContent);
-    document.getElementById('asof').textContent = data.asof;
-
-    const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const fmt = n => '$' + n.toLocaleString('en-US');
-
-    function card(l, i) {
-      const tags = l.tags.map(([t, k]) => `<span class="tag ${k}">${esc(t)}</span>`).join('');
-      const notes = l.notes.map(n => `<p>${n}</p>`).join('');
-      const url = esc(l.url);
-      return `
-        <div class="card">
-          <div class="mini-map" id="map-${i}"></div>
-          ${l.approx ? '<div class="map-note">Pin is approximate: exact address not confirmed.</div>' : ''}
-          <div class="card-head">
-            <div class="rank">#${i + 1} · ${esc(l.src)}</div>
-            <h2><a href="${url}" target="_blank" rel="noopener">${esc(l.name)} ↗</a></h2>
-            <div class="hood">${esc(l.hood)}</div>
-            <div class="price">${fmt(l.rent)}<small>/mo · ${esc(l.allin)}</small></div>
-          </div>
-          <div class="tags">${tags}</div>
-          <div class="body">${notes}
-            <p class="scam"><b>Scam check: ${esc(l.scam[0])}.</b> ${esc(l.scam[1])}</p>
-            <p style="color:#777">${esc(l.who)} · ${esc(l.posted)}</p>
-          </div>
-          <a class="open-btn" href="${url}" target="_blank" rel="noopener">Open posting on ${esc(l.src)} ↗</a>
-        </div>`;
-    }
-
-    document.getElementById('unique').innerHTML = data.unique.map(card).join('');
-
-    let n = 0;
-    data.complexes.forEach(c => { c.num = (c.lat != null) ? ++n : null; });
-    document.getElementById('complexes').innerHTML = data.complexes.map(c => `
-      <tr>
-        <td class="num">${c.num ?? '–'}</td>
-        <td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)} ↗</a></td>
-        <td>${esc(c.area)}</td>
-        <td>${esc(c.price)}</td>
-        <td>${esc(c.parking)}</td>
-        <td>${esc(c.notes)}</td>
-        <td class="count">${esc(c.seen)}</td>
-      </tr>`).join('');
-
-    // Maps (skipped gracefully if the map library fails to load)
-    if (window.L) {
-      const tiles = () => L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '© OpenStreetMap © CARTO', subdomains: 'abcd', maxZoom: 19
-      });
-      const pin = (label, cls) => L.divIcon({ className: 'pin ' + (cls || ''), html: label, iconSize: null, iconAnchor: cls === 'dot' ? [8, 8] : [12, 12] });
-
-      data.unique.forEach((l, i) => {
-        const m = L.map('map-' + i, { zoomControl: false, attributionControl: false, scrollWheelZoom: false, dragging: false, doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false })
-          .setView([l.lat, l.lng], 15);
-        tiles().addTo(m);
-        L.marker([l.lat, l.lng], { icon: pin('', 'dot'), interactive: false }).addTo(m);
-      });
-
-      const pts = data.complexes.filter(c => c.lat != null);
-      const big = L.map('complex-map', { scrollWheelZoom: false });
-      tiles().addTo(big);
-      pts.forEach(c => {
-        L.marker([c.lat, c.lng], { icon: pin(c.num) })
-          .bindPopup(`<b>${esc(c.name)}</b><br>${esc(c.price)}<br><a href="${esc(c.url)}" target="_blank" rel="noopener">Open posting ↗</a>`)
-          .addTo(big);
-      });
-      big.fitBounds(L.latLngBounds(pts.map(c => [c.lat, c.lng])), { padding: [24, 24] });
-    } else {
-      document.querySelectorAll('.mini-map, #complex-map').forEach(el => el.style.display = 'none');
-    }
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>
