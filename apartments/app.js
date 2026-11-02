@@ -70,7 +70,7 @@ function card(l, i) {
 }
 
 function render(data) {
-  const live = x => x.status !== 'removed';
+  const live = x => x.status !== 'removed' && x.status !== 'excluded';
   const unique = data.unique.filter(live).sort((a, b) => sortKey(b) - sortKey(a));
   const complexes = data.complexes.filter(live).sort((a, b) => sortKey(b) - sortKey(a));
 
