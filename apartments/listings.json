@@ -1,6 +1,6 @@
 {
   "asof": "2026-11-02",
-  "checked_at": "2026-11-02T22:40:00Z",
+  "checked_at": "2026-11-02T23:03:00Z",
   "unique": [
     {
       "id": "430-hayes-202",
@@ -273,9 +273,9 @@
       "lat": 37.7604,
       "lng": -122.3895,
       "posted": "2026-10-19T21:17:00-07:00",
-      "price": "$4,950 · 653 sq ft",
+      "price": "$4,850 · 653 sq ft",
       "parking": "Attached garage (cost unclear)",
-      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled.",
+      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2).",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
       "status": "active"
@@ -322,7 +322,7 @@
       "price": "$4,400–$5,640",
       "parking": "Garage (optional fee)",
       "notes": "Elevator building, on-site laundry. Unit 207 recently dropped to $4,400.",
-      "seen": "Zumper + HotPads",
+      "seen": "Zumper + HotPads + 4 Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active"
     },
