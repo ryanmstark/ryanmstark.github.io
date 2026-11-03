@@ -1,7 +1,57 @@
 {
   "asof": "2026-11-03",
-  "checked_at": "2026-11-03T06:54:26Z",
+  "checked_at": "2026-11-03T14:03:50Z",
   "unique": [
+    {
+      "id": "875-vermont-201",
+      "name": "875 Vermont St #201",
+      "hood": "Potrero Hill · 10-unit condo building (Vermont at 20th St)",
+      "lat": 37.7598,
+      "lng": -122.4045,
+      "rent": 4200,
+      "allin": "$4,200 (deeded spot likely included)",
+      "posted": "2026-11-02",
+      "posted_approx": true,
+      "updated": "2026-11-03",
+      "tags": [
+        [
+          "Deeded parking space (per sale record)",
+          "maybe"
+        ],
+        [
+          "575 sq ft",
+          "yes"
+        ],
+        [
+          "Sunny Potrero, ~1 mi from Dogpatch work",
+          "yes"
+        ],
+        [
+          "Shared laundry in building",
+          "maybe"
+        ],
+        [
+          "Dishwasher?",
+          "maybe"
+        ],
+        [
+          "Condo: no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Individually owned 1BR/1BA condo (built 1965) on the south slope of Potrero Hill, close to the 280/101 on-ramps and a short ride to Dogpatch. Zillow shows it newly listed at $4,200 for 575 sq ft. When the unit sold in 2017 the listing said &ldquo;one-car deeded parking is included,&rdquo; so the spot should come with the rental, but confirm it is part of this lease.",
+        "<span class='flag'>Zillow's detail page couldn't be opened this run, so parking, dishwasher, bedroom window and the owner/agent name are unconfirmed. Neighboring units in the building advertise shared coin-op laundry, not in-unit.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "price is in line with the area and it's a real condo unit with a public sale history, but the lister wasn't visible. Tour in person and confirm the owner or agent before paying anything."
+      ],
+      "who": "Individual condo owner or agent (not shown)",
+      "url": "https://www.zillow.com/homedetails/875-Vermont-St-APT-201-San-Francisco-CA-94107/2093593619_zpid/",
+      "src": "Zillow",
+      "status": "active"
+    },
     {
       "id": "430-hayes-202",
       "name": "430 Hayes St #202",
