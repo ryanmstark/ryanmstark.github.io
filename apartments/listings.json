@@ -1,6 +1,6 @@
 {
   "asof": "2026-11-03",
-  "checked_at": "2026-11-03T02:46:48Z",
+  "checked_at": "2026-11-03T06:54:26Z",
   "unique": [
     {
       "id": "430-hayes-202",
@@ -293,7 +293,8 @@
       "notes": "The “3 WEEKS FREE” poster: same promo on 6th-floor, 7th-floor and penthouse 1BRs. About $4,334–$4,678 all-in. Confirm a stacker fits your Mazda 3.",
       "seen": "3+ posts",
       "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-6th-flrcorner/hTYTWafB5SxFKafFjt7rwt",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-03T06:54:23Z"
     },
     {
       "id": "520-buchanan",
@@ -308,8 +309,9 @@
       "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed.",
       "seen": "7+ posts",
       "url": "https://www.craigslist.org/view/d/san-francisco-520-buchanan-stunning-1x1/nG8c4tkPUNgvmxMNk82WG6",
-      "status": "excluded",
-      "excluded_reason": "No designated parking spot"
+      "status": "removed",
+      "excluded_reason": "No designated parking spot",
+      "removed_at": "2026-11-03T06:54:23Z"
     },
     {
       "id": "1395-golden-gate",
