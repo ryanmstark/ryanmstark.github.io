@@ -1,7 +1,66 @@
 {
   "asof": "2026-11-03",
-  "checked_at": "2026-11-03T20:13:11Z",
+  "checked_at": "2026-11-03T23:14:07Z",
   "unique": [
+    {
+      "id": "601-van-ness-511",
+      "name": "Opera Plaza #511 (601 Van Ness Ave)",
+      "hood": "Van Ness corridor / Civic Center · Opera Plaza condo complex",
+      "lat": 37.7814,
+      "lng": -122.4212,
+      "rent": 3800,
+      "allin": "$4,095 all-in ($3,800 + $295 garage)",
+      "posted": "2026-10-22",
+      "posted_approx": true,
+      "updated": "2026-11-03",
+      "tags": [
+        [
+          "Building garage spot +$295/mo",
+          "maybe"
+        ],
+        [
+          "692 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Private balcony, city views",
+          "yes"
+        ],
+        [
+          "Shared coin-op laundry",
+          "maybe"
+        ],
+        [
+          "Water, garbage & internet included",
+          "yes"
+        ],
+        [
+          "Condo (built 1982): no rent cap",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Individually owned 1BR/1BA in Opera Plaza, the condo complex you flagged. Price dropped from $4,000 to $3,800; with the $295 garage spot it lands about $400 under your target. 12-month lease, pets case by case, tenant pays the HOA move-in fee and deposit. Quick on-ramp to 101/280 for the Dogpatch commute.",
+        "<span class='flag'>The listing says garage parking is available for $295/mo but doesn't say the space is assigned. Confirm it's a designated spot that fits your Mazda 3, and ask which side of the building the unit faces.</span>",
+        "Also in the building: unit #712 (708 sq ft, dishwasher, balcony) is listed by BARE at $3,960, but its listing doesn't mention parking."
+      ],
+      "scam": [
+        "Low risk",
+        "leased by a licensed brokerage (SF City Rents, managed by Leading Properties), the price matches other Opera Plaza 1BRs, it's on Zillow and Trulia, and they won't process applications until you've seen the unit."
+      ],
+      "who": "SF City Rents (managed by Leading Properties)",
+      "url": "https://www.zillow.com/b/601-van-ness-avenue-san-francisco-ca-5XkGN9",
+      "src": "Zillow",
+      "status": "active"
+    },
     {
       "id": "875-vermont-201",
       "name": "875 Vermont St #201",
@@ -223,10 +282,10 @@
       "lat": 37.7598,
       "lng": -122.4037,
       "approx": true,
-      "rent": 4500,
-      "allin": "$4,500 + parking fee (not listed)",
+      "rent": 4200,
+      "allin": "$4,200 + parking fee (not listed)",
       "posted": null,
-      "updated": "2026-10-23",
+      "updated": "2026-11-03",
       "tags": [
         [
           "Off-street parking for a fee",
@@ -250,7 +309,8 @@
         ]
       ],
       "notes": [
-        "Small building with an updated kitchen (granite counters). Sunny side of the city with quick freeway access. Lower on fit because it lacks a dishwasher and in-unit laundry."
+        "Small building with an updated kitchen (granite counters). Sunny side of the city with quick freeway access. Lower on fit because it lacks a dishwasher and in-unit laundry.",
+        "Zillow now shows Unit 1 (647 sq ft) at $4,200, available Nov 1, down from $4,500."
       ],
       "scam": [
         "Low risk",
