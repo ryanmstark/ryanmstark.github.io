@@ -1,6 +1,6 @@
 {
-  "asof": "2026-11-02",
-  "checked_at": "2026-11-02T23:03:00Z",
+  "asof": "2026-11-03",
+  "checked_at": "2026-11-03T02:46:48Z",
   "unique": [
     {
       "id": "430-hayes-202",
@@ -322,7 +322,7 @@
       "price": "$4,400–$5,640",
       "parking": "Garage (optional fee)",
       "notes": "Elevator building, on-site laundry. Unit 207 recently dropped to $4,400.",
-      "seen": "Zumper + HotPads + 4 Craigslist posts",
+      "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active"
     },
@@ -363,11 +363,11 @@
       "area": "Inner Sunset edge",
       "lat": 37.759,
       "lng": -122.4626,
-      "posted": null,
-      "price": "$4,789–$5,619 · 631–771 sq ft",
+      "posted": "2026-11-02T17:23:00-08:00",
+      "price": "$4,669–$5,619 · 631–771 sq ft",
       "parking": "Garage (cost not listed)",
-      "notes": "In-unit W/D, dishwasher, balconies. On the far western edge of your range.",
-      "seen": "Zumper + PadMapper",
+      "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
+      "seen": "Zumper + PadMapper + Redfin + Craigslist",
       "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
       "status": "active"
     },
