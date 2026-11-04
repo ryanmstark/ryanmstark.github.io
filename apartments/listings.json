@@ -227,7 +227,8 @@
       "who": "ReLISTO (listing agent)",
       "url": "https://www.zumper.com/address/430-hayes-st-san-francisco-ca-94102-usa",
       "src": "Zumper",
-      "status": "active"
+      "status": "excluded",
+      "excluded_reason": "Ryan ruled it out: on the stretch of Hayes St closed to cars on weekends"
     },
     {
       "id": "frederick-belvedere",
@@ -284,7 +285,9 @@
       "who": "J.Wavro Associates",
       "url": "https://www.zumper.com/listings/65619312/1-bedroom-cole-valley-san-francisco-ca",
       "src": "Zumper",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-04",
+      "removed_reason": "Ryan confirmed it is not available"
     },
     {
       "id": "339-lyon-2",
@@ -333,7 +336,9 @@
       "who": "Small property manager (name not shown)",
       "url": "https://www.apartments.com/nopa-1-bedroom-w-parking-laundry-san-francisco-ca-unit-2/cse1xee/",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-04",
+      "removed_reason": "Ryan confirmed it is not available"
     },
     {
       "id": "741-kansas",
