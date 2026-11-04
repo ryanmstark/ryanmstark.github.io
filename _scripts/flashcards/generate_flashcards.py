@@ -712,13 +712,15 @@ def generate_card(
     )
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        # llama-3.3-70b-versatile was retired by Groq on 2026-08-16.
+        model="openai/gpt-oss-120b",
         messages=[
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
-        max_tokens=2000,
+        max_tokens=6000,
         temperature=0.72,
+        extra_body={"reasoning_effort": "low"},
     )
 
     raw = response.choices[0].message.content.strip()

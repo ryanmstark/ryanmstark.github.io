@@ -230,10 +230,12 @@ Postings:
 
     try:
         resp = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            # llama-3.3-70b-versatile was retired by Groq on 2026-08-16.
+            model="openai/gpt-oss-120b",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
-            max_tokens=3000,
+            max_tokens=8000,
+            extra_body={"reasoning_effort": "low"},
         )
         raw = resp.choices[0].message.content.strip()
         raw = re.sub(r"^```(?:json)?\s*", "", raw)

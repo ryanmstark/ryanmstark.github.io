@@ -38,7 +38,7 @@ load_dotenv()
 
 WATCHLIST_FILE = Path(__file__).parent / "watchlist.txt"
 OUTPUT_DIR = Path(__file__).parent.parent.parent / "stock-report"
-SUMMARY_MODEL = "llama-3.3-70b-versatile"
+SUMMARY_MODEL = "openai/gpt-oss-120b"  # llama-3.3-70b-versatile was retired by Groq on 2026-08-16
 
 # News items whose title contains any of these terms (case-insensitive) are dropped.
 _NEWS_TITLE_BLOCKLIST = frozenset(["cramer"])
@@ -614,8 +614,9 @@ def generate_summaries(stocks: list[dict]) -> dict:
                 {"role": "system", "content": system_instruction},
                 {"role": "user", "content": user_content},
             ],
-            max_tokens=4096,
+            max_tokens=8000,
             response_format={"type": "json_object"},
+            extra_body={"reasoning_effort": "low"},
         )
         text = response.choices[0].message.content
         # Strip markdown code fences if the model wraps the JSON

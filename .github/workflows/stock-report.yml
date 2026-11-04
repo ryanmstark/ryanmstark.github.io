@@ -37,5 +37,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stock-report/index.html
           git diff --staged --quiet || git commit -m "Update stock report"
-          git pull --rebase
+          git pull --rebase --autostash
           git push

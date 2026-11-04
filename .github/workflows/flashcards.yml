@@ -38,5 +38,5 @@ jobs:
           find flashcards -maxdepth 1 -name '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].json' -exec git add -- {} +
           git add -u flashcards/
           git diff --staged --quiet || git commit -m "Update daily flashcards"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
