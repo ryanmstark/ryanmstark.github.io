@@ -1,8 +1,121 @@
 {
   "asof": "2026-11-04",
-  "search_at": "2026-11-04T14:05:20Z",
-  "checked_at": "2026-11-04T14:05:20Z",
+  "search_at": "2026-11-04T16:54:44Z",
+  "checked_at": "2026-11-04T16:54:44Z",
   "unique": [
+    {
+      "id": "1522-fulton-2",
+      "name": "1522 Fulton St, Unit 2",
+      "hood": "NoPa (Fulton between Central & Masonic) · 4-unit 1900 Victorian",
+      "lat": 37.7766,
+      "lng": -122.4433,
+      "approx": true,
+      "rent": 4900,
+      "allin": "$4,900 (Zillow; Redfin shows $4,495) · parking cost not listed",
+      "posted": "2026-11-03",
+      "posted_approx": true,
+      "updated": "2026-11-04",
+      "tags": [
+        [
+          "Garage parking: confirm assigned",
+          "maybe"
+        ],
+        [
+          "~650–700 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Shared laundry",
+          "maybe"
+        ],
+        [
+          "Bonus room, vaulted ceilings, updated kitchen",
+          "yes"
+        ],
+        [
+          "4-unit 1900 building: likely rent controlled",
+          "yes"
+        ],
+        [
+          "No pets",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Exactly the kind of building you like: a 4-unit, 2-story 1900 Victorian in NoPa, near the Panhandle and a short run to GGP. Bright 1BR with a bonus room, hardwood floors, updated kitchen and bath. Redfin flagged it as new about 35 hours ago at $4,495 / 650 sq ft; Zillow shows $4,900+ / 700 sq ft, so ask which is current.",
+        "<span class='flag'>The listing says “garage parking” but doesn't say the spot is assigned to this unit or what it costs. Confirm a designated space that fits the Mazda 3. Laundry is shared, not in-unit.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "managed by Sharevest Property Management, a real SF management company; on Zillow, Redfin and Apartments.com with consistent building details."
+      ],
+      "who": "Sharevest Property Management",
+      "url": "https://www.zillow.com/apartments/san-francisco-ca/1522-1524-fulton-street-2/5hzmWK",
+      "src": "Zillow",
+      "status": "active"
+    },
+    {
+      "id": "hermann-laguna",
+      "name": "Hermann St & Laguna St 1BR (6-story 1920s building)",
+      "hood": "Lower Haight / Hayes Valley edge (near Duboce & Market)",
+      "lat": 37.7712,
+      "lng": -122.4258,
+      "approx": true,
+      "rent": 4950,
+      "allin": "$4,950 + parking (fee not listed)",
+      "posted": null,
+      "updated": "2026-11-04",
+      "tags": [
+        [
+          "Assigned garage parking",
+          "yes"
+        ],
+        [
+          "Rent controlled (1920s)",
+          "yes"
+        ],
+        [
+          "Elevator building",
+          "yes"
+        ],
+        [
+          "On-site laundry",
+          "maybe"
+        ],
+        [
+          "Dishwasher: confirm",
+          "maybe"
+        ],
+        [
+          "Sq ft not listed",
+          "maybe"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "1BR/1BA in a six-story 1920s elevator building; the listing says rent controlled with assigned garage parking. Walkable to Hayes Valley, Lower Haight and Duboce Triangle, and close to the freeway for the Dogpatch commute.",
+        "<span class='flag'>At $4,950 before parking it's at the top of your range, and the listing doesn't give size, dishwasher or which way the unit faces. Ask for the exact address (make sure it's not on Market St) and the parking fee before going further.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "no exact address or named landlord on the summary, and Zumper's description has an odd copy error (“technically in Mint Hill”). Price is in line with the area, so it's probably fine, but get the address and tour before paying anything."
+      ],
+      "who": "Not named (Zumper listing)",
+      "url": "https://www.zumper.com/listings/65604937/1-bedroom-lower-haight-san-francisco-ca",
+      "src": "Zumper",
+      "status": "active"
+    },
     {
       "id": "601-van-ness-amsi-677",
       "name": "Opera Plaza 1BR, 677 sq ft (601 Van Ness Ave, unit # not listed)",
