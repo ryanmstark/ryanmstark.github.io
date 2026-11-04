@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-04",
+  "postings": [
+    {
+      "title": "Senior Mask Design Engineer - Hardware",
+      "company": "NVIDIA",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5952859712?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$132K\u2013$207K",
+      "top_requirements": [
+        "Design and layout of high\u2011speed mixed\u2011signal mask layers for advanced CMOS processes.",
+        "Perform full\u2011chip DRC/LVS sign\u2011off and ensure compliance with mask\u2011level design rules.",
+        "Collaborate with circuit designers to translate RF and analog schematics into manufacturable mask data."
+      ],
+      "bonus_skills": [
+        "Cadence Virtuoso",
+        "Silicon photonics mask flow",
+        "Python scripting for mask verification"
+      ],
+      "summary": "The role focuses on creating mask layouts for high\u2011speed mixed\u2011signal circuits at NVIDIA, matching the candidate's mixed\u2011signal and RF background. It offers senior\u2011level compensation and hands\u2011on layout work.",
+      "is_startup": false,
+      "adzuna_id": "5952859712"
+    },
+    {
+      "title": "Senior Analog Layout Engineer",
+      "company": "IntelliPro Group Inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5951347336?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$119K\u2013$119K",
+      "top_requirements": [
+        "Independently execute full\u2011stack analog and mixed\u2011signal layout from floorplan to final verification.",
+        "Optimize layout for performance metrics such as noise, gain, and matching while meeting area constraints.",
+        "Coordinate with circuit designers to resolve layout\u2011related design issues and ensure sign\u2011off."
+      ],
+      "bonus_skills": [
+        "Mentor junior layout engineers",
+        "Experience with multi\u2011project wafers",
+        "Advanced DRC/LVS tools"
+      ],
+      "summary": "Senior Analog Layout Engineer role at IntelliPro requires deep analog/mixed\u2011signal layout expertise, aligning with the candidate's circuit design experience. Compensation meets the target range.",
+      "is_startup": false,
+      "adzuna_id": "5951347336"
+    },
+    {
+      "title": "Senior / Staff Engineer \u2013 SerDes Analog/Mixed-Signal Design",
+      "company": "Upscale, Inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5947568484?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$223K\u2013$243K",
+      "top_requirements": [
+        "Design high\u2011performance SerDes analog front\u2011ends (CTLE, VCO, PLL) for AI accelerator ASICs.",
+        "Perform RF system simulations (noise, linearity, jitter) and silicon bring\u2011up across multiple process nodes.",
+        "Lead cross\u2011functional block integration and debug of mixed\u2011signal IP in high\u2011speed I/O stacks."
+      ],
+      "bonus_skills": [
+        "Experience with 5nm+ nodes",
+        "Python/Matlab for RF modeling",
+        "Mentoring junior designers"
+      ],
+      "summary": "Senior/Staff Engineer at Upscale focuses on SerDes analog/mixed\u2011signal design, directly matching the candidate's RF and high\u2011speed communications background with senior compensation.",
+      "is_startup": true,
+      "adzuna_id": "5947568484"
+    },
+    {
+      "title": "Analog Mixed Signal Design Engineer",
+      "company": "Broadcom",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5951498910?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,800\u2013$2,280 (monthly)",
+      "top_requirements": [
+        "Design low\u2011power, high\u2011performance analog and mixed\u2011signal blocks for data\u2011center storage ASICs.",
+        "Perform full\u2011chip simulation and layout verification to meet stringent power\u2011budget targets.",
+        "Collaborate with digital teams to integrate mixed\u2011signal IP into system\u2011level designs."
+      ],
+      "bonus_skills": [
+        "Silicon\u2011level debug with probe stations",
+        "Experience with 28nm CMOS",
+        "Python scripting for design automation"
+      ],
+      "summary": "Broadcom analog mixed\u2011signal design role in Singapore provides hands\u2011on circuit work that aligns with the candidate's mixed\u2011signal expertise, though compensation is lower than target.",
+      "is_startup": false,
+      "adzuna_id": "5951498910"
+    },
+    {
+      "title": "SG Analog/Mixed-Signal Verification Engineer",
+      "company": "Tetramem",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5940727233?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$80K\u2013$180K",
+      "top_requirements": [
+        "Develop verification testbenches for mixed\u2011signal ICs using SystemVerilog/UVM.",
+        "Create coverage models and execute functional, performance, and corner\u2011case tests on analog blocks.",
+        "Analyze verification results and provide detailed feedback to design engineers for silicon fixes."
+      ],
+      "bonus_skills": [
+        "Python for data analysis",
+        "Experience with Cadence Incisive",
+        "Knowledge of mixed\u2011signal timing closure"
+      ],
+      "summary": "Tetramem verification engineer role focuses on mixed\u2011signal test development, matching the candidate's validation background, though pay may be below the $200K target.",
+      "is_startup": true,
+      "adzuna_id": "5940727233"
+    },
+    {
+      "title": "Senior Hardware Engineer, Read Channel Systems",
+      "company": "Seagate Technology",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5939005947?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,320\u2013$1,800 (monthly)",
+      "top_requirements": [
+        "Integrate read\u2011channel ASICs into magnetic recording systems and perform high\u2011speed signal integrity testing.",
+        "Develop validation experiments to characterize analog front\u2011end performance (noise, gain, jitter).",
+        "Collaborate with mechanical and firmware teams to optimize system\u2011level read/write reliability."
+      ],
+      "bonus_skills": [
+        "Experience with high\u2011density storage interfaces",
+        "Lab instrumentation for RF testing",
+        "Python automation for test scripts"
+      ],
+      "summary": "Senior hardware engineer at Seagate works on read\u2011channel mixed\u2011signal ASICs, a good fit for the candidate's RF and system integration experience, though compensation is modest.",
+      "is_startup": false,
+      "adzuna_id": "5939005947"
+    }
+  ]
+}
