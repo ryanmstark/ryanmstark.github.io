@@ -1,577 +1,578 @@
 {
- "asof": "2026-11-04",
- "checked_at": "2026-11-04T02:03:47Z",
- "unique": [
-  {
-   "id": "601-van-ness-amsi-677",
-   "name": "Opera Plaza 1BR, 677 sq ft (601 Van Ness Ave, unit # not listed)",
-   "hood": "Van Ness corridor / Civic Center · Opera Plaza condo complex",
-   "lat": 37.7814,
-   "lng": -122.4212,
-   "approx": true,
-   "rent": 3100,
-   "allin": "$3,350 all-in ($3,100 + $250 parking)",
-   "posted": null,
-   "updated": "2026-10-13",
-   "tags": [
-    [
-     "Parking for rent +$250/mo",
-     "maybe"
-    ],
-    [
-     "677 sq ft",
-     "yes"
-    ],
-    [
-     "Dishwasher",
-     "yes"
-    ],
-    [
-     "Balcony, city & courtyard views",
-     "yes"
-    ],
-    [
-     "Laundry not listed (building has shared laundry)",
-     "maybe"
-    ],
-    [
-     "Building pool & gym",
-     "yes"
-    ],
-    [
-     "Condo (built 1982): no rent cap",
-     "no"
-    ],
-    [
-     "Bedroom window: confirm",
-     "maybe"
-    ]
-   ],
-   "notes": [
-    "Updated, individually owned 1BR/1BA condo in Opera Plaza, listed by an AMSI agent. At about $3,350 with parking it's the cheapest qualifying option on the page, well under your $4,500 target. Available now. Quick on-ramp to 101/280 for the Dogpatch commute.",
-    "<span class='flag'>The listing says parking is available for $250/mo but doesn't say it's an assigned spot. Confirm it's a designated garage space that fits your Mazda 3, and ask for the unit number and which way it faces (Van Ness side is louder). The listing was last updated Oct 13, so check it's still open.</span>",
-    "Separate from Opera Plaza #511 below (different owner and agent)."
-   ],
-   "scam": [
-    "Low risk",
-    "listed by a named, licensed agent (Alexandr Metlinski, AMSI, DRE #02043065) through Apartments.com's application system, and the price matches other Opera Plaza 1BRs ($3,000–$3,650)."
-   ],
-   "who": "AMSI (agent Alexandr Metlinski)",
-   "url": "https://www.apartments.com/601-van-ness-ave-san-francisco-ca/bgnfb4b/",
-   "src": "Apartments.com",
-   "status": "active"
-  },
-  {
-   "id": "601-van-ness-511",
-   "name": "Opera Plaza #511 (601 Van Ness Ave)",
-   "hood": "Van Ness corridor / Civic Center · Opera Plaza condo complex",
-   "lat": 37.7814,
-   "lng": -122.4212,
-   "rent": 3800,
-   "allin": "$4,095 all-in ($3,800 + $295 garage)",
-   "posted": "2026-10-22",
-   "posted_approx": true,
-   "updated": "2026-11-03",
-   "tags": [
-    [
-     "Building garage spot +$295/mo",
-     "maybe"
-    ],
-    [
-     "692 sq ft",
-     "yes"
-    ],
-    [
-     "Dishwasher",
-     "yes"
-    ],
-    [
-     "Private balcony, city views",
-     "yes"
-    ],
-    [
-     "Shared coin-op laundry",
-     "maybe"
-    ],
-    [
-     "Water, garbage & internet included",
-     "yes"
-    ],
-    [
-     "Condo (built 1982): no rent cap",
-     "no"
-    ],
-    [
-     "Bedroom window: confirm",
-     "maybe"
-    ]
-   ],
-   "notes": [
-    "Individually owned 1BR/1BA in Opera Plaza, the condo complex you flagged. Price dropped from $4,000 to $3,800; with the $295 garage spot it lands about $400 under your target. 12-month lease, pets case by case, tenant pays the HOA move-in fee and deposit. Quick on-ramp to 101/280 for the Dogpatch commute.",
-    "<span class='flag'>The listing says garage parking is available for $295/mo but doesn't say the space is assigned. Confirm it's a designated spot that fits your Mazda 3, and ask which side of the building the unit faces.</span>",
-    "Also in the building: unit #712 (708 sq ft, dishwasher, balcony) is listed by BARE at $3,960, but its listing doesn't mention parking."
-   ],
-   "scam": [
-    "Low risk",
-    "leased by a licensed brokerage (SF City Rents, managed by Leading Properties), the price matches other Opera Plaza 1BRs, it's on Zillow and Trulia, and they won't process applications until you've seen the unit."
-   ],
-   "who": "SF City Rents (managed by Leading Properties)",
-   "url": "https://www.zillow.com/b/601-van-ness-avenue-san-francisco-ca-5XkGN9",
-   "src": "Zillow",
-   "status": "active"
-  },
-  {
-   "id": "875-vermont-201",
-   "name": "875 Vermont St #201",
-   "hood": "Potrero Hill · 10-unit condo building (Vermont at 20th St)",
-   "lat": 37.7598,
-   "lng": -122.4045,
-   "rent": 4200,
-   "allin": "$4,200 (deeded spot likely included)",
-   "posted": "2026-11-02",
-   "posted_approx": true,
-   "updated": "2026-11-03",
-   "tags": [
-    [
-     "Deeded parking space (per sale record)",
-     "maybe"
-    ],
-    [
-     "575 sq ft",
-     "yes"
-    ],
-    [
-     "Sunny Potrero, ~1 mi from Dogpatch work",
-     "yes"
-    ],
-    [
-     "Shared laundry in building",
-     "maybe"
-    ],
-    [
-     "Dishwasher?",
-     "maybe"
-    ],
-    [
-     "Condo: no rent cap",
-     "no"
-    ]
-   ],
-   "notes": [
-    "Individually owned 1BR/1BA condo (built 1965) on the south slope of Potrero Hill, close to the 280/101 on-ramps and a short ride to Dogpatch. Zillow shows it newly listed at $4,200 for 575 sq ft. When the unit sold in 2017 the listing said &ldquo;one-car deeded parking is included,&rdquo; so the spot should come with the rental, but confirm it is part of this lease.",
-    "<span class='flag'>Zillow's detail page couldn't be opened this run, so parking, dishwasher, bedroom window and the owner/agent name are unconfirmed. Neighboring units in the building advertise shared coin-op laundry, not in-unit.</span>"
-   ],
-   "scam": [
-    "Some caution",
-    "price is in line with the area and it's a real condo unit with a public sale history, but the lister wasn't visible. Tour in person and confirm the owner or agent before paying anything."
-   ],
-   "who": "Individual condo owner or agent (not shown)",
-   "url": "https://www.zillow.com/homedetails/875-Vermont-St-APT-201-San-Francisco-CA-94107/2093593619_zpid/",
-   "src": "Zillow",
-   "status": "active"
-  },
-  {
-   "id": "430-hayes-202",
-   "name": "430 Hayes St #202",
-   "hood": "Hayes Valley · 3rd-floor condo in a 6-unit building",
-   "lat": 37.7767,
-   "lng": -122.4234,
-   "rent": 4595,
-   "allin": "$4,595 + parking (cost not listed)",
-   "posted": "2026-10-31",
-   "posted_approx": true,
-   "updated": "2026-11-02",
-   "tags": [
-    [
-     "Assigned garage spot",
-     "yes"
-    ],
-    [
-     "In-unit W/D",
-     "yes"
-    ],
-    [
-     "Dishwasher",
-     "yes"
-    ],
-    [
-     "Rooftop deck",
-     "yes"
-    ],
-    [
-     "730 sq ft",
-     "yes"
-    ],
-    [
-     "Bedroom window: confirm",
-     "maybe"
-    ],
-    [
-     "Condo: likely no rent cap",
-     "maybe"
-    ],
-    [
-     "No pets",
-     "no"
-    ]
-   ],
-   "notes": [
-    "Galley kitchen with stainless appliances, hardwood floors, big windows, decorative fireplace, walk-in closet and a storage locker. In-unit washer/dryer is small-load, with a free shared pair in the garage.",
-    "<span class='flag'>Garage space is described as fitting a medium or compact car. Confirm your Mazda 3 fits.</span>"
-   ],
-   "scam": [
-    "Low risk",
-    "named listing agent (ReLISTO), full address, in-person tours offered."
-   ],
-   "who": "ReLISTO (listing agent)",
-   "url": "https://www.zumper.com/address/430-hayes-st-san-francisco-ca-94102-usa",
-   "src": "Zumper",
-   "status": "active"
-  },
-  {
-   "id": "frederick-belvedere",
-   "name": "Frederick St & Belvedere St",
-   "hood": "Cole Valley · 2 blocks from Golden Gate Park",
-   "lat": 37.7663,
-   "lng": -122.4489,
-   "rent": 4475,
-   "allin": "$4,875 all-in",
-   "posted": null,
-   "updated": "2026-11-01",
-   "tags": [
-    [
-     "Garage spot +$400",
-     "yes"
-    ],
-    [
-     "In-unit W/D (combo unit)",
-     "yes"
-    ],
-    [
-     "Dishwasher",
-     "yes"
-    ],
-    [
-     "Brand-new kitchen",
-     "yes"
-    ],
-    [
-     "575 sq ft",
-     "maybe"
-    ],
-    [
-     "1.5 bath",
-     "yes"
-    ],
-    [
-     "Bedroom window: confirm",
-     "maybe"
-    ],
-    [
-     "Pets OK",
-     "yes"
-    ]
-   ],
-   "notes": [
-    "Newly remodeled unit with a private entrance, en-suite bath, new cabinets and counters, kitchen bar, hardwood floors and high ceilings. Water, garbage and PG&E included.",
-    "<span class='flag'>Private entrance suggests a garden-level unit. Confirm the bedroom has an exterior window before touring.</span>"
-   ],
-   "scam": [
-    "Low risk",
-    "established SF property manager with a named agent and phone number."
-   ],
-   "who": "J.Wavro Associates",
-   "url": "https://www.zumper.com/listings/65619312/1-bedroom-cole-valley-san-francisco-ca",
-   "src": "Zumper",
-   "status": "active"
-  },
-  {
-   "id": "339-lyon-2",
-   "name": "339 Lyon St, Unit 2",
-   "hood": "NoPa / Panhandle · 4-unit building (Lyon between Fell & Hayes)",
-   "lat": 37.7739,
-   "lng": -122.4436,
-   "rent": 3595,
-   "allin": "$3,595 all-in",
-   "posted": null,
-   "updated": "2026-11-02",
-   "tags": [
-    [
-     "Garage space included",
-     "yes"
-    ],
-    [
-     "In-unit laundry",
-     "yes"
-    ],
-    [
-     "Remodeled eat-in kitchen",
-     "yes"
-    ],
-    [
-     "Rent-control candidate",
-     "yes"
-    ],
-    [
-     "Dishwasher?",
-     "maybe"
-    ],
-    [
-     "Availability unclear",
-     "maybe"
-    ]
-   ],
-   "notes": [
-    "Best value and closest to the classic SF rent-controlled setup you described: a whole 1BR in a well-kept 4-unit building with a shared backyard, a block from the Panhandle. The address is mid-block on Lyon, not on Fell.",
-    "<span class='flag'>Page says “check back soon for upcoming availability,” so it may be rented or not yet open.</span>"
-   ],
-   "scam": [
-    "Some caution",
-    "price is low for a 1BR with garage and laundry, and the manager's name isn't shown. Tour in person and confirm the manager before paying anything."
-   ],
-   "who": "Small property manager (name not shown)",
-   "url": "https://www.apartments.com/nopa-1-bedroom-w-parking-laundry-san-francisco-ca-unit-2/cse1xee/",
-   "src": "Apartments.com",
-   "status": "active"
-  },
-  {
-   "id": "741-kansas",
-   "name": "741 Apartments (741 Kansas St)",
-   "hood": "Potrero Hill · 6-unit building",
-   "lat": 37.7598,
-   "lng": -122.4037,
-   "approx": true,
-   "rent": 4200,
-   "allin": "$4,200 + parking fee (not listed)",
-   "posted": null,
-   "updated": "2026-11-03",
-   "tags": [
-    [
-     "Off-street parking for a fee",
-     "yes"
-    ],
-    [
-     "647 sq ft",
-     "yes"
-    ],
-    [
-     "Laundry on-site only",
-     "maybe"
-    ],
-    [
-     "No dishwasher",
-     "no"
-    ],
-    [
-     "No outdoor space",
-     "no"
-    ]
-   ],
-   "notes": [
-    "Small building with an updated kitchen (granite counters). Sunny side of the city with quick freeway access. Lower on fit because it lacks a dishwasher and in-unit laundry.",
-    "Zillow now shows Unit 1 (647 sq ft) at $4,200, available Nov 1, down from $4,500."
-   ],
-   "scam": [
-    "Low risk",
-    "managed by an established SF management company."
-   ],
-   "who": "Pacific Management Group",
-   "url": "https://www.zumper.com/apartment-buildings/p319627/741-potrero-hill-san-francisco-ca",
-   "src": "Zumper",
-   "status": "active"
-  },
-  {
-   "id": "2200-sacramento-104",
-   "name": "Pacific Heights Towers #104 (2200 Sacramento St)",
-   "hood": "Pacific Heights · 1BR + den (stretch)",
-   "lat": 37.7896,
-   "lng": -122.429,
-   "rent": 5495,
-   "allin": "$5,495+ (over budget)",
-   "posted": null,
-   "updated": "2026-10-26",
-   "tags": [
-    [
-     "Garage parking",
-     "yes"
-    ],
-    [
-     "In-unit W/D",
-     "yes"
-    ],
-    [
-     "Private 30-ft terrace",
-     "yes"
-    ],
-    [
-     "826 sq ft",
-     "yes"
-    ],
-    [
-     "Bedroom window: confirm",
-     "maybe"
-    ],
-    [
-     "Over $5k",
-     "no"
-    ],
-    [
-     "Further north",
-     "maybe"
-    ]
-   ],
-   "notes": [
-    "Stretch option: a 1BR plus den with a big private terrace and garage. It's over your ceiling and further north than you wanted, but closest to the Presidio."
-   ],
-   "scam": [
-    "Low risk",
-    "full unit address, named leasing company (2B Living), market-rate price."
-   ],
-   "who": "2B Living",
-   "url": "https://www.zumper.com/address/2200-sacramento-st-san-francisco-ca-94115-usa",
-   "src": "Zumper",
-   "status": "active"
-  }
- ],
- "complexes": [
-  {
-   "id": "tennessee-20th",
-   "name": "Boutique 40-unit building (name not given)",
-   "addr": "Tennessee St near 20th",
-   "area": "Dogpatch",
-   "lat": 37.7604,
-   "lng": -122.3895,
-   "posted": "2026-10-19T21:17:00-07:00",
-   "price": "$4,850 · 653 sq ft",
-   "parking": "Attached garage (cost unclear)",
-   "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2).",
-   "seen": "1 post",
-   "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
-   "status": "active"
-  },
-  {
-   "id": "civic-101-polk",
-   "name": "The Civic (Emerald Fund)",
-   "addr": "101 Polk St",
-   "area": "Civic Center / Hayes Valley edge",
-   "lat": 37.7779,
-   "lng": -122.4185,
-   "posted": "2026-10-25T16:35:00-07:00",
-   "price": "$3,934–$4,278 · ~626 sq ft",
-   "parking": "Assigned garage (stackers), $400/mo",
-   "notes": "The “3 WEEKS FREE” poster: same promo on 6th-floor, 7th-floor and penthouse 1BRs. About $4,334–$4,678 all-in. Confirm a stacker fits your Mazda 3.",
-   "seen": "3+ posts",
-   "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-6th-flrcorner/hTYTWafB5SxFKafFjt7rwt",
-   "status": "removed",
-   "removed_at": "2026-11-03T06:54:23Z"
-  },
-  {
-   "id": "520-buchanan",
-   "name": "Brick + Timber building",
-   "addr": "520 Buchanan St",
-   "area": "Hayes Valley / Alamo Sq",
-   "lat": 37.7746,
-   "lng": -122.4283,
-   "posted": "2026-10-24T19:13:00-07:00",
-   "price": "$4,340–$4,640",
-   "parking": "None (tagged “no parking”)",
-   "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed.",
-   "seen": "7+ posts",
-   "url": "https://www.craigslist.org/view/d/san-francisco-520-buchanan-stunning-1x1/nG8c4tkPUNgvmxMNk82WG6",
-   "status": "removed",
-   "excluded_reason": "No designated parking spot",
-   "removed_at": "2026-11-03T06:54:23Z"
-  },
-  {
-   "id": "1395-golden-gate",
-   "name": "Brick + Timber building",
-   "addr": "1395 Golden Gate Ave",
-   "area": "Western Addition",
-   "lat": 37.7801,
-   "lng": -122.4336,
-   "posted": null,
-   "price": "$4,400–$5,640",
-   "parking": "Garage (optional fee)",
-   "notes": "Elevator building, on-site laundry. Unit 207 recently dropped to $4,400.",
-   "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
-   "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
-   "status": "active"
-  },
-  {
-   "id": "one-henry-adams",
-   "name": "One Henry Adams",
-   "addr": "1 Henry Adams St",
-   "area": "Potrero / Design District",
-   "lat": 37.7689,
-   "lng": -122.4037,
-   "posted": null,
-   "price": "$4,440–$4,752 · 653–727 sq ft",
-   "parking": "Garage, $275/mo",
-   "notes": "Five 1BR floor plans, in-unit W/D. About $4,715–$5,027 all-in.",
-   "seen": "Zumper",
-   "url": "https://www.zumper.com/apartment-buildings/p208324/one-henry-adams-potrero-hill-san-francisco-ca",
-   "status": "active"
-  },
-  {
-   "id": "potrero-1010",
-   "name": "Potrero 1010",
-   "addr": "1010 16th St",
-   "area": "Potrero Hill",
-   "lat": 37.7663,
-   "lng": -122.3962,
-   "posted": null,
-   "price": "$4,158–$4,334 · 648–804 sq ft",
-   "parking": "Assigned garage, $250/mo (confirm)",
-   "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in.",
-   "seen": "Zumper",
-   "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca",
-   "status": "active"
-  },
-  {
-   "id": "sunset-towers",
-   "name": "Sunset Towers (Avalon)",
-   "addr": "8 Locksley Ave",
-   "area": "Inner Sunset edge",
-   "lat": 37.759,
-   "lng": -122.4626,
-   "posted": "2026-11-02T17:23:00-08:00",
-   "price": "$4,669–$5,619 · 631–771 sq ft",
-   "parking": "Garage (cost not listed)",
-   "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
-   "seen": "Zumper + PadMapper + Redfin + Craigslist",
-   "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
-   "status": "active"
-  },
-  {
-   "id": "1720-golden-gate",
-   "name": "RentSFNow Victorian",
-   "addr": "1720 Golden Gate Ave",
-   "area": "NoPa",
-   "lat": 37.779,
-   "lng": -122.4402,
-   "posted": null,
-   "price": "$4,395 · 460 sq ft",
-   "parking": "Unassigned, monthly fee",
-   "notes": "9-unit 1900 Victorian with a remodeled kitchen and dishwasher, but small and parking isn't assigned.",
-   "seen": "Zumper",
-   "url": "https://www.zumper.com/apartment-buildings/p276007/1720-golden-gate-nopa-san-francisco-ca",
-   "status": "excluded",
-   "excluded_reason": "No designated parking spot"
-  },
-  {
-   "id": "340-arguello",
-   "name": "Gaetani Real Estate building",
-   "addr": "340 Arguello Blvd",
-   "area": "Laurel Heights",
-   "lat": 37.7826,
-   "lng": -122.459,
-   "posted": null,
-   "price": "$3,995",
-   "parking": "Private garage +$200–$300",
-   "notes": "Dishwasher, laundry on-site. One site shows it rented, so it may be gone. North of your preferred area.",
-   "seen": "Zumper + Rentable",
-   "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca",
-   "status": "active"
-  }
- ]
+  "asof": "2026-11-04",
+  "search_at": "2026-11-04T02:03:47Z",
+  "checked_at": "2026-11-04T02:03:47Z",
+  "unique": [
+    {
+      "id": "601-van-ness-amsi-677",
+      "name": "Opera Plaza 1BR, 677 sq ft (601 Van Ness Ave, unit # not listed)",
+      "hood": "Van Ness corridor / Civic Center · Opera Plaza condo complex",
+      "lat": 37.7814,
+      "lng": -122.4212,
+      "approx": true,
+      "rent": 3100,
+      "allin": "$3,350 all-in ($3,100 + $250 parking)",
+      "posted": null,
+      "updated": "2026-10-13",
+      "tags": [
+        [
+          "Parking for rent +$250/mo",
+          "maybe"
+        ],
+        [
+          "677 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Balcony, city & courtyard views",
+          "yes"
+        ],
+        [
+          "Laundry not listed (building has shared laundry)",
+          "maybe"
+        ],
+        [
+          "Building pool & gym",
+          "yes"
+        ],
+        [
+          "Condo (built 1982): no rent cap",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Updated, individually owned 1BR/1BA condo in Opera Plaza, listed by an AMSI agent. At about $3,350 with parking it's the cheapest qualifying option on the page, well under your $4,500 target. Available now. Quick on-ramp to 101/280 for the Dogpatch commute.",
+        "<span class='flag'>The listing says parking is available for $250/mo but doesn't say it's an assigned spot. Confirm it's a designated garage space that fits your Mazda 3, and ask for the unit number and which way it faces (Van Ness side is louder). The listing was last updated Oct 13, so check it's still open.</span>",
+        "Separate from Opera Plaza #511 below (different owner and agent)."
+      ],
+      "scam": [
+        "Low risk",
+        "listed by a named, licensed agent (Alexandr Metlinski, AMSI, DRE #02043065) through Apartments.com's application system, and the price matches other Opera Plaza 1BRs ($3,000–$3,650)."
+      ],
+      "who": "AMSI (agent Alexandr Metlinski)",
+      "url": "https://www.apartments.com/601-van-ness-ave-san-francisco-ca/bgnfb4b/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "601-van-ness-511",
+      "name": "Opera Plaza #511 (601 Van Ness Ave)",
+      "hood": "Van Ness corridor / Civic Center · Opera Plaza condo complex",
+      "lat": 37.7814,
+      "lng": -122.4212,
+      "rent": 3800,
+      "allin": "$4,095 all-in ($3,800 + $295 garage)",
+      "posted": "2026-10-22",
+      "posted_approx": true,
+      "updated": "2026-11-03",
+      "tags": [
+        [
+          "Building garage spot +$295/mo",
+          "maybe"
+        ],
+        [
+          "692 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Private balcony, city views",
+          "yes"
+        ],
+        [
+          "Shared coin-op laundry",
+          "maybe"
+        ],
+        [
+          "Water, garbage & internet included",
+          "yes"
+        ],
+        [
+          "Condo (built 1982): no rent cap",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Individually owned 1BR/1BA in Opera Plaza, the condo complex you flagged. Price dropped from $4,000 to $3,800; with the $295 garage spot it lands about $400 under your target. 12-month lease, pets case by case, tenant pays the HOA move-in fee and deposit. Quick on-ramp to 101/280 for the Dogpatch commute.",
+        "<span class='flag'>The listing says garage parking is available for $295/mo but doesn't say the space is assigned. Confirm it's a designated spot that fits your Mazda 3, and ask which side of the building the unit faces.</span>",
+        "Also in the building: unit #712 (708 sq ft, dishwasher, balcony) is listed by BARE at $3,960, but its listing doesn't mention parking."
+      ],
+      "scam": [
+        "Low risk",
+        "leased by a licensed brokerage (SF City Rents, managed by Leading Properties), the price matches other Opera Plaza 1BRs, it's on Zillow and Trulia, and they won't process applications until you've seen the unit."
+      ],
+      "who": "SF City Rents (managed by Leading Properties)",
+      "url": "https://www.zillow.com/b/601-van-ness-avenue-san-francisco-ca-5XkGN9",
+      "src": "Zillow",
+      "status": "active"
+    },
+    {
+      "id": "875-vermont-201",
+      "name": "875 Vermont St #201",
+      "hood": "Potrero Hill · 10-unit condo building (Vermont at 20th St)",
+      "lat": 37.7598,
+      "lng": -122.4045,
+      "rent": 4200,
+      "allin": "$4,200 (deeded spot likely included)",
+      "posted": "2026-11-02",
+      "posted_approx": true,
+      "updated": "2026-11-03",
+      "tags": [
+        [
+          "Deeded parking space (per sale record)",
+          "maybe"
+        ],
+        [
+          "575 sq ft",
+          "yes"
+        ],
+        [
+          "Sunny Potrero, ~1 mi from Dogpatch work",
+          "yes"
+        ],
+        [
+          "Shared laundry in building",
+          "maybe"
+        ],
+        [
+          "Dishwasher?",
+          "maybe"
+        ],
+        [
+          "Condo: no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Individually owned 1BR/1BA condo (built 1965) on the south slope of Potrero Hill, close to the 280/101 on-ramps and a short ride to Dogpatch. Zillow shows it newly listed at $4,200 for 575 sq ft. When the unit sold in 2017 the listing said &ldquo;one-car deeded parking is included,&rdquo; so the spot should come with the rental, but confirm it is part of this lease.",
+        "<span class='flag'>Zillow's detail page couldn't be opened this run, so parking, dishwasher, bedroom window and the owner/agent name are unconfirmed. Neighboring units in the building advertise shared coin-op laundry, not in-unit.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "price is in line with the area and it's a real condo unit with a public sale history, but the lister wasn't visible. Tour in person and confirm the owner or agent before paying anything."
+      ],
+      "who": "Individual condo owner or agent (not shown)",
+      "url": "https://www.zillow.com/homedetails/875-Vermont-St-APT-201-San-Francisco-CA-94107/2093593619_zpid/",
+      "src": "Zillow",
+      "status": "active"
+    },
+    {
+      "id": "430-hayes-202",
+      "name": "430 Hayes St #202",
+      "hood": "Hayes Valley · 3rd-floor condo in a 6-unit building",
+      "lat": 37.7767,
+      "lng": -122.4234,
+      "rent": 4595,
+      "allin": "$4,595 + parking (cost not listed)",
+      "posted": "2026-10-31",
+      "posted_approx": true,
+      "updated": "2026-11-02",
+      "tags": [
+        [
+          "Assigned garage spot",
+          "yes"
+        ],
+        [
+          "In-unit W/D",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Rooftop deck",
+          "yes"
+        ],
+        [
+          "730 sq ft",
+          "yes"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ],
+        [
+          "Condo: likely no rent cap",
+          "maybe"
+        ],
+        [
+          "No pets",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Galley kitchen with stainless appliances, hardwood floors, big windows, decorative fireplace, walk-in closet and a storage locker. In-unit washer/dryer is small-load, with a free shared pair in the garage.",
+        "<span class='flag'>Garage space is described as fitting a medium or compact car. Confirm your Mazda 3 fits.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "named listing agent (ReLISTO), full address, in-person tours offered."
+      ],
+      "who": "ReLISTO (listing agent)",
+      "url": "https://www.zumper.com/address/430-hayes-st-san-francisco-ca-94102-usa",
+      "src": "Zumper",
+      "status": "active"
+    },
+    {
+      "id": "frederick-belvedere",
+      "name": "Frederick St & Belvedere St",
+      "hood": "Cole Valley · 2 blocks from Golden Gate Park",
+      "lat": 37.7663,
+      "lng": -122.4489,
+      "rent": 4475,
+      "allin": "$4,875 all-in",
+      "posted": null,
+      "updated": "2026-11-01",
+      "tags": [
+        [
+          "Garage spot +$400",
+          "yes"
+        ],
+        [
+          "In-unit W/D (combo unit)",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Brand-new kitchen",
+          "yes"
+        ],
+        [
+          "575 sq ft",
+          "maybe"
+        ],
+        [
+          "1.5 bath",
+          "yes"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ],
+        [
+          "Pets OK",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "Newly remodeled unit with a private entrance, en-suite bath, new cabinets and counters, kitchen bar, hardwood floors and high ceilings. Water, garbage and PG&E included.",
+        "<span class='flag'>Private entrance suggests a garden-level unit. Confirm the bedroom has an exterior window before touring.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "established SF property manager with a named agent and phone number."
+      ],
+      "who": "J.Wavro Associates",
+      "url": "https://www.zumper.com/listings/65619312/1-bedroom-cole-valley-san-francisco-ca",
+      "src": "Zumper",
+      "status": "active"
+    },
+    {
+      "id": "339-lyon-2",
+      "name": "339 Lyon St, Unit 2",
+      "hood": "NoPa / Panhandle · 4-unit building (Lyon between Fell & Hayes)",
+      "lat": 37.7739,
+      "lng": -122.4436,
+      "rent": 3595,
+      "allin": "$3,595 all-in",
+      "posted": null,
+      "updated": "2026-11-02",
+      "tags": [
+        [
+          "Garage space included",
+          "yes"
+        ],
+        [
+          "In-unit laundry",
+          "yes"
+        ],
+        [
+          "Remodeled eat-in kitchen",
+          "yes"
+        ],
+        [
+          "Rent-control candidate",
+          "yes"
+        ],
+        [
+          "Dishwasher?",
+          "maybe"
+        ],
+        [
+          "Availability unclear",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Best value and closest to the classic SF rent-controlled setup you described: a whole 1BR in a well-kept 4-unit building with a shared backyard, a block from the Panhandle. The address is mid-block on Lyon, not on Fell.",
+        "<span class='flag'>Page says “check back soon for upcoming availability,” so it may be rented or not yet open.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "price is low for a 1BR with garage and laundry, and the manager's name isn't shown. Tour in person and confirm the manager before paying anything."
+      ],
+      "who": "Small property manager (name not shown)",
+      "url": "https://www.apartments.com/nopa-1-bedroom-w-parking-laundry-san-francisco-ca-unit-2/cse1xee/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "741-kansas",
+      "name": "741 Apartments (741 Kansas St)",
+      "hood": "Potrero Hill · 6-unit building",
+      "lat": 37.7598,
+      "lng": -122.4037,
+      "approx": true,
+      "rent": 4200,
+      "allin": "$4,200 + parking fee (not listed)",
+      "posted": null,
+      "updated": "2026-11-03",
+      "tags": [
+        [
+          "Off-street parking for a fee",
+          "yes"
+        ],
+        [
+          "647 sq ft",
+          "yes"
+        ],
+        [
+          "Laundry on-site only",
+          "maybe"
+        ],
+        [
+          "No dishwasher",
+          "no"
+        ],
+        [
+          "No outdoor space",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Small building with an updated kitchen (granite counters). Sunny side of the city with quick freeway access. Lower on fit because it lacks a dishwasher and in-unit laundry.",
+        "Zillow now shows Unit 1 (647 sq ft) at $4,200, available Nov 1, down from $4,500."
+      ],
+      "scam": [
+        "Low risk",
+        "managed by an established SF management company."
+      ],
+      "who": "Pacific Management Group",
+      "url": "https://www.zumper.com/apartment-buildings/p319627/741-potrero-hill-san-francisco-ca",
+      "src": "Zumper",
+      "status": "active"
+    },
+    {
+      "id": "2200-sacramento-104",
+      "name": "Pacific Heights Towers #104 (2200 Sacramento St)",
+      "hood": "Pacific Heights · 1BR + den (stretch)",
+      "lat": 37.7896,
+      "lng": -122.429,
+      "rent": 5495,
+      "allin": "$5,495+ (over budget)",
+      "posted": null,
+      "updated": "2026-10-26",
+      "tags": [
+        [
+          "Garage parking",
+          "yes"
+        ],
+        [
+          "In-unit W/D",
+          "yes"
+        ],
+        [
+          "Private 30-ft terrace",
+          "yes"
+        ],
+        [
+          "826 sq ft",
+          "yes"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ],
+        [
+          "Over $5k",
+          "no"
+        ],
+        [
+          "Further north",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Stretch option: a 1BR plus den with a big private terrace and garage. It's over your ceiling and further north than you wanted, but closest to the Presidio."
+      ],
+      "scam": [
+        "Low risk",
+        "full unit address, named leasing company (2B Living), market-rate price."
+      ],
+      "who": "2B Living",
+      "url": "https://www.zumper.com/address/2200-sacramento-st-san-francisco-ca-94115-usa",
+      "src": "Zumper",
+      "status": "active"
+    }
+  ],
+  "complexes": [
+    {
+      "id": "tennessee-20th",
+      "name": "Boutique 40-unit building (name not given)",
+      "addr": "Tennessee St near 20th",
+      "area": "Dogpatch",
+      "lat": 37.7604,
+      "lng": -122.3895,
+      "posted": "2026-10-19T21:17:00-07:00",
+      "price": "$4,850 · 653 sq ft",
+      "parking": "Attached garage (cost unclear)",
+      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2).",
+      "seen": "1 post",
+      "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
+      "status": "active"
+    },
+    {
+      "id": "civic-101-polk",
+      "name": "The Civic (Emerald Fund)",
+      "addr": "101 Polk St",
+      "area": "Civic Center / Hayes Valley edge",
+      "lat": 37.7779,
+      "lng": -122.4185,
+      "posted": "2026-10-25T16:35:00-07:00",
+      "price": "$3,934–$4,278 · ~626 sq ft",
+      "parking": "Assigned garage (stackers), $400/mo",
+      "notes": "The “3 WEEKS FREE” poster: same promo on 6th-floor, 7th-floor and penthouse 1BRs. About $4,334–$4,678 all-in. Confirm a stacker fits your Mazda 3.",
+      "seen": "3+ posts",
+      "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-6th-flrcorner/hTYTWafB5SxFKafFjt7rwt",
+      "status": "removed",
+      "removed_at": "2026-11-03T06:54:23Z"
+    },
+    {
+      "id": "520-buchanan",
+      "name": "Brick + Timber building",
+      "addr": "520 Buchanan St",
+      "area": "Hayes Valley / Alamo Sq",
+      "lat": 37.7746,
+      "lng": -122.4283,
+      "posted": "2026-10-24T19:13:00-07:00",
+      "price": "$4,340–$4,640",
+      "parking": "None (tagged “no parking”)",
+      "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed.",
+      "seen": "7+ posts",
+      "url": "https://www.craigslist.org/view/d/san-francisco-520-buchanan-stunning-1x1/nG8c4tkPUNgvmxMNk82WG6",
+      "status": "removed",
+      "excluded_reason": "No designated parking spot",
+      "removed_at": "2026-11-03T06:54:23Z"
+    },
+    {
+      "id": "1395-golden-gate",
+      "name": "Brick + Timber building",
+      "addr": "1395 Golden Gate Ave",
+      "area": "Western Addition",
+      "lat": 37.7801,
+      "lng": -122.4336,
+      "posted": null,
+      "price": "$4,400–$5,640",
+      "parking": "Garage (optional fee)",
+      "notes": "Elevator building, on-site laundry. Unit 207 recently dropped to $4,400.",
+      "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
+      "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
+      "status": "active"
+    },
+    {
+      "id": "one-henry-adams",
+      "name": "One Henry Adams",
+      "addr": "1 Henry Adams St",
+      "area": "Potrero / Design District",
+      "lat": 37.7689,
+      "lng": -122.4037,
+      "posted": null,
+      "price": "$4,440–$4,752 · 653–727 sq ft",
+      "parking": "Garage, $275/mo",
+      "notes": "Five 1BR floor plans, in-unit W/D. About $4,715–$5,027 all-in.",
+      "seen": "Zumper",
+      "url": "https://www.zumper.com/apartment-buildings/p208324/one-henry-adams-potrero-hill-san-francisco-ca",
+      "status": "active"
+    },
+    {
+      "id": "potrero-1010",
+      "name": "Potrero 1010",
+      "addr": "1010 16th St",
+      "area": "Potrero Hill",
+      "lat": 37.7663,
+      "lng": -122.3962,
+      "posted": null,
+      "price": "$4,158–$4,334 · 648–804 sq ft",
+      "parking": "Assigned garage, $250/mo (confirm)",
+      "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in.",
+      "seen": "Zumper",
+      "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca",
+      "status": "active"
+    },
+    {
+      "id": "sunset-towers",
+      "name": "Sunset Towers (Avalon)",
+      "addr": "8 Locksley Ave",
+      "area": "Inner Sunset edge",
+      "lat": 37.759,
+      "lng": -122.4626,
+      "posted": "2026-11-02T17:23:00-08:00",
+      "price": "$4,669–$5,619 · 631–771 sq ft",
+      "parking": "Garage (cost not listed)",
+      "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
+      "seen": "Zumper + PadMapper + Redfin + Craigslist",
+      "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
+      "status": "active"
+    },
+    {
+      "id": "1720-golden-gate",
+      "name": "RentSFNow Victorian",
+      "addr": "1720 Golden Gate Ave",
+      "area": "NoPa",
+      "lat": 37.779,
+      "lng": -122.4402,
+      "posted": null,
+      "price": "$4,395 · 460 sq ft",
+      "parking": "Unassigned, monthly fee",
+      "notes": "9-unit 1900 Victorian with a remodeled kitchen and dishwasher, but small and parking isn't assigned.",
+      "seen": "Zumper",
+      "url": "https://www.zumper.com/apartment-buildings/p276007/1720-golden-gate-nopa-san-francisco-ca",
+      "status": "excluded",
+      "excluded_reason": "No designated parking spot"
+    },
+    {
+      "id": "340-arguello",
+      "name": "Gaetani Real Estate building",
+      "addr": "340 Arguello Blvd",
+      "area": "Laurel Heights",
+      "lat": 37.7826,
+      "lng": -122.459,
+      "posted": null,
+      "price": "$3,995",
+      "parking": "Private garage +$200–$300",
+      "notes": "Dishwasher, laundry on-site. One site shows it rented, so it may be gone. North of your preferred area.",
+      "seen": "Zumper + Rentable",
+      "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca",
+      "status": "active"
+    }
+  ]
 }

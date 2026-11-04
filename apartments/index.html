@@ -20,6 +20,16 @@
     h1 { font-size: 1.4rem; margin: 14px 0 6px; }
     .sub { color: #555; font-size: 0.85rem; line-height: 1.5; margin-bottom: 22px; }
 
+    .updated {
+      display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px;
+      padding: 10px 14px; margin: 0 0 18px; font-size: 0.85rem; line-height: 1.5;
+      border: 1px solid #2e7d32; border-left-width: 6px; background: #edf7ee; color: #1b5e20;
+    }
+    .updated b { font-size: 0.95rem; color: #000; }
+    .updated .sub2 { color: #555; font-size: 0.78rem; }
+    .updated.stale { border-color: #b7791f; background: #fdf6e7; color: #7a4f0e; }
+    .updated.old { border-color: #c62828; background: #fdeeee; color: #8e1c1c; }
+
     .criteria {
       background: #fff; border: 1px solid #ccc; border-top: 4px solid #7a3b14;
       padding: 12px 14px; margin-bottom: 30px; font-size: 0.8rem; line-height: 1.6;
@@ -111,8 +121,9 @@
 <body>
   <a class="back" href="/">← Sandbox Apps</a>
   <h1>Apartment Summary</h1>
+  <div class="updated" id="updated"><b>Page updated: loading…</b></div>
   <p class="sub">
-    San Francisco 1BR search · newest postings first. <span id="checked"></span>
+    San Francisco 1BR search · newest postings first.
     Removed or expired postings drop off automatically. "All-in" means rent plus parking.
   </p>
 
@@ -200,6 +211,6 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-  <script src="app.js?v=20261102c"></script>
+  <script src="app.js?v=20261104a"></script>
 </body>
 </html>

@@ -69,15 +69,31 @@ function card(l, i) {
     </div>`;
 }
 
+const stamp = t => t.toLocaleString('en-US', {
+  weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit',
+  timeZone: 'America/Los_Angeles', timeZoneName: 'short'
+});
+
+// "Page updated" banner. search_at is written only by the listing search;
+// checked_at is also bumped by the 3-hourly link-check Action, so it's shown separately.
+function updatedBanner(data) {
+  const el = document.getElementById('updated');
+  const s = parseDate(data.search_at) || parseDate(data.asof);
+  const c = parseDate(data.checked_at);
+  if (!s) { el.innerHTML = '<b>Page updated: unknown</b>'; return; }
+  const hrs = (Date.now() - s.getTime()) / 3600000;
+  el.className = 'updated' + (hrs > 48 ? ' old' : hrs > 26 ? ' stale' : '');
+  const status = hrs > 26 ? ' · the daily search may have missed a run' : '';
+  el.innerHTML = `<b>Page updated ${esc(stamp(s))}</b><span>(${ago(s)}${status})</span>` +
+    (c ? `<span class="sub2">Posting links last checked ${ago(c)}</span>` : '');
+}
+
 function render(data) {
   const live = x => x.status !== 'removed' && x.status !== 'excluded';
   const unique = data.unique.filter(live).sort((a, b) => sortKey(b) - sortKey(a));
   const complexes = data.complexes.filter(live).sort((a, b) => sortKey(b) - sortKey(a));
 
-  if (data.checked_at) {
-    const c = parseDate(data.checked_at);
-    if (c) document.getElementById('checked').textContent = `Links last checked ${ago(c)}.`;
-  }
+  updatedBanner(data);
 
   document.getElementById('unique').innerHTML = unique.length
     ? unique.map(card).join('')
