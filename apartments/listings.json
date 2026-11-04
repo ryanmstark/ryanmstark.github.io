@@ -1,8 +1,58 @@
 {
   "asof": "2026-11-04",
-  "search_at": "2026-11-04T20:00:44Z",
-  "checked_at": "2026-11-04T20:00:44Z",
+  "search_at": "2026-11-04T22:58:19Z",
+  "checked_at": "2026-11-04T22:58:19Z",
   "unique": [
+    {
+      "id": "hayes-valley-topfloor-cl-nTdfNo8",
+      "name": "Hayes Valley top-floor modern 1BR/1BA (Craigslist, address not yet confirmed)",
+      "hood": "Hayes Valley (exact block unknown)",
+      "lat": 37.7765,
+      "lng": -122.425,
+      "approx": true,
+      "rent": 4500,
+      "allin": "$4,500 (parking appears included: “attached indoor parking”)",
+      "posted": null,
+      "updated": "2026-11-04",
+      "tags": [
+        [
+          "Attached indoor parking (per title)",
+          "maybe"
+        ],
+        [
+          "In-unit W/D",
+          "yes"
+        ],
+        [
+          "Top floor",
+          "yes"
+        ],
+        [
+          "Hayes Valley",
+          "yes"
+        ],
+        [
+          "Dishwasher?",
+          "maybe"
+        ],
+        [
+          "Size / bedroom window?",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Craigslist post titled &ldquo;Top Floor Modern 1BR/1BA with Attached Indoor Parking and in unit W/D&rdquo; at $4,500, seen on the SF apartments index this evening. If the spot is assigned and included, it lands right in your happy range.",
+        "<span class='flag'>The detail page couldn't be opened this run, so the address, whether the spot is assigned, dishwasher, size and bedroom window are all unconfirmed. Check that it isn't on Oak/Fell or the weekend-closed stretch of Hayes St before touring.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "price is in line with market for a parking + W/D 1BR, but the lister and address weren't visible. Tour in person before paying anything."
+      ],
+      "who": "Not shown (Craigslist)",
+      "url": "https://www.craigslist.org/view/d/san-francisco-top-floor-modern-1br-1ba/nTdfNo8u8AKXCFLVXm6L54",
+      "src": "Craigslist",
+      "status": "active"
+    },
     {
       "id": "1522-fulton-2",
       "name": "1522 Fulton St, Unit 2",
@@ -60,7 +110,9 @@
       "who": "Sharevest Property Management",
       "url": "https://www.zillow.com/apartments/san-francisco-ca/1522-1524-fulton-street-2/5hzmWK",
       "src": "Zillow",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-04T22:58:19Z",
+      "removed_reason": "Zillow says no available units for 1522-1524 Fulton #2; Apartments.com and PadMapper also show the 1BR as unavailable (checked 2026-11-04 evening)."
     },
     {
       "id": "hermann-laguna",
@@ -463,7 +515,7 @@
       "rent": 4200,
       "allin": "$4,200 + parking fee (not listed)",
       "posted": null,
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "tags": [
         [
           "Off-street parking for a fee",
