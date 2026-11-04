@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-04",
-  "search_at": "2026-11-04T02:03:47Z",
-  "checked_at": "2026-11-04T06:32:49Z",
+  "search_at": "2026-11-04T14:05:20Z",
+  "checked_at": "2026-11-04T14:05:20Z",
   "unique": [
     {
       "id": "601-van-ness-amsi-677",
@@ -72,7 +72,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-03",
+      "updated": "2026-11-04",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -462,14 +462,14 @@
       "area": "Civic Center / Hayes Valley edge",
       "lat": 37.7779,
       "lng": -122.4185,
-      "posted": "2026-10-25T16:35:00-07:00",
+      "posted": null,
       "price": "$3,934–$4,278 · ~626 sq ft",
       "parking": "Assigned garage (stackers), $400/mo",
-      "notes": "The “3 WEEKS FREE” poster: same promo on 6th-floor, 7th-floor and penthouse 1BRs. About $4,334–$4,678 all-in. Confirm a stacker fits your Mazda 3.",
-      "seen": "3+ posts",
-      "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-6th-flrcorner/hTYTWafB5SxFKafFjt7rwt",
-      "status": "removed",
-      "removed_at": "2026-11-03T06:54:23Z"
+      "notes": "The “3 WEEKS FREE” poster: same promo on 6th-floor, 7th-floor and penthouse 1BRs. About $4,334–$4,678 all-in. Confirm a stacker fits your Mazda 3. Reposted Nov 4 (new 6th-floor corner 1BR post at $3,934, plus a “2 WEEKS FREE” penthouse 1BR at $4,366), so it's back on the list.",
+      "seen": "5+ posts",
+      "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-6th-flrcorner/feSCno3dzkSvxFhsoJAQv1",
+      "status": "active",
+      "updated": "2026-11-04"
     },
     {
       "id": "520-buchanan",
