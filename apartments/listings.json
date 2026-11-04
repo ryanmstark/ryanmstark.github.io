@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-04",
   "search_at": "2026-11-04T16:54:44Z",
-  "checked_at": "2026-11-04T16:54:44Z",
+  "checked_at": "2026-11-04T17:18:54Z",
   "unique": [
     {
       "id": "1522-fulton-2",
@@ -581,8 +581,9 @@
       "notes": "The “3 WEEKS FREE” poster: same promo on 6th-floor, 7th-floor and penthouse 1BRs. About $4,334–$4,678 all-in. Confirm a stacker fits your Mazda 3. Reposted Nov 4 (new 6th-floor corner 1BR post at $3,934, plus a “2 WEEKS FREE” penthouse 1BR at $4,366), so it's back on the list.",
       "seen": "5+ posts",
       "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-6th-flrcorner/feSCno3dzkSvxFhsoJAQv1",
-      "status": "active",
-      "updated": "2026-11-04"
+      "status": "removed",
+      "updated": "2026-11-04",
+      "removed_at": "2026-11-04T17:18:53Z"
     },
     {
       "id": "520-buchanan",
