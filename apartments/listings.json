@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-04",
-  "search_at": "2026-11-05T02:05:16Z",
-  "checked_at": "2026-11-05T06:55:13Z",
+  "asof": "2026-11-05",
+  "search_at": "2026-11-05T14:03:23Z",
+  "checked_at": "2026-11-05T14:03:23Z",
   "unique": [
     {
       "id": "hayes-valley-topfloor-cl-nTdfNo8",
@@ -125,7 +125,7 @@
       "rent": 4950,
       "allin": "$4,950 + parking (fee not listed)",
       "posted": null,
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "tags": [
         [
           "Assigned garage parking",
@@ -238,7 +238,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -516,7 +516,7 @@
       "rent": 4200,
       "allin": "$4,200 + parking fee (not listed)",
       "posted": null,
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "tags": [
         [
           "Off-street parking for a fee",
@@ -614,7 +614,7 @@
       "lat": 37.7655,
       "lng": -122.4712,
       "posted": null,
-      "updated": "2026-11-04",
+      "updated": "2026-11-05",
       "price": "$3,689–$4,107 · 644 sq ft",
       "parking": "Assigned parking (cost not listed)",
       "notes": "In-unit W/D, dishwasher, 7 one-bedrooms available. 126-unit complex directly across Lincoln Way from Golden Gate Park.",
@@ -635,7 +635,8 @@
       "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2).",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
-      "status": "active"
+      "status": "active",
+      "updated": "2026-11-05"
     },
     {
       "id": "civic-101-polk",
@@ -684,7 +685,8 @@
       "notes": "Elevator building, on-site laundry. Unit 207 recently dropped to $4,400.",
       "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
-      "status": "active"
+      "status": "active",
+      "updated": "2026-11-05"
     },
     {
       "id": "one-henry-adams",
@@ -729,7 +731,8 @@
       "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
       "seen": "Zumper + PadMapper + Redfin + Craigslist",
       "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
-      "status": "active"
+      "status": "active",
+      "updated": "2026-11-05"
     },
     {
       "id": "1720-golden-gate",
@@ -760,7 +763,8 @@
       "notes": "Dishwasher, laundry on-site. One site shows it rented, so it may be gone. North of your preferred area.",
       "seen": "Zumper + Rentable",
       "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca",
-      "status": "active"
+      "status": "active",
+      "updated": "2026-11-04"
     }
   ]
 }
