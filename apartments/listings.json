@@ -1,8 +1,124 @@
 {
   "asof": "2026-11-05",
-  "search_at": "2026-11-05T17:11:33Z",
-  "checked_at": "2026-11-05T17:26:50Z",
+  "search_at": "2026-11-05T20:05:00Z",
+  "checked_at": "2026-11-05T20:05:00Z",
   "unique": [
+    {
+      "id": "1960-hayes",
+      "name": "1960 Hayes St (top-floor corner condo, unit # not listed)",
+      "hood": "NoPa / Panhandle (Hayes between Cole & Shrader, near USF and GGP)",
+      "lat": 37.7738,
+      "lng": -122.4513,
+      "approx": true,
+      "rent": 4100,
+      "allin": "$4,100 (two tandem garage spaces included)",
+      "posted": null,
+      "updated": "2026-11-05",
+      "tags": [
+        [
+          "2 tandem parking spaces included",
+          "yes"
+        ],
+        [
+          "~700 sq ft",
+          "yes"
+        ],
+        [
+          "In-unit W/D (new stackable)",
+          "yes"
+        ],
+        [
+          "Private patio + wood-burning fireplace",
+          "yes"
+        ],
+        [
+          "Top-floor corner, tall ceilings",
+          "yes"
+        ],
+        [
+          "Dishwasher: not mentioned",
+          "maybe"
+        ],
+        [
+          "Condo: no rent cap",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Top-floor corner 1BR/1BA in a 12-unit walk-up condo building, about 700 sq ft with exposed beams, an open living/dining area (room for a table for 4–6), a fireplace, a large private patio and in-unit laundry. The listing says the unit comes with two tandem parking spaces. Two blocks from Golden Gate Park and the Panhandle, so running and tennis are on your doorstep; about 20–25 min drive to Dogpatch.",
+        "<span class='flag'>Dishwasher isn't mentioned (the unit sold in a recent MLS listing that also didn't list one), so ask. Confirm the tandem spaces are deeded to this unit and the bedroom has an exterior window. No pets, 12-month lease, showings by appointment.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "market-rate price, application through Apartments.com, showings by appointment, and the unit matches a real recent MLS condo listing at this address (#13, 696 sq ft, two tandem spaces). Still tour before paying."
+      ],
+      "who": "Owner / property manager (not named; phone (415) 294-1640)",
+      "url": "https://www.apartments.com/1960-hayes-st-san-francisco-ca/cy5nbvg",
+      "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "2000-ellis-302",
+      "name": "2000 Ellis St #302 (2013 Saitowitz condo building)",
+      "hood": "Western Addition / Lower Fillmore (Ellis at Steiner, ~4 blocks to Alamo Square)",
+      "lat": 37.7816,
+      "lng": -122.4352,
+      "approx": true,
+      "rent": 3250,
+      "allin": "$3,500 all-in ($3,250 + $250 garage)",
+      "posted": null,
+      "updated": "2026-11-05",
+      "tags": [
+        [
+          "Garage spot +$250/mo (assigned? confirm)",
+          "maybe"
+        ],
+        [
+          "679 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher (Miele)",
+          "yes"
+        ],
+        [
+          "Top floor, quiet courtyard side",
+          "yes"
+        ],
+        [
+          "Radiant heat, hardwood floors",
+          "yes"
+        ],
+        [
+          "Laundry: building facilities, in-unit?",
+          "maybe"
+        ],
+        [
+          "Built 2013: no rent cap",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Top-floor 1BR/1BA facing the inner courtyard in a 2013 Stanley Saitowitz-designed condo building, 679 sq ft with Miele appliances, radiant heat, hardwoods and a storage cage. About $3,500 with parking, well under your $4,000 &ldquo;excellent&rdquo; line, and a short walk to Alamo Square, Divisadero and the Fillmore.",
+        "<span class='flag'>Parking is inconsistent on the listing: the description says &ldquo;dedicated parking in secure attached garage&rdquo; but the fee table says &ldquo;unassigned garage parking $250.&rdquo; Only worth pursuing if they confirm a designated spot. Also ask whether laundry is in-unit, and check it's still open (ForRent shows it last updated about 2 weeks ago).</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "price is in line for a 679 sq ft condo in this area, listed through Apartments.com/ForRent with a management company; nothing asks for money before a tour."
+      ],
+      "who": "Property manager (not named on Apartments.com)",
+      "url": "https://www.apartments.com/2000-ellis-st-san-francisco-ca-unit-302/jqfcyf6/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "hayes-valley-topfloor-cl-nTdfNo8",
       "name": "Hayes Valley top-floor modern 1BR/1BA (Craigslist, address not yet confirmed)",
