@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-05",
+  "postings": [
+    {
+      "title": "OTA Validation Engineer",
+      "company": "OSI Engineering, Inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5953460929?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$150K\u2013$155K",
+      "top_requirements": [
+        "Design and execute OTA test plans for multiple cellular technologies, translating carrier specifications into measurable test cases.",
+        "Perform hands\u2011on radiated system characterization, including spectrum analysis, EVM, and link\u2011budget validation at test stations.",
+        "Develop and maintain automated test scripts and data\u2011analysis tools to ensure repeatable performance verification."
+      ],
+      "bonus_skills": [
+        "Python scripting",
+        "RF test equipment (e.g., VNA, spectrum analyzer)"
+      ],
+      "summary": "The role focuses on OTA validation of wireless products, requiring deep RF test expertise. It suits the candidate\u2019s hands\u2011on RF and communications background while offering senior\u2011level responsibility.",
+      "is_startup": false,
+      "adzuna_id": "5953460929"
+    },
+    {
+      "title": "E2E Test Automation Engineer \u2014 Wireless Systems & Devices",
+      "company": "E-Space",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5943291897?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$145K\u2013$160K",
+      "top_requirements": [
+        "Develop and validate end\u2011to\u2011end LEO satellite communication links, including RF front\u2011end and baseband modem integration.",
+        "Create and run automated test suites for hardware\u2011in\u2011the\u2011loop verification of IoT connectivity performance.",
+        "Lead hardware bring\u2011up and characterization of RF subsystems for mass\u2011production readiness."
+      ],
+      "bonus_skills": [
+        "C/C++ firmware",
+        "Satellite link\u2011budget analysis"
+      ],
+      "summary": "A hands\u2011on systems role building a LEO IoT satellite network, matching the candidate\u2019s satellite communications experience while moving toward broader RF system design.",
+      "is_startup": true,
+      "adzuna_id": "5943291897"
+    },
+    {
+      "title": "Senior Wireless RF Systems Engineer",
+      "company": "Mytra",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5942260604?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$165K\u2013$180K",
+      "top_requirements": [
+        "Lead board\u2011level RF schematic capture and layout for multi\u2011band wireless products, ensuring compliance with FCC and industry specs.",
+        "Perform full RF chain validation, including S\u2011parameter, noise figure, IIP3, and EVM measurements across prototypes and production units.",
+        "Drive antenna\u2011integration strategies and system\u2011level simulations to optimize link performance for large\u2011scale deployments."
+      ],
+      "bonus_skills": [
+        "HFSS/ADS simulation",
+        "Mass\u2011production DFM"
+      ],
+      "summary": "Senior RF Systems Engineer responsible for complete RF hardware development, aligning with the candidate\u2019s RF design and test expertise.",
+      "is_startup": false,
+      "adzuna_id": "5942260604"
+    },
+    {
+      "title": "Senior 6G Wireless Systems Engineer - Prototyping",
+      "company": "PERSOL",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5949093181?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$130K\u2013$150K (estimate)",
+      "top_requirements": [
+        "Design, prototype, and validate 6G RF front\u2011end and baseband blocks, including DSP algorithms for ultra\u2011wideband operation.",
+        "Lead hardware\u2011in\u2011the\u2011loop testing of prototype boards, performing over\u2011the\u2011air measurements and link\u2011budget analysis.",
+        "Collaborate with academic and industry partners to demonstrate proof\u2011of\u2011concept performance against emerging 6G standards."
+      ],
+      "bonus_skills": [
+        "mmWave design",
+        "Python"
+      ],
+      "summary": "Prototyping 6G wireless systems in Singapore, providing hands\u2011on RF/DSP work that aligns with the candidate\u2019s desire to move beyond aerospace into cutting\u2011edge communications.",
+      "is_startup": false,
+      "adzuna_id": "5949093181"
+    },
+    {
+      "title": "Automotive Wireless Systems Engineer: Connected Cockpit & 5G",
+      "company": "XG TECH PTE. LTD.",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5937628492?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$120K\u2013$150K (estimate)",
+      "top_requirements": [
+        "Develop end\u2011to\u2011end wireless communication stacks for automotive 5G and Bluetooth, from PHY to application layer.",
+        "Perform RF system integration and validation on automotive\u2011grade hardware, ensuring compliance with automotive reliability standards.",
+        "Create automated test benches for over\u2011the\u2011air performance and coexistence testing in vehicle environments."
+      ],
+      "bonus_skills": [
+        "CAN/Automotive Ethernet",
+        "ISO 26262"
+      ],
+      "summary": "Automotive wireless systems engineer working on connected cockpit technologies, offering a shift from space to automotive while using the candidate\u2019s RF and modem skills.",
+      "is_startup": true,
+      "adzuna_id": "5937628492"
+    },
+    {
+      "title": "Sr. RF DVT Engineer, Amazon Leo Silicon",
+      "company": "Amazon Leo",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5939065547?se=tJe22GHZ8RGd_7zG-3lVvA&utm_medium=api&utm_source=9349c45d&v=F01E2CAA05FEC341ADD5328ACE59D5E2A4A5E46E",
+      "pay_range": "$190K\u2013$250K",
+      "top_requirements": [
+        "Lead RF DVT activities for low\u2011Earth\u2011orbit satellite silicon, including on\u2011die measurement of gain, noise figure, and linearity across temperature and voltage corners.",
+        "Develop and execute automated test flows for high\u2011volume production validation of RF front\u2011end blocks.",
+        "Collaborate with architecture teams to translate system link\u2011budget requirements into silicon specifications and test plans."
+      ],
+      "bonus_skills": [
+        "Statistical process control",
+        "Python"
+      ],
+      "summary": "Senior RF DVT engineer for Amazon Leo, a hands\u2011on role that directly uses the candidate\u2019s RF test expertise in a high\u2011pay, senior position.",
+      "is_startup": false,
+      "adzuna_id": "5939065547"
+    }
+  ]
+}
