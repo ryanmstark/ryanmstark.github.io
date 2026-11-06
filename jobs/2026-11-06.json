@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-06",
+  "postings": [
+    {
+      "title": "Wireless Firmware Engineer (Starlink Mobile)",
+      "company": "SpaceX",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5930351599?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$135K\u2013$155K",
+      "top_requirements": [
+        "Design and implement wireless firmware for cellular connectivity on satellite platforms, including low\u2011level driver development and protocol stack integration.",
+        "Perform end\u2011to\u2011end RF link budgeting and validation of modem performance in space\u2011qualified hardware environments.",
+        "Develop and execute automated test frameworks for firmware verification on prototype and production units."
+      ],
+      "bonus_skills": [
+        "C/C++ embedded development",
+        "Python scripting for test automation",
+        "Experience with LTE/5G modem stacks"
+      ],
+      "summary": "Develops and validates the firmware that enables Starlink Mobile\u2019s cellular service from space. The role matches the candidate\u2019s satellite communications and modem design background.",
+      "is_startup": false,
+      "adzuna_id": "5930351599"
+    },
+    {
+      "title": "Optical Communications Software Engineer - Modem Integration",
+      "company": "Bright Silicon Technologies",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5929905465?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$144K\u2013$144K",
+      "top_requirements": [
+        "Integrate optical modem subsystems with MEMS micromirror arrays to achieve high\u2011bandwidth free\u2011space links.",
+        "Develop and validate signal processing algorithms for coherent optical communication, including DSP chain and error\u2011correction coding.",
+        "Perform hardware\u2011in\u2011the\u2011loop testing of the optical terminal, including link budget analysis and thermal\u2011vacuum validation."
+      ],
+      "bonus_skills": [
+        "MATLAB/Simulink",
+        "C++ for DSP",
+        "Experience with optical communication standards"
+      ],
+      "summary": "Works on the software side of BST\u2019s free\u2011space optical modem, bridging optics and communications. The candidate\u2019s modem and signal\u2011processing expertise is directly applicable.",
+      "is_startup": true,
+      "adzuna_id": "5929905465"
+    },
+    {
+      "title": "Modem Test Engineer with Security Clearance",
+      "company": "Indotronix International Corp",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5908165726?se=Mv9-kiba8RGzHMiJGgoLuQ&utm_medium=api&utm_source=9349c45d&v=5FE739093A4202758DAAF8CA22F551F4A4B7B02C",
+      "pay_range": "$130K\u2013$130K",
+      "top_requirements": [
+        "Develop and execute carrier\u2011acceptance test plans for 4G/5G modem hardware against US carrier specifications.",
+        "Automate RF performance measurements (EVM, ACLR, IIP3) using test equipment and custom software scripts.",
+        "Analyze test data to identify hardware and firmware issues and drive corrective actions with cross\u2011functional teams."
+      ],
+      "bonus_skills": [
+        "LabVIEW or Python for test automation",
+        "RF test equipment operation",
+        "Understanding of 3GPP standards"
+      ],
+      "summary": "Ensures modem compliance with carrier requirements for L&T\u2019s wireless technology projects. The role leverages the candidate\u2019s modem test experience.",
+      "is_startup": false,
+      "adzuna_id": "5908165726"
+    },
+    {
+      "title": "Lead ASIC Modem Design Engineer, Satellite Communication",
+      "company": "Amazon",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5952662708?se=nBXQkyba8RGD5Iv7NVeOtg&utm_medium=api&utm_source=9349c45d&v=78163277F96B6114A4910C749F0F4E93A1EF2A31",
+      "pay_range": "$185K\u2013$250K",
+      "top_requirements": [
+        "Lead ASIC design of satellite communication modem blocks, from RTL coding to tape\u2011out in a multi\u2011project wafer flow.",
+        "Define and verify hardware specifications against system\u2011level requirements for Amazon Leo\u2019s LEO network.",
+        "Develop high\u2011volume test methodologies for silicon validation, including automated ATE and on\u2011board testing."
+      ],
+      "bonus_skills": [
+        "SystemVerilog/UVM",
+        "Cadence Innovus",
+        "Low\u2011power design techniques"
+      ],
+      "summary": "Leads ASIC modem design for Amazon\u2019s Leo satellite broadband project, a perfect fit for transitioning into senior IC roles.",
+      "is_startup": false,
+      "adzuna_id": "5952662708"
+    },
+    {
+      "title": "Senior Modem Engineer, Satellite Communication",
+      "company": "Amazon Leo",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5947732573?se=nBXQkyba8RGD5Iv7NVeOtg&utm_medium=api&utm_source=9349c45d&v=20186129D84E0BCC17EE14CFE8ED214A8D273D2B",
+      "pay_range": "$185K\u2013$250K",
+      "top_requirements": [
+        "Translate system\u2011level modem requirements into RTL specifications and verify using simulation and emulation platforms.",
+        "Collaborate with SoC architects to integrate modem IP blocks, ensuring correct interface protocols and timing closure.",
+        "Develop and execute silicon validation test plans, including performance, power, and reliability testing."
+      ],
+      "bonus_skills": [
+        "FPGA prototyping",
+        "Python for verification scripts",
+        "Understanding of 3GPP Release\u202f17"
+      ],
+      "summary": "Senior modem engineer focusing on ASIC integration for Amazon Leo, leveraging the candidate\u2019s modem and system design expertise.",
+      "is_startup": false,
+      "adzuna_id": "5947732573"
+    },
+    {
+      "title": "6G Cellular Modem Systems Engineer",
+      "company": "Apple",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5936708379?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$328K\u2013$328K",
+      "top_requirements": [
+        "Define next\u2011generation cellular modem architectures for 6G, including novel waveforms and massive MIMO baseband processing.",
+        "Lead cross\u2011functional hardware/software teams to implement high\u2011speed silicon prototypes and validate performance against emerging standards.",
+        "Develop comprehensive test strategies for silicon validation, including RF, digital, and system\u2011level metrics."
+      ],
+      "bonus_skills": [
+        "AI/ML for communications",
+        "Advanced DSP algorithms",
+        "High\u2011frequency PCB design"
+      ],
+      "summary": "Works on cutting\u2011edge 6G modem systems at Apple, offering a high\u2011compensation role that aligns with the candidate\u2019s advanced modem expertise.",
+      "is_startup": false,
+      "adzuna_id": "5936708379"
+    }
+  ]
+}
