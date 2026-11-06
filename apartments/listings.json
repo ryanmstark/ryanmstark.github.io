@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-05",
-  "search_at": "2026-11-05T23:03:00Z",
-  "checked_at": "2026-11-05T23:40:42Z",
+  "search_at": "2026-11-06T02:03:00Z",
+  "checked_at": "2026-11-06T02:03:00Z",
   "unique": [
     {
       "id": "1960-hayes",
@@ -718,6 +718,56 @@
       "who": "2B Living",
       "url": "https://www.zumper.com/address/2200-sacramento-st-san-francisco-ca-94115-usa",
       "src": "Zumper",
+      "status": "active"
+    },
+    {
+      "id": "419-fulton-a",
+      "name": "419 Fulton St, Unit A (1BR + den)",
+      "hood": "Hayes Valley (Fulton between Gough & Octavia, near City Hall)",
+      "lat": 37.779,
+      "lng": -122.4236,
+      "approx": true,
+      "rent": 3995,
+      "allin": "$3,995 + garage space (fee not listed)",
+      "posted": null,
+      "updated": "2026-11-05",
+      "tags": [
+        [
+          "Garage space for rent (assigned? cost?)",
+          "maybe"
+        ],
+        [
+          "894 sq ft, 1BR + den/office",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "1.5 baths",
+          "yes"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Large 1BR with a den/office and 1.5 baths, about 894 sq ft, with in-unit stackable W/D and a dishwasher. Plenty of room for a desk and a dining table for 4&ndash;6, and the rent is under $4,000 before parking. Hayes Valley on Fulton, a short walk to the shops on Hayes St.",
+        "<span class='flag'>A garage space is offered for rent (applicants who take it get preference), but the listing doesn't say whether it's assigned or what it costs. The page also shows &ldquo;check back soon for availability,&rdquo; so confirm it's still open. Fulton here is a moderately busy street; ask which way the bedroom faces.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by ReLISTO, a licensed SF brokerage (DRE #01877685), at a market-rate price; nothing asks for money before a tour."
+      ],
+      "who": "ReLISTO (brokerage for the owner)",
+      "url": "https://www.apartments.com/419-fulton-st-san-francisco-ca-unit-a/rz5qzc0/",
+      "src": "Apartments.com",
       "status": "active"
     }
   ],
