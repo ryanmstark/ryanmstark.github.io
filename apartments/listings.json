@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-06",
-  "search_at": "2026-11-06T16:53:35Z",
-  "checked_at": "2026-11-06T16:53:35Z",
+  "search_at": "2026-11-06T19:56:23Z",
+  "checked_at": "2026-11-06T19:56:23Z",
   "unique": [
     {
       "id": "1960-hayes",
@@ -781,7 +781,7 @@
       "lng": -122.4712,
       "posted": null,
       "updated": "2026-11-06",
-      "price": "$3,689–$4,107 · 644 sq ft",
+      "price": "$4,057–$4,147 · 644 sq ft",
       "parking": "Assigned parking (cost not listed)",
       "notes": "In-unit W/D, dishwasher, 7 one-bedrooms available. 126-unit complex directly across Lincoln Way from Golden Gate Park.",
       "seen": "Zumper",
@@ -893,13 +893,13 @@
       "lat": 37.759,
       "lng": -122.4626,
       "posted": "2026-11-02T17:23:00-08:00",
-      "price": "$4,669–$5,619 · 631–771 sq ft",
+      "price": "$4,756–$5,706 · 631–771 sq ft",
       "parking": "Garage (cost not listed)",
       "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
       "seen": "Zumper + PadMapper + Redfin + Craigslist",
       "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-05"
+      "updated": "2026-11-06"
     },
     {
       "id": "1720-golden-gate",
