@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-05",
-  "search_at": "2026-11-06T02:03:00Z",
-  "checked_at": "2026-11-06T06:54:40Z",
+  "asof": "2026-11-06",
+  "search_at": "2026-11-06T14:13:18Z",
+  "checked_at": "2026-11-06T14:13:18Z",
   "unique": [
     {
       "id": "1960-hayes",
@@ -241,7 +241,7 @@
       "rent": 4950,
       "allin": "$4,950 + parking (fee not listed)",
       "posted": null,
-      "updated": "2026-11-05",
+      "updated": "2026-11-06",
       "tags": [
         [
           "Assigned garage parking",
@@ -295,7 +295,7 @@
       "rent": 3100,
       "allin": "$3,350 all-in ($3,100 + $250 parking)",
       "posted": null,
-      "updated": "2026-11-05",
+      "updated": "2026-11-06",
       "tags": [
         [
           "Parking for rent +$250/mo",
@@ -354,7 +354,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-05",
+      "updated": "2026-11-06",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -632,7 +632,7 @@
       "rent": 4200,
       "allin": "$4,200 + parking fee (not listed)",
       "posted": null,
-      "updated": "2026-11-05",
+      "updated": "2026-11-06",
       "tags": [
         [
           "Off-street parking for a fee",
@@ -780,7 +780,7 @@
       "lat": 37.7655,
       "lng": -122.4712,
       "posted": null,
-      "updated": "2026-11-05",
+      "updated": "2026-11-06",
       "price": "$3,689–$4,107 · 644 sq ft",
       "parking": "Assigned parking (cost not listed)",
       "notes": "In-unit W/D, dishwasher, 7 one-bedrooms available. 126-unit complex directly across Lincoln Way from Golden Gate Park.",
@@ -852,7 +852,7 @@
       "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-05"
+      "updated": "2026-11-06"
     },
     {
       "id": "one-henry-adams",
@@ -882,7 +882,8 @@
       "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in.",
       "seen": "Zumper",
       "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca",
-      "status": "active"
+      "status": "active",
+      "updated": "2026-11-06"
     },
     {
       "id": "sunset-towers",
@@ -926,11 +927,11 @@
       "posted": null,
       "price": "$3,995",
       "parking": "Private garage +$200–$300",
-      "notes": "Dishwasher, laundry on-site. One site shows it rented, so it may be gone. North of your preferred area.",
+      "notes": "Dishwasher, laundry on-site. Zumper shows #206 “available now” at $3,995 (re-checked Nov 6); private garage +$200. North of your preferred area.",
       "seen": "Zumper + Rentable",
       "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-04"
+      "updated": "2026-11-06"
     }
   ]
 }
