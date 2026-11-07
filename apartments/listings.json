@@ -1,8 +1,62 @@
 {
   "asof": "2026-11-07",
-  "search_at": "2026-11-07T17:05:00Z",
-  "checked_at": "2026-11-07T19:27:38Z",
+  "search_at": "2026-11-07T19:53:01Z",
+  "checked_at": "2026-11-07T19:53:01Z",
   "unique": [
+    {
+      "id": "1816-eddy-103",
+      "name": "1816 Eddy St #103 (Eddy Heritage condos, Chandler Properties)",
+      "hood": "Western Addition / Alamo Square (Eddy between Scott & Divisadero, ~2 blocks north of the park)",
+      "lat": 37.78097,
+      "lng": -122.43769,
+      "approx": true,
+      "rent": 3595,
+      "allin": "$3,595 (parking shown on Redfin; confirm a garage spot is included)",
+      "posted": null,
+      "updated": "2026-11-07",
+      "tags": [
+        [
+          "Garage building; Redfin tags #103 with parking (confirm an assigned spot is included)",
+          "maybe"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Elevator, shared roof deck",
+          "yes"
+        ],
+        [
+          "Size not listed",
+          "maybe"
+        ],
+        [
+          "Ground-floor (#1xx) unit: ask about light and bedroom window",
+          "maybe"
+        ],
+        [
+          "Condo: no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "1BR/1BA condo in Eddy Heritage, an elevator condo building with a garage and shared roof deck, two blocks from Alamo Square. Redfin lists #103 at $3,595 with parking; the building's units come with in-unit W/D and a dishwasher, and a sister unit (#205) was advertised with one garage space included. If the spot is included, this is well under your $4,000 &ldquo;excellent&rdquo; line in your top-priority area.",
+        "<span class='flag'>Parking isn't confirmed for this specific unit: a different unit here (#101, $3,050) is listed with street parking only, so ask Chandler Properties whether #103 comes with an assigned garage space before touring. Also confirm square footage (not listed), bedroom window and the no-pets policy.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "managed by Chandler Properties (named leasing director and company phone/email); price is in line with the area and tours are required before applying."
+      ],
+      "who": "Chandler Properties (Rafael Davis, Director of Leasing, 415-500-1397)",
+      "url": "https://www.redfin.com/neighborhood/2989/CA/San-Francisco/Western-Addition/1-bedroom-apartments-for-rent",
+      "src": "Redfin",
+      "status": "active"
+    },
     {
       "id": "55-page-818",
       "name": "55 Page St #PH818 (“The Hayes” condo, 1BR + den)",
