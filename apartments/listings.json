@@ -1,8 +1,63 @@
 {
-  "asof": "2026-11-06",
-  "search_at": "2026-11-07T01:52:42Z",
-  "checked_at": "2026-11-07T13:10:13Z",
+  "asof": "2026-11-07",
+  "search_at": "2026-11-07T14:05:00Z",
+  "checked_at": "2026-11-07T14:05:00Z",
   "unique": [
+    {
+      "id": "55-page-818",
+      "name": "55 Page St #PH818 (“The Hayes” condo, 1BR + den)",
+      "hood": "Hayes Valley / Lower Haight edge (Page St between Franklin & Gough)",
+      "lat": 37.7746,
+      "lng": -122.4216,
+      "approx": true,
+      "rent": 3995,
+      "allin": "$3,995 all-in (parking included)",
+      "posted": "2026-11-06",
+      "posted_approx": true,
+      "updated": "2026-11-07",
+      "tags": [
+        [
+          "Parking included (confirm it's an assigned/deeded spot)",
+          "maybe"
+        ],
+        [
+          "725 sq ft, 1BR + den/office alcove",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Gym, roof deck, doorman",
+          "yes"
+        ],
+        [
+          "Penthouse floor, north-facing views",
+          "yes"
+        ],
+        [
+          "2008 condo: no rent control",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Top-floor (PH) 1BR/1BA plus den in The Hayes, a 2008 doorman condo building with gym and shared roof deck. About 725 sq ft, in-unit W/D, dishwasher, and one-car parking included in the rent. Redfin shows it newly listed at $3,995 (Apartments.com still shows $4,150), which makes it one of the best value-per-sq-ft options on the page. Short walk to Hayes Valley shops and Duboce Triangle.",
+        "<span class='flag'>Confirm the parking space is assigned/deeded (listings just say &ldquo;parking included&rdquo;), that the bedroom has an exterior window, and that the unit faces Page St (north) rather than Oak. Page St at this end is a block from Market, so expect some city noise.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "managed by ReLISTO, a licensed SF brokerage, in a known condo building; price is at market and nothing asks for money before a tour."
+      ],
+      "who": "ReLISTO (brokerage for the owner)",
+      "url": "https://www.apartments.com/55-page-st-san-francisco-ca-unit-818/en5bkmn/",
+      "src": "Redfin / Apartments.com",
+      "status": "active"
+    },
     {
       "id": "1235-mcallister-125",
       "name": "1235 McAllister St #125 (condo, Ziprent)",
@@ -1008,13 +1063,13 @@
       "lat": 37.7801,
       "lng": -122.4336,
       "posted": null,
-      "price": "$4,400–$5,640",
+      "price": "$4,340–$5,640",
       "parking": "Garage (optional fee)",
       "notes": "Elevator building, on-site laundry. Unit 207 recently dropped to $4,400.",
       "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-06"
+      "updated": "2026-11-07"
     },
     {
       "id": "one-henry-adams",
