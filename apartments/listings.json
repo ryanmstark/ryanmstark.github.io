@@ -1,8 +1,62 @@
 {
   "asof": "2026-11-07",
-  "search_at": "2026-11-07T19:53:01Z",
-  "checked_at": "2026-11-07T19:53:01Z",
+  "search_at": "2026-11-07T22:55:24Z",
+  "checked_at": "2026-11-07T22:55:24Z",
   "unique": [
+    {
+      "id": "301-irving-lower",
+      "name": "301 Irving St, lower unit (3-unit 1917 building)",
+      "hood": "Inner Sunset · Irving St at 4th Ave, ~2 blocks to Golden Gate Park",
+      "lat": 37.7641,
+      "lng": -122.4617,
+      "approx": true,
+      "rent": 3500,
+      "allin": "$3,500 all-in (private garage included)",
+      "posted": null,
+      "updated": "2026-11-07",
+      "tags": [
+        [
+          "Private assigned garage w/ EV charger (per 2024 lease record), included",
+          "yes"
+        ],
+        [
+          "In-unit laundry",
+          "yes"
+        ],
+        [
+          "Dishwasher: not listed, confirm",
+          "maybe"
+        ],
+        [
+          "Size not listed (building page says ~750 sq ft)",
+          "maybe"
+        ],
+        [
+          "Private deck + backyard garden",
+          "yes"
+        ],
+        [
+          "3-unit 1917 building: likely rent controlled",
+          "yes"
+        ],
+        [
+          "Lower unit: ask about light / bedroom window",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Remodeled lower flat in a 3-unit 1917 building right by Golden Gate Park in the Inner Sunset, with in-unit laundry, an eat-in kitchen, direct access to a private deck and backyard garden, and a private garage included in the $3,500 rent. This is exactly the small-building, rent-controlled type you want, and well under the $4,000 &ldquo;excellent&rdquo; line. Commute to Dogpatch is about 20–25 min via 280 or Oak/Fell to 101.",
+        "<span class='flag'>Dishwasher and square footage aren't listed, so confirm both. When this same unit leased in 2024 (at $4,200) the MLS listed a detached, covered, assigned garage with an opener and EV charger. Inner Sunset is your western limit and it's foggier than Alamo Square. Lower unit, so check bedroom window and light on a tour.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "price is $700 below what this unit leased for in 2024 and the lister isn't named on Apartments.com. The building and unit are real (MLS lease history), so tour in person and confirm the owner/agent before paying anything."
+      ],
+      "who": "Owner or small landlord (not named on listing)",
+      "url": "https://www.apartments.com/301-irving-st-san-francisco-ca/myfn59h",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "1816-eddy-103",
       "name": "1816 Eddy St #103 (Eddy Heritage condos, Chandler Properties)",
@@ -180,7 +234,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-07",
       "tags": [
         [
           "Attached garage space included (assigned? confirm)",
@@ -566,7 +620,7 @@
       "rent": 3100,
       "allin": "$3,350 all-in ($3,100 + $250 parking)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-07",
       "tags": [
         [
           "Parking for rent +$250/mo",
@@ -1117,9 +1171,9 @@
       "lat": 37.7801,
       "lng": -122.4336,
       "posted": null,
-      "price": "$4,340–$5,640",
+      "price": "$4,140–$5,640",
       "parking": "Garage (optional fee)",
-      "notes": "Elevator building, on-site laundry. Unit 207 recently dropped to $4,400.",
+      "notes": "Elevator building, on-site laundry. HotPads shows 3 one-bedrooms from $4,140 (marked new today, Nov 7). Unit 207 recently dropped to $4,400.",
       "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
