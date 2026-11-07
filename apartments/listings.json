@@ -1,8 +1,170 @@
 {
   "asof": "2026-11-06",
-  "search_at": "2026-11-06T22:49:05Z",
-  "checked_at": "2026-11-06T23:13:36Z",
+  "search_at": "2026-11-07T01:52:42Z",
+  "checked_at": "2026-11-07T01:52:42Z",
   "unique": [
+    {
+      "id": "1235-mcallister-125",
+      "name": "1235 McAllister St #125 (condo, Ziprent)",
+      "hood": "Western Addition (McAllister between Fillmore & Steiner, ~2 blocks to Alamo Square)",
+      "lat": 37.7794,
+      "lng": -122.4329,
+      "approx": true,
+      "rent": 3495,
+      "allin": "$3,775 all-in ($3,495 + $280 garage)",
+      "posted": null,
+      "updated": "2026-11-06",
+      "tags": [
+        [
+          "Garage spot +$280/mo, HOA-managed (assigned? confirm)",
+          "maybe"
+        ],
+        [
+          "701 sq ft",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Large private patio",
+          "yes"
+        ],
+        [
+          "Bay windows, gated courtyard entry",
+          "yes"
+        ],
+        [
+          "Condo: no rent cap",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "701 sq ft 1BR/1BA condo with in-unit laundry, dishwasher, bay windows, a big private patio and a built-in dining booth (good for hosting). About $3,775 with the garage spot, under your $4,000 &ldquo;excellent&rdquo; line, two blocks from Alamo Square.",
+        "<span class='flag'>The underground garage space is run by the HOA for an extra $280; ask whether it's an assigned spot. Ground-level (#1xx) unit, so ask about light and street noise. Pet policy is contradictory on the listing. Some units in this building are BMR, so confirm this one has no special restrictions.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by Ziprent (licensed brokerage) as the owner's agent; price is normal for the area; nothing asks for money before a tour."
+      ],
+      "who": "Ziprent, agent for the owner",
+      "url": "https://www.apartments.com/1235-mcallister-st-san-francisco-ca-unit-125/t2zmxv8",
+      "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "1235-mcallister-659",
+      "name": "1235 McAllister St 1BR, 659 sq ft (unit # not listed, Ziprent)",
+      "hood": "Western Addition (McAllister between Fillmore & Steiner, ~2 blocks to Alamo Square)",
+      "lat": 37.7795,
+      "lng": -122.4331,
+      "approx": true,
+      "rent": 3500,
+      "allin": "$3,500 all-in (garage space included)",
+      "posted": null,
+      "updated": "2026-11-06",
+      "tags": [
+        [
+          "Attached garage space included (assigned? confirm)",
+          "maybe"
+        ],
+        [
+          "659 sq ft",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Condo: no rent cap",
+          "no"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Second 1BR/1BA in the same condo building as #125, listed by the same agent: 659 sq ft, in-unit laundry, dishwasher, and a garage space included in the $3,500 rent (the listing values it at $500). Available now.",
+        "<span class='flag'>Unit number isn't shown, so confirm it's a different unit from #125 and that the garage space is assigned to it.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Ziprent listing on Apartments.com; market-rate price; normal deposit of one month's rent."
+      ],
+      "who": "Ziprent, agent for the owner",
+      "url": "https://www.apartments.com/1235-mcallister-st-san-francisco-ca/mp301gl/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "1350-divisadero",
+      "name": "1350 Divisadero St (at O'Farrell), unit # not listed",
+      "hood": "Divisadero / Western Addition (Divisadero at O'Farrell, ~4 blocks to Alamo Square)",
+      "lat": 37.7822,
+      "lng": -122.4392,
+      "approx": true,
+      "rent": 3200,
+      "allin": "$3,200 all-in (garage space included)",
+      "posted": null,
+      "updated": "2026-11-06",
+      "tags": [
+        [
+          "Garage space included (assigned? confirm)",
+          "maybe"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Shared laundry in building, not in-unit",
+          "no"
+        ],
+        [
+          "Size not listed (check it's 575+ sq ft)",
+          "maybe"
+        ],
+        [
+          "Available Nov 22, 12-month lease",
+          "yes"
+        ],
+        [
+          "Faces Divisadero? (busy street)",
+          "maybe"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Cheap option at $3,200 with a garage space included and a dishwasher, on Divisadero near the shops and restaurants of the Divis corridor and a few blocks from Alamo Square. Could be a good 1&ndash;2 year landing spot.",
+        "<span class='flag'>No square footage given, laundry is shared, and the unit may face busy Divisadero. Ask for size, which side the unit faces, and whether the garage space is assigned.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by Progressive Property Group (CA DRE 01905856), a licensed SF manager; standard one-month deposit."
+      ],
+      "who": "Progressive Property Group, Inc.",
+      "url": "https://www.apartments.com/1350-divisadero-st-san-francisco-ca/5zc037p/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "1960-hayes",
       "name": "1960 Hayes St (top-floor corner condo, unit # not listed)",
