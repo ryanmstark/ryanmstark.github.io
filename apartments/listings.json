@@ -1,8 +1,66 @@
 {
-  "asof": "2026-11-07",
-  "search_at": "2026-11-07T22:55:24Z",
-  "checked_at": "2026-11-08T00:43:02Z",
+  "asof": "2026-11-08",
+  "search_at": "2026-11-08T01:56:33Z",
+  "checked_at": "2026-11-08T01:56:33Z",
   "unique": [
+    {
+      "id": "rowan-338-potrero-cl-oiTGw3",
+      "name": "The Rowan, 338 Potrero Ave: 1BR + den with parking (Craigslist, unit # not shown)",
+      "hood": "Mission / Potrero Flats · Potrero Ave near 16th St, across from Franklin Square Park, ~5 min drive to Dogpatch",
+      "lat": 37.7662,
+      "lng": -122.4076,
+      "approx": true,
+      "rent": 3800,
+      "allin": "$3,800 (parking per title; confirm it's included and assigned)",
+      "posted": null,
+      "updated": "2026-11-08",
+      "tags": [
+        [
+          "Parking (per title): confirm assigned spot, included or extra",
+          "maybe"
+        ],
+        [
+          "1BR + den (den works as office / guest space)",
+          "yes"
+        ],
+        [
+          "In-unit Bosch washer/dryer (standard at The Rowan)",
+          "yes"
+        ],
+        [
+          "Dishwasher (Bosch, standard in building)",
+          "yes"
+        ],
+        [
+          "~650–675 sq ft (typical 1BR+den in this building)",
+          "yes"
+        ],
+        [
+          "Rooftop deck w/ BBQs, attended lobby",
+          "yes"
+        ],
+        [
+          "2016 condo building: no rent control",
+          "no"
+        ],
+        [
+          "Outside your priority neighborhoods",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Craigslist post &ldquo;Modern 1BR + Den at The Rowan | Bay Views, Parking &amp; Rooftop Amenities&rdquo; at $3,800. The Rowan is a 2016 Handel-designed condo building at 338 Potrero Ave whose owners rent out units individually; its 1BR + den layouts run about 650&ndash;675 sq ft with floor-to-ceiling west-facing glass, Bosch in-unit laundry and dishwasher, quartz kitchens and a shared roof deck. With parking at $3,800 it's under your $4,000 &ldquo;excellent&rdquo; line, and it's the shortest commute on the page (Dogpatch in ~5&ndash;10 min).",
+        "<span class='flag'>Couldn't open the Craigslist detail page this run, so the unit number, whether the parking space is assigned and included, and the posting time are unconfirmed. Many Rowan units have no garage spot (several recent listings say street parking only), so make them confirm a designated space. In the 1BR + den plan the den is interior; check that the bedroom itself has a window. Potrero Ave is a busy arterial and the area is grittier than Alamo Square; better as a 1&ndash;2 year place.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "price is at market for the building and the building is real, but the lister and unit weren't visible. Tour in person and confirm the owner or agent before paying anything."
+      ],
+      "who": "Not shown (Craigslist; Rowan units are individually owned condos)",
+      "url": "https://www.craigslist.org/view/d/san-francisco-modern-1br-den-at-the/oiTGw3RS89iCdvCmq9hnJy",
+      "src": "Craigslist",
+      "status": "active"
+    },
     {
       "id": "301-irving-lower",
       "name": "301 Irving St, lower unit (3-unit 1917 building)",
@@ -13,7 +71,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (private garage included)",
       "posted": null,
-      "updated": "2026-11-07",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Private assigned garage w/ EV charger (per 2024 lease record), included",
@@ -67,7 +125,7 @@
       "rent": 3595,
       "allin": "$3,595 (parking shown on Redfin; confirm a garage spot is included)",
       "posted": null,
-      "updated": "2026-11-07",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Garage building; Redfin tags #103 with parking (confirm an assigned spot is included)",
@@ -122,7 +180,7 @@
       "allin": "$3,995 all-in (parking included)",
       "posted": "2026-11-06",
       "posted_approx": true,
-      "updated": "2026-11-07",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Parking included (confirm it's an assigned/deeded spot)",
@@ -176,7 +234,7 @@
       "rent": 3495,
       "allin": "$3,775 all-in ($3,495 + $280 garage)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Garage spot +$280/mo, HOA-managed (assigned? confirm)",
@@ -284,7 +342,7 @@
       "rent": 3200,
       "allin": "$3,200 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Garage space included (assigned? confirm)",
@@ -338,7 +396,7 @@
       "rent": 4100,
       "allin": "$4,100 (two tandem garage spaces included)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-08",
       "tags": [
         [
           "2 tandem parking spaces included",
@@ -396,7 +454,7 @@
       "rent": 3250,
       "allin": "$3,500 all-in ($3,250 + $250 garage)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Garage spot +$250/mo (assigned? confirm)",
@@ -454,7 +512,7 @@
       "rent": 4500,
       "allin": "$4,500 (parking appears included: “attached indoor parking”)",
       "posted": null,
-      "updated": "2026-11-04",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Attached indoor parking (per title)",
@@ -483,7 +541,8 @@
       ],
       "notes": [
         "Craigslist post titled &ldquo;Top Floor Modern 1BR/1BA with Attached Indoor Parking and in unit W/D&rdquo; at $4,500, seen on the SF apartments index this evening. If the spot is assigned and included, it lands right in your happy range.",
-        "<span class='flag'>The detail page couldn't be opened this run, so the address, whether the spot is assigned, dishwasher, size and bedroom window are all unconfirmed. Check that it isn't on Oak/Fell or the weekend-closed stretch of Hayes St before touring.</span>"
+        "<span class='flag'>The detail page couldn't be opened this run, so the address, whether the spot is assigned, dishwasher, size and bedroom window are all unconfirmed. Check that it isn't on Oak/Fell or the weekend-closed stretch of Hayes St before touring.</span>",
+        "<span class='flag'>Re-activated 2026-11-08: this exact posting is still live in Craigslist's SF apartments results at $4,500. A copy of the same title is also posted at <b>$900</b> (a classic bait price) &mdash; ignore that one and only deal with this $4,500 post after seeing the unit in person.</span>"
       ],
       "scam": [
         "Some caution",
@@ -492,8 +551,7 @@
       "who": "Not shown (Craigslist)",
       "url": "https://www.craigslist.org/view/d/san-francisco-top-floor-modern-1br-1ba/nTdfNo8u8AKXCFLVXm6L54",
       "src": "Craigslist",
-      "status": "removed",
-      "removed_at": "2026-11-04T23:43:27Z"
+      "status": "active"
     },
     {
       "id": "1522-fulton-2",
@@ -566,7 +624,7 @@
       "rent": 4950,
       "allin": "$4,950 + parking (fee not listed)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Assigned garage parking",
@@ -620,7 +678,7 @@
       "rent": 3100,
       "allin": "$3,350 all-in ($3,100 + $250 parking)",
       "posted": null,
-      "updated": "2026-11-07",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Parking for rent +$250/mo",
