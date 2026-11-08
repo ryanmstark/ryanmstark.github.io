@@ -1,8 +1,62 @@
 {
   "asof": "2026-11-08",
-  "search_at": "2026-11-08T19:51:42Z",
-  "checked_at": "2026-11-08T22:11:46Z",
+  "search_at": "2026-11-08T22:54:10Z",
+  "checked_at": "2026-11-08T22:54:10Z",
   "unique": [
+    {
+      "id": "1930-eddy-303",
+      "name": "1930 Eddy St #303 (top-floor condo, 15-unit elevator building)",
+      "hood": "Western Addition / Anza Vista edge · Eddy between Divisadero & Broderick, ~3 blocks NW of Alamo Square",
+      "lat": 37.7806,
+      "lng": -122.4395,
+      "approx": true,
+      "rent": 3500,
+      "allin": "$3,500 all-in (deeded garage space included)",
+      "posted": null,
+      "updated": "2026-11-08",
+      "tags": [
+        [
+          "One deeded garage space + storage included",
+          "yes"
+        ],
+        [
+          "In-unit Bosch washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher: not listed (granite/stainless kitchen), confirm",
+          "maybe"
+        ],
+        [
+          "~792 sq ft",
+          "yes"
+        ],
+        [
+          "Top floor, balcony, skylit kitchen & bath, city views",
+          "yes"
+        ],
+        [
+          "Condo: no rent control",
+          "no"
+        ],
+        [
+          "Water + garbage included",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "Top-floor condo in a 15-unit elevator building a few blocks from Alamo Square and NoPa, with a deeded garage space and storage, in-unit Bosch washer/dryer, a balcony, a skylit kitchen with granite counters and stainless appliances, and about 792 sq ft. At $3,500 with parking included it lands well under your $4,000 &ldquo;excellent&rdquo; line and has room for a desk and a dining table. Close to Divisadero, GGP and the Panhandle; Dogpatch is about 20&ndash;25 min by car.",
+        "<span class='flag'>Dishwasher isn't mentioned, so confirm it. Zillow shows another 1BR in the same building (#203, 810 sq ft) at $5,450, so $3,500 for #303 is a big gap: confirm the price, that the parking is deeded to this unit, and who the owner/agent is before paying anything. Condo, so no rent cap.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "lister isn't named (phone only, (415) 413-3827 x402) and the price is far below the $5,450 asked for #203 in the same building. The building is real; tour in person and confirm the owner before paying anything."
+      ],
+      "who": "Individual owner or small manager (not named; phone only)",
+      "url": "https://www.apartments.com/1930-eddy-st-san-francisco-ca/k6qwd19/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "723-haight-1",
       "name": "723 Haight St #1 (1917 Edwardian, 8 units)",
