@@ -1,8 +1,62 @@
 {
   "asof": "2026-11-08",
-  "search_at": "2026-11-08T13:52:09Z",
-  "checked_at": "2026-11-08T13:52:09Z",
+  "search_at": "2026-11-08T16:52:22Z",
+  "checked_at": "2026-11-08T16:52:22Z",
   "unique": [
+    {
+      "id": "723-haight-1",
+      "name": "723 Haight St #1 (1917 Edwardian, 8 units)",
+      "hood": "Lower Haight · Haight St between Pierce &amp; Steiner, 2 blocks from Duboce Park, ~1 block from Alamo Square's south side",
+      "lat": 37.7716,
+      "lng": -122.4339,
+      "approx": true,
+      "rent": 4238,
+      "allin": "$4,238 + parking (Zumper lists assigned parking; fee not shown)",
+      "posted": null,
+      "updated": "2026-11-08",
+      "tags": [
+        [
+          "Assigned parking per Zumper (other sites say street only): confirm",
+          "maybe"
+        ],
+        [
+          "True 1BR/1BA, 674 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Laundry: W/D listed, but description says shared on-site",
+          "maybe"
+        ],
+        [
+          "1917 multi-unit building: likely rent controlled",
+          "yes"
+        ],
+        [
+          "Lower Haight, your #2 area",
+          "yes"
+        ],
+        [
+          "No pets",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Zumper (Lower Haight) shows 723 Haight St #1 at $4,238 with <b>assigned parking</b>; Zillow has the same unit as 1BR/1BA, 674 sq ft, dishwasher, available Nov 9, in a 1917 8-unit building. Pre-1979 multi-unit, so it should be rent controlled. That's a strong fit for a 2&ndash;3 year stay: classic flat, your second-priority neighborhood, walk to Alamo Square, Duboce Park and Divisadero.",
+        "<span class='flag'>Parking is the open question: Zumper says assigned parking, but Zillow doesn't mention it and an old (2021) listing for this building said street parking only. Ask the lister to confirm a designated spot that fits the Mazda 3 and its monthly cost before touring. Laundry is also listed both as in-unit and as shared on-site. Unit #1 is likely ground floor on Haight St, a lively commercial street, so check noise and light.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "real building with consistent details on Zumper and Zillow at a market price; still tour before paying anything."
+      ],
+      "who": "Not named (listed on Zumper / Zillow)",
+      "url": "https://www.zillow.com/b/723-haight-st-san-francisco-ca-5j4CPS",
+      "src": "Zumper",
+      "status": "active"
+    },
     {
       "id": "rowan-338-potrero-cl-oiTGw3",
       "name": "The Rowan, 338 Potrero Ave: 1BR + den with parking (Craigslist, unit # not shown)",
