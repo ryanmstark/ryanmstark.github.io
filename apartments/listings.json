@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-08",
-  "search_at": "2026-11-08T01:56:33Z",
-  "checked_at": "2026-11-08T10:28:33Z",
+  "search_at": "2026-11-08T13:52:09Z",
+  "checked_at": "2026-11-08T13:52:09Z",
   "unique": [
     {
       "id": "rowan-338-potrero-cl-oiTGw3",
@@ -167,7 +167,9 @@
       "who": "Chandler Properties (Rafael Davis, Director of Leasing, 415-500-1397)",
       "url": "https://www.redfin.com/neighborhood/2989/CA/San-Francisco/Western-Addition/1-bedroom-apartments-for-rent",
       "src": "Redfin",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-08T13:52:09Z",
+      "removed_reason": "No longer on Chandler Properties' AppFolio listings page, and Zillow shows no available units at Eddy Heritage Condominiums (checked 2026-11-08)."
     },
     {
       "id": "55-page-818",
@@ -738,7 +740,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-06",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Building garage spot +$295/mo",
