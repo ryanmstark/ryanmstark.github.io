@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-09",
+  "postings": [
+    {
+      "title": "Systems Engineer I - Signal Processing (Onsite)",
+      "company": "Raytheon",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5959014103?se=oF-8Apnc8RGMldQtWIx3hg&utm_medium=api&utm_source=9349c45d&v=4BCF384722D6FDC8A31181218F0EEA027FA347C9",
+      "pay_range": "$105K\u2013$110K",
+      "top_requirements": [
+        "Design and implement signal processing algorithms for satellite communication payloads, including modulation/demodulation and error correction coding.",
+        "Perform hardware bring\u2011up and validation of RF front\u2011end and baseband boards, measuring parameters such as noise figure, gain, and EVM.",
+        "Develop and execute system\u2011level test plans, including link\u2011budget analysis and over\u2011the\u2011air verification of modem performance."
+      ],
+      "bonus_skills": [
+        "MATLAB/Simulink",
+        "C/C++ firmware development",
+        "DO\u2011254 compliance"
+      ],
+      "summary": "The role focuses on end\u2011to\u2011end signal\u2011processing development for geostationary satellite communications, matching the candidate's experience in modem design and RF testing. It offers hands\u2011on hardware work in a defense environment.",
+      "is_startup": false,
+      "adzuna_id": "5959014103"
+    },
+    {
+      "title": "Senior Staff Software Engineer, Audio Systems, XR",
+      "company": "Google",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5956462164?se=oF-8Apnc8RGMldQtWIx3hg&utm_medium=api&utm_source=9349c45d&v=822B790EBB474C8B8E1598564C8D31B87C23DB95",
+      "pay_range": "$262K\u2013$364K",
+      "top_requirements": [
+        "Design and optimize real\u2011time audio DSP pipelines for XR headsets, including spatial audio rendering and low\u2011latency codec integration.",
+        "Perform hardware bring\u2011up and acoustic measurements to validate audio quality metrics such as THD, SNR, and spatial localization accuracy.",
+        "Develop firmware and driver stacks in C/C++ for custom audio ASICs, ensuring tight integration with XR system hardware."
+      ],
+      "bonus_skills": [
+        "3D audio algorithms",
+        "Embedded Linux",
+        "Acoustic modeling tools"
+      ],
+      "summary": "Google\u2019s senior audio systems role requires deep DSP and hardware integration expertise, which aligns with the candidate\u2019s background in modem and signal\u2011processing design, offering a high\u2011compensation, hands\u2011on position.",
+      "is_startup": false,
+      "adzuna_id": "5956462164"
+    },
+    {
+      "title": "Systems Algorithm Engineer",
+      "company": "Lyte AI",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5956326189?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$240K\u2013$250K",
+      "top_requirements": [
+        "Design custom mixed\u2011signal ASIC blocks for high\u2011performance perception sensors, including ADC front\u2011ends and on\u2011chip DSP pipelines.",
+        "Develop and validate silicon prototypes in a fast\u2011prototype environment, performing silicon bring\u2011up, characterization, and yield analysis.",
+        "Collaborate with algorithm teams to co\u2011design hardware\u2011software interfaces for real\u2011time sensor data processing in robotics applications."
+      ],
+      "bonus_skills": [
+        "Cadence Virtuoso",
+        "Python\u2011based data analysis",
+        "Low\u2011power design techniques"
+      ],
+      "summary": "Lyte AI\u2019s role centers on building custom silicon for perception systems, offering the candidate a transition to senior IC design while leveraging their RF and signal\u2011processing background. The position is highly hands\u2011on.",
+      "is_startup": true,
+      "adzuna_id": "5956326189"
+    },
+    {
+      "title": "Engineer Sr, Applied Research Science",
+      "company": "Shure Incorporated",
+      "location_label": "Chicago, IL",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5932328223?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$171K\u2013$175K",
+      "top_requirements": [
+        "Research and implement advanced AI/ML\u2011based audio signal processing algorithms for real\u2011time microphone array enhancement.",
+        "Design and validate DSP firmware on custom ASICs, measuring metrics such as SNR improvement, beamforming accuracy, and latency.",
+        "Collaborate with hardware and software teams to integrate algorithmic solutions into production audio products and conduct field testing."
+      ],
+      "bonus_skills": [
+        "TensorFlow Lite",
+        "C++ DSP development",
+        "Acoustic modeling"
+      ],
+      "summary": "While focused on audio, this senior applied research role requires strong DSP and hardware bring\u2011up skills, aligning with the candidate\u2019s modem and signal\u2011processing experience. It offers a hands\u2011on engineering environment.",
+      "is_startup": false,
+      "adzuna_id": "5932328223"
+    },
+    {
+      "title": "Electrical Engineer",
+      "company": "OceanComm, Inc.",
+      "location_label": "Chicago, IL",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5855263284?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$90K\u2013$130K",
+      "top_requirements": [
+        "Design and prototype underwater acoustic modems, including transducer interface circuits and baseband DSP algorithms for high\u2011bandwidth data transmission.",
+        "Perform hardware bring\u2011up and sea\u2011trial testing, characterizing acoustic channel loss, multipath, and data error rates.",
+        "Develop firmware in C/C++ for real\u2011time signal processing, error correction, and power management on custom PCB platforms."
+      ],
+      "bonus_skills": [
+        "Underwater acoustics",
+        "PCB layout",
+        "Python for data analysis"
+      ],
+      "summary": "The position leverages the candidate\u2019s communications and modem design expertise in a new domain (underwater acoustics) while remaining hands\u2011on with hardware and DSP development.",
+      "is_startup": false,
+      "adzuna_id": "5855263284"
+    },
+    {
+      "title": "Electrical Engineer/Radio Frequency (RF) Engineer with Security Clearance",
+      "company": "Leidos",
+      "location_label": "Chicago, IL",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5947256327?se=HkzcBJnc8RGWVLlCAvhPhA&utm_medium=api&utm_source=9349c45d&v=8D9A04EBF2755C4DD08F082CC31CE56151524E39",
+      "pay_range": "$162K\u2013$170K",
+      "top_requirements": [
+        "Design and analyze RF front\u2011end circuits for aviation communication, navigation, and surveillance systems, ensuring compliance with FAA standards.",
+        "Perform link\u2011budget calculations, antenna matching, and EMI/EMC testing for high\u2011reliability aerospace applications.",
+        "Lead hardware bring\u2011up and validation of prototype RF modules, using spectrum analyzers and vector network analyzers to verify performance."
+      ],
+      "bonus_skills": [
+        "DO\u2011254/DO\u2011160 compliance",
+        "RF simulation tools (ADS, HFSS)",
+        "Security clearance (Secret)"
+      ],
+      "summary": "The Leidos RF Engineer role focuses on aerospace RF systems, offering hands\u2011on circuit design and testing that aligns with the candidate\u2019s RF and communications experience, though still within the aerospace sector.",
+      "is_startup": false,
+      "adzuna_id": "5947256327"
+    }
+  ]
+}
