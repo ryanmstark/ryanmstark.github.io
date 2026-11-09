@@ -1,8 +1,70 @@
 {
   "asof": "2026-11-09",
-  "search_at": "2026-11-09T19:47:38Z",
-  "checked_at": "2026-11-09T19:52:16Z",
+  "search_at": "2026-11-09T23:06:33Z",
+  "checked_at": "2026-11-09T23:06:33Z",
   "unique": [
+    {
+      "id": "glen-park-flat-cl-8VkztkBo",
+      "name": "Glen Park 1BR flat with private side yard (Craigslist, address not shown)",
+      "hood": "Glen Park · a few blocks from Glen Park Village & BART, near Glen Canyon Park; ~15 min drive to Dogpatch via 280",
+      "lat": 37.7316,
+      "lng": -122.4416,
+      "approx": true,
+      "rent": 4000,
+      "allin": "$4,100 all-in ($4,000 + $100 garage)",
+      "posted": "2026-10-23T16:32:00-07:00",
+      "updated": "2026-10-26",
+      "tags": [
+        [
+          "Garage parking ($100/mo) in a detached garage: confirm it's a designated space that fits a sedan",
+          "maybe"
+        ],
+        [
+          "True 1BR/1BA flat; bedroom at the rear, away from the street",
+          "yes"
+        ],
+        [
+          "Washer/dryer in building (not in unit)",
+          "maybe"
+        ],
+        [
+          "Dishwasher not mentioned",
+          "maybe"
+        ],
+        [
+          "Size not listed",
+          "maybe"
+        ],
+        [
+          "Private side yard + shared rear yard",
+          "yes"
+        ],
+        [
+          "Eat-in kitchen with gas stove",
+          "yes"
+        ],
+        [
+          "Small older building: likely rent controlled (confirm year built)",
+          "yes"
+        ],
+        [
+          "Glen Park is lower on your list, far from GGP / Alamo Square",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Light-filled, updated one-bedroom flat on one side of a detached building in Glen Park, with a rear bedroom, an eat-in kitchen with a gas stove that opens to the living room, an updated bath (shower, no tub), a private side yard and access to the shared rear yard. Landlord pays water and garbage; one-year lease; deposit is one month's rent. Cats and dogs OK. Near Canyon Market, Glen Park BART and quick 280 access to Dogpatch.",
+        "<span class='flag'>Dishwasher and square footage aren't listed, so ask about both before touring. Laundry is shared. The post says garage parking is &ldquo;included at $100 per month&rdquo;, which reads as $100 extra; confirm it's an assigned space. Three photos are virtually staged. A second copy of the post shows $4,200, so confirm the current price. Glen Park is a quiet, village-like area but a long way from your GGP / Alamo Square life. Better as a cheaper 1&ndash;2 year option.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "contact details are hidden, the post asks you to reply with a personal email and cell number, and there's no landlord name or address. Price is at market and nothing asks for money up front. Tour in person and confirm the owner before paying anything."
+      ],
+      "who": "Landlord (name not shown; Craigslist relay email)",
+      "url": "https://www.craigslist.org/view/d/san-francisco-bright-updated-bedroom/8VkztkBo59CiZeyi8pyp1t",
+      "src": "Craigslist",
+      "status": "active"
+    },
     {
       "id": "1930-eddy-303",
       "name": "1930 Eddy St #303 (top-floor condo, 15-unit elevator building)",
