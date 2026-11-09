@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-08",
-  "search_at": "2026-11-08T22:54:10Z",
-  "checked_at": "2026-11-08T22:54:10Z",
+  "search_at": "2026-11-09T01:50:54Z",
+  "checked_at": "2026-11-09T01:50:54Z",
   "unique": [
     {
       "id": "1930-eddy-303",
@@ -402,7 +402,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-07",
+      "updated": "2026-11-08",
       "tags": [
         [
           "Attached garage space included (assigned? confirm)",
@@ -1426,6 +1426,23 @@
       "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca",
       "status": "active",
       "updated": "2026-11-06"
+    },
+    {
+      "id": "2110-market",
+      "name": "2100 Market Church LLC (RentingSF)",
+      "addr": "2110 Market St (at Church St)",
+      "area": "Duboce Triangle / Church & Market",
+      "lat": 37.7672,
+      "lng": -122.4296,
+      "approx": true,
+      "posted": null,
+      "updated": "2026-11-08",
+      "price": "$5,156–$5,600 · 630–760 sq ft (over budget; parking fee not listed)",
+      "parking": "Zumper lists assigned parking for the building; fee and whether every unit gets a spot not stated — confirm",
+      "notes": "Several 1BRs reposted by RentingSF (#305 $5,156 / 630 sq ft, #506 $5,172 / 630 sq ft avail. Nov 17, #411 $5,600 / 760 sq ft avail. Nov 16). Dishwasher and in-unit laundry listed. Great location for your priority areas (Duboce Park, Lower Haight, Hayes Valley all walkable; easy 101/280 access), but Church & Market is a busy, noisy intersection and pricing is in stretch territory before parking. Newer building, so no rent control. One #411 description mentions 2BR/2BA; verify the layout.",
+      "seen": "3 posts (Zumper + Rentable)",
+      "url": "https://www.rentable.co/san-francisco-ca/2112-market-st",
+      "status": "active"
     }
   ]
 }
