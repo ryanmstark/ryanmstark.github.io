@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-09",
-  "search_at": "2026-11-09T14:20:00Z",
-  "checked_at": "2026-11-09T14:20:00Z",
+  "search_at": "2026-11-09T16:51:33Z",
+  "checked_at": "2026-11-09T16:51:33Z",
   "unique": [
     {
       "id": "1930-eddy-303",
@@ -1442,6 +1442,23 @@
       "notes": "Several 1BRs reposted by RentingSF (#305 $5,156 / 630 sq ft, #506 $5,172 / 630 sq ft avail. Nov 17, #411 $5,600 / 760 sq ft avail. Nov 16). Dishwasher and in-unit laundry listed. Great location for your priority areas (Duboce Park, Lower Haight, Hayes Valley all walkable; easy 101/280 access), but Church & Market is a busy, noisy intersection and pricing is in stretch territory before parking. Newer building, so no rent control. One #411 description mentions 2BR/2BA; verify the layout.",
       "seen": "3 posts (Zumper + Rentable)",
       "url": "https://www.rentable.co/san-francisco-ca/2112-market-st",
+      "status": "active"
+    },
+    {
+      "id": "fillmore-center",
+      "name": "The Fillmore Center (Greystar)",
+      "addr": "1475 Fillmore St (garage entrance 1510 Eddy St)",
+      "area": "Western Addition / Fillmore · ~5 blocks NE of Alamo Square",
+      "lat": 37.7816,
+      "lng": -122.4329,
+      "approx": true,
+      "posted": null,
+      "updated": "2026-11-09",
+      "price": "$4,858–$5,226 · 605–785 sq ft (6 one-bedrooms listed)",
+      "parking": "Reserved spaces in controlled-access garage (fee not listed)",
+      "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices.",
+      "seen": "Zillow + Craigslist + Redfin",
+      "url": "https://www.zillow.com/apartments/san-francisco-ca/the-fillmore-center/5XjVzy",
       "status": "active"
     }
   ]
