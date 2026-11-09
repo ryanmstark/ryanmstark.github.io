@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-08",
-  "search_at": "2026-11-09T01:50:54Z",
-  "checked_at": "2026-11-09T06:43:31Z",
+  "asof": "2026-11-09",
+  "search_at": "2026-11-09T14:20:00Z",
+  "checked_at": "2026-11-09T14:20:00Z",
   "unique": [
     {
       "id": "1930-eddy-303",
@@ -13,7 +13,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (deeded garage space included)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "One deeded garage space + storage included",
@@ -67,7 +67,7 @@
       "rent": 4238,
       "allin": "$4,238 + parking (Zumper lists assigned parking; fee not shown)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Assigned parking per Zumper (other sites say street only): confirm",
@@ -179,7 +179,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (private garage included)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Private assigned garage w/ EV charger (per 2024 lease record), included",
@@ -290,7 +290,7 @@
       "allin": "$3,995 all-in (parking included)",
       "posted": "2026-11-06",
       "posted_approx": true,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Parking included (confirm it's an assigned/deeded spot)",
@@ -344,7 +344,7 @@
       "rent": 3495,
       "allin": "$3,775 all-in ($3,495 + $280 garage)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Garage spot +$280/mo, HOA-managed (assigned? confirm)",
@@ -402,7 +402,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Attached garage space included (assigned? confirm)",
@@ -452,7 +452,7 @@
       "rent": 3200,
       "allin": "$3,200 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Garage space included (assigned? confirm)",
@@ -506,7 +506,7 @@
       "rent": 4100,
       "allin": "$4,100 (two tandem garage spaces included)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "2 tandem parking spaces included",
@@ -564,7 +564,7 @@
       "rent": 3250,
       "allin": "$3,500 all-in ($3,250 + $250 garage)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Garage spot +$250/mo (assigned? confirm)",
@@ -735,7 +735,7 @@
       "rent": 4950,
       "allin": "$4,950 + parking (fee not listed)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Assigned garage parking",
@@ -789,7 +789,7 @@
       "rent": 3100,
       "allin": "$3,350 all-in ($3,100 + $250 parking)",
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "tags": [
         [
           "Parking for rent +$250/mo",
@@ -1296,7 +1296,7 @@
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
       "status": "active",
-      "updated": "2026-11-05"
+      "updated": "2026-11-09"
     },
     {
       "id": "civic-101-polk",
@@ -1346,7 +1346,7 @@
       "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-07"
+      "updated": "2026-11-09"
     },
     {
       "id": "one-henry-adams",
@@ -1436,7 +1436,7 @@
       "lng": -122.4296,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-08",
+      "updated": "2026-11-09",
       "price": "$5,156–$5,600 · 630–760 sq ft (over budget; parking fee not listed)",
       "parking": "Zumper lists assigned parking for the building; fee and whether every unit gets a spot not stated — confirm",
       "notes": "Several 1BRs reposted by RentingSF (#305 $5,156 / 630 sq ft, #506 $5,172 / 630 sq ft avail. Nov 17, #411 $5,600 / 760 sq ft avail. Nov 16). Dishwasher and in-unit laundry listed. Great location for your priority areas (Duboce Park, Lower Haight, Hayes Valley all walkable; easy 101/280 access), but Church & Market is a busy, noisy intersection and pricing is in stretch territory before parking. Newer building, so no rent control. One #411 description mentions 2BR/2BA; verify the layout.",
