@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-10",
+  "postings": [
+    {
+      "title": "Principal Radio Frequency Engineer",
+      "company": "European Tech Recruit",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5960610200?se=uMSRpE7d8RGXTOGowBcGKQ&utm_medium=api&utm_source=9349c45d&v=4F816FD85D1C09D3D2D60C5FAC424BF97CF542AA",
+      "pay_range": "$175K\u2013$180K",
+      "top_requirements": [
+        "Design and validate end\u2011to\u2011end RF payload architectures for direct\u2011to\u2011device satellite communications, including link\u2011budget analysis and on\u2011orbit performance verification.",
+        "Lead hardware development from schematic capture through PCB layout, integration, and thermal\u2011vacuum testing of high\u2011frequency transceiver modules.",
+        "Develop and execute RF system test plans covering gain, noise figure, IIP3, EVM, and spectral mask compliance across the full payload chain."
+      ],
+      "bonus_skills": [
+        "Experience with Ka/Ku\u2011band RF front\u2011ends",
+        "Proficiency in RF simulation tools (ADS, HFSS)",
+        "Knowledge of satellite mission operations and on\u2011orbit testing"
+      ],
+      "summary": "The role leads the architecture, design, and on\u2011orbit validation of RF communications payloads for a satellite connectivity startup. It matches the candidate\u2019s deep RF and communications systems background while offering a senior technical leadership position.",
+      "is_startup": true,
+      "adzuna_id": "5960610200"
+    },
+    {
+      "title": "Senior Ground Station Systems Engineer",
+      "company": "Astranis Space Technologies",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5960607489?se=uMSRpE7d8RGXTOGowBcGKQ&utm_medium=api&utm_source=9349c45d&v=3FEAD77AAAB02E8090F8676C04D3DC30B6BA25E4",
+      "pay_range": "$100K\u2013$110K",
+      "top_requirements": [
+        "Develop and maintain ground\u2011station RF front\u2011end and baseband signal processing chains for geostationary satellite communications.",
+        "Perform link\u2011budget calculations, RF performance testing, and troubleshooting of downlink/up\u2011link modems and antennas.",
+        "Integrate and validate software\u2011defined radio (SDR) platforms for real\u2011time telemetry, tracking, and command (TT&C) operations."
+      ],
+      "bonus_skills": [
+        "Experience with Ka\u2011band ground stations",
+        "Familiarity with RF test equipment (VNA, spectrum analyzer)",
+        "Knowledge of satellite network protocols"
+      ],
+      "summary": "This senior ground\u2011station systems engineer role focuses on RF and signal\u2011processing work for satellite communications, directly leveraging the candidate\u2019s experience at Astranis while staying within a technical hands\u2011on scope.",
+      "is_startup": false,
+      "adzuna_id": "5960607489"
+    },
+    {
+      "title": "Senior Device Engineer: 3D NAND Flash Memory",
+      "company": "SanDisk",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5955628173?se=uMSRpE7d8RGXTOGowBcGKQ&utm_medium=api&utm_source=9349c45d&v=2CEE496BC0352F490784E3A899BAF078EB2D4DDA",
+      "pay_range": "$165K\u2013$190K",
+      "top_requirements": [
+        "Lead the design of 3D NAND flash memory device architectures, including cell layout, stack engineering, and process integration.",
+        "Develop and execute electrical characterization test plans (IV, program/erase endurance, retention) for prototype devices.",
+        "Collaborate with circuit designers to create custom peripheral circuits and verify performance in silicon through bring\u2011up and debug."
+      ],
+      "bonus_skills": [
+        "Experience with TCAD simulation",
+        "Knowledge of CMOS\u2011compatible process flows",
+        "Proficiency in Python/Matlab for data analysis"
+      ],
+      "summary": "The senior device engineer position involves hands\u2011on design and validation of advanced NAND flash memory, offering a shift from aerospace to high\u2011volume semiconductor IC work that aligns with the candidate\u2019s IC design interests.",
+      "is_startup": false,
+      "adzuna_id": "5955628173"
+    },
+    {
+      "title": "Applications Engineer",
+      "company": "Cirrus Logic",
+      "location_label": "Edinburgh, Scotland",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.co.uk/jobs/details/5889027979?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$45K\u2013$55K",
+      "top_requirements": [
+        "Design and verify mixed\u2011signal ASIC blocks for audio/video processing, including ADC/DAC front\u2011ends and digital filters.",
+        "Create SPICE models and perform Monte\u2011Carlo simulations to ensure performance across process corners.",
+        "Collaborate with layout engineers to resolve signal\u2011integrity and power\u2011noise issues in silicon prototypes."
+      ],
+      "bonus_skills": [
+        "Experience with Cadence Virtuoso",
+        "Knowledge of low\u2011power design techniques",
+        "Familiarity with automotive audio standards"
+      ],
+      "summary": "The applications engineer role at Cirrus Logic involves hands\u2011on mixed\u2011signal design for consumer audio/video ICs, offering a transition to IC work while staying within the candidate\u2019s signal\u2011processing skill set.",
+      "is_startup": false,
+      "adzuna_id": "5889027979"
+    },
+    {
+      "title": "Senior FPGA & DSP Team Lead - Embedded RF/AI",
+      "company": "DroneShield",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5937613115?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$180K\u2013$260K",
+      "top_requirements": [
+        "Design FPGA\u2011based RF detection algorithms and high\u2011throughput DSP pipelines for counter\u2011drone radar systems.",
+        "Develop and integrate ARM\u2011based embedded firmware to control SDR front\u2011ends, manage data streams, and implement real\u2011time threat classification.",
+        "Lead hardware bring\u2011up, including RF front\u2011end calibration, timing closure, and performance validation in lab and field environments."
+      ],
+      "bonus_skills": [
+        "Proficiency in VHDL/Verilog",
+        "Experience with GNU Radio and SDR platforms",
+        "Knowledge of machine\u2011learning inference on FPGA"
+      ],
+      "summary": "This senior FPGA & DSP team lead position at DroneShield combines hands\u2011on RF, FPGA, and embedded system work, aligning well with the candidate\u2019s communications and signal\u2011processing background while moving into a fast\u2011growing defense\u2011tech startup.",
+      "is_startup": true,
+      "adzuna_id": "5937613115"
+    },
+    {
+      "title": "Senior Staff Engineer \u2013 Audio/Video DSP & ML on Edge",
+      "company": "Dolby",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5937594466?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$180K\u2013$260K",
+      "top_requirements": [
+        "Develop high\u2011performance C/C++ audio and video signal\u2011processing algorithms for edge devices, targeting low\u2011latency and low\u2011power operation.",
+        "Implement and optimize machine\u2011learning models for real\u2011time media enhancement and compression on embedded GPUs/NPUs.",
+        "Lead code reviews, performance profiling, and cross\u2011platform validation across multiple consumer hardware platforms."
+      ],
+      "bonus_skills": [
+        "Experience with AV1/H.265 codecs",
+        "Familiarity with TensorRT or ONNX runtime",
+        "Knowledge of audio DSP standards (Dolby, DTS)"
+      ],
+      "summary": "The senior staff engineer role at Dolby focuses on cutting\u2011edge audio/video DSP and ML on edge devices, offering a senior technical path that leverages the candidate\u2019s signal\u2011processing expertise in a high\u2011impact consumer\u2011tech environment.",
+      "is_startup": false,
+      "adzuna_id": "5937594466"
+    }
+  ]
+}
