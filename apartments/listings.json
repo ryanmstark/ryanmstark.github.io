@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-09",
-  "search_at": "2026-11-10T01:53:20Z",
-  "checked_at": "2026-11-10T03:37:18Z",
+  "asof": "2026-11-10",
+  "search_at": "2026-11-10T14:00:14Z",
+  "checked_at": "2026-11-10T14:00:14Z",
   "unique": [
     {
       "id": "glen-park-flat-cl-8VkztkBo",
@@ -109,7 +109,7 @@
       ],
       "notes": [
         "Top-floor condo in a 15-unit elevator building a few blocks from Alamo Square and NoPa, with a deeded garage space and storage, in-unit Bosch washer/dryer, a balcony, a skylit kitchen with granite counters and stainless appliances, and about 792 sq ft. At $3,500 with parking included it lands well under your $4,000 &ldquo;excellent&rdquo; line and has room for a desk and a dining table. Close to Divisadero, GGP and the Panhandle; Dogpatch is about 20&ndash;25 min by car.",
-        "<span class='flag'>Dishwasher isn't mentioned, so confirm it. Zillow shows another 1BR in the same building (#203, 810 sq ft) at $5,450, so $3,500 for #303 is a big gap: confirm the price, that the parking is deeded to this unit, and who the owner/agent is before paying anything. Condo, so no rent cap.</span>"
+        "<span class='flag'>Dishwasher isn't mentioned, so confirm it. Zillow shows another 1BR in the same building (#203, 810 sq ft) at $5,450, so $3,500 for #303 is a big gap: confirm the price, that the parking is deeded to this unit, and who the owner/agent is before paying anything. Condo, so no rent cap. Apartments.com metadata shows the listing was last edited Sep 6, so confirm it's still available.</span>"
       ],
       "scam": [
         "Some caution",
@@ -349,11 +349,11 @@
       "lat": 37.7746,
       "lng": -122.4216,
       "approx": true,
-      "rent": 3995,
-      "allin": "$3,995 all-in (parking included)",
+      "rent": 4150,
+      "allin": "$4,150 all-in (parking included)",
       "posted": "2026-11-06",
       "posted_approx": true,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Parking included (confirm it's an assigned/deeded spot)",
@@ -385,7 +385,7 @@
         ]
       ],
       "notes": [
-        "Top-floor (PH) 1BR/1BA plus den in The Hayes, a 2008 doorman condo building with gym and shared roof deck. About 725 sq ft, in-unit W/D, dishwasher, and one-car parking included in the rent. Redfin shows it newly listed at $3,995 (Apartments.com still shows $4,150), which makes it one of the best value-per-sq-ft options on the page. Short walk to Hayes Valley shops and Duboce Triangle.",
+        "Top-floor (PH) 1BR/1BA plus den in The Hayes, a 2008 doorman condo building with gym and shared roof deck. About 725 sq ft, in-unit W/D, dishwasher, and one-car parking included in the rent. Apartments.com now shows $4,150 (Redfin had shown $3,995 last week); still a strong value per sq ft with parking included. Short walk to Hayes Valley shops and Duboce Triangle.",
         "<span class='flag'>Confirm the parking space is assigned/deeded (listings just say &ldquo;parking included&rdquo;), that the bedroom has an exterior window, and that the unit faces Page St (north) rather than Oak. Page St at this end is a block from Market, so expect some city noise.</span>"
       ],
       "scam": [
@@ -889,7 +889,7 @@
       ],
       "notes": [
         "Updated, individually owned 1BR/1BA condo in Opera Plaza, listed by an AMSI agent. At about $3,350 with parking it's the cheapest qualifying option on the page, well under your $4,500 target. Available now. Quick on-ramp to 101/280 for the Dogpatch commute.",
-        "<span class='flag'>The listing says parking is available for $250/mo but doesn't say it's an assigned spot. Confirm it's a designated garage space that fits your Mazda 3, and ask for the unit number and which way it faces (Van Ness side is louder). The listing was last updated Oct 13, so check it's still open.</span>",
+        "<span class='flag'>The listing says parking is available for $250/mo but doesn't say it's an assigned spot. Confirm it's a designated garage space that fits your Mazda 3, and ask for the unit number and which way it faces (Van Ness side is louder). The listing was last updated Oct 13, so check it's still open. Note: another Opera Plaza 1BR listing on Apartments.com (#226) describes its $250 garage parking as <b>unassigned</b>, so ask specifically whether this one comes with a designated spot; if not, it fails your parking rule.</span>",
         "Separate from Opera Plaza #511 below (different owner and agent)."
       ],
       "scam": [
