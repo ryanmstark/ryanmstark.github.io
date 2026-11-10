@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-09",
   "search_at": "2026-11-10T01:53:20Z",
-  "checked_at": "2026-11-10T01:53:20Z",
+  "checked_at": "2026-11-10T03:37:18Z",
   "unique": [
     {
       "id": "glen-park-flat-cl-8VkztkBo",
@@ -63,7 +63,8 @@
       "who": "Landlord (name not shown; Craigslist relay email)",
       "url": "https://www.craigslist.org/view/d/san-francisco-bright-updated-bedroom/8VkztkBo59CiZeyi8pyp1t",
       "src": "Craigslist",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-10T03:37:11Z"
     },
     {
       "id": "1930-eddy-303",
