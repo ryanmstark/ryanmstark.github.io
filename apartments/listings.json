@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-10",
-  "search_at": "2026-11-10T16:58:36Z",
-  "checked_at": "2026-11-10T16:58:36Z",
+  "search_at": "2026-11-10T20:02:04Z",
+  "checked_at": "2026-11-10T20:02:04Z",
   "unique": [
     {
       "id": "glen-park-flat-cl-8VkztkBo",
@@ -130,7 +130,7 @@
       "rent": 4238,
       "allin": "$4,238 + parking (Zumper lists assigned parking; fee not shown)",
       "posted": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Assigned parking per Zumper (other sites say street only): confirm",
@@ -242,7 +242,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (private garage included)",
       "posted": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Private assigned garage w/ EV charger (per 2024 lease record), included",
@@ -407,7 +407,7 @@
       "rent": 3495,
       "allin": "$3,775 all-in ($3,495 + $280 garage)",
       "posted": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Garage spot +$280/mo, HOA-managed (assigned? confirm)",
@@ -465,7 +465,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Attached garage space included (assigned? confirm)",
@@ -515,7 +515,7 @@
       "rent": 3200,
       "allin": "$3,200 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Garage space included (assigned? confirm)",
@@ -798,7 +798,7 @@
       "rent": 4950,
       "allin": "$4,950 + parking (fee not listed)",
       "posted": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Assigned garage parking",
@@ -852,7 +852,7 @@
       "rent": 3100,
       "allin": "$3,350 all-in ($3,100 + $250 parking)",
       "posted": null,
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Parking for rent +$250/mo",
@@ -911,7 +911,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -1409,7 +1409,7 @@
       "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-09"
+      "updated": "2026-11-10"
     },
     {
       "id": "one-henry-adams",
