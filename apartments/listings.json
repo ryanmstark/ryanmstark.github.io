@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-10",
   "search_at": "2026-11-11T02:01:11Z",
-  "checked_at": "2026-11-11T02:01:11Z",
+  "checked_at": "2026-11-11T06:33:32Z",
   "unique": [
     {
       "id": "glen-park-flat-cl-8VkztkBo",
@@ -725,7 +725,8 @@
       "who": "Not shown (Craigslist)",
       "url": "https://www.craigslist.org/view/d/san-francisco-top-floor-modern-1br-1ba/nTdfNo8u8AKXCFLVXm6L54",
       "src": "Craigslist",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-11T06:33:26Z"
     },
     {
       "id": "1522-fulton-2",
