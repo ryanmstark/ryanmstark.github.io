@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-11",
+  "postings": [
+    {
+      "title": "Senior PHY-Algo Engineer",
+      "company": "Lyte AI",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5956326018?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$299,815\u2013$299,815",
+      "top_requirements": [
+        "Design and implement physical layer (PHY) algorithms for high\u2011speed optical and electrical interconnects, covering link budgeting, equalization, and error\u2011rate analysis.",
+        "Develop and validate silicon RTL/RTL\u2011C models of the PHY, performing gate\u2011level simulations and silicon bring\u2011up on prototype ASICs.",
+        "Create automated test benches and measurement setups to characterize eye diagrams, jitter, and BER across temperature and voltage corners."
+      ],
+      "bonus_skills": [
+        "Python\u2011based data analysis",
+        "Experience with SerDes IP blocks",
+        "Familiarity with high\u2011speed PCB layout and signal integrity tools"
+      ],
+      "summary": "The Senior PHY\u2011Algo Engineer will lead algorithm development for next\u2011generation high\u2011speed interconnects, bridging theory and silicon implementation. The role matches the candidate\u2019s RF/communications background and offers deep hands\u2011on work on silicon\u2011level PHY design.",
+      "is_startup": false,
+      "adzuna_id": "5956326018"
+    },
+    {
+      "title": "DSP Integration Test Engineer",
+      "company": "AttoTude",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5950450081?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$97,836\u2013$97,836",
+      "top_requirements": [
+        "Lead hardware bring\u2011up of high\u2011speed DSP cores on early\u2011stage prototype boards, including clocking, power\u2011up sequencing, and signal integrity verification.",
+        "Integrate and validate transmit and receive baseband DSP functions with proprietary DiAx cable technology, achieving target data\u2011rate and error\u2011vector magnitude (EVM) specifications.",
+        "Develop automated test scripts and measurement procedures to qualify DSP performance across temperature, voltage, and link\u2011budget variations."
+      ],
+      "bonus_skills": [
+        "C/C++ firmware development",
+        "LabVIEW or Python test automation",
+        "Experience with high\u2011speed serial interfaces (e.g., JESD204)"
+      ],
+      "summary": "The DSP Integration Test Engineer will own the bring\u2011up and validation of cutting\u2011edge baseband modems, a natural extension of the candidate\u2019s satellite communications modem experience. The role is hands\u2011on and focused on RF\u2011centric DSP hardware.",
+      "is_startup": false,
+      "adzuna_id": "5950450081"
+    },
+    {
+      "title": "Senior DSP Engineer",
+      "company": "Aeva",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5948119160?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$164,333\u2013$222,365",
+      "top_requirements": [
+        "Develop advanced DSP algorithms for 4D LiDAR signal processing, including velocity extraction, clutter suppression, and range\u2011angle imaging.",
+        "Implement and optimize real\u2011time firmware on FPGA/ASIC platforms, ensuring sub\u2011microsecond latency and meeting power\u2011budget constraints for automotive deployment.",
+        "Create end\u2011to\u2011end validation frameworks that combine hardware\u2011in\u2011the\u2011loop (HIL) testing with synthetic scene generation to verify detection accuracy under varied lighting and weather conditions."
+      ],
+      "bonus_skills": [
+        "Silicon photonics basics",
+        "CUDA/GPU acceleration for post\u2011processing",
+        "Automotive safety standards (ISO 26262)"
+      ],
+      "summary": "This Senior DSP Engineer role focuses on high\u2011performance signal processing for next\u2011generation LiDAR, leveraging the candidate\u2019s expertise in modem and RF signal chains. It offers a hands\u2011on environment with both algorithmic and hardware responsibilities.",
+      "is_startup": false,
+      "adzuna_id": "5948119160"
+    },
+    {
+      "title": "Senior FPGA & DSP Team Lead - Embedded RF/AI",
+      "company": "DroneShield",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/details/5937613115?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$180,000\u2013$260,000 (estimate)",
+      "top_requirements": [
+        "Design and implement FPGA\u2011based RF detection and mitigation algorithms for counter\u2011drone systems, targeting >100\u202fMHz bandwidth and sub\u201110\u202f\u00b5s latency.",
+        "Develop embedded ARM firmware that integrates DSP pipelines, real\u2011time spectrum analysis, and machine\u2011learning classifiers for threat identification.",
+        "Lead hardware bring\u2011up and validation of prototype SDR boards, performing RF measurements (NF, IIP3, EVM) and system\u2011level field trials."
+      ],
+      "bonus_skills": [
+        "VHDL/Verilog RTL design",
+        "Python\u2011based ML model deployment",
+        "Experience with SDR platforms (e.g., USRP)"
+      ],
+      "summary": "The role combines FPGA, DSP, and RF engineering to create counter\u2011drone solutions, aligning with the candidate\u2019s RF systems and modem background while providing substantial hands\u2011on hardware work.",
+      "is_startup": false,
+      "adzuna_id": "5937613115"
+    },
+    {
+      "title": "Senior FPGA Firmware Engineer \u2013 Waveform & Edge DSP",
+      "company": "ST Engineering",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5950328785?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,680\u2013$2,280 (monthly estimate)",
+      "top_requirements": [
+        "Develop and integrate FPGA firmware modules for defense\u2011grade waveform generation and reception, supporting multiple modulation schemes and adaptive beamforming.",
+        "Collaborate with RF and system engineers to define interface specifications, perform timing closure, and validate end\u2011to\u2011end signal integrity across the waveform chain.",
+        "Create automated test and verification environments using hardware\u2011in\u2011the\u2011loop (HIL) setups to ensure compliance with defense standards and performance metrics."
+      ],
+      "bonus_skills": [
+        "VHDL/Verilog RTL coding",
+        "Experience with RF front\u2011end calibration",
+        "Familiarity with defence communication protocols (e.g., Link\u201116)"
+      ],
+      "summary": "The Senior FPGA Firmware Engineer role focuses on waveform\u2011centric RF systems for defence, offering hands\u2011on FPGA and DSP development that aligns with the candidate\u2019s satellite communications expertise.",
+      "is_startup": false,
+      "adzuna_id": "5950328785"
+    },
+    {
+      "title": "Senior Embedded Software Engineer (Ref 26545)",
+      "company": "Jobline Resources Pte Ltd",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5923054660?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,080\u2013$1,560 (monthly estimate)",
+      "top_requirements": [
+        "Develop embedded software modules for waveform generation, sequencing, and control on ARM\u2011based platforms, integrating tightly with DSP and FPGA blocks.",
+        "Implement real\u2011time DSP algorithms (e.g., filtering, modulation/demodulation) in C/C++ and optimize for latency and memory usage on constrained hardware.",
+        "Participate in hardware bring\u2011up, debug signal\u2011chain issues, and produce comprehensive verification and validation documentation."
+      ],
+      "bonus_skills": [
+        "RTOS experience (FreeRTOS, VxWorks)",
+        "Python scripting for test automation",
+        "Familiarity with RF measurement and calibration procedures"
+      ],
+      "summary": "This senior embedded software position focuses on waveform and DSP integration for defence applications, offering the candidate a hands\u2011on role that matches his RF communications and system\u2011test background.",
+      "is_startup": false,
+      "adzuna_id": "5923054660"
+    }
+  ]
+}
