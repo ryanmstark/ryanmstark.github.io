@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-10",
-  "search_at": "2026-11-11T02:01:11Z",
-  "checked_at": "2026-11-11T06:33:32Z",
+  "asof": "2026-11-11",
+  "search_at": "2026-11-11T14:01:06Z",
+  "checked_at": "2026-11-11T14:01:06Z",
   "unique": [
     {
       "id": "glen-park-flat-cl-8VkztkBo",
@@ -184,7 +184,7 @@
       "rent": 3800,
       "allin": "$3,800 (parking per title; confirm it's included and assigned)",
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-11",
       "tags": [
         [
           "Parking (per title): confirm assigned spot, included or extra",
@@ -1190,7 +1190,7 @@
       "rent": 4200,
       "allin": "$4,200 + parking fee (not listed)",
       "posted": null,
-      "updated": "2026-11-06",
+      "updated": "2026-11-11",
       "tags": [
         [
           "Off-street parking for a fee",
@@ -1360,7 +1360,7 @@
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
       "status": "active",
-      "updated": "2026-11-10"
+      "updated": "2026-11-11"
     },
     {
       "id": "civic-101-polk",
