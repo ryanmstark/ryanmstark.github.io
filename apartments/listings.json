@@ -1,8 +1,66 @@
 {
   "asof": "2026-11-11",
-  "search_at": "2026-11-11T23:01:23Z",
-  "checked_at": "2026-11-12T00:47:37Z",
+  "search_at": "2026-11-12T01:57:00Z",
+  "checked_at": "2026-11-12T01:57:00Z",
   "unique": [
+    {
+      "id": "251-parnassus-1",
+      "name": "251 Parnassus Ave #1 (Cole Valley, Barsha Properties building)",
+      "hood": "Cole Valley · Parnassus near Cole St, a block from the N-Judah and ~6 blocks from Golden Gate Park",
+      "lat": 37.7645,
+      "lng": -122.4505,
+      "approx": true,
+      "rent": 4250,
+      "allin": "$4,250 + reserved compact parking space (fee not listed)",
+      "posted": null,
+      "updated": "2026-11-11",
+      "tags": [
+        [
+          "Reserved (assigned) parking space for an extra monthly fee, described as compact",
+          "maybe"
+        ],
+        [
+          "~700 sq ft",
+          "yes"
+        ],
+        [
+          "Renovated kitchen: quartz counters, marble backsplash, new sink",
+          "yes"
+        ],
+        [
+          "Dishwasher not listed",
+          "no"
+        ],
+        [
+          "Laundry: on-site, app-paid (in-unit tag conflicts with description)",
+          "maybe"
+        ],
+        [
+          "Likely pre-1979 multi-unit: probably rent-controlled",
+          "yes"
+        ],
+        [
+          "Water + garbage included",
+          "yes"
+        ],
+        [
+          "Available Dec 1, 12-month lease",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "A 700 sq ft 1BR in Cole Valley being renovated (quartz counters, marble backsplash, new kitchen flooring), with a reserved parking space available to rent. It's an older multi-unit building from an established SF landlord (Barsha Properties), so it's likely rent-controlled. Room for a desk and a small dining table at that size. Close to GGP, the Haight and the N-Judah; Dogpatch is about 20–25 min by car. If parking runs ~$200–300, all-in lands around $4,450–4,550, inside your \"happy\" range.",
+        "<span class='flag'>Must confirm: (1) the reserved space is described as <b>compact</b>, so check it actually fits a Mazda 3 sedan (~15 ft long) and get the monthly fee; (2) no dishwasher is listed; (3) the description says on-site laundry even though the tags say in-unit; (4) the bedroom has an exterior window. Photos show the pre-renovation unit, so finishes may not be done at the showing.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by Barsha Properties, a long-established SF landlord, with a named phone line ((844) 335-9834 x7452) and a normal application process ($35 fee, deposit after approval)."
+      ],
+      "who": "Barsha Properties (property manager/landlord)",
+      "url": "https://www.zumper.com/address/251-parnassus-ave-san-francisco-ca-94117-usa",
+      "src": "Zumper",
+      "status": "active"
+    },
     {
       "id": "glen-park-flat-cl-8VkztkBo",
       "name": "Glen Park 1BR flat with private side yard (Craigslist, address not shown)",
