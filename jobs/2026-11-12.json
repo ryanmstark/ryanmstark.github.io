@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-12",
+  "postings": [
+    {
+      "title": "Senior RF Design Engineer for Space Radar",
+      "company": "Superorganism",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5963683158?se=4LmiSOTe8RGtfI4ANTZ8vw&utm_medium=api&utm_source=9349c45d&v=24D379501F51978DF6DF4E5ED1C1B871B6D877C5",
+      "pay_range": "$186K\u2013$186K",
+      "top_requirements": [
+        "Design RF front\u2011end schematics for radar sensors and take them through prototype board layout, assembly, and on\u2011orbit qualification.",
+        "Perform hands\u2011on RF lab measurements (noise figure, gain, IIP3, phase noise) and iterate component selection to meet stringent stability and power\u2011efficiency targets.",
+        "Lead design trade studies and create detailed test plans to validate RF performance across temperature and radiation extremes."
+      ],
+      "bonus_skills": [
+        "Experience with mixed\u2011signal RF ASICs",
+        "Familiarity with space\u2011qualified component libraries",
+        "Proficiency in Cadence Virtuoso/ADS"
+      ],
+      "summary": "The role develops and qualifies RF electronics for space\u2011based radar, requiring end\u2011to\u2011end hardware design and testing. It matches the candidate\u2019s RF and communications background while offering senior technical responsibility.",
+      "is_startup": false,
+      "adzuna_id": "5963683158"
+    },
+    {
+      "title": "Mixed Signal Verification Engineer",
+      "company": "Apple, Inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5963682221?se=4LmiSOTe8RGtfI4ANTZ8vw&utm_medium=api&utm_source=9349c45d&v=1A34D546A51328A2199E9873A4DE2BAC53E8BC9F",
+      "pay_range": "$151K\u2013$151K",
+      "top_requirements": [
+        "Create and execute verification test plans for high\u2011performance SoC blocks, including mixed\u2011signal interfaces and RF front\u2011ends.",
+        "Develop SystemVerilog/UVM testbenches that model analog behavior and validate timing, power, and functional specifications against silicon.",
+        "Collaborate with circuit designers to debug silicon failures, perform root\u2011cause analysis, and drive design fixes."
+      ],
+      "bonus_skills": [
+        "Python scripting for automation",
+        "Experience with silicon bring\u2011up",
+        "Knowledge of Apple\u2019s internal verification flow"
+      ],
+      "summary": "Apple\u2019s verification team ensures that complex SoCs meet performance specs, a hands\u2011on role that leverages the candidate\u2019s mixed\u2011signal and RF verification experience. The compensation meets the target range.",
+      "is_startup": false,
+      "adzuna_id": "5963682221"
+    },
+    {
+      "title": "EDA and CAD Lead Engineer / Manager",
+      "company": "AttoTude inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5963667018?se=4LmiSOTe8RGtfI4ANTZ8vw&utm_medium=api&utm_source=9349c45d&v=1D88D043542D94BC32616B3BC99F98AF34B9E2DA",
+      "pay_range": "$194K\u2013$194K",
+      "top_requirements": [
+        "Lead the development of mixed\u2011signal ASICs, overseeing schematic capture, layout, and sign\u2011off in a 28\u2011nm or finer process.",
+        "Drive hands\u2011on implementation of custom analog blocks, including bias circuits, regulators, and data converters, and mentor junior designers.",
+        "Coordinate with EDA tool teams to create custom flow extensions and improve design productivity across the group."
+      ],
+      "bonus_skills": [
+        "Experience with Synopsys/Cadence flow automation",
+        "Python scripting for design\u2011rule checks",
+        "Knowledge of high\u2011volume silicon qualification"
+      ],
+      "summary": "A lead engineering role at AttoTude that blends technical IC design with team leadership, fitting the candidate\u2019s desire for senior IC responsibilities and offering competitive pay.",
+      "is_startup": true,
+      "adzuna_id": "5963667018"
+    },
+    {
+      "title": "Electronics Engineer",
+      "company": "Q-Ctrl",
+      "location_label": "Sydney, Australia",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com.au/land/ad/5961423956?se=6Jr5SeTe8RGeRcETzs7BxQ&utm_medium=api&utm_source=9349c45d&v=DC81DDDB6CD7FEA2368B93345FF6515127645D5C",
+      "pay_range": "estimate $150K\u2013$180K (Sydney senior engineer)",
+      "top_requirements": [
+        "Design and prototype analog front\u2011ends for quantum\u2011sensor readout electronics, including low\u2011noise amplifiers and bias circuits.",
+        "Perform hardware bring\u2011up, calibration, and field validation of sensor modules in a laboratory environment.",
+        "Collaborate with quantum\u2011physics researchers to translate system requirements into robust electronic architectures."
+      ],
+      "bonus_skills": [
+        "Experience with cryogenic electronics",
+        "Python/Matlab data analysis",
+        "Knowledge of RF shielding and noise mitigation"
+      ],
+      "summary": "A senior electronics engineer role at Q\u2011CTRL focusing on quantum sensor hardware, offering hands\u2011on circuit design away from aerospace and aligning with the candidate\u2019s RF background.",
+      "is_startup": true,
+      "adzuna_id": "5961423956"
+    },
+    {
+      "title": "RF & Mixed-Signal Product & Test Engineer",
+      "company": "QUALCOMM, Inc.",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5963384860?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1K\u2013$2K (Singapore) \u2013 likely below target but included",
+      "top_requirements": [
+        "Lead silicon debug and DOE definition for RF/mixed\u2011signal ASICs from pre\u2011silicon through mass production.",
+        "Develop automated test programs and data\u2011analytics pipelines to improve yield and characterize performance across process corners.",
+        "Coordinate cross\u2011functional teams (design, test, fab) to resolve failure modes and qualify products for high\u2011volume shipment."
+      ],
+      "bonus_skills": [
+        "Experience with AI\u2011assisted test analytics",
+        "RF lab instrumentation expertise",
+        "Familiarity with Singapore fab ecosystem"
+      ],
+      "summary": "A product and test engineering role at Qualcomm that involves hands\u2011on RF and mixed\u2011signal debugging, suitable for a senior engineer though compensation is modest for Singapore.",
+      "is_startup": false,
+      "adzuna_id": "5963384860"
+    },
+    {
+      "title": "Senior Analog/Mixed-Signal IC Designer \u2013 NVM & Memory IP",
+      "company": "Rightsilicon Technology Pte. Ltd.",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5960187664?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1K\u2013$1.7K (Singapore) \u2013 modest",
+      "top_requirements": [
+        "Design analog front\u2011ends and peripheral circuits for NVM memory IP, including sense amplifiers and reference generators.",
+        "Create layout guidance and perform post\u2011layout verification for high\u2011density memory arrays, ensuring timing and noise margins.",
+        "Develop test\u2011chip specifications, run silicon validation, and generate datasheets and characterization models for the IP."
+      ],
+      "bonus_skills": [
+        "Verilog\u2011AMS modeling",
+        "Experience with 1P/8M memory processes",
+        "Knowledge of low\u2011power design techniques"
+      ],
+      "summary": "An analog/mixed\u2011signal design role focused on NVM IP at RightSilicon, offering hands\u2011on circuit work that matches the candidate\u2019s skill set, though compensation is lower than the target.",
+      "is_startup": true,
+      "adzuna_id": "5960187664"
+    }
+  ]
+}
