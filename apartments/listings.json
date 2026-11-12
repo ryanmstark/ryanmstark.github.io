@@ -1,8 +1,104 @@
 {
   "asof": "2026-11-12",
-  "search_at": "2026-11-12T13:58:00Z",
-  "checked_at": "2026-11-12T13:58:00Z",
+  "search_at": "2026-11-12T16:55:00Z",
+  "checked_at": "2026-11-12T16:55:00Z",
   "unique": [
+    {
+      "id": "1015-ashbury-4",
+      "name": "1015 Ashbury St #4 (top-floor condo, 4-unit 1913 Edwardian)",
+      "hood": "Ashbury Heights / Cole Valley · Ashbury St near Clayton & 17th, below Tank Hill",
+      "lat": 37.7617,
+      "lng": -122.4466,
+      "approx": true,
+      "url": "https://www.zumper.com/apartments-for-rent/san-francisco-ca/buena-vista-ashbury-heights",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-12",
+      "rent": 4000,
+      "allin": "$4,000 + garage parking (Zumper lists garage parking; fee not shown)",
+      "tags": [
+        [
+          "Garage parking listed; 2025 sale listing showed a 2-car tandem garage for this unit",
+          "maybe"
+        ],
+        [
+          "~974 sq ft per the 2025 sale listing (big for a 1BR)",
+          "yes"
+        ],
+        [
+          "Dishwasher and a dedicated laundry room with W/D (per sale listing)",
+          "yes"
+        ],
+        [
+          "Top-floor penthouse with views toward Golden Gate Bridge; skylight; updated granite kitchen",
+          "yes"
+        ],
+        [
+          "Condo: no rent cap",
+          "maybe"
+        ],
+        [
+          "Available Dec 11",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "Posted on Zumper about 15 hours before this run at $4,000. This unit sold in 2025 (probate sale), and that listing described a top-floor 1BR/1BA of roughly 974 sq ft with panoramic views, an updated kitchen with dishwasher, an in-unit laundry room and a two-car tandem garage. If the new owner kept those features, it's a lot of apartment for the money: room for a desk and a dining table for 6, a kitchen worth cooking in, and about 15 minutes from GGP on foot. Good enough to stay 3 years.",
+        "<span class='flag'>Zumper showed this listing without a direct link; open the Buena Vista/Ashbury Heights page and look for “1015 Ashbury St #4.” Must confirm: (1) a garage spot is assigned to the unit and whether it costs extra; (2) the W/D and dishwasher are still there after the sale; (3) the bedroom has an exterior window (the sale listing mentions French doors).</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "price is at market for the area, and the address matches a real recently sold condo; confirm the lister owns the unit before paying anything."
+      ],
+      "who": "Owner/agent via Zumper (name not shown)",
+      "src": "Zumper"
+    },
+    {
+      "id": "724-cole",
+      "name": "724 Cole St (small 4-unit building, Cole Valley)",
+      "hood": "Cole Valley · Cole St between Frederick and Carl, near the N-Judah",
+      "lat": 37.7653,
+      "lng": -122.45,
+      "approx": true,
+      "url": "https://www.apartments.com/724-cole-st-san-francisco-ca/1q7wcx4/",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-12",
+      "rent": 3200,
+      "allin": "$3,200 all-in (one garage space included)",
+      "tags": [
+        [
+          "One-car space in secured garage included",
+          "yes"
+        ],
+        [
+          "628 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher not mentioned (stainless appliances, remodeled kitchen)",
+          "maybe"
+        ],
+        [
+          "Shared laundry in building, not in-unit",
+          "maybe"
+        ],
+        [
+          "Small 4-unit building with shared yard",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "A 628 sq ft 1BR in a small Cole Valley building with garage parking included for $3,200 all-in. That's very cheap for the area, so it could be a good 1–2 year place. A second listing in the same building (Unit 1, through ReLISTO) asks $3,450 + $100 for an assigned space: <a href='https://www.apartments.com/724-cole-st-san-francisco-ca-unit-1/vj8xphd/'>Unit 1 listing</a>.",
+        "<span class='flag'>Both Apartments.com pages say “Available now” and “Check back soon” at the same time, so call to confirm it's still open. Also confirm there's a dishwasher (or space for one), the space is assigned, and the bedroom has an exterior window.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by a named management company (Golden Gate Properties, 415-498-0068), and a second unit in the building is listed by a licensed brokerage."
+      ],
+      "who": "Golden Gate Properties",
+      "src": "Apartments.com"
+    },
     {
       "id": "244-hermann-3",
       "name": "244 Hermann St #3 (top floor of a 4-unit building)",
