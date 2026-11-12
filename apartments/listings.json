@@ -1,8 +1,62 @@
 {
-  "asof": "2026-11-11",
-  "search_at": "2026-11-12T01:57:00Z",
-  "checked_at": "2026-11-12T11:23:44Z",
+  "asof": "2026-11-12",
+  "search_at": "2026-11-12T13:58:00Z",
+  "checked_at": "2026-11-12T13:58:00Z",
   "unique": [
+    {
+      "id": "244-hermann-3",
+      "name": "244 Hermann St #3 (top floor of a 4-unit building)",
+      "hood": "Duboce Triangle / Lower Haight · Hermann St between Fillmore and Steiner, near Duboce Park and the N-Judah",
+      "lat": 37.77,
+      "lng": -122.431,
+      "approx": true,
+      "rent": 2795,
+      "allin": "$3,095 all-in ($2,795 + $300 garage space)",
+      "posted": null,
+      "updated": "2026-11-12",
+      "tags": [
+        [
+          "Garage space (side-by-side, not tandem) for $300/mo; confirm it's assigned to the unit",
+          "maybe"
+        ],
+        [
+          "Dishwasher, gas stove, disposal",
+          "yes"
+        ],
+        [
+          "Laundry: shared coin-op in building, not in-unit",
+          "maybe"
+        ],
+        [
+          "Size not stated; room dimensions suggest roughly 550–600 sq ft (bedroom 11 × 9.5 ft)",
+          "maybe"
+        ],
+        [
+          "Top floor, light-filled, large walk-in closet",
+          "yes"
+        ],
+        [
+          "4-unit older building: likely rent-controlled",
+          "yes"
+        ],
+        [
+          "Water + garbage included; 12-month lease; no pets",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "A top-floor 1BR in a small 4-unit building on a quiet block by Duboce Park, about two minutes from the N-Judah. At about $3,100 all-in it's the cheapest parking-included option on the list. It also fits the small-building, likely rent-controlled profile, and the location is between Lower Haight and Duboce Triangle. It works well as a 1–2 year place if the size is livable. The living room (19 × 12.5 ft) should fit a desk plus a small dining table.",
+        "<span class='flag'>Must confirm: (1) the garage space is assigned to this unit and fits a Mazda 3; (2) the actual square footage, since the bedroom is small (11 × 9.5 ft) and the total may be under 575 sq ft; (3) the bedroom has an exterior window; (4) laundry is coin-op in the building, not in-unit. Apartments.com shows both \"Available now\" and \"Check back soon,\" so call to confirm it's still open.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by a named, licensed leasing agent (Sheri Castilyn, DRE #01349629, Rentals in SF, 1318 Hayes St) with a normal 12-month lease and a 1.5× deposit. The price is low but plausible for an older unit with coin laundry."
+      ],
+      "who": "Rentals in SF (leasing agent for the owner)",
+      "url": "https://www.apartments.com/244-hermann-st-san-francisco-ca-unit-3/12kf2t7/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "251-parnassus-1",
       "name": "251 Parnassus Ave #1 (Cole Valley, Barsha Properties building)",
@@ -188,7 +242,7 @@
       "rent": 4238,
       "allin": "$4,238 + parking (Zumper lists assigned parking; fee not shown)",
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "tags": [
         [
           "Assigned parking per Zumper (other sites say street only): confirm",
@@ -242,7 +296,7 @@
       "rent": 3800,
       "allin": "$3,800 (parking per title; confirm it's included and assigned)",
       "posted": null,
-      "updated": "2026-11-11",
+      "updated": "2026-11-12",
       "tags": [
         [
           "Parking (per title): confirm assigned spot, included or extra",
@@ -857,7 +911,7 @@
       "rent": 4950,
       "allin": "$4,950 + parking (fee not listed)",
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "tags": [
         [
           "Assigned garage parking",
@@ -970,7 +1024,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -1418,7 +1472,7 @@
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
       "status": "active",
-      "updated": "2026-11-11"
+      "updated": "2026-11-12"
     },
     {
       "id": "civic-101-polk",
@@ -1468,7 +1522,7 @@
       "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-10"
+      "updated": "2026-11-12"
     },
     {
       "id": "one-henry-adams",
@@ -1575,7 +1629,7 @@
       "lng": -122.4329,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "price": "$4,858–$5,226 · 605–785 sq ft (6 one-bedrooms listed)",
       "parking": "Reserved spaces in controlled-access garage (fee not listed)",
       "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices.",
