@@ -1,8 +1,62 @@
 {
   "asof": "2026-11-12",
-  "search_at": "2026-11-12T16:55:00Z",
-  "checked_at": "2026-11-12T16:55:00Z",
+  "search_at": "2026-11-12T20:10:00Z",
+  "checked_at": "2026-11-12T20:10:00Z",
   "unique": [
+    {
+      "id": "45-ord-ct",
+      "name": "45 Ord Ct (1BR cottage/house with basement garage, Corona Heights)",
+      "hood": "Corona Heights / Buena Vista · Ord Ct off Ord St, near 17th & Douglass",
+      "lat": 37.7618,
+      "lng": -122.4392,
+      "approx": true,
+      "url": "https://apartments.com/45-ord-ct-san-francisco-ca/fp0pzdv",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-12",
+      "rent": 5500,
+      "allin": "$5,500 on Zumper (Apartments.com still shows $4,000) · private basement garage, no separate parking fee mentioned",
+      "tags": [
+        [
+          "Full basement garage “designed for parking” (a house, so the space is yours)",
+          "yes"
+        ],
+        [
+          "Laundry in the garage (private to the unit); Zumper tags it in-unit",
+          "yes"
+        ],
+        [
+          "Separate dining room + bonus room opening to a rear garden: room for a desk and a table for 6",
+          "yes"
+        ],
+        [
+          "Updated kitchen with newer appliances; dishwasher not mentioned",
+          "maybe"
+        ],
+        [
+          "Size not listed",
+          "maybe"
+        ],
+        [
+          "$5,500 is stretch territory (Apartments.com shows $4,000; confirm which is current)",
+          "maybe"
+        ],
+        [
+          "Single-family house: no rent cap",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "A small 1BR house on a quiet cul-de-sac between Corona Heights and Buena Vista Park, with its own basement garage, laundry, a separate dining room and a bonus room that opens onto a rear garden. That's the small-residential, street-level setup you prefer, and it's about a 15-minute walk to the Panhandle and an easy drive down to Dogpatch. Zumper shows it updated about 15 hours before this run at $5,500; Apartments.com and ApartmentFinder show the same house at $4,000 but mark it \"no availability,\" so the $4,000 figure may be an old listing.",
+        "<span class='flag'>Stretch: at $5,500 it's only worth it if it really is exceptional. Must confirm: (1) the current rent; (2) there's a dishwasher (the listing only says \"newer appliances\"); (3) square footage and that the bedroom has an exterior window; (4) the garage fits a Mazda 3 (basement garages on steep blocks can be tight).</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by a licensed brokerage (OMarshall, Inc., DRE #02066937) on several sites with a real address; the price gap between sites looks like an old vs. new listing, not a bait price. Tour before paying anything."
+      ],
+      "who": "OMarshall, Inc. (San Bruno brokerage)",
+      "src": "Zumper"
+    },
     {
       "id": "1015-ashbury-4",
       "name": "1015 Ashbury St #4 (top-floor condo, 4-unit 1913 Edwardian)",
@@ -1562,9 +1616,9 @@
       "lat": 37.7604,
       "lng": -122.3895,
       "posted": "2026-10-19T21:17:00-07:00",
-      "price": "$4,950 all-in (parking incl.) · 653 sq ft",
+      "price": "$4,850 all-in (parking incl.) · 653 sq ft",
       "parking": "Garage parking included in rent (confirmed by Ryan)",
-      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2).",
+      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results.",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
       "status": "active",
@@ -1728,7 +1782,7 @@
       "updated": "2026-11-12",
       "price": "$4,858–$5,226 · 605–785 sq ft (6 one-bedrooms listed)",
       "parking": "Reserved spaces in controlled-access garage (fee not listed)",
-      "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices.",
+      "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price.",
       "seen": "Zillow + Craigslist + Redfin",
       "url": "https://www.zillow.com/apartments/san-francisco-ca/the-fillmore-center/5XjVzy",
       "status": "active"
