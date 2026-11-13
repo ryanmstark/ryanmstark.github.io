@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-12",
-  "search_at": "2026-11-12T22:59:39Z",
-  "checked_at": "2026-11-13T01:52:29Z",
+  "search_at": "2026-11-13T02:04:18Z",
+  "checked_at": "2026-11-13T02:04:18Z",
   "unique": [
     {
       "id": "45-ord-ct",
@@ -947,7 +947,7 @@
       "rent": 4500,
       "allin": "$4,500 (parking appears included: “attached indoor parking”)",
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "tags": [
         [
           "Attached indoor parking (per title)",
@@ -978,7 +978,8 @@
         "Craigslist post titled &ldquo;Top Floor Modern 1BR/1BA with Attached Indoor Parking and in unit W/D&rdquo; at $4,500, seen on the SF apartments index this evening. If the spot is assigned and included, it lands right in your happy range.",
         "<span class='flag'>The detail page couldn't be opened this run, so the address, whether the spot is assigned, dishwasher, size and bedroom window are all unconfirmed. Check that it isn't on Oak/Fell or the weekend-closed stretch of Hayes St before touring.</span>",
         "<span class='flag'>Re-activated 2026-11-08: this exact posting is still live in Craigslist's SF apartments results at $4,500. A copy of the same title is also posted at <b>$900</b> (a classic bait price) &mdash; ignore that one and only deal with this $4,500 post after seeing the unit in person.</span>",
-        "<span class='flag'>Re-activated 2026-11-10: the same $4,500 posting is back in Craigslist's SF 1BR search results. The detail page still couldn't be opened, so the address, whether the spot is assigned, dishwasher and size are unconfirmed. Ask for the address first and skip it if it's on Oak/Fell or the weekend-closed stretch of Hayes St.</span>"
+        "<span class='flag'>Re-activated 2026-11-10: the same $4,500 posting is back in Craigslist's SF 1BR search results. The detail page still couldn't be opened, so the address, whether the spot is assigned, dishwasher and size are unconfirmed. Ask for the address first and skip it if it's on Oak/Fell or the weekend-closed stretch of Hayes St.</span>",
+        "<span class='flag'>Re-activated 2026-11-12 (evening): the same $4,500 posting is back in Craigslist's SF apartments results again (it keeps dropping out and reappearing). Still couldn't open the detail page, so address, assigned spot, dishwasher and size remain unconfirmed.</span>"
       ],
       "scam": [
         "Some caution",
@@ -987,8 +988,7 @@
       "who": "Not shown (Craigslist)",
       "url": "https://www.craigslist.org/view/d/san-francisco-top-floor-modern-1br-1ba/nTdfNo8u8AKXCFLVXm6L54",
       "src": "Craigslist",
-      "status": "removed",
-      "removed_at": "2026-11-11T06:33:26Z"
+      "status": "active"
     },
     {
       "id": "1522-fulton-2",
@@ -1616,9 +1616,9 @@
       "lat": 37.7604,
       "lng": -122.3895,
       "posted": "2026-10-19T21:17:00-07:00",
-      "price": "$4,850 all-in (parking incl.) · 653 sq ft",
+      "price": "$4,950 all-in (parking incl.) · 653 sq ft",
       "parking": "Garage parking included in rent (confirmed by Ryan)",
-      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results.",
+      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results. Still live at $4,950 in the Nov 12 evening Craigslist results (was $4,850 earlier today).",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
       "status": "active",
@@ -1668,8 +1668,8 @@
       "posted": null,
       "price": "$4,140–$5,640",
       "parking": "Garage (optional fee)",
-      "notes": "Elevator building, on-site laundry. HotPads shows 3 one-bedrooms from $4,140 (marked new today, Nov 7). Unit 207 recently dropped to $4,400.",
-      "seen": "Zumper + HotPads + Zillow + 6+ Craigslist posts",
+      "notes": "Elevator building, on-site laundry. HotPads shows 3 one-bedrooms from $4,140 (marked new today, Nov 7). Unit 207 recently dropped to $4,400. Two new Craigslist posts on the evening of Nov 12 (“1395 Golden Gate@Steiner/Parking”) at $3,945 and $4,400; the $3,945 one may be a smaller unit, so confirm it's a true 1BR.",
+      "seen": "Zumper + HotPads + Zillow + 8+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
       "updated": "2026-11-12"
