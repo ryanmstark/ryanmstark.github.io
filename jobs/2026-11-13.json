@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-13",
+  "postings": [
+    {
+      "title": "RF OTA Validation Specialist \u2014 Wireless Connectivity",
+      "company": "Apple, Inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5963676321?se=MLnIdKvf8RGNl561rfNY_A&utm_medium=api&utm_source=9349c45d&v=C79B34AD62752FAD54BE414E41FC1D88FF897A3B",
+      "pay_range": "$162,555\u2013$162,555",
+      "top_requirements": [
+        "Hands\u2011on experience validating radiated performance of WLAN, Bluetooth, and GNSS across OTA test chambers.",
+        "Ability to translate system\u2011level RF requirements into detailed test cases and measurement procedures.",
+        "Proficiency debugging OTA failures and coordinating third\u2011party lab certifications."
+      ],
+      "bonus_skills": [
+        "Python scripting for test automation",
+        "RF measurement equipment (VNA, spectrum analyzer)",
+        "Knowledge of regulatory standards (FCC, CE)"
+      ],
+      "summary": "The role focuses on OTA validation of multi\u2011radio wireless devices at Apple, matching the candidate\u2019s RF test background. It offers a hands\u2011on engineering position with a compensation level near the target.",
+      "is_startup": false,
+      "adzuna_id": "5963676321"
+    },
+    {
+      "title": "MultiRadio Coex Software Systems Engineer, Wireless Technologies & Ecosystems",
+      "company": "Apple",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5957009751?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$204,765\u2013$204,765",
+      "top_requirements": [
+        "Design and implement real\u2011time scheduling algorithms for concurrent operation of Wi\u2011Fi, Bluetooth, Cellular, and Satellite radios.",
+        "Develop and validate multi\u2011radio coexistence models using system\u2011level simulations and hardware prototypes.",
+        "Optimize cross\u2011technology interference mitigation techniques to meet stringent latency and throughput targets."
+      ],
+      "bonus_skills": [
+        "C/C++ firmware development",
+        "Machine\u2011learning based spectrum arbitration",
+        "Experience with Thread or Matter protocols"
+      ],
+      "summary": "This Apple position engineers multi\u2011radio coexistence algorithms, directly leveraging the candidate\u2019s RF systems and signal\u2011processing expertise. It is a senior technical role with a salary that meets the compensation goal.",
+      "is_startup": false,
+      "adzuna_id": "5957009751"
+    },
+    {
+      "title": "E2E Test Automation Engineer \u2014 Wireless Systems & Devices",
+      "company": "E-Space",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5943291897?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$140,000\u2013$160,000",
+      "top_requirements": [
+        "Develop and maintain automated end\u2011to\u2011end test frameworks for LEO satellite\u2011IoT connectivity hardware.",
+        "Create Python\u2011based test scripts that exercise RF front\u2011ends, digital baseband, and network protocols.",
+        "Integrate hardware\u2011in\u2011the\u2011loop simulations with physical test rigs to validate system performance across temperature and vibration extremes."
+      ],
+      "bonus_skills": [
+        "CI/CD pipelines for hardware testing",
+        "RF test equipment programming",
+        "Experience with satellite\u2011IoT protocols (LoRa, NB\u2011IoT)"
+      ],
+      "summary": "E\u2011Space\u2019s test\u2011automation role blends RF hardware validation with software automation, fitting the candidate\u2019s hands\u2011on test expertise while moving away from pure aerospace hardware design. Compensation meets the $200K target range.",
+      "is_startup": true,
+      "adzuna_id": "5943291897"
+    },
+    {
+      "title": "Senior 6G Wireless Systems Engineer - Prototyping",
+      "company": "PERSOL",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5949093181?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,440\u2013$2,160 (estimated senior level in Singapore)",
+      "top_requirements": [
+        "Design, prototype, and validate 6G RF front\u2011end and baseband DSP blocks in lab testbeds.",
+        "Develop and execute over\u2011the\u2011air (OTA) and field trials to benchmark prototype performance against emerging standards.",
+        "Integrate hardware and software components, providing detailed measurement reports and improvement recommendations."
+      ],
+      "bonus_skills": [
+        "MATLAB/Simulink for DSP modeling",
+        "mmWave antenna measurement",
+        "Familiarity with 3GPP 6G study items"
+      ],
+      "summary": "The PERSOL role focuses on hands\u2011on 6G prototype development, aligning with the candidate\u2019s RF and signal\u2011processing background while moving toward next\u2011gen wireless. Salary estimate is competitive for senior talent in Singapore.",
+      "is_startup": true,
+      "adzuna_id": "5949093181"
+    },
+    {
+      "title": "Senior/Staff 6G Wireless Systems Architect",
+      "company": "PERSOL Singapore",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5946570480?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,440\u2013$2,160 (estimated senior level in Singapore)",
+      "top_requirements": [
+        "Architect and implement 6G modem and RF chain prototypes, including DSP algorithm integration.",
+        "Lead hardware\u2011software co\u2011development, ensuring timing closure and performance verification in testbeds.",
+        "Perform system\u2011level validation across lab and field environments, delivering benchmark reports for standardization bodies."
+      ],
+      "bonus_skills": [
+        "RTL design flow",
+        "AI\u2011assisted channel modeling",
+        "Experience with 6G research consortia"
+      ],
+      "summary": "This senior architect role at PERSOL offers deep technical involvement in 6G modem systems, matching the candidate\u2019s skill set and providing a pathway away from aerospace. Compensation is comparable to senior engineering roles in the region.",
+      "is_startup": true,
+      "adzuna_id": "5946570480"
+    },
+    {
+      "title": "Sr. RF DVT Engineer, Amazon Leo Silicon",
+      "company": "Amazon Leo",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5939065547?se=Dhjjd6vf8RGDtoxXJCvQRQ&utm_medium=api&utm_source=9349c45d&v=F01E2CAA05FEC341ADD5328ACE59D5E2A4A5E46E",
+      "pay_range": "$185,200\u2013$250,000",
+      "top_requirements": [
+        "Develop and execute RF Design Verification Test (DVT) plans for satellite\u2011borne modem ASICs.",
+        "Perform hands\u2011on measurements of gain, noise figure, IIP3, and EVM across the full RF chain.",
+        "Debug silicon issues through lab instrumentation and coordinate with layout and firmware teams for fixes."
+      ],
+      "bonus_skills": [
+        "RF test equipment (VNA, spectrum analyzer)",
+        "Silicon debug using CoreSight",
+        "Knowledge of LEO satellite link budgets"
+      ],
+      "summary": "The Sr. RF DVT Engineer at Amazon Leo provides deep RF validation work on satellite communication ASICs, a natural fit for the candidate\u2019s RF test expertise. Compensation aligns with the $200K+ goal.",
+      "is_startup": false,
+      "adzuna_id": "5939065547"
+    }
+  ]
+}
