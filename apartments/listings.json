@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-12",
-  "search_at": "2026-11-13T02:04:18Z",
-  "checked_at": "2026-11-13T11:06:29Z",
+  "asof": "2026-11-13",
+  "search_at": "2026-11-13T15:31:29Z",
+  "checked_at": "2026-11-13T15:31:29Z",
   "unique": [
     {
       "id": "45-ord-ct",
@@ -13,7 +13,7 @@
       "url": "https://apartments.com/45-ord-ct-san-francisco-ca/fp0pzdv",
       "status": "active",
       "posted": null,
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "rent": 5500,
       "allin": "$5,500 on Zumper (Apartments.com still shows $4,000) · private basement garage, no separate parking fee mentioned",
       "tags": [
@@ -392,7 +392,7 @@
       "rent": 4238,
       "allin": "$4,238 + parking (Zumper lists assigned parking; fee not shown)",
       "posted": null,
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "tags": [
         [
           "Assigned parking per Zumper (other sites say street only): confirm",
@@ -1062,7 +1062,7 @@
       "rent": 4950,
       "allin": "$4,950 + parking (fee not listed)",
       "posted": null,
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "tags": [
         [
           "Assigned garage parking",
@@ -1175,7 +1175,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -1652,10 +1652,10 @@
       "posted": "2026-10-24T19:13:00-07:00",
       "price": "$4,340–$4,640",
       "parking": "None (tagged “no parking”)",
-      "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed.",
-      "seen": "9+ posts",
+      "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed. Reposted again 2026-11-13 (Craigslist #4/#6 at $4,640, Zumper and HotPads at $4,120–$4,175); still no parking.",
+      "seen": "12+ posts",
       "url": "https://www.craigslist.org/view/d/san-francisco-520-buchanan-stunning-1x1/nG8c4tkPUNgvmxMNk82WG6",
-      "status": "removed",
+      "status": "excluded",
       "excluded_reason": "No designated parking spot",
       "removed_at": "2026-11-03T06:54:23Z"
     },
