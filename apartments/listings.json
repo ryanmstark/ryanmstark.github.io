@@ -1,8 +1,67 @@
 {
   "asof": "2026-11-13",
-  "search_at": "2026-11-13T20:06:35Z",
-  "checked_at": "2026-11-13T20:06:35Z",
+  "search_at": "2026-11-13T22:52:52Z",
+  "checked_at": "2026-11-13T22:52:52Z",
   "unique": [
+    {
+      "id": "1515-15th-208",
+      "name": "1515 15th St #208 (2014 condo building, Inner Mission)",
+      "hood": "Inner Mission · 15th St near S Van Ness, ~1 block from the 101/Central Freeway ramps, ~10–15 min drive to Dogpatch",
+      "lat": 37.7667,
+      "lng": -122.4178,
+      "approx": true,
+      "url": "https://www.zillow.com/homedetails/1515-15th-St-San-Francisco-CA-94103/2079355694_zpid",
+      "status": "active",
+      "posted": "2026-11-09",
+      "posted_approx": true,
+      "updated": "2026-11-13",
+      "rent": 4300,
+      "allin": "$4,300 on Zillow (Apartments.com shows $3,950 total, Redfin $4,050) · assigned garage space with EV charger; ask whether it's included",
+      "tags": [
+        [
+          "Assigned garage space with EV charger (attached garage)",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Bosch dishwasher",
+          "yes"
+        ],
+        [
+          "710 sq ft",
+          "yes"
+        ],
+        [
+          "Private patio, roof deck, central A/C",
+          "yes"
+        ],
+        [
+          "Available Dec 23",
+          "maybe"
+        ],
+        [
+          "2014 condo: no rent control",
+          "no"
+        ],
+        [
+          "No pets",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "A 710 sq ft 1BR/1BA condo in a 2014 elevator building with an assigned garage space (EV charger), in-unit laundry, a Bosch dishwasher, a private patio and a shared roof deck. It ticks every must-have, and it's very close to the freeway for the drive to Dogpatch. The block is busier, grittier Inner Mission rather than the quiet residential streets you'd prefer, though Duboce Triangle and the Lower Haight are a short walk away. Zillow listed it Nov 9 at $4,300; Apartments.com shows $3,950 total and Redfin $4,050, so ask which price is current. Gas, water, trash and sewer are included.",
+        "<span class='flag'>Before touring, confirm: the current rent and whether the garage space is included, that the space fits a Mazda 3, the bedroom has an exterior window, and whether a Dec 23 move-in works for you.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "the same unit appears on Zillow, Redfin and Apartments.com at market prices, with in-person tours; no requests for money up front. The landlord isn't named on Zillow, so get a name and confirm ownership before paying anything."
+      ],
+      "who": "Not named (condo owner or manager; contact through Zillow/Apartments.com)",
+      "src": "Zillow"
+    },
     {
       "id": "1724-waller-a",
       "name": "1724 Waller St #A (small 4-unit building, a block from Golden Gate Park)",
