@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-13",
   "search_at": "2026-11-13T17:04:14Z",
-  "checked_at": "2026-11-13T17:04:14Z",
+  "checked_at": "2026-11-13T19:46:48Z",
   "unique": [
     {
       "id": "1724-waller-a",
@@ -1702,9 +1702,9 @@
       "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed. Reposted again 2026-11-13 (Craigslist #4/#6 at $4,640, Zumper and HotPads at $4,120–$4,175); still no parking.",
       "seen": "12+ posts",
       "url": "https://www.craigslist.org/view/d/san-francisco-520-buchanan-stunning-1x1/nG8c4tkPUNgvmxMNk82WG6",
-      "status": "excluded",
+      "status": "removed",
       "excluded_reason": "No designated parking spot",
-      "removed_at": "2026-11-03T06:54:23Z"
+      "removed_at": "2026-11-13T19:46:46Z"
     },
     {
       "id": "1395-golden-gate",
