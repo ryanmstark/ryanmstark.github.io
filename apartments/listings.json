@@ -1,8 +1,55 @@
 {
   "asof": "2026-11-13",
-  "search_at": "2026-11-13T15:31:29Z",
-  "checked_at": "2026-11-13T15:31:29Z",
+  "search_at": "2026-11-13T17:04:14Z",
+  "checked_at": "2026-11-13T17:04:14Z",
   "unique": [
+    {
+      "id": "1724-waller-a",
+      "name": "1724 Waller St #A (small 4-unit building, a block from Golden Gate Park)",
+      "hood": "Haight-Ashbury · Waller St between Shrader and Stanyan, one block from GGP",
+      "lat": 37.7685,
+      "lng": -122.4518,
+      "approx": true,
+      "url": "https://www.redfin.com/CA/San-Francisco/1724-Waller-St-94117/apartment/1724198",
+      "status": "active",
+      "posted": "2026-11-12",
+      "posted_approx": true,
+      "updated": "2026-11-13",
+      "rent": 3995,
+      "allin": "$4,345 all-in ($3,995 + $350 parking space in front of the building)",
+      "tags": [
+        [
+          "Parking space in front of the building, $350/mo (confirm it's assigned)",
+          "maybe"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Size not listed (another unit in the building is 525 sq ft)",
+          "maybe"
+        ],
+        [
+          "Dishwasher not mentioned",
+          "maybe"
+        ],
+        [
+          "Small 4-unit building, likely rent-controlled",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "A 1BR/1BA with in-unit laundry in a small, well-kept 4-unit Haight-Ashbury building about a block from Golden Gate Park, good for running and tennis. At $4,345 all-in it sits in the “happy” range. Redfin marked it new in the last day. Another unit in the same building (listed earlier on ShowMojo at $2,995) was only 525 sq ft, so Unit A at $3,995 is probably bigger, but that needs checking.",
+        "<span class='flag'>Before touring, confirm: the space in front of the building is assigned to this unit and fits a Mazda 3, the square footage (needs ~575+), whether there's a dishwasher, and that the bedroom has an exterior window.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by Rentals Inc., a licensed SF brokerage (415-992-6863), with the same unit on several sites at a market price; nothing asks for money before a tour."
+      ],
+      "who": "Rentals Inc. (brokerage)",
+      "src": "Redfin"
+    },
     {
       "id": "45-ord-ct",
       "name": "45 Ord Ct (1BR cottage/house with basement garage, Corona Heights)",
