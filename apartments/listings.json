@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-13",
-  "search_at": "2026-11-14T01:59:02Z",
-  "checked_at": "2026-11-14T10:33:38Z",
+  "asof": "2026-11-14",
+  "search_at": "2026-11-14T13:58:28Z",
+  "checked_at": "2026-11-14T13:58:28Z",
   "unique": [
     {
       "id": "1515-15th-208",
@@ -1281,7 +1281,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -1893,6 +1893,22 @@
       "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price.",
       "seen": "Zillow + Craigslist + Redfin",
       "url": "https://www.zillow.com/apartments/san-francisco-ca/the-fillmore-center/5XjVzy",
+      "status": "active"
+    },
+    {
+      "id": "150-van-ness",
+      "name": "150 Van Ness (Emerald Fund)",
+      "addr": "150 Van Ness Ave (at Hayes St)",
+      "area": "Civic Center / Van Ness corridor · 2 blocks from Hayes Valley",
+      "lat": 37.7768,
+      "lng": -122.4194,
+      "posted": null,
+      "updated": "2026-11-14",
+      "price": "$4,491–$5,016 · 597–760 sq ft (1BR units available now or by Nov 28; 529 sq ft plans skipped)",
+      "parking": "Assigned garage space $375/mo (assigned covered $400–$450), so all-in roughly $4,870–$5,390",
+      "notes": "420-unit 2018 high-rise. Apartments.com lists in-unit W/D and dishwasher (Zumper says no in-unit laundry, so confirm). Good value pick: unit 0111 (657 sq ft, $4,491) or 0313 (760 sq ft, $4,761). <span class='flag'>Ask for a unit not facing Fell St, and confirm the garage entrance isn't off Fell.</span>",
+      "seen": "Zumper + Apartments.com",
+      "url": "https://www.apartments.com/150-van-ness-san-francisco-ca/8pdvlx3/",
       "status": "active"
     }
   ]
