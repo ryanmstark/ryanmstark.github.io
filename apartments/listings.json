@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-14",
-  "search_at": "2026-11-14T16:58:03Z",
-  "checked_at": "2026-11-14T18:10:48Z",
+  "search_at": "2026-11-14T19:59:19Z",
+  "checked_at": "2026-11-14T19:59:19Z",
   "unique": [
     {
       "id": "1515-15th-208",
@@ -1695,6 +1695,64 @@
       "who": "ReLISTO (brokerage for the owner)",
       "url": "https://www.apartments.com/419-fulton-st-san-francisco-ca-unit-a/rz5qzc0/",
       "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "1401-eddy-2",
+      "name": "1401 Eddy St #2 (owner-rented condo, 8–9 unit building)",
+      "hood": "Western Addition · Eddy & Webster, ~4 blocks east of Alamo Square, near Fillmore St and Japantown; ~15–20 min drive to Dogpatch via Octavia/101",
+      "lat": 37.7816,
+      "lng": -122.4302,
+      "approx": true,
+      "rent": 4800,
+      "allin": "$4,800 on Zillow ($4,500 on HotPads) · covered garage parking listed; Zillow says all bills included",
+      "posted": null,
+      "updated": "2026-11-14",
+      "tags": [
+        [
+          "Covered garage parking (confirm the space is assigned to #2)",
+          "maybe"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "588 sq ft (just over your minimum)",
+          "maybe"
+        ],
+        [
+          "Laundry in building, not in unit (one other listing says in-unit; confirm)",
+          "maybe"
+        ],
+        [
+          "All utilities included; partially furnished",
+          "maybe"
+        ],
+        [
+          "Renovated bath (2024), heat pump, lots of natural light",
+          "yes"
+        ],
+        [
+          "Condo: no rent control",
+          "no"
+        ],
+        [
+          "No pets",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "A 588 sq ft 1BR/1BA condo the owner rents out directly, in a small 8–9 unit building at Eddy & Webster. It has covered garage parking, a dishwasher, a bathroom renovated in 2024, a heat pump and good natural light. Zillow says all bills are included and the unit comes partly furnished, so the effective cost is a bit lower than the sticker. The block is a short walk from Alamo Square, Fillmore St and Japantown, and it's close to the freeway for the drive to Dogpatch.",
+        "<span class='flag'>Prices don't agree: $4,800 on Zillow, $4,500 on HotPads, and an older Apartment List post for a top-floor unit in the same building shows $2,500 with an &ldquo;assigned parking space included.&rdquo; That price is far below market, so ignore it. Confirm the price, that a garage space is assigned to #2 and fits a Mazda 3, and whether laundry is shared. At 588 sq ft a desk plus a dining table will be tight. For a 1–2 year stay it's on the pricey side of happy, so it's worth seeing only if the parking and price check out.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "the owner writes the listing in the first person and the building is real, but prices differ between sites and one copy shows a too-good $2,500. Tour in person and pay nothing before you've seen the unit and signed a lease."
+      ],
+      "who": "Individual owner (bought the condo ~4 years ago; not named)",
+      "url": "https://www.zillow.com/b/1401-eddy-st-san-francisco-ca-9NKqb6/",
+      "src": "Zillow",
       "status": "active"
     }
   ],
