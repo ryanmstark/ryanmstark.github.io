@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-13",
   "search_at": "2026-11-13T22:52:52Z",
-  "checked_at": "2026-11-13T22:52:52Z",
+  "checked_at": "2026-11-14T01:28:39Z",
   "unique": [
     {
       "id": "1515-15th-208",
@@ -1728,8 +1728,9 @@
       "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results. Still live at $4,950 in the Nov 12 evening Craigslist results (was $4,850 earlier today).",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
-      "status": "active",
-      "updated": "2026-11-12"
+      "status": "removed",
+      "updated": "2026-11-12",
+      "removed_at": "2026-11-14T01:28:36Z"
     },
     {
       "id": "civic-101-polk",
@@ -1744,8 +1745,9 @@
       "notes": "The “3 WEEKS FREE” poster: same promo on 6th-floor, 7th-floor and penthouse 1BRs. About $4,334–$4,678 all-in. Confirm a stacker fits your Mazda 3. Reposted Nov 4 (new 6th-floor corner 1BR post at $3,934, plus a “2 WEEKS FREE” penthouse 1BR at $4,366), so it's back on the list. Both posts (6th-floor corner 1BR $3,934 with 3 weeks free, penthouse 1BR $4,366 with 2 weeks free) were still live on Craigslist on Nov 7. Back on Nov 13: two new Craigslist posts in the same “WEEKS FREE” style (7th-floor 1BR at $3,734 with 2 weeks free, penthouse 1BR at $4,053 with 1 week free), and Apartments.com lists The Civic's 1BRs from $3,873. About $4,134–$4,453 all-in with the $400 garage spot. The Craigslist detail pages couldn't be opened this run, so confirm the address is 101 Polk when you reply.",
       "seen": "8+ posts",
       "url": "https://www.craigslist.org/view/d/san-francisco-weeks-free-7th-flr-1bed/3QVPVbEgDt7zDX9NKUqcYB",
-      "status": "active",
-      "updated": "2026-11-13"
+      "status": "removed",
+      "updated": "2026-11-13",
+      "removed_at": "2026-11-14T01:28:36Z"
     },
     {
       "id": "520-buchanan",
