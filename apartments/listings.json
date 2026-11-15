@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-15",
-  "search_at": "2026-11-15T16:57:45Z",
-  "checked_at": "2026-11-15T16:57:45Z",
+  "search_at": "2026-11-15T19:52:32Z",
+  "checked_at": "2026-11-15T19:52:32Z",
   "unique": [
     {
       "id": "135-carl-6",
@@ -1346,7 +1346,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-14",
+      "updated": "2026-11-15",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -1384,7 +1384,8 @@
       "notes": [
         "Individually owned 1BR/1BA in Opera Plaza, the condo complex you flagged. Price dropped from $4,000 to $3,800; with the $295 garage spot it lands about $400 under your target. 12-month lease, pets case by case, tenant pays the HOA move-in fee and deposit. Quick on-ramp to 101/280 for the Dogpatch commute.",
         "<span class='flag'>The listing says garage parking is available for $295/mo but doesn't say the space is assigned. Confirm it's a designated spot that fits your Mazda 3, and ask which side of the building the unit faces.</span>",
-        "Also in the building: unit #712 (708 sq ft, dishwasher, balcony) is listed by BARE at $3,960, but its listing doesn't mention parking."
+        "Also in the building: unit #712 (708 sq ft, dishwasher, balcony) is listed by BARE at $3,960, but its listing doesn't mention parking.",
+        "Re-activated 2026-11-15 evening: Zillow's Opera Plaza building page still lists #511 (692 sq ft, $3,800, available now, garage +$295) even though Apartments.com dropped it earlier today. Call SF City Rents to confirm it's still open."
       ],
       "scam": [
         "Low risk",
@@ -1393,9 +1394,7 @@
       "who": "SF City Rents (managed by Leading Properties)",
       "url": "https://www.zillow.com/b/601-van-ness-avenue-san-francisco-ca-5XkGN9",
       "src": "Zillow",
-      "status": "removed",
-      "removed_at": "2026-11-15",
-      "removed_reason": "No longer on the Opera Plaza building page on Apartments.com, which now lists only #712 (708 sq ft, $3,960, parking not stated) and a 2BR."
+      "status": "active"
     },
     {
       "id": "875-vermont-201",
