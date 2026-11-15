@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-14",
   "search_at": "2026-11-15T01:59:11Z",
-  "checked_at": "2026-11-15T01:59:11Z",
+  "checked_at": "2026-11-15T06:41:53Z",
   "unique": [
     {
       "id": "135-carl-6",
@@ -59,7 +59,8 @@
       "who": "SF City Rents (property manager)",
       "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/135-carl-st-6/12175147",
       "src": "Redfin / Rentler",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-15T06:41:26Z"
     },
     {
       "id": "1515-15th-208",
