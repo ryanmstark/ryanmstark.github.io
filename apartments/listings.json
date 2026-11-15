@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-15",
   "search_at": "2026-11-15T14:02:11Z",
-  "checked_at": "2026-11-15T14:02:11Z",
+  "checked_at": "2026-11-15T16:25:16Z",
   "unique": [
     {
       "id": "135-carl-6",
@@ -176,7 +176,7 @@
       "lng": -122.4392,
       "approx": true,
       "url": "https://rentler.com/places-for-rent/ca/san-francisco/45-ord-court/10293772",
-      "status": "active",
+      "status": "removed",
       "posted": null,
       "updated": "2026-11-15",
       "rent": 4000,
@@ -221,7 +221,8 @@
         "listed by a licensed brokerage (OMarshall, Inc., DRE #02066937) on several sites with a real address; the price gap between sites looks like an old vs. new listing, not a bait price. Tour before paying anything."
       ],
       "who": "OMarshall, Inc. (San Bruno brokerage)",
-      "src": "Zumper"
+      "src": "Zumper",
+      "removed_at": "2026-11-15T16:25:10Z"
     },
     {
       "id": "1015-ashbury-4",
@@ -1829,7 +1830,7 @@
       "lng": -122.4393,
       "approx": true,
       "url": "https://rentler.com/places-for-rent/ca/san-francisco/1645-golden-gate-ave/10285871",
-      "status": "active",
+      "status": "removed",
       "posted": null,
       "updated": "2026-11-15",
       "rent": 3250,
@@ -1873,7 +1874,8 @@
         "listed by a licensed SF property manager (Structure Properties, DRE #01961414) with a named agent, at a market price; nothing asks for money before a tour."
       ],
       "who": "Structure Properties, Inc. (property manager; agent Lawson Benfield)",
-      "src": "Rentler"
+      "src": "Rentler",
+      "removed_at": "2026-11-15T16:25:14Z"
     }
   ],
   "complexes": [
