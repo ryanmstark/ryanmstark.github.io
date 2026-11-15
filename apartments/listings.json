@@ -1,8 +1,66 @@
 {
   "asof": "2026-11-14",
-  "search_at": "2026-11-14T23:02:49Z",
-  "checked_at": "2026-11-14T23:02:49Z",
+  "search_at": "2026-11-15T01:59:11Z",
+  "checked_at": "2026-11-15T01:59:11Z",
   "unique": [
+    {
+      "id": "135-carl-6",
+      "name": "135 Carl St #6 (top-floor rear flat, 6-unit Edwardian)",
+      "hood": "Cole Valley · Carl St near Cole St, a few blocks from Golden Gate Park and the N-Judah; ~20–25 min drive to Dogpatch",
+      "lat": 37.7658,
+      "lng": -122.4497,
+      "approx": true,
+      "rent": 4995,
+      "allin": "$4,995 all-in (tandem garage parking included)",
+      "posted": null,
+      "updated": "2026-11-14",
+      "tags": [
+        [
+          "Tandem garage parking included (confirm the spot is yours, not shared in tandem with a neighbor)",
+          "maybe"
+        ],
+        [
+          "Dishwasher not mentioned (“updated kitchen with stainless appliances”; confirm)",
+          "maybe"
+        ],
+        [
+          "960 sq ft with a formal dining room and office alcove (great for hosting 4–6)",
+          "yes"
+        ],
+        [
+          "Shared laundry in building, not in unit",
+          "maybe"
+        ],
+        [
+          "Windows on three sides, southern views, wood-burning fireplace",
+          "yes"
+        ],
+        [
+          "Pre-1979 6-unit building: likely rent controlled",
+          "yes"
+        ],
+        [
+          "Water, trash and gas included",
+          "yes"
+        ],
+        [
+          "$4,995: top of your OK range",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "A big top-floor rear flat in a 6-unit Edwardian in Cole Valley: 960 sq ft, living room with wood-burning fireplace, a separate formal dining room (or office/guest room), an office alcove, walk-in closet and an updated kitchen with a Wedgewood oven. Windows on three sides with southern views. Shared yard, laundry, hang-out room and basement storage. Water, trash and gas are included, and as a small pre-1979 building it's probably rent controlled, which matters if you end up staying 3 years.",
+        "<span class='flag'>At $4,995 it needs to earn its price: confirm a dishwasher (or room for one), and that the &ldquo;tandem&rdquo; garage space is assigned to #6 and you won't be blocked in by (or blocking) a neighbor. Laundry is shared. Redfin showed it as new on Nov 14; Rentler has had it ~4 days.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by SF City Rents, an established SF property manager, at a market price with showings by request; Rentler shows a generic &ldquo;flagged for review&rdquo; note, so book the showing through the manager directly and pay nothing before touring."
+      ],
+      "who": "SF City Rents (property manager)",
+      "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/135-carl-st-6/12175147",
+      "src": "Redfin / Rentler",
+      "status": "active"
+    },
     {
       "id": "1515-15th-208",
       "name": "1515 15th St #208 (2014 condo building, Inner Mission)",
@@ -1817,8 +1875,8 @@
       "posted": "2026-10-24T19:13:00-07:00",
       "price": "$4,340–$4,640",
       "parking": "None (tagged “no parking”)",
-      "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed. Reposted again 2026-11-13 (Craigslist #4/#6 at $4,640, Zumper and HotPads at $4,120–$4,175); still no parking.",
-      "seen": "12+ posts",
+      "notes": "Units #4 and #6, in-unit W/D. Same two units reposted under several titles. Fails your parking requirement as listed. Reposted again 2026-11-13 (Craigslist #4/#6 at $4,640, Zumper and HotPads at $4,120–$4,175); still no parking. Reposted again 2026-11-14/15 (new Craigslist post and HotPads “New Today” at $4,120+); still no parking.",
+      "seen": "13+ posts",
       "url": "https://www.craigslist.org/view/d/san-francisco-520-buchanan-stunning-1x1/nG8c4tkPUNgvmxMNk82WG6",
       "status": "removed",
       "excluded_reason": "No designated parking spot",
