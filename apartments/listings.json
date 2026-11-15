@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-15",
-  "search_at": "2026-11-15T19:52:32Z",
-  "checked_at": "2026-11-15T22:53:52Z",
+  "search_at": "2026-11-15T23:02:03Z",
+  "checked_at": "2026-11-15T23:02:03Z",
   "unique": [
     {
       "id": "135-carl-6",
@@ -538,7 +538,7 @@
       ],
       "notes": [
         "Top-floor condo in a 15-unit elevator building a few blocks from Alamo Square and NoPa, with a deeded garage space and storage, in-unit Bosch washer/dryer, a balcony, a skylit kitchen with granite counters and stainless appliances, and about 792 sq ft. At $3,500 with parking included it lands well under your $4,000 &ldquo;excellent&rdquo; line and has room for a desk and a dining table. Close to Divisadero, GGP and the Panhandle; Dogpatch is about 20&ndash;25 min by car.",
-        "<span class='flag'>Dishwasher isn't mentioned, so confirm it. Zillow shows another 1BR in the same building (#203, 810 sq ft) at $5,450, so $3,500 for #303 is a big gap: confirm the price, that the parking is deeded to this unit, and who the owner/agent is before paying anything. Condo, so no rent cap. Apartments.com metadata shows the listing was last edited Sep 6, so confirm it's still available.</span>"
+        "<span class='flag'>Dishwasher isn't mentioned, so confirm it. Zillow shows another 1BR in the same building (#203, 810 sq ft) at $5,450, so $3,500 for #303 is a big gap: confirm the price, that the parking is deeded to this unit, and who the owner/agent is before paying anything. Condo, so no rent cap. Apartments.com metadata shows the listing was last edited Sep 6, so confirm it's still available. As of Nov 15 evening the Apartments.com page shows &ldquo;Check Back Soon for Upcoming Availability&rdquo; with no open unit, so it may already be rented: call before planning a tour.</span>"
       ],
       "scam": [
         "Some caution",
@@ -2089,6 +2089,23 @@
       "notes": "420-unit 2018 high-rise. Apartments.com lists in-unit W/D and dishwasher (Zumper says no in-unit laundry, so confirm). Good value pick: unit 0111 (657 sq ft, $4,491) or 0313 (760 sq ft, $4,761). <span class='flag'>Ask for a unit not facing Fell St, and confirm the garage entrance isn't off Fell.</span>",
       "seen": "Zumper + Apartments.com",
       "url": "https://www.apartments.com/150-van-ness-san-francisco-ca/8pdvlx3/",
+      "status": "active"
+    },
+    {
+      "id": "venn-on-market",
+      "name": "Venn on Market (Berkshire Communities)",
+      "addr": "1844 Market St (between Laguna & Octavia)",
+      "area": "Hayes Valley / Duboce Triangle edge · Market St near Octavia",
+      "lat": 37.7717,
+      "lng": -122.4247,
+      "approx": true,
+      "posted": null,
+      "updated": "2026-11-13",
+      "price": "$4,562–$5,023 · 631–694 sq ft (6 one-bedrooms; 788 sq ft plans at $5,328+ skipped)",
+      "parking": "Garage parking listed; assignment and monthly fee not shown, so confirm an assigned space",
+      "notes": "Newer mid-size building with in-unit laundry (dishwasher not listed on HotPads, confirm). Best values: #0115 (671 sq ft, $4,562, available now) and #0413 (681 sq ft, $4,753, Dec 13). Walkable to Hayes Valley, Duboce Park and the Lower Haight, quick to the 101/280 on-ramp at Octavia. <span class='flag'>Parking would push all-in near or over $5,000; confirm the space is assigned and the fee.</span>",
+      "seen": "HotPads + Redfin",
+      "url": "https://hotpads.com/venn-on-market-san-francisco-ca-94102-sksbj1/pad",
       "status": "active"
     }
   ]
