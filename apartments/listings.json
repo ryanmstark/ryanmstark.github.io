@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-14",
-  "search_at": "2026-11-15T01:59:11Z",
-  "checked_at": "2026-11-15T06:41:53Z",
+  "asof": "2026-11-15",
+  "search_at": "2026-11-15T14:02:11Z",
+  "checked_at": "2026-11-15T14:02:11Z",
   "unique": [
     {
       "id": "135-carl-6",
@@ -175,12 +175,12 @@
       "lat": 37.7618,
       "lng": -122.4392,
       "approx": true,
-      "url": "https://apartments.com/45-ord-ct-san-francisco-ca/fp0pzdv",
+      "url": "https://rentler.com/places-for-rent/ca/san-francisco/45-ord-court/10293772",
       "status": "active",
       "posted": null,
-      "updated": "2026-11-13",
-      "rent": 5500,
-      "allin": "$5,500 on Zumper (Apartments.com still shows $4,000) · private basement garage, no separate parking fee mentioned",
+      "updated": "2026-11-15",
+      "rent": 4000,
+      "allin": "$4,000 on Rentler/Apartments.com (refreshed ~4 hrs before this run; Zumper earlier showed $5,500) · private basement garage, no separate parking fee mentioned",
       "tags": [
         [
           "Full basement garage “designed for parking” (a house, so the space is yours)",
@@ -203,17 +203,18 @@
           "maybe"
         ],
         [
-          "$5,500 is stretch territory (Apartments.com shows $4,000; confirm which is current)",
+          "Single-family house: no rent cap",
           "maybe"
         ],
         [
-          "Single-family house: no rent cap",
+          "$4,000 now listed (was $5,500 on Zumper): confirm the current price",
           "maybe"
         ]
       ],
       "notes": [
         "A small 1BR house on a quiet cul-de-sac between Corona Heights and Buena Vista Park, with its own basement garage, laundry, a separate dining room and a bonus room that opens onto a rear garden. That's the small-residential, street-level setup you prefer, and it's about a 15-minute walk to the Panhandle and an easy drive down to Dogpatch. Zumper shows it updated about 15 hours before this run at $5,500; Apartments.com and ApartmentFinder show the same house at $4,000 but mark it \"no availability,\" so the $4,000 figure may be an old listing.",
-        "<span class='flag'>Stretch: at $5,500 it's only worth it if it really is exceptional. Must confirm: (1) the current rent; (2) there's a dishwasher (the listing only says \"newer appliances\"); (3) square footage and that the bedroom has an exterior window; (4) the garage fits a Mazda 3 (basement garages on steep blocks can be tight).</span>"
+        "<span class='flag'>Stretch: at $5,500 it's only worth it if it really is exceptional. Must confirm: (1) the current rent; (2) there's a dishwasher (the listing only says \"newer appliances\"); (3) square footage and that the bedroom has an exterior window; (4) the garage fits a Mazda 3 (basement garages on steep blocks can be tight).</span>",
+        "<span class='flag'>Update Nov 15: the listing was refreshed on Rentler and Apartments.com at <b>$4,000</b>, which moves it from stretch into your happy range. Confirm the price and ask about a dishwasher and the size before touring.</span>"
       ],
       "scam": [
         "Low risk",
@@ -599,7 +600,9 @@
       "who": "Not named (listed on Zumper / Zillow)",
       "url": "https://www.zillow.com/b/723-haight-st-san-francisco-ca-5j4CPS",
       "src": "Zumper",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-15",
+      "removed_reason": "ApartmentList now shows the building off market with no 1BRs available (and says the building has no parking); Apartments.com shows 0 units available."
     },
     {
       "id": "rowan-338-potrero-cl-oiTGw3",
@@ -1054,7 +1057,7 @@
       "rent": 3250,
       "allin": "$3,500 all-in ($3,250 + $250 garage)",
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-15",
       "tags": [
         [
           "Garage spot +$250/mo (assigned? confirm)",
@@ -1328,7 +1331,9 @@
       "who": "AMSI (agent Alexandr Metlinski)",
       "url": "https://www.apartments.com/601-van-ness-ave-san-francisco-ca/bgnfb4b/",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-15",
+      "removed_reason": "No longer on the Opera Plaza building page on Apartments.com, which now lists only #712 (708 sq ft, $3,960, parking not stated) and a 2BR."
     },
     {
       "id": "601-van-ness-511",
@@ -1387,7 +1392,9 @@
       "who": "SF City Rents (managed by Leading Properties)",
       "url": "https://www.zillow.com/b/601-van-ness-avenue-san-francisco-ca-5XkGN9",
       "src": "Zillow",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-15",
+      "removed_reason": "No longer on the Opera Plaza building page on Apartments.com, which now lists only #712 (708 sq ft, $3,960, parking not stated) and a 2BR."
     },
     {
       "id": "875-vermont-201",
@@ -1813,6 +1820,60 @@
       "url": "https://www.zillow.com/b/1401-eddy-st-san-francisco-ca-9NKqb6/",
       "src": "Zillow",
       "status": "active"
+    },
+    {
+      "id": "1645-golden-gate-2",
+      "name": "1645 Golden Gate Ave #2 (classic flat, Structure Properties)",
+      "hood": "NoPa / Panhandle · Golden Gate Ave between Divisadero &amp; Broderick, ~3 blocks to Alamo Square, 2 blocks to the Panhandle; ~20 min drive to Dogpatch",
+      "lat": 37.7792,
+      "lng": -122.4393,
+      "approx": true,
+      "url": "https://rentler.com/places-for-rent/ca/san-francisco/1645-golden-gate-ave/10285871",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-15",
+      "rent": 3250,
+      "allin": "$3,250 all-in (parking space in private garage included)",
+      "tags": [
+        [
+          "Parking space in private garage included (confirm it's assigned and fits the Mazda 3)",
+          "yes"
+        ],
+        [
+          "675 sq ft true 1BR/1BA; bedroom has large bay windows",
+          "yes"
+        ],
+        [
+          "Dishwasher not listed for #2 (the identical #4 has one): confirm",
+          "maybe"
+        ],
+        [
+          "Laundry in building, not in unit",
+          "maybe"
+        ],
+        [
+          "Renovated kitchen (stainless, shaker cabinets, stone counters)",
+          "yes"
+        ],
+        [
+          "Classic building near Alamo Square: likely pre-1979, so rent controlled",
+          "yes"
+        ],
+        [
+          "Pets considered",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "A 675 sq ft classic 1BR/1BA a few blocks from Alamo Square and the Panhandle, in your top-priority area, with hardwood floors, crown molding, tall ceilings and bay windows in the bedroom. The listing says a parking space in the building's private garage is included, which makes $3,250 all-in, well under your $4,000 &ldquo;excellent&rdquo; line. Walkable to Divisadero, NoPa and Golden Gate Park. Being an older multi-unit building, it is likely rent controlled, so it works as a 2&ndash;3 year place, not just a short stopgap.",
+        "<span class='flag'>Confirm three things before touring: that the garage space is assigned to #2 and fits a Mazda 3, that the kitchen has a dishwasher (the same landlord's #4 in this building lists one, but #2's listing doesn't), and how big the living room is for a desk plus a table for 4&ndash;6. Unit #4 in the same building ($3,250, 673 sq ft) is listed with street parking only, so make sure the garage space really comes with #2.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by a licensed SF property manager (Structure Properties, DRE #01961414) with a named agent, at a market price; nothing asks for money before a tour."
+      ],
+      "who": "Structure Properties, Inc. (property manager; agent Lawson Benfield)",
+      "src": "Rentler"
     }
   ],
   "complexes": [
@@ -1891,13 +1952,13 @@
       "lat": 37.7801,
       "lng": -122.4336,
       "posted": null,
-      "price": "$4,140–$5,640",
+      "price": "$4,140–$6,900 (3 one-bedrooms listed)",
       "parking": "Garage (optional fee)",
       "notes": "Elevator building, on-site laundry. HotPads shows 3 one-bedrooms from $4,140 (marked new today, Nov 7). Unit 207 recently dropped to $4,400. Two new Craigslist posts on the evening of Nov 12 (“1395 Golden Gate@Steiner/Parking”) at $3,945 and $4,400; the $3,945 one may be a smaller unit, so confirm it's a true 1BR.",
       "seen": "Zumper + HotPads + Zillow + 8+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-12"
+      "updated": "2026-11-15"
     },
     {
       "id": "one-henry-adams",
@@ -1907,12 +1968,13 @@
       "lat": 37.7689,
       "lng": -122.4037,
       "posted": null,
-      "price": "$4,440–$4,752 · 653–727 sq ft",
+      "price": "$4,396–$4,932 · 653–727 sq ft (6 one-bedrooms on HotPads)",
       "parking": "Garage, $275/mo",
       "notes": "Five 1BR floor plans, in-unit W/D. About $4,715–$5,027 all-in.",
       "seen": "Zumper",
       "url": "https://www.zumper.com/apartment-buildings/p208324/one-henry-adams-potrero-hill-san-francisco-ca",
-      "status": "active"
+      "status": "active",
+      "updated": "2026-11-15"
     },
     {
       "id": "potrero-1010",
@@ -1922,13 +1984,13 @@
       "lat": 37.7663,
       "lng": -122.3962,
       "posted": null,
-      "price": "$4,158–$4,334 · 648–804 sq ft",
+      "price": "$3,786–$4,334 · 648–804 sq ft (8 one-bedrooms listed)",
       "parking": "Assigned garage, $250/mo (confirm)",
       "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in.",
       "seen": "Zumper",
       "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-06"
+      "updated": "2026-11-15"
     },
     {
       "id": "sunset-towers",
@@ -1938,13 +2000,13 @@
       "lat": 37.759,
       "lng": -122.4626,
       "posted": "2026-11-02T17:23:00-08:00",
-      "price": "$4,756–$5,706 · 631–771 sq ft",
+      "price": "$4,743–$5,573 · 631–771 sq ft (15 one-bedrooms; parking $250/mo)",
       "parking": "Garage (cost not listed)",
       "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
       "seen": "Zumper + PadMapper + Redfin + Craigslist",
       "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-10"
+      "updated": "2026-11-15"
     },
     {
       "id": "1720-golden-gate",
@@ -2004,8 +2066,8 @@
       "lng": -122.4329,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-12",
-      "price": "$4,858–$5,226 · 605–785 sq ft (6 one-bedrooms listed)",
+      "updated": "2026-11-15",
+      "price": "$4,858–$5,690 · 605–785 sq ft (7 one-bedrooms listed)",
       "parking": "Reserved spaces in controlled-access garage (fee not listed)",
       "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price.",
       "seen": "Zillow + Craigslist + Redfin",
