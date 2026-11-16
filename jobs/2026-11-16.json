@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-16",
+  "postings": [
+    {
+      "title": "Senior RF Test Engineer",
+      "company": "Tanisha Systems, Inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5964887970?se=BikeNxni8RGoBo_phxaFfw&utm_medium=api&utm_source=9349c45d&v=48CF41B16D32330E3CE3758F09D25A604ADCBADF",
+      "pay_range": "$84,400\u2013$84,400",
+      "top_requirements": [
+        "Hands\u2011on experience designing, building, and characterizing RF test fixtures and measurement setups for microwave frequencies.",
+        "Ability to program and operate automated test equipment (e.g., VNA, spectrum analyzer, signal generators) and write test scripts in Python or LabVIEW.",
+        "Proficiency in soldering and debugging of high\u2011frequency PCBs, including 0201 component placement and RF connector troubleshooting."
+      ],
+      "bonus_skills": [
+        "RF safety and OTA chamber procedures",
+        "Experience with Keysight/Anritsu test gear",
+        "Familiarity with RF PCB layout review"
+      ],
+      "summary": "The role focuses on developing and executing RF test plans for Tanisha\u2019s products, which aligns with the candidate\u2019s extensive RF test background in satellite communications. It offers a hands\u2011on engineering environment, though compensation is below the target range.",
+      "is_startup": false,
+      "adzuna_id": "5964887970"
+    },
+    {
+      "title": "Senior RF Design Engineer",
+      "company": "Gridware",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5962699546?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$160,000\u2013$220,000",
+      "top_requirements": [
+        "Design and verification of high\u2011performance RF front\u2011end circuits (LNAs, mixers, PLLs) for active\u2011grid\u2011response sensors.",
+        "Perform full RF link\u2011budget analysis, noise figure, IIP3, and EVM measurements on prototype boards.",
+        "Lead hardware bring\u2011up, including PCB layout, component selection, and production testing of RF modules."
+      ],
+      "bonus_skills": [
+        "Experience with power\u2011line communication RF",
+        "Python\u2011based automated test",
+        "Knowledge of grid\u2011monitoring sensor interfaces"
+      ],
+      "summary": "Gridware needs senior RF designers to create the RF front\u2011ends for its next\u2011generation grid\u2011monitoring platform, a perfect match for the candidate\u2019s communications\u2011system and RF design expertise. The salary range meets the target compensation.",
+      "is_startup": true,
+      "adzuna_id": "5962699546"
+    },
+    {
+      "title": "Radio Frequency Hardware Engineer - DoorDash Air",
+      "company": "DoorDash",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5950590995?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$139,400\u2013$205,000",
+      "top_requirements": [
+        "Develop and integrate RF hardware for robotic perception systems, including high\u2011speed transceivers and phased\u2011array front\u2011ends.",
+        "Perform system\u2011level RF validation in harsh robotic environments and certify compliance with FCC/CE standards.",
+        "Collaborate with AI/ML teams to co\u2011design RF\u2011aware signal\u2011processing pipelines for low\u2011latency data links."
+      ],
+      "bonus_skills": [
+        "Robotics integration experience",
+        "C/C++ firmware for RF modules",
+        "Knowledge of mmWave antenna arrays"
+      ],
+      "summary": "DoorDash Labs seeks a senior RF engineer to embed advanced RF capabilities into its autonomous\u2011delivery robots, a role that blends the candidate\u2019s communications and RF design skills with a new industry focus. Compensation aligns with the target range.",
+      "is_startup": false,
+      "adzuna_id": "5950590995"
+    },
+    {
+      "title": "Senior RF Test Engineer",
+      "company": "Radar",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5966800284?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$165,000\u2013$195,000",
+      "top_requirements": [
+        "Develop RF hardware for overhead sensor modules, including transceiver design, PCB layout, and antenna integration (non\u2011custom antenna design).",
+        "Create automated test setups to validate sensor RF performance (range, accuracy, interference rejection).",
+        "Work closely with software/AI teams to define RF signal requirements for real\u2011time analytics."
+      ],
+      "bonus_skills": [
+        "Experience with FMCW radar front\u2011ends",
+        "Python data\u2011analysis pipelines",
+        "Knowledge of retail\u2011environment RF constraints"
+      ],
+      "summary": "Radar\u2019s hardware\u2011enabled SaaS platform needs a senior RF engineer to build and test the RF front\u2011ends of its store\u2011level sensors, aligning well with the candidate\u2019s communications and RF test background. Compensation meets the target.",
+      "is_startup": true,
+      "adzuna_id": "5966800284"
+    },
+    {
+      "title": "Sr. RF/Wireless Engineer",
+      "company": "T\u00dcV S\u00dcD",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5964064373?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$127,877\u2013$127,877",
+      "top_requirements": [
+        "Perform certification\u2011level RF testing and compliance verification for wireless products.",
+        "Develop test procedures and scripts for spectrum analyzers, signal generators, and OTA chambers.",
+        "Document test results and generate reports for regulatory submissions."
+      ],
+      "bonus_skills": [
+        "Familiarity with FCC/ETSI standards",
+        "LabVIEW automation",
+        "Experience with RF safety protocols"
+      ],
+      "summary": "T\u00dcV S\u00dcD\u2019s senior RF/Wireless Engineer role focuses on testing and certification, matching the candidate\u2019s RF test expertise, though the salary is modest.",
+      "is_startup": false,
+      "adzuna_id": "5964064373"
+    },
+    {
+      "title": "RF Design Engineer \u2013 Next-Gen Wireless",
+      "company": "Apple",
+      "location_label": "San Diego, CA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5962577871?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$168,871\u2013$168,871",
+      "top_requirements": [
+        "Lead the design of RF front\u2011ends for Apple consumer products, including LNAs, power amplifiers, and duplexers.",
+        "Drive silicon bring\u2011up, perform on\u2011chip S\u2011parameter and linearity measurements, and iterate layout for performance targets.",
+        "Mentor junior engineers and define RF design guidelines across multiple product families."
+      ],
+      "bonus_skills": [
+        "Experience with 5G/6G RFICs",
+        "Cadence Virtuoso",
+        "Python\u2011based RF automation"
+      ],
+      "summary": "Apple\u2019s RF Design team offers a senior role that directly involves hands\u2011on RF IC design and validation, perfectly aligning with the candidate\u2019s goal to move into senior IC positions. Compensation is within the desired range.",
+      "is_startup": false,
+      "adzuna_id": "5962577871"
+    }
+  ]
+}
