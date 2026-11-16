@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-15",
-  "search_at": "2026-11-16T02:03:09Z",
-  "checked_at": "2026-11-16T06:38:26Z",
+  "asof": "2026-11-16",
+  "search_at": "2026-11-16T14:04:22Z",
+  "checked_at": "2026-11-16T14:04:22Z",
   "unique": [
     {
       "id": "1737-golden-gate-5",
@@ -52,7 +52,9 @@
       "who": "Building manager (not named on Zillow)",
       "url": "https://www.zillow.com/b/1737-golden-gate-ave-san-francisco-ca-9NKr8T",
       "src": "Zillow",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-16T14:04:22Z",
+      "removed_reason": "Zillow building page now says there are no available units at 1737 Golden Gate Ave (checked Nov 16)."
     },
     {
       "id": "875-vermont-205",
@@ -1980,6 +1982,106 @@
       "who": "Structure Properties, Inc. (property manager; agent Lawson Benfield)",
       "src": "Rentler",
       "removed_at": "2026-11-15T16:25:14Z"
+    },
+    {
+      "id": "1342-haight-1342a",
+      "name": "1342 Haight St #1342A (renovated 1BR set back from Haight St)",
+      "hood": "Haight-Ashbury · Haight St between Central &amp; Masonic, unit set back from the street with a private entrance; ~4 blocks to Golden Gate Park and the Panhandle; ~25 min drive to Dogpatch",
+      "lat": 37.7703,
+      "lng": -122.4433,
+      "approx": true,
+      "rent": 3150,
+      "allin": "$3,400 all-in ($3,150 + $250 on-site parking)",
+      "posted": null,
+      "updated": "2026-11-15",
+      "tags": [
+        [
+          "On-site parking in a private lot, $250/mo; title says “Parking 1-3” (confirm a numbered space is assigned to this unit)",
+          "maybe"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher not mentioned (“stainless steel appliances”)",
+          "maybe"
+        ],
+        [
+          "Square footage not listed; bedroom fits a queen",
+          "maybe"
+        ],
+        [
+          "Renovated: quartz counters, Italian tile, radiant floor heating",
+          "yes"
+        ],
+        [
+          "Small older building on Haight: likely pre-1979, so rent controlled",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "A renovated 1BR/1BA with in-unit laundry and radiant floor heating, described as a quiet unit set back from Haight Street with its own entrance and a private parking lot behind. At $3,400 all-in it is well inside your “excellent” budget, a few blocks from the Panhandle and Golden Gate Park for running and tennis. Likely rent controlled, so it could work for 2–3 years if the size is right.",
+        "<span class='flag'>Lots to confirm before touring: that a parking space is assigned to #1342A (not first-come) and fits a Mazda 3, that there is a dishwasher, the square footage (needs ~575+), and that the bedroom has an exterior window. The same text appeared on Diggz with an older move-in date, so this may be a repost; ask whether it's really available now. Note this stretch of Haight is a busy commercial strip on weekends.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by 2B Living (SF property manager, DRE #01902745) with a named agent at a market price; no money asked before a tour."
+      ],
+      "who": "2B Living (agent Mary Belaski)",
+      "url": "https://rentler.com/places-for-rent/ca/san-francisco/1342-1346-haight-street/10209086",
+      "src": "Rentler / Diggz",
+      "status": "active"
+    },
+    {
+      "id": "355-buena-vista-e-202w",
+      "name": "355 Buena Vista Ave E #202W (condo building by Buena Vista Park)",
+      "hood": "Buena Vista / Corona Heights · east side of Buena Vista Park, walk down to the Lower Haight and Duboce Triangle; ~20 min drive to Dogpatch",
+      "lat": 37.7682,
+      "lng": -122.4385,
+      "approx": true,
+      "rent": 4100,
+      "allin": "$4,100 all-in (one carport space in a gated carport included)",
+      "posted": null,
+      "updated": "2026-11-16",
+      "tags": [
+        [
+          "One included carport space in a gated carport (confirm it's assigned and fits a Mazda 3)",
+          "yes"
+        ],
+        [
+          "Washer/dryer on the same floor, not in unit",
+          "maybe"
+        ],
+        [
+          "Dishwasher not listed (range, fridge, disposal, microwave only)",
+          "maybe"
+        ],
+        [
+          "Square footage not listed",
+          "maybe"
+        ],
+        [
+          "Available Nov 25",
+          "yes"
+        ],
+        [
+          "Condo building: probably no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "A 1BR/1BA in a condo building on the quiet east edge of Buena Vista Park, with a parking space in a gated carport included in the $4,100 rent, so it lands in your “happy” range with no add-ons. Buena Vista Park is right there and the Panhandle, Lower Haight and Duboce Park are a short walk downhill. Available around Nov 25, which fits getting out of Airbnbs soon.",
+        "<span class='flag'>Confirm before touring: whether the kitchen has a dishwasher (none is listed), the square footage, that the carport space is assigned to this unit, and that the bedroom has an exterior window. Laundry is shared on the same floor, not in the unit.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Apartments.com listing at a market price with applications through the site; no requests for money up front. Lister isn't named, so verify the owner or manager at the showing."
+      ],
+      "who": "Not named (Apartments.com “Contact Property”)",
+      "url": "https://www.apartments.com/listing/7nklz7y",
+      "src": "Apartments.com",
+      "status": "active"
     }
   ],
   "complexes": [
@@ -2092,11 +2194,11 @@
       "posted": null,
       "price": "$3,786–$4,334 · 648–804 sq ft (8 one-bedrooms listed)",
       "parking": "Assigned garage, $250/mo (confirm)",
-      "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in.",
-      "seen": "Zumper",
+      "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in. Redfin (Nov 16) shows 1BR plans from $3,513, so pricing may have dropped; confirm the plan isn't a junior 1BR.",
+      "seen": "Zumper + Redfin",
       "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-15"
+      "updated": "2026-11-16"
     },
     {
       "id": "sunset-towers",
