@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-16",
-  "search_at": "2026-11-16T19:59:41Z",
-  "checked_at": "2026-11-16T19:59:41Z",
+  "search_at": "2026-11-16T22:52:07Z",
+  "checked_at": "2026-11-16T22:52:07Z",
   "unique": [
     {
       "id": "451-kansas-362",
@@ -1497,10 +1497,10 @@
       "lat": 37.7712,
       "lng": -122.4258,
       "approx": true,
-      "rent": 4950,
-      "allin": "$4,950 + parking (fee not listed)",
+      "rent": 4750,
+      "allin": "$4,750 + parking (fee not listed; price dropped $200)",
       "posted": null,
-      "updated": "2026-11-13",
+      "updated": "2026-11-16",
       "tags": [
         [
           "Assigned garage parking",
@@ -1533,7 +1533,8 @@
       ],
       "notes": [
         "1BR/1BA in a six-story 1920s elevator building; the listing says rent controlled with assigned garage parking. Walkable to Hayes Valley, Lower Haight and Duboce Triangle, and close to the freeway for the Dogpatch commute.",
-        "<span class='flag'>At $4,950 before parking it's at the top of your range, and the listing doesn't give size, dishwasher or which way the unit faces. Ask for the exact address (make sure it's not on Market St) and the parking fee before going further.</span>"
+        "<span class='flag'>At $4,950 before parking it's at the top of your range, and the listing doesn't give size, dishwasher or which way the unit faces. Ask for the exact address (make sure it's not on Market St) and the parking fee before going further.</span>",
+        "<span class='flag'>Update Nov 16: Zumper shows a $200 price drop to <b>$4,750</b> (refreshed ~8 hrs before this run) and still tags garage + assigned parking. That keeps it in your OK range before the parking fee; still need the exact address, size and dishwasher.</span>"
       ],
       "scam": [
         "Some caution",
@@ -2244,6 +2245,60 @@
       "who": "Not named (Apartments.com “Contact Property”)",
       "url": "https://www.apartments.com/listing/7nklz7y",
       "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "1340-scott-c",
+      "name": "1340 Scott St #C (condo, Western Addition near Mt Zion)",
+      "hood": "Western Addition / Lower Pac Heights edge · Scott St near O'Farrell, a few blocks north of Alamo Square and a block off Divisadero; ~20 min drive to Dogpatch",
+      "lat": 37.7822,
+      "lng": -122.4383,
+      "approx": true,
+      "rent": 3950,
+      "allin": "$3,950 all-in (deeded parking space included)",
+      "posted": null,
+      "updated": "2026-11-16",
+      "tags": [
+        [
+          "Deeded parking space included (confirm it fits a Mazda 3)",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher (per Epic RE listing copy)",
+          "yes"
+        ],
+        [
+          "653 sq ft true 1BR/1BA",
+          "yes"
+        ],
+        [
+          "Under $4,000 all-in",
+          "yes"
+        ],
+        [
+          "Listing still says available July 1, 2026: confirm current availability",
+          "maybe"
+        ],
+        [
+          "Condo: probably no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "A 653 sq ft 1BR/1BA condo with in-unit laundry, a dishwasher and a deeded parking space included in the $3,950 rent, which puts it in your “excellent” price range. It's on Scott St a block off Divisadero near Mt Zion, a short walk to Alamo Square, NoPa and the Fillmore. Rentler shows it refreshed about 2 days ago.",
+        "<span class='flag'>Confirm before touring: the listing text still says “available 7/1/2026,” so it may be an old post that was re-upped; Rentler also shows a review flag on it. Call Epic Real Estate to confirm it's actually available, that the bedroom has an exterior window, and which way the unit faces.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "Listed by a named licensed brokerage (Epic Real Estate & Asso., agent Eugenia Mantzoros) at a market price, but Rentler shows the post as flagged for review and the availability date is stale. Deal with Epic directly and tour before paying anything."
+      ],
+      "who": "Epic Real Estate & Asso. Inc. (Eugenia “Genie” Mantzoros; showings by Jen Perales)",
+      "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/1340-scott-st/12979584",
+      "src": "Rentler",
       "status": "active"
     }
   ],
