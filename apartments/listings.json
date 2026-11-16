@@ -1,8 +1,113 @@
 {
   "asof": "2026-11-15",
-  "search_at": "2026-11-15T23:02:03Z",
-  "checked_at": "2026-11-15T23:02:03Z",
+  "search_at": "2026-11-16T02:03:09Z",
+  "checked_at": "2026-11-16T02:03:09Z",
   "unique": [
+    {
+      "id": "1737-golden-gate-5",
+      "name": "1737 Golden Gate Ave #5 (9-unit 1907 building, NoPa)",
+      "hood": "NoPa · Golden Gate Ave between Divisadero & Broderick, ~3 blocks north of Alamo Square and the Panhandle; ~20–25 min drive to Dogpatch",
+      "lat": 37.779,
+      "lng": -122.4392,
+      "approx": true,
+      "rent": 4495,
+      "allin": "$4,695 all-in ($4,495 + $200 compact-car garage space)",
+      "posted": "2026-11-13",
+      "posted_approx": true,
+      "updated": "2026-11-15",
+      "tags": [
+        [
+          "Garage space for a compact car, $200/mo (confirm a Mazda 3 fits and the space is assigned)",
+          "maybe"
+        ],
+        [
+          "~700 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher (renovated kitchen)",
+          "yes"
+        ],
+        [
+          "Coin laundry in building, not in unit",
+          "maybe"
+        ],
+        [
+          "1907 building, 9 units: likely rent-controlled",
+          "yes"
+        ],
+        [
+          "No pets",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "A roughly 700 sq ft 1BR/1BA in a small 9-unit 1907 building on the NoPa stretch of Golden Gate Ave, a few blocks from Alamo Square, Divisadero and the Panhandle. The kitchen was renovated and has a dishwasher. A garage space for a compact car is $200/mo (a tandem space for a second small car is another $150). Being a pre-1979 multi-unit building, it should be under rent control, so it's a good 2–3 year candidate at a happy-range price.",
+        "<span class='flag'>Zillow showed it as listed about 3 days ago at $4,495, but the building page now says no units are available, so it may already be pending. Confirm the garage space is assigned to #5 and that a Mazda 3 (about 15 ft long) fits a &ldquo;compact&rdquo; space. Laundry is shared coin-op.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "market-rate price for a real 9-unit building with a public listing history; tour before paying anything."
+      ],
+      "who": "Building manager (not named on Zillow)",
+      "url": "https://www.zillow.com/b/1737-golden-gate-ave-san-francisco-ca-9NKr8T",
+      "src": "Zillow",
+      "status": "active"
+    },
+    {
+      "id": "875-vermont-205",
+      "name": "875 Vermont St #205 (condo building, Potrero Hill)",
+      "hood": "Potrero Hill · Vermont at 20th St, south slope; ~5–10 min drive to Dogpatch",
+      "lat": 37.7598,
+      "lng": -122.4046,
+      "approx": true,
+      "rent": 4750,
+      "allin": "$4,750 all-in (one assigned garage space included)",
+      "posted": null,
+      "updated": "2026-11-15",
+      "tags": [
+        [
+          "1 assigned garage space included",
+          "yes"
+        ],
+        [
+          "Shared coin-op laundry",
+          "no"
+        ],
+        [
+          "Dishwasher not mentioned",
+          "maybe"
+        ],
+        [
+          "Sq ft not listed (unit #201 in the same building is 575)",
+          "maybe"
+        ],
+        [
+          "Very short commute to Dogpatch",
+          "yes"
+        ],
+        [
+          "Condo: no rent cap",
+          "no"
+        ],
+        [
+          "No pets",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "A second 1BR/1BA in the same Potrero Hill condo building as #201, listed by Progressive Property Group with one assigned garage space included. It's available now on a 12-month lease, and the owner pays water and trash. It's the closest option to work.",
+        "<span class='flag'>At $4,750 with coin laundry and no dishwasher mentioned, this is pricier than #201 ($4,200) for what looks like a similar unit. A mirror of the same ad shows $3,695, so ask the current price. Confirm the dishwasher, square footage and that the bedroom has an exterior window.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by an established SF property manager (Progressive Property Group, (415) 680-7546) at a market price."
+      ],
+      "who": "Progressive Property Group, Inc.",
+      "url": "https://www.rentable.co/san-francisco-ca/potrero-hill-1-br-1ba-parking-laundry-progressive",
+      "src": "Craigslist",
+      "status": "active"
+    },
     {
       "id": "135-carl-6",
       "name": "135 Carl St #6 (top-floor rear flat, 6-unit Edwardian)",
@@ -73,7 +178,7 @@
       "status": "active",
       "posted": "2026-11-09",
       "posted_approx": true,
-      "updated": "2026-11-14",
+      "updated": "2026-11-11",
       "rent": 4300,
       "allin": "$4,300 on Zillow (Apartments.com shows $3,950 total, Redfin $4,050) · assigned garage space with EV charger; ask whether it's included",
       "tags": [
@@ -384,7 +489,7 @@
       "rent": 4250,
       "allin": "$4,250 + reserved compact parking space (fee not listed)",
       "posted": null,
-      "updated": "2026-11-11",
+      "updated": "2026-11-13",
       "tags": [
         [
           "Reserved (assigned) parking space for an extra monthly fee, described as compact",
