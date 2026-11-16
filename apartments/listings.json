@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-16",
   "search_at": "2026-11-16T16:52:19Z",
-  "checked_at": "2026-11-16T16:52:19Z",
+  "checked_at": "2026-11-16T19:39:39Z",
   "unique": [
     {
       "id": "1737-golden-gate-5",
@@ -2031,7 +2031,8 @@
       "who": "2B Living (agent Mary Belaski)",
       "url": "https://rentler.com/places-for-rent/ca/san-francisco/1342-1346-haight-street/10209086",
       "src": "Rentler / Diggz",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-16T19:39:35Z"
     },
     {
       "id": "355-buena-vista-e-202w",
