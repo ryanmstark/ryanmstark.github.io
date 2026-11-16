@@ -1,8 +1,170 @@
 {
   "asof": "2026-11-16",
-  "search_at": "2026-11-16T16:52:19Z",
-  "checked_at": "2026-11-16T19:39:39Z",
+  "search_at": "2026-11-16T19:59:41Z",
+  "checked_at": "2026-11-16T19:59:41Z",
   "unique": [
+    {
+      "id": "451-kansas-362",
+      "name": "451 Kansas St #362 (“The Potrero” condo, Potrero Hill)",
+      "hood": "Potrero Hill (north slope) · 451 Kansas St at 17th St, “The Potrero” condo building (169 units, ~2016); a couple of blocks from the 101/280 ramps, ~5–10 min drive to Dogpatch",
+      "lat": 37.7648,
+      "lng": -122.4036,
+      "approx": true,
+      "url": "https://www.apartments.com/451-kansas-st-san-francisco-ca-unit-362/2rhh9w8/",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-16",
+      "rent": 3600,
+      "allin": "$3,600 all-in (listing says the unit includes parking)",
+      "tags": [
+        [
+          "Parking included (confirm it's an assigned garage space)",
+          "maybe"
+        ],
+        [
+          "In-unit washer/dryer (new)",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "686 sq ft",
+          "yes"
+        ],
+        [
+          "Water & trash included",
+          "yes"
+        ],
+        [
+          "Dogs and cats OK",
+          "yes"
+        ],
+        [
+          "Big amenity condo building, not a small walk-up",
+          "maybe"
+        ],
+        [
+          "~2016 condo: no rent control",
+          "no"
+        ]
+      ],
+      "notes": [
+        "An individually owned 686 sq ft 1BR/1BA in The Potrero, a newer condo building at Kansas & 17th. The listing says parking is included, with a new in-unit washer/dryer and a dishwasher, at $3,600 &mdash; under your $4,000 &ldquo;excellent&rdquo; line. Potrero gets lots of sun and it's one of the shortest drives to Dogpatch. It's a big building rather than the small Victorian you'd prefer, and the north side sits near the freeway, so ask which way the unit faces.",
+        "<span class='flag'>Before touring, confirm: the parking is an assigned/deeded garage space that fits a Mazda 3, the bedroom is a true walled room with an exterior window (the ad mentions a &ldquo;flexible living/dining area&rdquo;), the move-in date, and freeway noise on that side of the building.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "market-level price and the unit matches a real 686 sq ft 1BR that sold in May 2026, but the ad doesn't name the lister (&ldquo;call/text/email me&rdquo;). Get a name, tour in person, and don't pay anything before signing a lease."
+      ],
+      "who": "Not named (individual condo owner, via Apartments.com)",
+      "src": "Apartments.com"
+    },
+    {
+      "id": "451-kansas-378",
+      "name": "451 Kansas St #378 (“The Potrero” condo, Potrero Hill)",
+      "hood": "Potrero Hill (north slope) · 451 Kansas St at 17th St, “The Potrero” condo building (169 units, ~2016); a couple of blocks from the 101/280 ramps, ~5–10 min drive to Dogpatch",
+      "lat": 37.7648,
+      "lng": -122.4036,
+      "approx": true,
+      "url": "https://www.apartments.com/listing/be9gllc",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-16",
+      "rent": 3500,
+      "allin": "$3,800 all-in ($3,500 + $300 designated space with EV charger)",
+      "tags": [
+        [
+          "Designated parking space with EV charger ($300/mo)",
+          "yes"
+        ],
+        [
+          "Full-size in-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Size not listed",
+          "maybe"
+        ],
+        [
+          "Available now",
+          "yes"
+        ],
+        [
+          "No pets",
+          "maybe"
+        ],
+        [
+          "~2016 condo: no rent control",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Another owner-rented 1BR/1BA in the same building, newly listed (Apartments.com shows it as posted today). One designated space with an EV charger is $300/month, so it's $3,800 all-in, with a full-size washer/dryer and a dishwasher. Available now on a one-year lease, which suits your plan to settle soon.",
+        "<span class='flag'>Ask for the square footage (1BRs here run ~656&ndash;810 sq ft), that the space is in the garage and fits a Mazda 3, and which side of the building the unit faces.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "market-level price, the lister gives a name and phone number (Alex, 707-340-3509), and the building has many real owner rentals. Tour before paying anything."
+      ],
+      "who": "Alex (owner/agent), 707-340-3509",
+      "src": "Apartments.com"
+    },
+    {
+      "id": "451-kansas-cb-661",
+      "name": "451 Kansas St, 661 sq ft 1BR (unit # not shown, Coldwell Banker)",
+      "hood": "Potrero Hill (north slope) · 451 Kansas St at 17th St, “The Potrero” condo building (169 units, ~2016); a couple of blocks from the 101/280 ramps, ~5–10 min drive to Dogpatch",
+      "lat": 37.7648,
+      "lng": -122.4036,
+      "approx": true,
+      "url": "https://www.apartments.com/451-kansas-st-san-francisco-ca/yqmr9hs/",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-16",
+      "rent": 4350,
+      "allin": "$4,350 all-in (one garage parking space included)",
+      "tags": [
+        [
+          "1 garage parking space included",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "661 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher not listed",
+          "maybe"
+        ],
+        [
+          "Available now",
+          "yes"
+        ],
+        [
+          "~2016 condo: no rent control",
+          "no"
+        ]
+      ],
+      "notes": [
+        "An MLS-listed 661 sq ft 1BR/1BA in The Potrero with one garage space included and in-unit laundry, at $4,350. It costs $550&ndash;750 more than the other two units in the same building, so it's worth comparing them side by side (floor, view, freeway side).",
+        "<span class='flag'>Confirm the garage space is assigned, there's a dishwasher, and the bedroom has an exterior window. The $7,500 deposit is high.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed through the MLS by a licensed agent (Michelle R Stephens, Coldwell Banker Realty)."
+      ],
+      "who": "Michelle R Stephens, Coldwell Banker Realty",
+      "src": "Apartments.com"
+    },
     {
       "id": "1737-golden-gate-5",
       "name": "1737 Golden Gate Ave #5 (9-unit 1907 building, NoPa)",
@@ -2110,14 +2272,13 @@
       "lat": 37.7604,
       "lng": -122.3895,
       "posted": "2026-10-19T21:17:00-07:00",
-      "price": "$4,950 all-in (parking incl.) · 653 sq ft",
+      "price": "$4,850 all-in (parking incl.) · 653 sq ft",
       "parking": "Garage parking included in rent (confirmed by Ryan)",
-      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results. Still live at $4,950 in the Nov 12 evening Craigslist results (was $4,850 earlier today).",
+      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results. Still live at $4,950 in the Nov 12 evening Craigslist results (was $4,850 earlier today). Re-activated Nov 16: the same Craigslist posting is back in the SF 1BR results at $4,850 (detail page couldn't be opened this run).",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
-      "status": "removed",
-      "updated": "2026-11-12",
-      "removed_at": "2026-11-14T01:28:36Z"
+      "status": "active",
+      "updated": "2026-11-16"
     },
     {
       "id": "civic-101-polk",
