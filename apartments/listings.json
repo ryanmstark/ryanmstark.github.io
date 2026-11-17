@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-16",
   "search_at": "2026-11-17T01:58:47Z",
-  "checked_at": "2026-11-17T01:58:47Z",
+  "checked_at": "2026-11-17T03:56:45Z",
   "unique": [
     {
       "id": "451-kansas-362",
@@ -330,7 +330,8 @@
       "who": "SF City Rents (property manager)",
       "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/135-carl-st-6/12175147",
       "src": "Redfin / Rentler",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-17T03:56:38Z"
     },
     {
       "id": "1515-15th-208",
@@ -2404,8 +2405,9 @@
       "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results. Still live at $4,950 in the Nov 12 evening Craigslist results (was $4,850 earlier today). Re-activated Nov 16: the same Craigslist posting is back in the SF 1BR results at $4,850 (detail page couldn't be opened this run).",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
-      "status": "active",
-      "updated": "2026-11-16"
+      "status": "removed",
+      "updated": "2026-11-16",
+      "removed_at": "2026-11-17T03:56:43Z"
     },
     {
       "id": "civic-101-polk",
