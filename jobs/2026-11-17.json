@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-17",
+  "postings": [
+    {
+      "title": "Electrical Engineer, Signal Processing & Analog Circuits (Python, Network Analyzer / S-Parameters) | Cupertino, CA | W2",
+      "company": "Cquent Systems, Inc.",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5969309698?se=SgDp0tzi8RGvetEb-95Ieg&utm_medium=api&utm_source=9349c45d&v=6EA8E6E1D8801D129870006B095BE8D2581D400D",
+      "pay_range": "$145,937\u2013$145,937",
+      "top_requirements": [
+        "Design, simulate, and validate analog RF front\u2011end circuits using network analyzers and S\u2011parameter measurements.",
+        "Develop and implement signal\u2011processing algorithms in Python for modulation/demodulation and filter design.",
+        "Perform hands\u2011on laboratory bring\u2011up, debugging, and performance characterization of prototype boards."
+      ],
+      "bonus_skills": [
+        "Python scripting",
+        "LabVIEW or similar test automation",
+        "Experience with RF PCB layout"
+      ],
+      "summary": "The role focuses on analog circuit and signal\u2011processing development for communication hardware, matching the candidate's RF and modem background. It offers hands\u2011on design work in a well\u2011compensated contract position.",
+      "is_startup": false,
+      "adzuna_id": "5969309698"
+    },
+    {
+      "title": "Electrical Engineer, Signal Processing & Analog Circuits",
+      "company": "ChaTeck Incorporated",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5964886854?se=SgDp0tzi8RGvetEb-95Ieg&utm_medium=api&utm_source=9349c45d&v=DBC7AD2A617AE32F583BB2E5F527E4828D19BA06",
+      "pay_range": "$90,000\u2013$100,000",
+      "top_requirements": [
+        "Create and test analog filter and amplifier circuits to meet specified gain, bandwidth, and noise specifications.",
+        "Apply network analysis techniques (S\u2011parameters, impedance matching) to validate circuit performance.",
+        "Write and maintain Python scripts for automated test and data analysis of signal\u2011processing blocks."
+      ],
+      "bonus_skills": [
+        "MATLAB",
+        "PCB prototyping",
+        "RF measurement equipment"
+      ],
+      "summary": "An early\u2011career focused role that still requires solid analog and signal\u2011processing expertise, aligning with the candidate\u2019s core skills. Compensation is below target but the work is directly technical.",
+      "is_startup": false,
+      "adzuna_id": "5964886854"
+    },
+    {
+      "title": "Systems Algorithm Engineer",
+      "company": "Lyte AI",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5956326189?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$240,164\u2013$240,164",
+      "top_requirements": [
+        "Develop and integrate custom silicon\u2011based perception algorithms that fuse sensor data for real\u2011time robotics applications.",
+        "Design and validate high\u2011speed analog/digital front\u2011ends and signal\u2011conditioning blocks for the AI\u2011powered sensor suite.",
+        "Collaborate with hardware and firmware teams to bring up prototype boards and perform system\u2011level testing."
+      ],
+      "bonus_skills": [
+        "Silicon custom block design",
+        "Python/C++ for sensor fusion",
+        "FPGA prototyping"
+      ],
+      "summary": "The Systems Algorithm Engineer role blends custom silicon, sensor integration, and algorithm development, directly leveraging the candidate\u2019s communications\u2011system and RF experience while moving away from aerospace. Compensation meets the target.",
+      "is_startup": true,
+      "adzuna_id": "5956326189"
+    },
+    {
+      "title": "Electronics Test Support Engineer with Security Clearance",
+      "company": "Indotronix International Corp",
+      "location_label": "New York City, NY",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5951293807?se=wkp_1Nzi8RG6ZPLp0AWy5Q&utm_medium=api&utm_source=9349c45d&v=D446CBFC4833DD60FCE56E3BCC4767D335EDFEB5",
+      "pay_range": "$124,614\u2013$124,614",
+      "top_requirements": [
+        "Diagnose and repair complex CPU, FPGA, and memory interface boards using advanced test equipment.",
+        "Develop and execute validation test procedures for high\u2011speed signal\u2011processing circuits.",
+        "Create and maintain detailed test documentation and failure analysis reports for hardware releases."
+      ],
+      "bonus_skills": [
+        "Oscilloscope & logic analyzer expertise",
+        "Hardware debug scripting (Python/TCL)",
+        "Security\u2011cleared environment experience"
+      ],
+      "summary": "The Electronics Test Support Engineer role is a hands\u2011on position that leverages deep knowledge of high\u2011speed digital and analog circuits, aligning well with the candidate\u2019s test and validation experience from satellite communications.",
+      "is_startup": false,
+      "adzuna_id": "5951293807"
+    },
+    {
+      "title": "Embedded Firmware Engineer, Hardware Bring-up & Controls",
+      "company": "Voyant Photonics",
+      "location_label": "New York City, NY",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5936536564?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$140,000\u2013$170,000",
+      "top_requirements": [
+        "Develop embedded firmware for silicon\u2011photonic hardware bring\u2011up, including low\u2011level driver development and control loops.",
+        "Perform hardware validation, debug, and performance tuning of high\u2011speed optical transceivers.",
+        "Collaborate with ASIC and photonic design teams to close loop on silicon\u2011photonic chip integration."
+      ],
+      "bonus_skills": [
+        "C/C++ for embedded systems",
+        "FPGA prototyping",
+        "Optical test equipment"
+      ],
+      "summary": "This embedded firmware role centers on hardware bring\u2011up for cutting\u2011edge silicon\u2011photonic chips, offering a strong hands\u2011on engineering focus that matches the candidate\u2019s circuit and system test background while moving into a new domain.",
+      "is_startup": false,
+      "adzuna_id": "5936536564"
+    },
+    {
+      "title": "DSP Engineer",
+      "company": "Creston",
+      "location_label": "New York City, NY",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5949376651?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$85,500\u2013$138,500",
+      "top_requirements": [
+        "Research, design, and implement DSP algorithms for audio and voice communication products, targeting low\u2011latency and high\u2011quality speech enhancement.",
+        "Validate algorithm performance through extensive simulation and hardware prototyping, measuring metrics such as SNR improvement and MOS scores.",
+        "Integrate DSP code into embedded platforms, optimizing for power, memory, and real\u2011time constraints."
+      ],
+      "bonus_skills": [
+        "C/C++ DSP development",
+        "MATLAB/Simulink modeling",
+        "Audio codec familiarity"
+      ],
+      "summary": "The DSP Engineer position directly involves algorithm development and hardware integration for communication audio products, aligning tightly with the candidate\u2019s signal\u2011processing and modem background.",
+      "is_startup": false,
+      "adzuna_id": "5949376651"
+    }
+  ]
+}
