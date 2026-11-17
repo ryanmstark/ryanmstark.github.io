@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-16",
-  "search_at": "2026-11-16T22:52:07Z",
-  "checked_at": "2026-11-16T22:52:07Z",
+  "search_at": "2026-11-17T01:58:47Z",
+  "checked_at": "2026-11-17T01:58:47Z",
   "unique": [
     {
       "id": "451-kansas-362",
@@ -225,10 +225,10 @@
       "lat": 37.7598,
       "lng": -122.4046,
       "approx": true,
-      "rent": 4750,
-      "allin": "$4,750 all-in (one assigned garage space included)",
+      "rent": 3695,
+      "allin": "$3,695 + fees (price dropped from $4,750; one assigned garage space included)",
       "posted": null,
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "tags": [
         [
           "1 assigned garage space included",
@@ -261,7 +261,8 @@
       ],
       "notes": [
         "A second 1BR/1BA in the same Potrero Hill condo building as #201, listed by Progressive Property Group with one assigned garage space included. It's available now on a 12-month lease, and the owner pays water and trash. It's the closest option to work.",
-        "<span class='flag'>At $4,750 with coin laundry and no dishwasher mentioned, this is pricier than #201 ($4,200) for what looks like a similar unit. A mirror of the same ad shows $3,695, so ask the current price. Confirm the dishwasher, square footage and that the bedroom has an exterior window.</span>"
+        "<span class='flag'>At $4,750 with coin laundry and no dishwasher mentioned, this is pricier than #201 ($4,200) for what looks like a similar unit. A mirror of the same ad shows $3,695, so ask the current price. Confirm the dishwasher, square footage and that the bedroom has an exterior window.</span>",
+        "<span class='flag'>Nov 16: price dropped to $3,695 base (plus fees), “available now.” Dishwasher still not mentioned in the ad; confirm.</span>"
       ],
       "scam": [
         "Low risk",
@@ -282,7 +283,7 @@
       "rent": 4995,
       "allin": "$4,995 all-in (tandem garage parking included)",
       "posted": null,
-      "updated": "2026-11-14",
+      "updated": "2026-11-16",
       "tags": [
         [
           "Tandem garage parking included (confirm the spot is yours, not shared in tandem with a neighbor)",
@@ -319,7 +320,8 @@
       ],
       "notes": [
         "A big top-floor rear flat in a 6-unit Edwardian in Cole Valley: 960 sq ft, living room with wood-burning fireplace, a separate formal dining room (or office/guest room), an office alcove, walk-in closet and an updated kitchen with a Wedgewood oven. Windows on three sides with southern views. Shared yard, laundry, hang-out room and basement storage. Water, trash and gas are included, and as a small pre-1979 building it's probably rent controlled, which matters if you end up staying 3 years.",
-        "<span class='flag'>At $4,995 it needs to earn its price: confirm a dishwasher (or room for one), and that the &ldquo;tandem&rdquo; garage space is assigned to #6 and you won't be blocked in by (or blocking) a neighbor. Laundry is shared. Redfin showed it as new on Nov 14; Rentler has had it ~4 days.</span>"
+        "<span class='flag'>At $4,995 it needs to earn its price: confirm a dishwasher (or room for one), and that the &ldquo;tandem&rdquo; garage space is assigned to #6 and you won't be blocked in by (or blocking) a neighbor. Laundry is shared. Redfin showed it as new on Nov 14; Rentler has had it ~4 days.</span>",
+        "<span class='flag'>Re-activated Nov 16: Redfin shows it relisted as “new” (~3 hrs before this run) at $4,995 with parking.</span>"
       ],
       "scam": [
         "Low risk",
@@ -328,8 +330,7 @@
       "who": "SF City Rents (property manager)",
       "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/135-carl-st-6/12175147",
       "src": "Redfin / Rentler",
-      "status": "removed",
-      "removed_at": "2026-11-15T06:41:26Z"
+      "status": "active"
     },
     {
       "id": "1515-15th-208",
@@ -653,7 +654,7 @@
       "rent": 4250,
       "allin": "$4,250 + reserved compact parking space (fee not listed)",
       "posted": null,
-      "updated": "2026-11-13",
+      "updated": "2026-11-14",
       "tags": [
         [
           "Reserved (assigned) parking space for an extra monthly fee, described as compact",
@@ -690,7 +691,8 @@
       ],
       "notes": [
         "A 700 sq ft 1BR in Cole Valley being renovated (quartz counters, marble backsplash, new kitchen flooring), with a reserved parking space available to rent. It's an older multi-unit building from an established SF landlord (Barsha Properties), so it's likely rent-controlled. Room for a desk and a small dining table at that size. Close to GGP, the Haight and the N-Judah; Dogpatch is about 20–25 min by car. If parking runs ~$200–300, all-in lands around $4,450–4,550, inside your \"happy\" range.",
-        "<span class='flag'>Must confirm: (1) the reserved space is described as <b>compact</b>, so check it actually fits a Mazda 3 sedan (~15 ft long) and get the monthly fee; (2) no dishwasher is listed; (3) the description says on-site laundry even though the tags say in-unit; (4) the bedroom has an exterior window. Photos show the pre-renovation unit, so finishes may not be done at the showing.</span>"
+        "<span class='flag'>Must confirm: (1) the reserved space is described as <b>compact</b>, so check it actually fits a Mazda 3 sedan (~15 ft long) and get the monthly fee; (2) no dishwasher is listed; (3) the description says on-site laundry even though the tags say in-unit; (4) the bedroom has an exterior window. Photos show the pre-renovation unit, so finishes may not be done at the showing.</span>",
+        "Nov 16: Zumper shows #1 available Dec 1 (tenant still in; showing during renovations). Same building also lists #26 (~700 sq ft, $3,195, available now, parking space rentable): <a href='https://aptsearch.northeastern.edu/housing/property/251-parnassus-ave/82xgbv0'>mirror listing</a>."
       ],
       "scam": [
         "Low risk",
@@ -816,7 +818,9 @@
       "who": "Individual owner or small manager (not named; phone only)",
       "url": "https://www.apartments.com/1930-eddy-st-san-francisco-ca/k6qwd19/",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-17T01:58:47Z",
+      "removed_reason": "Apartments.com post not updated since Sep 6 and #303 no longer on Zillow's building page (2026-11-16 check)"
     },
     {
       "id": "723-haight-1",
@@ -930,7 +934,9 @@
       "who": "Not shown (Craigslist; Rowan units are individually owned condos)",
       "url": "https://www.craigslist.org/view/d/san-francisco-modern-1br-den-at-the/oiTGw3RS89iCdvCmq9hnJy",
       "src": "Craigslist",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-17T01:58:47Z",
+      "removed_reason": "Craigslist post no longer surfaces and The Rowan shows 0 available units (2026-11-16 check)"
     },
     {
       "id": "301-irving-lower",
@@ -1664,7 +1670,9 @@
       "who": "SF City Rents (managed by Leading Properties)",
       "url": "https://www.zillow.com/b/601-van-ness-avenue-san-francisco-ca-5XkGN9",
       "src": "Zillow",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-17T01:58:47Z",
+      "removed_reason": "Opera Plaza building page shows no 1BRs available and #511 not found (2026-11-16 check)"
     },
     {
       "id": "875-vermont-201",
@@ -1981,7 +1989,9 @@
       "who": "2B Living",
       "url": "https://www.zumper.com/address/2200-sacramento-st-san-francisco-ca-94115-usa",
       "src": "Zumper",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-17T01:58:47Z",
+      "removed_reason": "#104 no longer found on any listing site (2026-11-16 check)"
     },
     {
       "id": "419-fulton-a",
@@ -2300,6 +2310,68 @@
       "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/1340-scott-st/12979584",
       "src": "Rentler",
       "status": "active"
+    },
+    {
+      "id": "64-encanto",
+      "name": "64 Encanto Ave (1951 4-unit condo, Anza Vista)",
+      "hood": "Anza Vista · Encanto Ave off Anza Vista Ave, near Masonic/Geary; ~10 min walk to NoPa/Divisadero, ~20 min drive to Dogpatch",
+      "lat": 37.7808,
+      "lng": -122.4434,
+      "approx": true,
+      "rent": 5000,
+      "allin": "$5,000 all-in, furnished (deeded garage space included; listing mentions extra fees) · stretch",
+      "posted": null,
+      "updated": "2026-11-16",
+      "tags": [
+        [
+          "Deeded space in private garage (confirm it fits a Mazda 3)",
+          "yes"
+        ],
+        [
+          "Dishwasher, updated kitchen with quartz and gas range",
+          "yes"
+        ],
+        [
+          "True 1BR/1BA, two walk-in closets",
+          "yes"
+        ],
+        [
+          "Panoramic downtown views, private deck",
+          "yes"
+        ],
+        [
+          "Small 4-unit building",
+          "yes"
+        ],
+        [
+          "Laundry not mentioned",
+          "maybe"
+        ],
+        [
+          "Sq ft not listed",
+          "maybe"
+        ],
+        [
+          "Furnished; $5,000 is a stretch",
+          "maybe"
+        ],
+        [
+          "Condo: probably no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "A 1BR/1BA in a small 1951 four-unit condo building in Anza Vista with a deeded garage space, a private deck, shared garden, an updated kitchen (quartz, gas range, dishwasher) and downtown views from the living room, kitchen and bath. Small-building feel close to NoPa and the Divisadero corridor. Listed furnished on a 1-year lease, available now.",
+        "<span class='flag'>Stretch at $5,000: ask whether it can be rented unfurnished (possibly cheaper), what laundry there is, the square footage, the garage-space size, and what the extra fees are. Confirm the bedroom has an exterior window.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Listed by named Sotheby's International Realty agents (Clara Laines-Welch, Mary Landeros) at a market price, syndicated to several sites."
+      ],
+      "who": "Sotheby's International Realty (Clara Laines-Welch & Mary Landeros)",
+      "url": "https://www.forrentuniversity.com/ca/san-francisco/64-encanto-ave/rq99yb1",
+      "src": "Apartments.com / Zumper",
+      "status": "active"
     }
   ],
   "complexes": [
@@ -2311,8 +2383,8 @@
       "lat": 37.7655,
       "lng": -122.4712,
       "posted": null,
-      "updated": "2026-11-10",
-      "price": "$4,057–$4,147 · 644 sq ft",
+      "updated": "2026-11-16",
+      "price": "$4,079–$4,147 · 644 sq ft (1 one-bedroom on PadMapper)",
       "parking": "Assigned parking (cost not listed)",
       "notes": "In-unit W/D, dishwasher, 7 one-bedrooms available. 126-unit complex directly across Lincoln Way from Golden Gate Park.",
       "seen": "Zumper",
@@ -2377,13 +2449,13 @@
       "lat": 37.7801,
       "lng": -122.4336,
       "posted": null,
-      "price": "$4,140–$6,900 (3 one-bedrooms listed)",
+      "price": "$4,140–$6,900 · 620 sq ft (3 one-bedrooms; #207 $4,140 after a drop)",
       "parking": "Garage (optional fee)",
       "notes": "Elevator building, on-site laundry. HotPads shows 3 one-bedrooms from $4,140 (marked new today, Nov 7). Unit 207 recently dropped to $4,400. Two new Craigslist posts on the evening of Nov 12 (“1395 Golden Gate@Steiner/Parking”) at $3,945 and $4,400; the $3,945 one may be a smaller unit, so confirm it's a true 1BR.",
       "seen": "Zumper + HotPads + Zillow + 8+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-15"
+      "updated": "2026-11-16"
     },
     {
       "id": "one-henry-adams",
@@ -2393,13 +2465,13 @@
       "lat": 37.7689,
       "lng": -122.4037,
       "posted": null,
-      "price": "$4,396–$4,932 · 653–727 sq ft (6 one-bedrooms on HotPads)",
+      "price": "$4,396–$4,932 · 654–771 sq ft (6 one-bedrooms on HotPads, each down $75)",
       "parking": "Garage, $275/mo",
       "notes": "Five 1BR floor plans, in-unit W/D. About $4,715–$5,027 all-in.",
       "seen": "Zumper",
       "url": "https://www.zumper.com/apartment-buildings/p208324/one-henry-adams-potrero-hill-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-15"
+      "updated": "2026-11-16"
     },
     {
       "id": "potrero-1010",
@@ -2409,7 +2481,7 @@
       "lat": 37.7663,
       "lng": -122.3962,
       "posted": null,
-      "price": "$3,786–$4,334 · 648–804 sq ft (8 one-bedrooms listed)",
+      "price": "$4,062–$4,384 · 586–733 sq ft (6 one-bedrooms; junior 1BRs skipped)",
       "parking": "Assigned garage, $250/mo (confirm)",
       "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in. Redfin (Nov 16) shows 1BR plans from $3,513, so pricing may have dropped; confirm the plan isn't a junior 1BR.",
       "seen": "Zumper + Redfin",
@@ -2457,13 +2529,13 @@
       "lat": 37.7826,
       "lng": -122.459,
       "posted": null,
-      "price": "$3,995",
+      "price": "$3,995 (#203; garage +$200)",
       "parking": "Private garage +$200–$300",
       "notes": "Dishwasher, laundry on-site. Zumper shows #206 “available now” at $3,995 (re-checked Nov 6); private garage +$200. North of your preferred area.",
       "seen": "Zumper + Rentable",
       "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-06"
+      "updated": "2026-11-16"
     },
     {
       "id": "2110-market",
@@ -2480,7 +2552,9 @@
       "notes": "Several 1BRs reposted by RentingSF (#305 $5,156 / 630 sq ft, #506 $5,172 / 630 sq ft avail. Nov 17, #411 $5,600 / 760 sq ft avail. Nov 16). Dishwasher and in-unit laundry listed. Great location for your priority areas (Duboce Park, Lower Haight, Hayes Valley all walkable; easy 101/280 access), but Church & Market is a busy, noisy intersection and pricing is in stretch territory before parking. Newer building, so no rent control. One #411 description mentions 2BR/2BA; verify the layout.",
       "seen": "3 posts (Zumper + Rentable)",
       "url": "https://www.rentable.co/san-francisco-ca/2112-market-st",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-17T01:58:47Z",
+      "removed_reason": "Only 1BR now listed is #607 at 552 sq ft, under the size minimum (2026-11-16 check)"
     },
     {
       "id": "fillmore-center",
@@ -2491,8 +2565,8 @@
       "lng": -122.4329,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-15",
-      "price": "$4,858–$5,690 · 605–785 sq ft (7 one-bedrooms listed)",
+      "updated": "2026-11-16",
+      "price": "$4,899–$5,110 · 655 sq ft (2 qualifying one-bedrooms; 559 sq ft units skipped)",
       "parking": "Reserved spaces in controlled-access garage (fee not listed)",
       "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price.",
       "seen": "Zillow + Craigslist + Redfin",
@@ -2507,8 +2581,8 @@
       "lat": 37.7768,
       "lng": -122.4194,
       "posted": null,
-      "updated": "2026-11-14",
-      "price": "$4,491–$5,016 · 597–760 sq ft (1BR units available now or by Nov 28; 529 sq ft plans skipped)",
+      "updated": "2026-11-16",
+      "price": "$4,172–$4,902 · 611–788 sq ft (12 one-bedrooms; 529 sq ft plans skipped; assigned garage $375)",
       "parking": "Assigned garage space $375/mo (assigned covered $400–$450), so all-in roughly $4,870–$5,390",
       "notes": "420-unit 2018 high-rise. Apartments.com lists in-unit W/D and dishwasher (Zumper says no in-unit laundry, so confirm). Good value pick: unit 0111 (657 sq ft, $4,491) or 0313 (760 sq ft, $4,761). <span class='flag'>Ask for a unit not facing Fell St, and confirm the garage entrance isn't off Fell.</span>",
       "seen": "Zumper + Apartments.com",
@@ -2524,8 +2598,8 @@
       "lng": -122.4247,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-13",
-      "price": "$4,562–$5,023 · 631–694 sq ft (6 one-bedrooms; 788 sq ft plans at $5,328+ skipped)",
+      "updated": "2026-11-16",
+      "price": "$4,512–$4,973 · 631–694 sq ft (6 one-bedrooms; 788 sq ft plans at $5,278+ skipped)",
       "parking": "Garage parking listed; assignment and monthly fee not shown, so confirm an assigned space",
       "notes": "Newer mid-size building with in-unit laundry (dishwasher not listed on HotPads, confirm). Best values: #0115 (671 sq ft, $4,562, available now) and #0413 (681 sq ft, $4,753, Dec 13). Walkable to Hayes Valley, Duboce Park and the Lower Haight, quick to the 101/280 on-ramp at Octavia. <span class='flag'>Parking would push all-in near or over $5,000; confirm the space is assigned and the fee.</span>",
       "seen": "HotPads + Redfin",
