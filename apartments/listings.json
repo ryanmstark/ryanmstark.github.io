@@ -1,8 +1,62 @@
 {
   "asof": "2026-11-18",
-  "search_at": "2026-11-18T17:05:23Z",
-  "checked_at": "2026-11-18T17:05:23Z",
+  "search_at": "2026-11-18T19:58:11Z",
+  "checked_at": "2026-11-18T19:58:11Z",
   "unique": [
+    {
+      "id": "509-pierce",
+      "name": "509 Pierce St (4-unit 1924 Edwardian condo, Alamo Square; unit # not confirmed)",
+      "hood": "Alamo Square · Pierce St between Hayes & Grove, a block from Alamo Square Park; quick walk to Divisadero/NoPa and the Panhandle; ~15–20 min drive to Dogpatch",
+      "lat": 37.7766,
+      "lng": -122.4357,
+      "approx": true,
+      "url": "https://www.apartments.com/509-pierce-st-san-francisco-ca/vqjny1g",
+      "status": "active",
+      "posted": null,
+      "updated": "2026-11-18",
+      "rent": 3850,
+      "allin": "$3,850 all-in (one garage spot included; water & trash paid by owner)",
+      "tags": [
+        [
+          "Garage spot included (public records call it tandem: confirm it's yours alone)",
+          "maybe"
+        ],
+        [
+          "1BR/1BA + home office with French doors, ~810 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher, renovated kitchen with banquette seating",
+          "yes"
+        ],
+        [
+          "Washer/dryer listed, plus free shared laundry",
+          "maybe"
+        ],
+        [
+          "Bay window, tall ceilings, wood floors, walk-in closet, shared garden",
+          "yes"
+        ],
+        [
+          "Small 4-unit Edwardian, top pick neighborhood",
+          "yes"
+        ],
+        [
+          "Condo unit: likely no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "An updated 1BR + office in a 4-unit 1924 Edwardian a block from Alamo Square Park, about 810 sq ft, with a renovated kitchen, dishwasher, bay window and a garage spot included, at $3,850 &mdash; under your $4,000 &ldquo;excellent&rdquo; line in your first-choice neighborhood. The office gives room for a desk and still leaves the living room for a dining table.",
+        "<span class='flag'>Before touring, confirm: the garage spot is assigned to this unit and fits a Mazda 3 (records describe a tandem space, so ask whether another car blocks you), whether the washer/dryer is in the unit or shared, the bedroom has an exterior window, and the move-in date (page says &ldquo;check back soon&rdquo;).</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "Market-level price and the details match a real 811 sq ft 1BR at 509 Pierce that was listed for sale in 2024, but the ad names no person or company, only a personal email and phone. Tour in person and don't pay anything before signing a lease."
+      ],
+      "who": "Individual owner (not named; contact by email/text, applications via TurboTenant)",
+      "src": "Apartments.com"
+    },
     {
       "id": "451-kansas-362",
       "name": "451 Kansas St #362 (“The Potrero” condo, Potrero Hill)",
