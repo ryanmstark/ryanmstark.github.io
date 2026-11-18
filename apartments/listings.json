@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-18",
-  "search_at": "2026-11-18T14:05:50Z",
-  "checked_at": "2026-11-18T14:05:50Z",
+  "search_at": "2026-11-18T17:05:23Z",
+  "checked_at": "2026-11-18T17:05:23Z",
   "unique": [
     {
       "id": "451-kansas-362",
@@ -1278,7 +1278,7 @@
       "rent": 4100,
       "allin": "$4,100 (two tandem garage spaces included)",
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-18",
       "tags": [
         [
           "2 tandem parking spaces included",
@@ -2006,7 +2006,7 @@
       "rent": 3995,
       "allin": "$3,995 + garage space (fee not listed)",
       "posted": null,
-      "updated": "2026-11-05",
+      "updated": "2026-11-18",
       "tags": [
         [
           "Garage space for rent (assigned? cost?)",
@@ -2375,6 +2375,56 @@
       "url": "https://www.forrentuniversity.com/ca/san-francisco/64-encanto-ave/rq99yb1",
       "src": "Apartments.com / Zumper",
       "status": "active"
+    },
+    {
+      "id": "601-van-ness-647",
+      "name": "Opera Plaza #647 (601 Van Ness Ave)",
+      "hood": "Van Ness corridor / Civic Center · Van Ness Ave at Golden Gate Ave; ~15 min drive to Dogpatch, quick to the 101",
+      "lat": 37.7814,
+      "lng": -122.4211,
+      "approx": true,
+      "rent": 2999,
+      "allin": "$2,999 base · parking not in listing (Opera Plaza owners usually add a building garage space, ~$250–$300) · est. ~$3,300 all-in",
+      "posted": null,
+      "updated": "2026-11-18",
+      "tags": [
+        [
+          "True 1BR/1BA condo, ~621 sq ft",
+          "yes"
+        ],
+        [
+          "Opera Plaza amenities: pool, gym, concierge, 24-hr security",
+          "yes"
+        ],
+        [
+          "Very cheap: good 1–2 year landing spot",
+          "yes"
+        ],
+        [
+          "Garage space not mentioned in this listing",
+          "maybe"
+        ],
+        [
+          "Dishwasher and laundry not listed (building has shared laundry)",
+          "maybe"
+        ],
+        [
+          "Condo: probably no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Individually owned 1BR/1BA condo in Opera Plaza, about 621 sq ft, listed by AMSI at $2,999 with a $2,999 deposit. Well under budget, so even with a garage space added it lands far below $4,000. Building has a heated pool, gym, sauna, concierge and 24-hour security; walkable to Hayes Valley.",
+        "<span class='flag'>The listing doesn't mention parking. Before touring, confirm an assigned garage space comes with the unit (or can be rented from the building) and its cost, plus whether there's a dishwasher and that the bedroom has an exterior window. If no designated space is available, drop it.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Listed by AMSI, an established SF property manager that has rented other Opera Plaza units; price is low but in line with other Opera Plaza 1BRs ($3,000–$3,800)."
+      ],
+      "who": "AMSI (showings via agent Eva)",
+      "url": "https://www.apartments.com/listing/bkec1vc",
+      "src": "Apartments.com",
+      "status": "active"
     }
   ],
   "complexes": [
@@ -2608,6 +2658,40 @@
       "notes": "Newer mid-size building with in-unit laundry (dishwasher not listed on HotPads, confirm). Best values: #0115 (671 sq ft, $4,562, available now) and #0413 (681 sq ft, $4,753, Dec 13). Walkable to Hayes Valley, Duboce Park and the Lower Haight, quick to the 101/280 on-ramp at Octavia. <span class='flag'>Parking would push all-in near or over $5,000; confirm the space is assigned and the fee.</span>",
       "seen": "HotPads + Redfin",
       "url": "https://hotpads.com/venn-on-market-san-francisco-ca-94102-sksbj1/pad",
+      "status": "active"
+    },
+    {
+      "id": "the-brady",
+      "name": "The Brady (Bozzuto)",
+      "addr": "1 Brady St (at Market St & 12th St)",
+      "area": "Civic Center / Hayes Valley edge · Market St near Van Ness",
+      "lat": 37.7734,
+      "lng": -122.4196,
+      "approx": true,
+      "posted": null,
+      "updated": "2026-11-18",
+      "price": "$4,552–$5,127 · 665–666 sq ft (#A-312 $4,552, #A-402 $4,582, #B-718 $5,127; 467 sq ft plans skipped)",
+      "parking": "Garage parking listed; assignment and monthly fee not shown, so confirm an assigned space",
+      "notes": "Newer building with in-unit laundry (dishwasher not listed on HotPads, confirm). Best values: #A-312 and #A-402, both ~665 sq ft and available now, each just dropped $62. Walk to Hayes Valley; quick to the 101 at Octavia/Mission. <span class='flag'>Parking fee will likely push all-in to roughly $4,900–$5,000; confirm the space is assigned.</span>",
+      "seen": "HotPads + Redfin",
+      "url": "https://hotpads.com/the-brady-san-francisco-ca-94103-241dem0/pad",
+      "status": "active"
+    },
+    {
+      "id": "terra-vista",
+      "name": "Terra Vista Apartments",
+      "addr": "22 Terra Vista Ave (off Anza Vista Ave)",
+      "area": "Anza Vista / Western Addition · near Geary & Masonic",
+      "lat": 37.7813,
+      "lng": -122.4433,
+      "approx": true,
+      "posted": null,
+      "updated": "2026-11-18",
+      "price": "$4,495–$4,595 · 700–760 sq ft (#G22 700 sq ft $4,495; a 760 sq ft 1BR townhouse $4,595; both available now)",
+      "parking": "Covered parking listed; assignment and fee not shown, so confirm an assigned space",
+      "notes": "Large, roomy 1BRs (700+ sq ft, space for a desk and a dining table) with a dishwasher, in a quiet hilltop complex with on-site management. Shared laundry only, no in-unit W/D. About 10 min walk to NoPa/Divisadero. <span class='flag'>Base rent excludes required fees; ask for the parking cost and whether the space is assigned.</span>",
+      "seen": "Zillow + Redfin",
+      "url": "https://www.zillow.com/apartments/san-francisco-ca/terra-vista-apartments/5XjRrp",
       "status": "active"
     }
   ]
