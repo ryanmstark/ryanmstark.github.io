@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-18",
+  "postings": [
+    {
+      "title": "RF Engineer (Level IV) - TS/SCI w/Poly clearance with Security Clearance",
+      "company": "Lockheed Martin",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5970614176?se=BucXDqLj8RGr8oDCbkQIhA&utm_medium=api&utm_source=9349c45d&v=D7E7B5BE06C62FD7542F82A562BB96702E0C9AE0",
+      "pay_range": "$185K\u2013$186K",
+      "top_requirements": [
+        "Design, analyze, integrate, and test ground\u2011modem RF hardware from schematic through prototype verification",
+        "Perform RF link budget calculations, noise\u2011figure and gain analysis, and EVM characterization for satellite communications modems",
+        "Develop and execute hardware bring\u2011up and sustainment test plans, including RF performance validation and troubleshooting"
+      ],
+      "bonus_skills": [
+        "C/C++ firmware development",
+        "MATLAB/Simulink modeling",
+        "Experience with TS/SCI clearance"
+      ],
+      "summary": "Design and test RF modem hardware for satellite ground stations, a role that leverages deep RF and communications experience. The hands\u2011on nature and focus on modem design align well with the candidate\u2019s background.",
+      "is_startup": false,
+      "adzuna_id": "5970614176"
+    },
+    {
+      "title": "MTS Signal Integrity",
+      "company": "Rambus",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5966056497?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$83K\u2013$84K (entry\u2011level estimate)",
+      "top_requirements": [
+        "Develop high\u2011speed DDR memory interface signal\u2011integrity models and simulate >16\u202fGT/s links",
+        "Create and run SI/PI measurement plans using vector network analyzers and time\u2011domain reflectometry",
+        "Collaborate with package and layout teams to optimize trace geometry and mitigate crosstalk"
+      ],
+      "bonus_skills": [
+        "Python scripting for automation",
+        "Cadence/Ansys SI tools",
+        "Understanding of SERDES protocols"
+      ],
+      "summary": "Work on signal\u2011integrity for next\u2011generation memory interfaces, providing hands\u2011on high\u2011speed design experience that matches the candidate\u2019s RF and signal\u2011processing skills. Although lower\u2011paid, it offers direct IC\u2011level work.",
+      "is_startup": false,
+      "adzuna_id": "5966056497"
+    },
+    {
+      "title": "Communications & Networks Systems Development Engineer-Associate with Security Clearance",
+      "company": "MIT Lincoln Laboratory",
+      "location_label": "Boston, MA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5970712182?se=4H-UD6Lj8RG0zOGwR7dPAA&utm_medium=api&utm_source=9349c45d&v=5A50ECF8130E16F6F5DD8D9EF3BE57B70E2C599B",
+      "pay_range": "$176K\u2013$177K",
+      "top_requirements": [
+        "Design and prototype advanced line\u2011of\u2011sight and beyond\u2011line\u2011of\u2011sight communications waveforms for defense platforms",
+        "Develop link\u2011budget and RF performance models, including propagation loss, antenna gain, and interference mitigation",
+        "Implement and validate real\u2011time signal\u2011processing algorithms on FPGA/ASIC testbeds"
+      ],
+      "bonus_skills": [
+        "MATLAB/Simulink",
+        "C/C++ embedded development",
+        "Security clearance (TS/SCI)"
+      ],
+      "summary": "Lead development of cutting\u2011edge communications systems for military platforms, a perfect fit for the candidate\u2019s satellite modem and RF expertise while moving toward broader defense applications.",
+      "is_startup": false,
+      "adzuna_id": "5970712182"
+    },
+    {
+      "title": "Communications Engineer, Senior - Secret",
+      "company": "DCS Corp",
+      "location_label": "Boston, MA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5969619309?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$90K\u2013$165K (range provided)",
+      "top_requirements": [
+        "Develop and integrate communications payloads for airborne warning and control systems, including RF front\u2011end and baseband processing",
+        "Conduct RF performance testing, including IIP3, spurious emissions, and link\u2011budget verification",
+        "Provide technical support for system integration and flight\u2011test validation"
+      ],
+      "bonus_skills": [
+        "DO\u2011178C familiarity",
+        "Experience with airborne standards"
+      ],
+      "summary": "Hands\u2011on communications engineering for AWACS platforms, matching the candidate\u2019s RF and modem background while staying within the defense sector.",
+      "is_startup": false,
+      "adzuna_id": "5969619309"
+    },
+    {
+      "title": "AEHF Communications Engineer with Security Clearance",
+      "company": "MITRE Corporation",
+      "location_label": "Boston, MA",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/land/ad/5969420681?se=4H-UD6Lj8RG0zOGwR7dPAA&utm_medium=api&utm_source=9349c45d&v=E33B05A381AFD83E9BC486432FB2FF92E50FA92D",
+      "pay_range": "$162K\u2013$163K",
+      "top_requirements": [
+        "Lead design of secure satellite communications links for the Advanced Extremely High Frequency (AEHF) program",
+        "Perform RF link\u2011budget analysis, waveform design, and hardware validation on ground\u2011segment equipment",
+        "Coordinate with government and industry partners to integrate cryptographic modules and ensure compliance with classified requirements"
+      ],
+      "bonus_skills": [
+        "TS/SCI clearance",
+        "Experience with cryptographic hardware",
+        "MATLAB/Simulink"
+      ],
+      "summary": "Senior communications role on a high\u2011value classified satellite program, directly applying the candidate\u2019s satellite modem and RF expertise in a senior technical capacity.",
+      "is_startup": false,
+      "adzuna_id": "5969420681"
+    }
+  ]
+}

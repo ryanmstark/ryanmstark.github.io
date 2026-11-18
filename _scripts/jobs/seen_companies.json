@@ -10,24 +10,8 @@
     "2026-11-11",
     "2026-11-17"
   ],
-  "European Tech Recruit": [
-    "2026-11-10"
-  ],
-  "Astranis Space Technologies": [
-    "2026-11-10"
-  ],
-  "SanDisk": [
-    "2026-11-10"
-  ],
-  "Cirrus Logic": [
-    "2026-11-10"
-  ],
   "DroneShield": [
-    "2026-11-10",
     "2026-11-11"
-  ],
-  "Dolby": [
-    "2026-11-10"
   ],
   "AttoTude": [
     "2026-11-11"
@@ -98,5 +82,20 @@
   ],
   "Creston": [
     "2026-11-17"
+  ],
+  "Lockheed Martin": [
+    "2026-11-18"
+  ],
+  "Rambus": [
+    "2026-11-18"
+  ],
+  "MIT Lincoln Laboratory": [
+    "2026-11-18"
+  ],
+  "DCS Corp": [
+    "2026-11-18"
+  ],
+  "MITRE Corporation": [
+    "2026-11-18"
   ]
 }
