@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-17",
-  "search_at": "2026-11-17T22:56:28Z",
-  "checked_at": "2026-11-18T00:59:21Z",
+  "asof": "2026-11-18",
+  "search_at": "2026-11-18T01:58:37Z",
+  "checked_at": "2026-11-18T01:58:37Z",
   "unique": [
     {
       "id": "451-kansas-362",
@@ -1623,7 +1623,7 @@
       "allin": "$4,095 all-in ($3,800 + $295 garage)",
       "posted": "2026-10-22",
       "posted_approx": true,
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "tags": [
         [
           "Building garage spot +$295/mo",
@@ -1662,7 +1662,8 @@
         "Individually owned 1BR/1BA in Opera Plaza, the condo complex you flagged. Price dropped from $4,000 to $3,800; with the $295 garage spot it lands about $400 under your target. 12-month lease, pets case by case, tenant pays the HOA move-in fee and deposit. Quick on-ramp to 101/280 for the Dogpatch commute.",
         "<span class='flag'>The listing says garage parking is available for $295/mo but doesn't say the space is assigned. Confirm it's a designated spot that fits your Mazda 3, and ask which side of the building the unit faces.</span>",
         "Also in the building: unit #712 (708 sq ft, dishwasher, balcony) is listed by BARE at $3,960, but its listing doesn't mention parking.",
-        "Re-activated 2026-11-15 evening: Zillow's Opera Plaza building page still lists #511 (692 sq ft, $3,800, available now, garage +$295) even though Apartments.com dropped it earlier today. Call SF City Rents to confirm it's still open."
+        "Re-activated 2026-11-15 evening: Zillow's Opera Plaza building page still lists #511 (692 sq ft, $3,800, available now, garage +$295) even though Apartments.com dropped it earlier today. Call SF City Rents to confirm it's still open.",
+        "Re-activated 2026-11-18: Zillow's Opera Plaza building page lists #511 again (1BR/1BA, 692 sq ft, $3,800, available now, garage +$295/mo, leased by SF City Rents). It keeps appearing and disappearing across sites, so call to confirm it's still open before touring."
       ],
       "scam": [
         "Low risk",
@@ -1671,9 +1672,7 @@
       "who": "SF City Rents (managed by Leading Properties)",
       "url": "https://www.zillow.com/b/601-van-ness-avenue-san-francisco-ca-5XkGN9",
       "src": "Zillow",
-      "status": "removed",
-      "removed_at": "2026-11-17T01:58:47Z",
-      "removed_reason": "Opera Plaza building page shows no 1BRs available and #511 not found (2026-11-16 check)"
+      "status": "active"
     },
     {
       "id": "875-vermont-201",
@@ -2402,12 +2401,11 @@
       "posted": "2026-10-19T21:17:00-07:00",
       "price": "$4,850 all-in (parking incl.) · 653 sq ft",
       "parking": "Garage parking included in rent (confirmed by Ryan)",
-      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results. Still live at $4,950 in the Nov 12 evening Craigslist results (was $4,850 earlier today). Re-activated Nov 16: the same Craigslist posting is back in the SF 1BR results at $4,850 (detail page couldn't be opened this run).",
+      "notes": "Best of the complexes: built 2019, in-unit W/D, dishwasher, gas cooktop, central AC, private patio, rooftop with bay views. Walking distance to work. Not rent controlled. Price dropped from $4,950 to $4,850 (Nov 2). Back up to $4,950 in the Nov 10 Craigslist results (was $4,850 since Nov 2). Back down to $4,850 in the Nov 12 afternoon Craigslist results. Still live at $4,950 in the Nov 12 evening Craigslist results (was $4,850 earlier today). Re-activated Nov 16: the same Craigslist posting is back in the SF 1BR results at $4,850 (detail page couldn't be opened this run). Re-activated Nov 18: the same Craigslist posting is still in the SF 1BR results at $4,850 (detail page couldn't be opened this run).",
       "seen": "1 post",
       "url": "https://www.craigslist.org/view/d/san-francisco-dogpatch-1br-1ba-ac-in/qsYhWBR3oB7xS8wct1PWAQ",
-      "status": "removed",
-      "updated": "2026-11-16",
-      "removed_at": "2026-11-17T03:56:43Z"
+      "status": "active",
+      "updated": "2026-11-18"
     },
     {
       "id": "civic-101-polk",
