@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-18",
-  "search_at": "2026-11-18T01:58:37Z",
-  "checked_at": "2026-11-18T11:49:45Z",
+  "search_at": "2026-11-18T14:05:50Z",
+  "checked_at": "2026-11-18T14:05:50Z",
   "unique": [
     {
       "id": "451-kansas-362",
@@ -13,7 +13,7 @@
       "url": "https://www.apartments.com/451-kansas-st-san-francisco-ca-unit-362/2rhh9w8/",
       "status": "active",
       "posted": null,
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "rent": 3600,
       "allin": "$3,600 all-in (listing says the unit includes parking)",
       "tags": [
@@ -71,7 +71,7 @@
       "url": "https://www.apartments.com/listing/be9gllc",
       "status": "active",
       "posted": null,
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "rent": 3500,
       "allin": "$3,800 all-in ($3,500 + $300 designated space with EV charger)",
       "tags": [
@@ -123,7 +123,7 @@
       "lng": -122.4036,
       "approx": true,
       "url": "https://www.apartments.com/451-kansas-st-san-francisco-ca/yqmr9hs/",
-      "status": "active",
+      "status": "removed",
       "posted": null,
       "updated": "2026-11-16",
       "rent": 4350,
@@ -163,7 +163,9 @@
         "listed through the MLS by a licensed agent (Michelle R Stephens, Coldwell Banker Realty)."
       ],
       "who": "Michelle R Stephens, Coldwell Banker Realty",
-      "src": "Apartments.com"
+      "src": "Apartments.com",
+      "removed_at": "2026-11-18T14:05:50Z",
+      "removed_reason": "Apartments.com listing now redirects to general search results; no longer posted (2026-11-18 check)"
     },
     {
       "id": "1737-golden-gate-5",
@@ -228,7 +230,7 @@
       "rent": 3695,
       "allin": "$3,695 + fees (price dropped from $4,750; one assigned garage space included)",
       "posted": null,
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "tags": [
         [
           "1 assigned garage space included",
@@ -555,7 +557,7 @@
       "url": "https://www.apartments.com/724-cole-st-san-francisco-ca/1q7wcx4/",
       "status": "active",
       "posted": null,
-      "updated": "2026-11-12",
+      "updated": "2026-11-18",
       "rent": 3200,
       "allin": "$3,200 all-in (one garage space included)",
       "tags": [
@@ -1114,7 +1116,7 @@
       "rent": 3495,
       "allin": "$3,775 all-in ($3,495 + $280 garage)",
       "posted": null,
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "tags": [
         [
           "Garage spot +$280/mo, HOA-managed (assigned? confirm)",
@@ -1172,7 +1174,7 @@
       "rent": 3500,
       "allin": "$3,500 all-in (garage space included)",
       "posted": null,
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "tags": [
         [
           "Attached garage space included (assigned? confirm)",
@@ -1380,7 +1382,8 @@
       "who": "Property manager (not named on Apartments.com)",
       "url": "https://www.apartments.com/2000-ellis-st-san-francisco-ca-unit-302/jqfcyf6/",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "excluded",
+      "excluded_reason": "Apartments.com now lists the $250 garage space as \"Unassigned Garage Parking\" (2026-11-18 check), so no designated spot"
     },
     {
       "id": "hayes-valley-topfloor-cl-nTdfNo8",
@@ -1507,7 +1510,7 @@
       "rent": 4750,
       "allin": "$4,750 + parking (fee not listed; price dropped $200)",
       "posted": null,
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "tags": [
         [
           "Assigned garage parking",
@@ -2267,7 +2270,7 @@
       "rent": 3950,
       "allin": "$3,950 all-in (deeded parking space included)",
       "posted": null,
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "tags": [
         [
           "Deeded parking space included (confirm it fits a Mazda 3)",
@@ -2383,7 +2386,7 @@
       "lat": 37.7655,
       "lng": -122.4712,
       "posted": null,
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "price": "$4,079–$4,147 · 644 sq ft (1 one-bedroom on PadMapper)",
       "parking": "Assigned parking (cost not listed)",
       "notes": "In-unit W/D, dishwasher, 7 one-bedrooms available. 126-unit complex directly across Lincoln Way from Golden Gate Park.",
@@ -2456,7 +2459,7 @@
       "seen": "Zumper + HotPads + Zillow + 8+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-17"
+      "updated": "2026-11-18"
     },
     {
       "id": "one-henry-adams",
@@ -2504,7 +2507,7 @@
       "seen": "Zumper + PadMapper + Redfin + Craigslist",
       "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-17"
+      "updated": "2026-11-18"
     },
     {
       "id": "1720-golden-gate",
@@ -2582,7 +2585,7 @@
       "lat": 37.7768,
       "lng": -122.4194,
       "posted": null,
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "price": "$4,172–$4,902 · 611–788 sq ft (12 one-bedrooms; 529 sq ft plans skipped; assigned garage $375)",
       "parking": "Assigned garage space $375/mo (assigned covered $400–$450), so all-in roughly $4,870–$5,390",
       "notes": "420-unit 2018 high-rise. Apartments.com lists in-unit W/D and dishwasher (Zumper says no in-unit laundry, so confirm). Good value pick: unit 0111 (657 sq ft, $4,491) or 0313 (760 sq ft, $4,761). <span class='flag'>Ask for a unit not facing Fell St, and confirm the garage entrance isn't off Fell.</span>",
