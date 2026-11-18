@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-18",
-  "search_at": "2026-11-18T19:58:11Z",
-  "checked_at": "2026-11-18T20:37:08Z",
+  "search_at": "2026-11-18T22:52:48Z",
+  "checked_at": "2026-11-18T22:52:48Z",
   "unique": [
     {
       "id": "509-pierce",
@@ -339,7 +339,7 @@
       "rent": 4995,
       "allin": "$4,995 all-in (tandem garage parking included)",
       "posted": null,
-      "updated": "2026-11-16",
+      "updated": "2026-11-18",
       "tags": [
         [
           "Tandem garage parking included (confirm the spot is yours, not shared in tandem with a neighbor)",
@@ -377,7 +377,8 @@
       "notes": [
         "A big top-floor rear flat in a 6-unit Edwardian in Cole Valley: 960 sq ft, living room with wood-burning fireplace, a separate formal dining room (or office/guest room), an office alcove, walk-in closet and an updated kitchen with a Wedgewood oven. Windows on three sides with southern views. Shared yard, laundry, hang-out room and basement storage. Water, trash and gas are included, and as a small pre-1979 building it's probably rent controlled, which matters if you end up staying 3 years.",
         "<span class='flag'>At $4,995 it needs to earn its price: confirm a dishwasher (or room for one), and that the &ldquo;tandem&rdquo; garage space is assigned to #6 and you won't be blocked in by (or blocking) a neighbor. Laundry is shared. Redfin showed it as new on Nov 14; Rentler has had it ~4 days.</span>",
-        "<span class='flag'>Re-activated Nov 16: Redfin shows it relisted as “new” (~3 hrs before this run) at $4,995 with parking.</span>"
+        "<span class='flag'>Re-activated Nov 16: Redfin shows it relisted as “new” (~3 hrs before this run) at $4,995 with parking.</span>",
+        "<span class='flag'>Re-activated Nov 18: Rentler shows it &ldquo;Available Now&rdquo; at $4,995 with tandem garage parking, and Redfin lists it as new again (~3 hrs before this run). The manager keeps relisting it, so it may have been sitting for a while: room to negotiate.</span>"
       ],
       "scam": [
         "Low risk",
@@ -386,8 +387,7 @@
       "who": "SF City Rents (property manager)",
       "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/135-carl-st-6/12175147",
       "src": "Redfin / Rentler",
-      "status": "removed",
-      "removed_at": "2026-11-17T03:56:38Z"
+      "status": "active"
     },
     {
       "id": "1515-15th-208",
