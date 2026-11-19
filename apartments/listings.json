@@ -1,8 +1,112 @@
 {
   "asof": "2026-11-19",
-  "search_at": "2026-11-19T17:02:10Z",
-  "checked_at": "2026-11-19T17:02:10Z",
+  "search_at": "2026-11-19T19:56:34Z",
+  "checked_at": "2026-11-19T19:56:34Z",
   "unique": [
+    {
+      "id": "540-de-haro",
+      "name": "540 De Haro St (new 16-unit condo building, Potrero Hill; unit # not shown)",
+      "hood": "Potrero Hill · De Haro St at 18th St, near the Potrero Hill shops; ~5 min drive to Dogpatch, next to the 101/280",
+      "lat": 37.7622,
+      "lng": -122.4016,
+      "approx": true,
+      "rent": 3500,
+      "allin": "$3,500–$4,500 (Zumper shows both figures; one assigned parking space included) · one month free advertised",
+      "posted": null,
+      "updated": "2026-11-14",
+      "tags": [
+        [
+          "1BR/1BA condo, ~775 sq ft: room for a desk and a dining table",
+          "yes"
+        ],
+        [
+          "One assigned parking space included in rent",
+          "yes"
+        ],
+        [
+          "In-unit stacked washer/dryer",
+          "yes"
+        ],
+        [
+          "Gourmet kitchen with wine cooler; private balcony with city and bay views",
+          "yes"
+        ],
+        [
+          "Dishwasher not mentioned",
+          "maybe"
+        ],
+        [
+          "Price unclear ($3,500 vs $4,500)",
+          "maybe"
+        ],
+        [
+          "New building: no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Large modern 1BR in a new 16-unit building on the sunny north slope of Potrero Hill, a short drive to work. Assigned parking, in-unit laundry, balcony with views and a nice kitchen; pets OK. Even at the higher $4,500 figure it sits in the happy range.",
+        "<span class='flag'>Zumper's page title says $3,500 but its search listing said $4,500; confirm the real rent, that there's a dishwasher, and that the bedroom has its own exterior window. Listing was last updated 5+ days ago, so check it's still available.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "Zumper “verified” company listing with a contact form but no named agent or phone; normal pricing. Tour in person before paying anything."
+      ],
+      "who": "Property company via Zumper (no agent named)",
+      "url": "https://www.zumper.com/apartments-for-rent/576747p/1-bedroom-potrero-hill-san-francisco-ca",
+      "src": "Zumper",
+      "status": "active"
+    },
+    {
+      "id": "2244-23rd-3",
+      "name": "2244 23rd St #3 (condo, Potrero Hill)",
+      "hood": "Potrero Hill · 23rd St on the south slope; ~5 min drive to Dogpatch, by the 280",
+      "lat": 37.7547,
+      "lng": -122.4007,
+      "approx": true,
+      "rent": 4500,
+      "allin": "$4,500 + parking if any fee (parking listed; type and fee not shown)",
+      "posted": null,
+      "updated": "2026-11-19",
+      "tags": [
+        [
+          "1BR/1BA condo, ~700 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Newly renovated, south-facing; deck and fireplace",
+          "yes"
+        ],
+        [
+          "Parking listed but not confirmed as an assigned space",
+          "maybe"
+        ],
+        [
+          "Laundry not listed",
+          "maybe"
+        ],
+        [
+          "Condo: probably no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Renovated, sunny south-facing 1BR condo with a deck, fireplace and dishwasher on Potrero Hill; pets OK.",
+        "<span class='flag'>HotPads lists “parking” without details. Confirm it is an assigned/deeded space that fits a sedan, its cost, laundry, and that the bedroom has an exterior window; drop it if parking is unassigned.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Listed by SF City Rents (a named property manager); price is at market. No phone shown, contact by form."
+      ],
+      "who": "SF City Rents, PC",
+      "url": "https://hotpads.com/2244-23rd-st-san-francisco-ca-94107-1m7asvm/3/pad",
+      "src": "HotPads",
+      "status": "active"
+    },
     {
       "id": "310-carolina-201",
       "name": "310 Carolina St #201 (2014-era condo building facing Jackson Park, Potrero Hill)",
@@ -2534,7 +2638,8 @@
       "who": "AMSI (showings via agent Eva)",
       "url": "https://www.apartments.com/listing/bkec1vc",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "excluded",
+      "excluded_reason": "Listing description calls it a \"Junior One Bedroom\" and mentions no parking (re-checked 2026-11-19), so it fails the true-1BR and designated-parking rules."
     }
   ],
   "complexes": [
@@ -2802,6 +2907,23 @@
       "notes": "Large, roomy 1BRs (700+ sq ft, space for a desk and a dining table) with a dishwasher, in a quiet hilltop complex with on-site management. Shared laundry only, no in-unit W/D. About 10 min walk to NoPa/Divisadero. <span class='flag'>Base rent excludes required fees; ask for the parking cost and whether the space is assigned.</span>",
       "seen": "Zillow + Redfin",
       "url": "https://www.zillow.com/apartments/san-francisco-ca/terra-vista-apartments/5XjRrp",
+      "status": "active"
+    },
+    {
+      "id": "400-duboce",
+      "name": "400 Duboce Avenue",
+      "addr": "400 Duboce Ave (at Fillmore St)",
+      "area": "Duboce Triangle / Lower Haight · by Duboce Park",
+      "lat": 37.7695,
+      "lng": -122.4315,
+      "approx": true,
+      "posted": null,
+      "updated": "2026-11-19",
+      "price": "$4,940 (#320 1BR; sq ft not shown)",
+      "parking": "Garage parking listed on Zumper; whether it's assigned and its fee aren't shown",
+      "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span>",
+      "seen": "4 posts (3 Craigslist + Zumper)",
+      "url": "https://www.zumper.com/apartment-buildings/p58977/400-duboce-avenue-lower-haight-san-francisco-ca",
       "status": "active"
     }
   ]
