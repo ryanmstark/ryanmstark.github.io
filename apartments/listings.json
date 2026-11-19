@@ -1,8 +1,63 @@
 {
-  "asof": "2026-11-18",
-  "search_at": "2026-11-19T01:58:04Z",
-  "checked_at": "2026-11-19T11:47:19Z",
+  "asof": "2026-11-19",
+  "search_at": "2026-11-19T14:05:06Z",
+  "checked_at": "2026-11-19T14:05:06Z",
   "unique": [
+    {
+      "id": "310-carolina-201",
+      "name": "310 Carolina St #201 (2014-era condo building facing Jackson Park, Potrero Hill)",
+      "hood": "Potrero Hill · Carolina St at Mariposa, across from Jackson Park; ~5 min drive to Dogpatch, next to the 101/280",
+      "lat": 37.7637,
+      "lng": -122.4005,
+      "approx": true,
+      "rent": 4995,
+      "allin": "$4,995 all-in on Redfin (assigned garage space included; an earlier listing of this unit asked $5,500) · upper-OK tier",
+      "posted": "2026-11-18",
+      "posted_approx": true,
+      "updated": "2026-11-19",
+      "tags": [
+        [
+          "True 1BR/1BA, ~884 sq ft: room for a desk and a 4–6 person dining table",
+          "yes"
+        ],
+        [
+          "Assigned garage parking included in rent",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer + Bosch dishwasher",
+          "yes"
+        ],
+        [
+          "Chef's kitchen: quartz counters, gas cooktop",
+          "yes"
+        ],
+        [
+          "East-facing windows over Jackson Park; shared rooftop deck",
+          "yes"
+        ],
+        [
+          "Near the top of the budget for a short stay",
+          "maybe"
+        ],
+        [
+          "Newer condo: no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Large modern condo 1BR across from Jackson Park on the north slope of Potrero Hill: open plan, high ceilings, wide-plank oak floors, a spa-style bath, in-unit laundry and a real cook's kitchen. Rent includes an assigned garage space, internet and trash; tenant pays electric, gas and water. Very short commute to Dogpatch. At ~$5,000 it only makes sense if it's a 2–3 year home.",
+        "<span class='flag'>Found on Redfin's Potrero Hill 1BR search (marked new ~27 hrs before this run, $4,995, 900 sq ft, parking); details come from this unit's previous Zillow listing. Confirm the current price, that parking is still included, and that the bedroom has its own exterior window.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Same unit and photos were listed on Zillow earlier in 2025–26 at $5,500 with an in-person-tour-first requirement; price is at market for an 884 sq ft condo."
+      ],
+      "who": "Owner / Zillow Rentals listing (agent not named)",
+      "url": "https://redfin.com/neighborhood/9989/CA/San-Francisco/Potrero/1-bedroom-apartments-for-rent",
+      "src": "Redfin",
+      "status": "active"
+    },
     {
       "id": "509-pierce",
       "name": "509 Pierce St (4-unit 1924 Edwardian condo, Alamo Square; unit # not confirmed)",
