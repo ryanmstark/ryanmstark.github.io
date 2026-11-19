@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-19",
+  "postings": [
+    {
+      "title": "Coherent DSP Applications Engineer",
+      "company": "Celero Communications",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5971673897?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$148,756\u2013$148,756",
+      "top_requirements": [
+        "Design and implement coherent optical DSP algorithms and verify them on ASIC prototypes from simulation through hardware bring\u2011up.",
+        "Develop and maintain end\u2011to\u2011end test benches for high\u2011speed DSP blocks, including link\u2011budget analysis, eye\u2011diagram measurement, and EVM validation.",
+        "Collaborate with hardware and firmware teams to integrate DSP IP into optical transceiver modules and troubleshoot performance issues in the lab."
+      ],
+      "bonus_skills": [
+        "Python/Matlab for algorithm prototyping",
+        "Experience with high\u2011speed SerDes testing",
+        "Knowledge of optical modulation formats (QPSK, 16\u2011QAM)"
+      ],
+      "summary": "The role builds and validates coherent optical DSP solutions, bridging lab prototypes to customer deployments. It matches the candidate\u2019s hands\u2011on DSP, modem, and RF system experience while moving into silicon\u2011photonic IC work.",
+      "is_startup": true,
+      "adzuna_id": "5971673897"
+    },
+    {
+      "title": "Senior Staff Electrical Engineer",
+      "company": "Dolby",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5967663643?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$140,648\u2013$140,648",
+      "top_requirements": [
+        "Lead the design of high\u2011performance mixed\u2011signal ASIC blocks for audio and communication pipelines, from specification to silicon validation.",
+        "Perform RF front\u2011end analysis including noise figure, gain, IIP3, and EVM across the full signal chain for Dolby\u2019s audio codecs.",
+        "Create and execute automated test frameworks for silicon bring\u2011up, characterization, and regression of communication\u2011related IP."
+      ],
+      "bonus_skills": [
+        "C/C++ firmware development",
+        "Signal integrity and PCB layout",
+        "Experience with Dolby\u2019s audio codecs"
+      ],
+      "summary": "Dolby\u2019s Senior Staff Electrical Engineer role focuses on mixed\u2011signal ASIC design for audio\u2011communication systems, offering a senior technical path aligned with the candidate\u2019s RF and modem background.",
+      "is_startup": false,
+      "adzuna_id": "5967663643"
+    },
+    {
+      "title": "Audio DSP & Tuning Engineer",
+      "company": "Rivian",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5963737068?se=tsI3p2vk8RGAvJnbPgF_oA&utm_medium=api&utm_source=9349c45d&v=8CF6DD1A8EF13FBA695A28B6B480855D68DDACB5",
+      "pay_range": "$108,842\u2013$108,842",
+      "top_requirements": [
+        "Develop and tune real\u2011time audio DSP pipelines for in\u2011vehicle infotainment, including equalization, noise reduction, and spatial rendering.",
+        "Implement and validate high\u2011performance audio codecs on embedded DSP processors, ensuring low latency and power efficiency.",
+        "Create automated test suites to measure audio quality metrics such as THD, SNR, and subjective listening tests."
+      ],
+      "bonus_skills": [
+        "Experience with automotive CAN/LIN buses",
+        "C++/Rust for embedded audio",
+        "Familiarity with automotive safety standards (ISO\u201126262)"
+      ],
+      "summary": "This position designs and optimizes audio DSP algorithms for Rivian\u2019s vehicles, leveraging the candidate\u2019s signal\u2011processing expertise while staying in a hands\u2011on engineering role.",
+      "is_startup": false,
+      "adzuna_id": "5963737068"
+    },
+    {
+      "title": "Embedded Software Engineer, DSP",
+      "company": "OceanComm, Inc.",
+      "location_label": "Chicago, IL",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5855263313?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$90,000\u2013$150,000",
+      "top_requirements": [
+        "Design and implement embedded DSP algorithms for underwater acoustic modems, covering modulation, error correction, and adaptive equalization.",
+        "Develop firmware for real\u2011time audio\u2011signal processing on low\u2011power microcontrollers, integrating sensor data and handling harsh acoustic channel conditions.",
+        "Perform system\u2011level testing in underwater environments, including link\u2011budget analysis, SNR measurement, and reliability validation."
+      ],
+      "bonus_skills": [
+        "C/C++ for embedded DSP",
+        "Experience with hydrophone arrays",
+        "Knowledge of acoustic channel modeling"
+      ],
+      "summary": "OceanComm\u2019s Embedded Software Engineer role focuses on acoustic communication modems, offering a direct application of the candidate\u2019s RF and modem design skills in a new domain.",
+      "is_startup": false,
+      "adzuna_id": "5855263313"
+    },
+    {
+      "title": "Mixed Signal IC Layout Designer",
+      "company": "Cirrus Logic",
+      "location_label": "Edinburgh, Scotland",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.co.uk/jobs/details/5907657002?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$55,522\u2013$55,522",
+      "top_requirements": [
+        "Create full\u2011custom mixed\u2011signal IC layouts for analog/RF blocks, adhering to design rules for advanced CMOS processes.",
+        "Perform parasitic extraction, signal\u2011integrity analysis, and layout\u2011versus\u2011schematic (LVS) verification for high\u2011frequency circuits.",
+        "Collaborate with circuit designers to optimize layout for noise, matching, and gain performance in communication\u2011centric ASICs."
+      ],
+      "bonus_skills": [
+        "Cadence Virtuoso expertise",
+        "Understanding of RF matching networks",
+        "Experience with DRC/PEX tools"
+      ],
+      "summary": "The Mixed\u2011Signal IC Layout Designer role at Cirrus Logic is a pure IC\u2011design position that leverages the candidate\u2019s RF and communication background in a hands\u2011on layout capacity.",
+      "is_startup": false,
+      "adzuna_id": "5907657002"
+    }
+  ]
+}
