@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-19",
-  "search_at": "2026-11-19T19:56:34Z",
-  "checked_at": "2026-11-19T20:43:06Z",
+  "search_at": "2026-11-19T22:53:55Z",
+  "checked_at": "2026-11-19T22:53:55Z",
   "unique": [
     {
       "id": "540-de-haro",
@@ -2919,10 +2919,10 @@
       "approx": true,
       "posted": null,
       "updated": "2026-11-19",
-      "price": "$4,940 (#320 1BR; sq ft not shown)",
+      "price": "$4,045–$4,940 (#208 629 sq ft $4,045 on Zillow; #320 $4,940)",
       "parking": "Garage parking listed on Zumper; whether it's assigned and its fee aren't shown",
       "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span>",
-      "seen": "4 posts (3 Craigslist + Zumper)",
+      "seen": "5 posts (3 Craigslist + Zumper + Zillow)",
       "url": "https://www.zumper.com/apartment-buildings/p58977/400-duboce-avenue-lower-haight-san-francisco-ca",
       "status": "active"
     }
