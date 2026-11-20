@@ -1,8 +1,110 @@
 {
-  "asof": "2026-11-19",
-  "search_at": "2026-11-20T02:05:00Z",
-  "checked_at": "2026-11-20T11:47:37Z",
+  "asof": "2026-11-20",
+  "search_at": "2026-11-20T14:05:00Z",
+  "checked_at": "2026-11-20T14:05:00Z",
   "unique": [
+    {
+      "id": "601-van-ness-sothebys-709",
+      "name": "Opera Plaza 1BR, 709 sq ft (601 Van Ness Ave; unit # not shown, likely #743)",
+      "hood": "Van Ness corridor / Civic Center · Opera Plaza at Van Ness & Golden Gate; walk to Hayes Valley; quick on-ramp to 101/280, ~15 min drive to Dogpatch",
+      "lat": 37.7815,
+      "lng": -122.4211,
+      "approx": true,
+      "url": "https://www.apartments.com/601-van-ness-ave-san-francisco-ca-unit/5508fmq",
+      "status": "active",
+      "posted": "2026-11-19",
+      "posted_approx": true,
+      "updated": "2026-11-20",
+      "rent": 3000,
+      "allin": "$3,000 + monthly garage space through building management (fee not shown; other Opera Plaza listings say $250–$295) · est. ~$3,300 all-in",
+      "tags": [
+        [
+          "Garage parking available at extra cost through building management: confirm it's an assigned space",
+          "maybe"
+        ],
+        [
+          "True 1BR/1BA, 709 sq ft; bedroom has bay windows (per the matching #743 listing)",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Laundry not stated (Opera Plaza units vary; ask)",
+          "maybe"
+        ],
+        [
+          "Balcony, heated pool, gym, doorman building",
+          "yes"
+        ],
+        [
+          "Condo unit: likely no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Individually owned 1BR/1BA condo in Opera Plaza, the complex you flagged, listed by a Sotheby's International Realty agent (MLS #426102411) on Apartments.com a day before this run. At 709 sq ft with a dishwasher, balcony and bay windows it's roomy for the money: around $3,300 with a garage space, well under your $4,000 &ldquo;excellent&rdquo; line. A separate Apartments.com page for unit #743 uses the same description and $3,000 price, so it's probably that unit.",
+        "<span class='flag'>Before touring, confirm: the garage space is an assigned (not first-come) spot that fits a Mazda 3 and its monthly cost, whether there's in-unit laundry, which way the unit faces (Van Ness side is louder), and the move-in date (page shows both &ldquo;available now&rdquo; and a stale 2/9/26 date).</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Listed by a named Sotheby's agent with an MLS number, at a normal price for Opera Plaza."
+      ],
+      "who": "Mary E. Landeros, Sotheby's International Realty (agent for the owner)",
+      "src": "Apartments.com"
+    },
+    {
+      "id": "1103-de-haro",
+      "name": "1103 De Haro St (condo, Potrero Hill; unit # not shown)",
+      "hood": "Potrero Hill · De Haro near 23rd St on the south slope, sunny side of the hill; ~5–10 min drive to Dogpatch, close to 280/101",
+      "lat": 37.7547,
+      "lng": -122.4017,
+      "approx": true,
+      "url": "https://www.apartments.com/1103-de-haro-st-san-francisco-ca/m0lltjk",
+      "status": "active",
+      "posted": "2026-11-19",
+      "posted_approx": true,
+      "updated": "2026-11-20",
+      "rent": 3200,
+      "allin": "$3,200 + garage parking (fee not shown)",
+      "tags": [
+        [
+          "Garage parking listed: confirm it's an assigned space and the fee",
+          "maybe"
+        ],
+        [
+          "1BR/1BA condo; square footage not shown",
+          "maybe"
+        ],
+        [
+          "Dishwasher not mentioned: ask",
+          "maybe"
+        ],
+        [
+          "Shared on-site laundry, not in-unit",
+          "no"
+        ],
+        [
+          "A/C, dogs allowed",
+          "yes"
+        ],
+        [
+          "Condo unit: likely no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "A by-owner style 1BR condo on sunny Potrero Hill, a few minutes from your Dogpatch office, listed on Apartments.com a day before this run at $3,200 with garage parking. Cheap enough to be a solid 1&ndash;2 year option if the details check out.",
+        "<span class='flag'>Lots unknown: confirm the garage space is assigned to the unit and fits a Mazda 3 (and its cost), that there's a dishwasher, the square footage (needs to be ~575+), that the bedroom has an exterior window, and the move-in date (page says both &ldquo;available now&rdquo; and &ldquo;by July 15th&rdquo;, which looks like old text).</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "Normal price for the area and a named lister with a phone number, but no company is given and the availability text conflicts. Tour in person and pay nothing before a lease."
+      ],
+      "who": "Stephen Dowdy (individual; phone on listing, no company named)",
+      "src": "Apartments.com"
+    },
     {
       "id": "2225-23rd",
       "name": "2225 23rd St, Potrero Court condo (unit # not shown, Ziprent)",
@@ -332,7 +434,7 @@
       "lng": -122.4036,
       "approx": true,
       "url": "https://www.apartments.com/listing/be9gllc",
-      "status": "active",
+      "status": "removed",
       "posted": null,
       "updated": "2026-11-18",
       "rent": 3500,
@@ -376,7 +478,9 @@
         "market-level price, the lister gives a name and phone number (Alex, 707-340-3509), and the building has many real owner rentals. Tour before paying anything."
       ],
       "who": "Alex (owner/agent), 707-340-3509",
-      "src": "Apartments.com"
+      "src": "Apartments.com",
+      "removed_at": "2026-11-20",
+      "removed_reason": "Apartments.com posting is gone: the listing link now opens the generic San Francisco search page (checked 2026-11-20)."
     },
     {
       "id": "451-kansas-cb-661",
@@ -1829,7 +1933,7 @@
       "rent": 3100,
       "allin": "$3,350 all-in ($3,100 + $250 parking)",
       "posted": null,
-      "updated": "2026-11-10",
+      "updated": "2026-11-20",
       "tags": [
         [
           "Parking for rent +$250/mo",
@@ -1867,7 +1971,8 @@
       "notes": [
         "Updated, individually owned 1BR/1BA condo in Opera Plaza, listed by an AMSI agent. At about $3,350 with parking it's the cheapest qualifying option on the page, well under your $4,500 target. Available now. Quick on-ramp to 101/280 for the Dogpatch commute.",
         "<span class='flag'>The listing says parking is available for $250/mo but doesn't say it's an assigned spot. Confirm it's a designated garage space that fits your Mazda 3, and ask for the unit number and which way it faces (Van Ness side is louder). The listing was last updated Oct 13, so check it's still open. Note: another Opera Plaza 1BR listing on Apartments.com (#226) describes its $250 garage parking as <b>unassigned</b>, so ask specifically whether this one comes with a designated spot; if not, it fails your parking rule.</span>",
-        "Separate from Opera Plaza #511 below (different owner and agent)."
+        "Separate from Opera Plaza #511 below (different owner and agent).",
+        "Re-activated 2026-11-20: the AMSI listing page is live again (1BR/1BA, $3,100, available). Parking was $250/mo in the earlier version; confirm it's still offered and is an assigned space."
       ],
       "scam": [
         "Low risk",
@@ -1876,9 +1981,9 @@
       "who": "AMSI (agent Alexandr Metlinski)",
       "url": "https://www.apartments.com/601-van-ness-ave-san-francisco-ca/bgnfb4b/",
       "src": "Apartments.com",
-      "status": "removed",
-      "removed_at": "2026-11-15",
-      "removed_reason": "No longer on the Opera Plaza building page on Apartments.com, which now lists only #712 (708 sq ft, $3,960, parking not stated) and a 2BR."
+      "status": "active",
+      "removed_at": null,
+      "removed_reason": null
     },
     {
       "id": "601-van-ness-511",
