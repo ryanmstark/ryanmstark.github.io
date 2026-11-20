@@ -1,8 +1,162 @@
 {
   "asof": "2026-11-20",
-  "search_at": "2026-11-20T19:58:00Z",
-  "checked_at": "2026-11-20T20:27:28Z",
+  "search_at": "2026-11-20T23:05:00Z",
+  "checked_at": "2026-11-20T23:05:00Z",
   "unique": [
+    {
+      "id": "1927-hayes",
+      "name": "1927 Hayes St (condo, NoPa; unit # not listed)",
+      "hood": "NoPa / Panhandle (Hayes between Ashbury & Clayton, 1 block to the Panhandle, ~6 blocks to Alamo Square)",
+      "lat": 37.7743,
+      "lng": -122.4472,
+      "approx": true,
+      "rent": 3250,
+      "allin": "$3,250 + garage space (one side-by-side slot in a secured garage; fee not stated)",
+      "posted": null,
+      "updated": "2026-11-20",
+      "tags": [
+        [
+          "Side-by-side slot in secured garage",
+          "yes"
+        ],
+        [
+          "Dishwasher not listed (confirm)",
+          "maybe"
+        ],
+        [
+          "Shared free laundry in garage, not in-unit",
+          "no"
+        ],
+        [
+          "608 sq ft",
+          "yes"
+        ],
+        [
+          "Available now, 12-month lease",
+          "yes"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ],
+        [
+          "Water & trash included",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "Well-priced 1BR condo a block from the Panhandle (runnable to GGP) on a residential stretch of Hayes in NoPa, nowhere near the Hayes Valley car-free blocks. 608 sq ft with a secured garage slot.",
+        "<span class='flag'>Dishwasher isn't listed (only &ldquo;kitchen appliances included&rdquo;) and laundry is shared in the garage. Ask about the dishwasher and whether the garage slot carries a fee.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by Golden Gate Properties / 415 Properties (CalBRE 02055634); one-month deposit, in-person viewing required."
+      ],
+      "who": "Golden Gate Properties (415 Properties)",
+      "url": "https://apartments.com/1927-hayes-st-san-francisco-ca/pc8fy6r",
+      "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "1560-mcallister-7",
+      "name": "1560 McAllister St #7 (Structure Properties building, NoPa / Western Addition)",
+      "hood": "NoPa / Western Addition (McAllister between Divisadero & Broderick, ~3 blocks to Alamo Square)",
+      "lat": 37.7784,
+      "lng": -122.4402,
+      "approx": true,
+      "rent": 3095,
+      "allin": "$3,345 all-in ($3,095 + $250 parking)",
+      "posted": null,
+      "updated": "2026-11-06",
+      "tags": [
+        [
+          "Parking $250 (assigned? confirm)",
+          "maybe"
+        ],
+        [
+          "Dishwasher not listed (confirm)",
+          "maybe"
+        ],
+        [
+          "Laundry not listed",
+          "maybe"
+        ],
+        [
+          "750 sq ft",
+          "yes"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ],
+        [
+          "Likely rent-controlled older building",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "Big 750 sq ft 1BR for $3,345 all-in, a few blocks from Alamo Square and the Divisadero corridor. Structure Properties manages classic multi-unit SF buildings, so rent control is likely.",
+        "<span class='flag'>The listing doesn't say whether the $250 space is assigned, or whether there's a dishwasher or laundry; the availability box also says &ldquo;check back soon&rdquo;. Confirm all three before touring.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "listed by Structure Properties, Inc. (DRE numbers shown), a known SF manager; one-month deposit and stated qualifications."
+      ],
+      "who": "Structure Properties, Inc. (Brooks Jett)",
+      "url": "https://www.apartments.com/1560-mcallister-st-san-francisco-ca-unit-7/g166d2w",
+      "src": "Apartments.com",
+      "status": "active"
+    },
+    {
+      "id": "1701-turk",
+      "name": "1701 Turk St (at Divisadero; unit # not listed)",
+      "hood": "NoPa / Western Addition (Turk at Divisadero, ~4 blocks to Alamo Square)",
+      "lat": 37.7797,
+      "lng": -122.4389,
+      "approx": true,
+      "rent": 2995,
+      "allin": "$2,995 all-in (private garage space included)",
+      "posted": null,
+      "updated": "2026-11-20",
+      "tags": [
+        [
+          "Private garage space included",
+          "yes"
+        ],
+        [
+          "Dishwasher not listed (confirm)",
+          "maybe"
+        ],
+        [
+          "Laundry room in building, not in-unit",
+          "no"
+        ],
+        [
+          "Size not listed (check it's 575+ sq ft)",
+          "maybe"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ],
+        [
+          "Corner of busy Divisadero? confirm which side",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Cheapest garage-included 1BR in the area right now, by Divisadero near the NoPa shops. Could be a good 1&ndash;2 year landing spot if the size and kitchen check out.",
+        "<span class='flag'>No size, unit number or dishwasher info, and the price is well under nearby comps. Gaetani Real Estate is a real SF manager (they also list 340 Arguello), but confirm through their office before paying anything.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "price well below comps, no unit #, email-only contact (Gaetani Real Estate address); verify with Gaetani's office and tour before paying."
+      ],
+      "who": "Gaetani Real Estate (Sebastian)",
+      "url": "https://www.apartments.com/1701-turk-st-san-francisco-ca/z16tesy",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "601-van-ness-sothebys-709",
       "name": "Opera Plaza 1BR, 709 sq ft (601 Van Ness Ave; unit # not shown, likely #743)",
@@ -2808,8 +2962,8 @@
       "lat": 37.7655,
       "lng": -122.4712,
       "posted": null,
-      "updated": "2026-11-18",
-      "price": "$4,079–$4,147 · 644 sq ft (1 one-bedroom on PadMapper)",
+      "updated": "2026-11-20",
+      "price": "From $3,469 on Redfin (7 one-bedrooms, 644 sq ft); PadMapper earlier showed $4,079–$4,147",
       "parking": "Assigned parking (cost not listed)",
       "notes": "In-unit W/D, dishwasher, 7 one-bedrooms available. 126-unit complex directly across Lincoln Way from Golden Gate Park.",
       "seen": "Zumper",
