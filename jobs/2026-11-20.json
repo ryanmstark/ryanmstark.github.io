@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-20",
+  "postings": [
+    {
+      "title": "Senior Analog/mixed-signal IC Design Engineer - Acacia (Hybrid)",
+      "company": "Cisco",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5971719701?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$214,100\u2013$309,800",
+      "top_requirements": [
+        "Design, simulate, and verify high\u2011speed mixed\u2011signal transceiver blocks (e.g., serializers, deserializers, PLLs) targeting 100\u202fG\u2011400\u202fG optical links.",
+        "Develop and characterize analog front\u2011end circuits (CTLE, DFE) including noise, linearity, and EVM performance across advanced\u2011node processes.",
+        "Collaborate with photonic integration teams to co\u2011design ASIC\u2011photonic interfaces and perform silicon bring\u2011up and debug."
+      ],
+      "bonus_skills": [
+        "Python/Matlab for signal\u2011chain modeling",
+        "Experience with photonic\u2011integrated circuit co\u2011design",
+        "Silicon validation using high\u2011speed test equipment"
+      ],
+      "summary": "Designs high\u2011speed mixed\u2011signal ICs for next\u2011generation fiber\u2011optic transceivers, a perfect match for a senior engineer with RF and modem expertise looking to stay in cutting\u2011edge communications ICs.",
+      "is_startup": false,
+      "adzuna_id": "5971719701"
+    },
+    {
+      "title": "Mixed Signal & Analog Circuit Engineer",
+      "company": "West Coast Consulting",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5970695300?se=IJEylDHl8RGuPayoyp3FzQ&utm_medium=api&utm_source=9349c45d&v=3ACCE683F7ADD4BC26E0E4DDD0C447591F3D413B",
+      "pay_range": "$208,000\u2013$228,800",
+      "top_requirements": [
+        "Architect and design high\u2011speed I/O blocks such as TX drivers, PLLs, CDRs, and analog front\u2011ends (CTLE/DFE) for advanced\u2011node ASICs.",
+        "Conduct feasibility studies by benchmarking state\u2011of\u2011the\u2011art implementations and proposing novel circuit techniques.",
+        "Lead hands\u2011on silicon validation, measurement, and debugging of prototype chips."
+      ],
+      "bonus_skills": [
+        "Cadence Virtuoso/CustomSim",
+        "High\u2011frequency PCB and package co\u2011design",
+        "Statistical design\u2011corner analysis"
+      ],
+      "summary": "A consulting\u2011focused mixed\u2011signal design role that leverages the candidate\u2019s RF and modem background while providing exposure to a variety of high\u2011speed interfaces.",
+      "is_startup": false,
+      "adzuna_id": "5970695300"
+    },
+    {
+      "title": "AI Silicon, Analog CAD Engineer",
+      "company": "Unconventional",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5964538517?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$134,521\u2013$134,521",
+      "top_requirements": [
+        "Develop analog CAD models and custom design flows for ultra\u2011low\u2011power AI accelerator chips.",
+        "Create and validate analog building blocks (bias circuits, regulators, sense amplifiers) targeting 1000\u00d7 efficiency gains.",
+        "Integrate analog IP into AI\u2011centric silicon and support silicon bring\u2011up and debug."
+      ],
+      "bonus_skills": [
+        "Cadence Virtuoso + SpectreRF",
+        "AI\u2011driven design optimization",
+        "Experience with emerging device technologies"
+      ],
+      "summary": "A role at Unconventional focused on analog IC design for AI silicon, providing a high\u2011impact opportunity that fits the candidate\u2019s mixed\u2011signal background while moving into AI hardware.",
+      "is_startup": true,
+      "adzuna_id": "5964538517"
+    },
+    {
+      "title": "Mixed Signal IC Layout Designer",
+      "company": "Cirrus Logic",
+      "location_label": "Edinburgh, Scotland",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.co.uk/jobs/details/5907657002?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$55,522\u2013$55,522",
+      "top_requirements": [
+        "Create full\u2011chip physical layout for mixed\u2011signal IP blocks, ensuring DRC/LVS compliance and optimal floor\u2011plan density.",
+        "Collaborate with circuit designers to translate schematic intent into manufacturable layout with matched\u2011pair routing and shielding.",
+        "Develop and maintain layout\u2011automation scripts to improve productivity for analog/mixed\u2011signal designs."
+      ],
+      "bonus_skills": [
+        "Cadence Virtuoso Layout Suite",
+        "Design\u2011for\u2011test integration",
+        "Python/TCL scripting"
+      ],
+      "summary": "A dedicated IC layout role that still requires deep analog knowledge, suitable for a senior engineer comfortable with hands\u2011on silicon implementation.",
+      "is_startup": false,
+      "adzuna_id": "5907657002"
+    }
+  ]
+}
