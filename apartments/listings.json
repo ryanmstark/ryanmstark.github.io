@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-20",
-  "search_at": "2026-11-20T16:55:00Z",
-  "checked_at": "2026-11-20T16:55:00Z",
+  "search_at": "2026-11-20T19:58:00Z",
+  "checked_at": "2026-11-20T19:58:00Z",
   "unique": [
     {
       "id": "601-van-ness-sothebys-709",
@@ -322,7 +322,7 @@
       "lng": -122.4357,
       "approx": true,
       "url": "https://www.apartments.com/509-pierce-st-san-francisco-ca/vqjny1g",
-      "status": "active",
+      "status": "removed",
       "posted": null,
       "updated": "2026-11-18",
       "rent": 3850,
@@ -366,7 +366,9 @@
         "Market-level price and the details match a real 811 sq ft 1BR at 509 Pierce that was listed for sale in 2024, but the ad names no person or company, only a personal email and phone. Tour in person and don't pay anything before signing a lease."
       ],
       "who": "Individual owner (not named; contact by email/text, applications via TurboTenant)",
-      "src": "Apartments.com"
+      "src": "Apartments.com",
+      "removed_at": "2026-11-20",
+      "removed_reason": "Apartments.com page now shows no available units (\"Check Back Soon for Upcoming Availability\") as of 2026-11-20; likely rented or paused."
     },
     {
       "id": "451-kansas-362",
