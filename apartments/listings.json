@@ -1,8 +1,58 @@
 {
   "asof": "2026-11-19",
-  "search_at": "2026-11-19T22:53:55Z",
-  "checked_at": "2026-11-19T22:53:55Z",
+  "search_at": "2026-11-20T02:05:00Z",
+  "checked_at": "2026-11-20T02:05:00Z",
   "unique": [
+    {
+      "id": "2225-23rd",
+      "name": "2225 23rd St, Potrero Court condo (unit # not shown, Ziprent)",
+      "hood": "Potrero Hill · 23rd St on the south slope; ~5 min drive to Dogpatch, near the 280",
+      "lat": 37.7544,
+      "lng": -122.4024,
+      "approx": true,
+      "rent": 2800,
+      "allin": "$2,800 + garage fee if any (one detached-garage space listed; fee not shown)",
+      "posted": null,
+      "updated": "2026-11-20",
+      "tags": [
+        [
+          "1BR/1BA condo, 602 sq ft",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "One garage space listed (detached garage)",
+          "maybe"
+        ],
+        [
+          "Shared laundry in building",
+          "maybe"
+        ],
+        [
+          "Bedroom window not stated",
+          "maybe"
+        ],
+        [
+          "Condo: probably no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Low-priced 1BR in the Potrero Court condo complex on Potrero Hill, with a dishwasher and one detached-garage space; available now. Smaller than the 625 sq ft target and laundry is shared, so this is the cheap short-term option.",
+        "<span class='flag'>Confirm the garage space is assigned to the unit and fits a sedan, its fee, the unit number, and that the bedroom has an exterior window. Price is well under market, so tour before paying anything.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "Ziprent (a known tenant-placement firm) lists for the owner, but the price is ~$800 under the area average and the contact name on the page doesn't match. Tour first and apply only through the platform."
+      ],
+      "who": "Ziprent (agent for owner)",
+      "url": "https://www.apartments.com/2225-23rd-st-san-francisco-ca/bcvrfhb/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "540-de-haro",
       "name": "540 De Haro St (new 16-unit condo building, Potrero Hill; unit # not shown)",
