@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-20",
-  "search_at": "2026-11-21T01:47:00Z",
-  "checked_at": "2026-11-21T11:13:41Z",
+  "asof": "2026-11-21",
+  "search_at": "2026-11-21T14:05:00Z",
+  "checked_at": "2026-11-21T14:05:00Z",
   "unique": [
     {
       "id": "1927-hayes",
@@ -370,10 +370,10 @@
       "lat": 37.7547,
       "lng": -122.4007,
       "approx": true,
-      "rent": 4500,
-      "allin": "$4,500 + parking if any fee (parking listed; type and fee not shown)",
+      "rent": 4200,
+      "allin": "$4,200 + parking if any fee (price dropped $300; Zumper tags it “assigned parking”, fee not shown)",
       "posted": null,
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "tags": [
         [
           "1BR/1BA condo, ~700 sq ft",
@@ -388,7 +388,7 @@
           "yes"
         ],
         [
-          "Parking listed but not confirmed as an assigned space",
+          "Zumper tags “assigned parking” (confirm it fits a sedan and the fee)",
           "maybe"
         ],
         [
@@ -401,7 +401,7 @@
         ]
       ],
       "notes": [
-        "Renovated, sunny south-facing 1BR condo with a deck, fireplace and dishwasher on Potrero Hill; pets OK.",
+        "Renovated, sunny south-facing 1BR condo with a deck, fireplace and dishwasher on Potrero Hill; pets OK. Price dropped $300 to $4,200 on Zumper (Nov 21), and Zumper now tags the parking as assigned.",
         "<span class='flag'>HotPads lists “parking” without details. Confirm it is an assigned/deeded space that fits a sedan, its cost, laundry, and that the bedroom has an exterior window; drop it if parking is unassigned.</span>"
       ],
       "scam": [
