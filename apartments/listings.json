@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-21",
-  "search_at": "2026-11-21T19:46:00Z",
-  "checked_at": "2026-11-21T19:46:00Z",
+  "search_at": "2026-11-21T22:46:00Z",
+  "checked_at": "2026-11-21T22:46:00Z",
   "unique": [
     {
       "id": "1927-hayes",
@@ -165,7 +165,7 @@
       "lng": -122.4211,
       "approx": true,
       "url": "https://www.apartments.com/601-van-ness-ave-san-francisco-ca-unit/5508fmq",
-      "status": "active",
+      "status": "removed",
       "posted": "2026-11-19",
       "posted_approx": true,
       "updated": "2026-11-20",
@@ -206,7 +206,9 @@
         "Listed by a named Sotheby's agent with an MLS number, at a normal price for Opera Plaza."
       ],
       "who": "Mary E. Landeros, Sotheby's International Realty (agent for the owner)",
-      "src": "Apartments.com"
+      "src": "Apartments.com",
+      "removed_at": "2026-11-21",
+      "removed_reason": "Apartments.com listing page no longer loads (redirects to the citywide search results) as of 2026-11-21; likely rented or taken down. A separate Opera Plaza 677 sq ft 1BR (AMSI) is still listed."
     },
     {
       "id": "1103-de-haro",
