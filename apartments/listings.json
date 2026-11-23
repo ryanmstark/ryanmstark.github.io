@@ -1,8 +1,54 @@
 {
   "asof": "2026-11-23",
-  "search_at": "2026-11-23T20:05:00Z",
-  "checked_at": "2026-11-23T20:05:00Z",
+  "search_at": "2026-11-23T23:05:00Z",
+  "checked_at": "2026-11-23T23:05:00Z",
   "unique": [
+    {
+      "id": "2001-mcallister-656",
+      "name": "2001 McAllister St 1BR, 656 sq ft (condo complex near USF / Lone Mountain; unit # not listed)",
+      "hood": "Lone Mountain / NoPa edge · McAllister at Masonic, ~6 blocks to the Panhandle and ~10 to Alamo Square",
+      "lat": 37.7776,
+      "lng": -122.4462,
+      "approx": true,
+      "rent": 3500,
+      "allin": "$3,500 + parking if any fee (dedicated garage parking listed; fee not stated)",
+      "posted": null,
+      "updated": "2026-11-23",
+      "tags": [
+        [
+          "Dedicated garage parking (confirm it's assigned and fits the Mazda 3)",
+          "maybe"
+        ],
+        [
+          "In-unit laundry",
+          "yes"
+        ],
+        [
+          "Dishwasher not listed",
+          "maybe"
+        ],
+        [
+          "656 sq ft true 1BR/1BA",
+          "yes"
+        ],
+        [
+          "Large condo complex: likely no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Individually owned 1BR/1BA condo (656 sq ft) in the large 2001 McAllister complex, with in-unit laundry and dedicated garage parking, available now at $3,500 &mdash; well under the $4,000 &ldquo;excellent&rdquo; line. A solid short-term option on the NoPa / Lone Mountain edge, close to the Panhandle and Golden Gate Park; roughly 20&ndash;25 min drive to Dogpatch.",
+        "<span class='flag'>The listing doesn't mention a dishwasher, doesn't give the unit number (a separate Apartments.com page for #233 also shows $3,500, possibly the same unit), and asks a 1.5&times; deposit. Confirm the dishwasher, that the garage spot is assigned to the unit and any fee, and that the bedroom has an exterior window.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "MLS-sourced listing with a phone number and a normal market price; no unusual payment requests. Deposit of 1.5× rent is high but legal."
+      ],
+      "who": "Listing agent via MLS (not named; phone 415-407-2263)",
+      "url": "https://apartments.com/2001-mcallister-st-san-francisco-ca/j3v8v77",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "1426-11th-ave-1",
       "name": "1426 11th Ave #1 (bi-level carriage-house condo, 4-unit gated property)",
@@ -3448,8 +3494,8 @@
       "updated": "2026-11-23",
       "price": "$4,340–$4,500 (#313 & #320 $4,340, #412 $4,500 on Zillow; #208 at $4,045 no longer shown)",
       "parking": "Garage parking listed on Zillow and Zumper; whether it's assigned and its fee aren't shown",
-      "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span> <span class='flag'>An Apartments.com listing for #202 ($3,495) says &ldquo;street parking only&rdquo; and shared laundry, so garage spaces may not come with every unit — ask before touring.</span>",
-      "seen": "5 posts (3 Craigslist + Zumper + Zillow)",
+      "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span> <span class='flag'>An Apartments.com listing for #202 ($3,495) says &ldquo;street parking only&rdquo; and shared laundry, so garage spaces may not come with every unit — ask before touring.</span> <span class='flag'>New Craigslist reposts today list #320 at $4,940 and #412 at $5,100, higher than Zillow's figures &mdash; ask which price is current.</span>",
+      "seen": "7 posts (5 Craigslist + Zumper + Zillow)",
       "url": "https://www.zumper.com/apartment-buildings/p58977/400-duboce-avenue-lower-haight-san-francisco-ca",
       "status": "active"
     }
