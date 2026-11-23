@@ -1,8 +1,58 @@
 {
   "asof": "2026-11-23",
-  "search_at": "2026-11-23T16:58:00Z",
-  "checked_at": "2026-11-23T16:58:00Z",
+  "search_at": "2026-11-23T20:05:00Z",
+  "checked_at": "2026-11-23T20:05:00Z",
   "unique": [
+    {
+      "id": "1426-11th-ave-1",
+      "name": "1426 11th Ave #1 (bi-level carriage-house condo, 4-unit gated property)",
+      "hood": "Inner Sunset · 11th Ave between Judah & Kirkham, ~5 blocks to Golden Gate Park and the N-Judah",
+      "lat": 37.7613,
+      "lng": -122.4689,
+      "approx": true,
+      "rent": 3150,
+      "allin": "$3,150 all-in (parking for one vehicle included)",
+      "posted": null,
+      "updated": "2026-11-23",
+      "tags": [
+        [
+          "Parking for one car included (confirm it's an assigned spot)",
+          "maybe"
+        ],
+        [
+          "In-unit stackable washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Size not listed (bi-level, confirm ≥575 sq ft)",
+          "maybe"
+        ],
+        [
+          "Stand-alone carriage house in a 4-unit gated condo property",
+          "yes"
+        ],
+        [
+          "Condo: likely no rent cap",
+          "no"
+        ]
+      ],
+      "notes": [
+        "Stand-alone, bi-level carriage-house 1BR/1BA in a small gated 4-unit condo property in the Inner Sunset, with in-unit laundry, a dishwasher and one car's parking included in the $3,150 rent. Well under the $4,000 &ldquo;excellent&rdquo; line and a solid short-term option; Inner Sunset is your western limit, about 20–25 min to Dogpatch.",
+        "<span class='flag'>Apartments.com shows &ldquo;Check Back Soon&rdquo; in its availability table while the description says &ldquo;Available now&rdquo;, so confirm it's still open. Square footage isn't listed (a bi-level carriage house may be small), and confirm the parking is a designated spot that fits the Mazda 3 and that the bedroom has an exterior window.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "no named owner or agent, only an email contact, and availability is contradictory. Price is in line with the area; tour in person and confirm who owns the unit before paying anything."
+      ],
+      "who": "Owner or small landlord (not named on listing)",
+      "url": "https://www.apartments.com/1426-11th-ave-san-francisco-ca-unit-1/yllp3yv/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "151-clifford-terrace",
       "name": "151 Clifford Terrace (Corona Heights / Buena Vista; unit # not listed)",
@@ -3395,10 +3445,10 @@
       "lng": -122.4315,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-22",
+      "updated": "2026-11-23",
       "price": "$4,340–$4,500 (#313 & #320 $4,340, #412 $4,500 on Zillow; #208 at $4,045 no longer shown)",
       "parking": "Garage parking listed on Zillow and Zumper; whether it's assigned and its fee aren't shown",
-      "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span>",
+      "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span> <span class='flag'>An Apartments.com listing for #202 ($3,495) says &ldquo;street parking only&rdquo; and shared laundry, so garage spaces may not come with every unit — ask before touring.</span>",
       "seen": "5 posts (3 Craigslist + Zumper + Zillow)",
       "url": "https://www.zumper.com/apartment-buildings/p58977/400-duboce-avenue-lower-haight-san-francisco-ca",
       "status": "active"
