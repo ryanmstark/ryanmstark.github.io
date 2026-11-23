@@ -55,7 +55,9 @@
       "who": "Unnamed owner/manager (call/text; Hemlane application)",
       "url": "https://www.apartments.com/151-clifford-terrace-san-francisco-ca/j86p1y5/",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-23T17:10:00Z",
+      "removed_reason": "Ryan confirmed it's not available (Apartments.com page showed \"Check Back Soon\" with no move-in date)."
     },
     {
       "id": "988-fulton-141",
