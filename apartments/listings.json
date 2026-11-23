@@ -1,8 +1,62 @@
 {
   "asof": "2026-11-23",
-  "search_at": "2026-11-23T13:58:00Z",
-  "checked_at": "2026-11-23T13:58:00Z",
+  "search_at": "2026-11-23T16:58:00Z",
+  "checked_at": "2026-11-23T16:58:00Z",
   "unique": [
+    {
+      "id": "151-clifford-terrace",
+      "name": "151 Clifford Terrace (Corona Heights / Buena Vista; unit # not listed)",
+      "hood": "Corona Heights · Clifford Terrace off Roosevelt Way, near Buena Vista Park; ~10 min walk to Cole Valley/Haight, ~20 min drive to Dogpatch",
+      "lat": 37.7652,
+      "lng": -122.4423,
+      "approx": true,
+      "rent": 3250,
+      "allin": "$3,250 + garage space (one garage space plus storage; fee not stated)",
+      "posted": null,
+      "updated": "2026-11-23",
+      "tags": [
+        [
+          "Garage space + storage (confirm assigned and fits a Mazda 3)",
+          "yes"
+        ],
+        [
+          "True 1BR/1BA, 938 sq ft",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher not listed",
+          "no"
+        ],
+        [
+          "Water & trash included",
+          "yes"
+        ],
+        [
+          "No pets",
+          "maybe"
+        ],
+        [
+          "Rent control unknown (ask building age / unit type)",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "A large 938 sq ft 1BR/1BA on a quiet hillside street in Corona Heights by Buena Vista Park, with in-unit laundry and a garage space plus storage. Well under budget and big enough for a desk and a dining table for 4–6.",
+        "<span class='flag'>The listing shows no dishwasher (appliances: fridge, range, oven, microwave, W/D); ask whether there is one or room to add one. Also confirm the garage space is assigned and its fee, that the bedroom has an exterior window, and the move-in date (page says \"Check Back Soon\").</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "No named lister; contact is call/text to (650) 255-9503 and the application runs through a Hemlane link. Price is low for 938 sq ft. Tour in person and verify the Hemlane listing before sharing personal info or paying anything."
+      ],
+      "who": "Unnamed owner/manager (call/text; Hemlane application)",
+      "url": "https://www.apartments.com/151-clifford-terrace-san-francisco-ca/j86p1y5/",
+      "src": "Apartments.com",
+      "status": "active"
+    },
     {
       "id": "988-fulton-141",
       "name": "988 Fulton St #141 (1999 condo/apartment building on Alamo Square, individually listed unit)",
@@ -3255,7 +3309,7 @@
       "lng": -122.4329,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-16",
+      "updated": "2026-11-23",
       "price": "$4,899–$5,110 · 655 sq ft (2 qualifying one-bedrooms; 559 sq ft units skipped)",
       "parking": "Reserved spaces in controlled-access garage (fee not listed)",
       "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price.",
