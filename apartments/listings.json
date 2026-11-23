@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-22",
-  "search_at": "2026-11-22T22:51:00Z",
-  "checked_at": "2026-11-23T01:47:32Z",
+  "search_at": "2026-11-23T02:07:00Z",
+  "checked_at": "2026-11-23T02:07:00Z",
   "unique": [
     {
       "id": "1927-hayes",
@@ -271,7 +271,7 @@
       "rent": 2800,
       "allin": "$2,800 + garage fee if any (one detached-garage space listed; fee not shown)",
       "posted": null,
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "tags": [
         [
           "1BR/1BA condo, 602 sq ft",
@@ -2091,7 +2091,7 @@
       "rent": 3100,
       "allin": "$3,350 all-in ($3,100 + $250 parking)",
       "posted": null,
-      "updated": "2026-11-20",
+      "updated": "2026-11-22",
       "tags": [
         [
           "Parking for rent +$250/mo",
@@ -3231,9 +3231,9 @@
       "lng": -122.4315,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-19",
-      "price": "$4,045–$4,940 (#208 629 sq ft $4,045 on Zillow; #320 $4,940)",
-      "parking": "Garage parking listed on Zumper; whether it's assigned and its fee aren't shown",
+      "updated": "2026-11-22",
+      "price": "$4,340–$4,500 (#313 & #320 $4,340, #412 $4,500 on Zillow; #208 at $4,045 no longer shown)",
+      "parking": "Garage parking listed on Zillow and Zumper; whether it's assigned and its fee aren't shown",
       "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span>",
       "seen": "5 posts (3 Craigslist + Zumper + Zillow)",
       "url": "https://www.zumper.com/apartment-buildings/p58977/400-duboce-avenue-lower-haight-san-francisco-ca",
