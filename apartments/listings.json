@@ -1,8 +1,116 @@
 {
-  "asof": "2026-11-22",
-  "search_at": "2026-11-23T02:07:00Z",
-  "checked_at": "2026-11-23T12:56:41Z",
+  "asof": "2026-11-23",
+  "search_at": "2026-11-23T13:58:00Z",
+  "checked_at": "2026-11-23T13:58:00Z",
   "unique": [
+    {
+      "id": "988-fulton-141",
+      "name": "988 Fulton St #141 (1999 condo/apartment building on Alamo Square, individually listed unit)",
+      "hood": "Alamo Square · Fulton at Steiner, on the north edge of Alamo Square Park; ~10 blocks to the Panhandle/GGP, a few blocks to Divisadero and Hayes Valley; ~20 min drive to Dogpatch",
+      "lat": 37.7778,
+      "lng": -122.4336,
+      "approx": true,
+      "rent": 3849,
+      "allin": "$3,849 + parking if any fee (one dedicated spot in a secured private garage; fee not stated)",
+      "posted": null,
+      "updated": "2026-11-23",
+      "tags": [
+        [
+          "Dedicated off-street spot in a secured garage",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Brand-new dishwasher",
+          "yes"
+        ],
+        [
+          "Sq ft not listed (confirm ≥575)",
+          "maybe"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ],
+        [
+          "Listing says subject to SF Rent Ordinance",
+          "yes"
+        ],
+        [
+          "Available now, 1-year lease",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "About as close to your #1 spot as it gets: on Fulton facing Alamo Square, with in-unit laundry, a new dishwasher and a dedicated garage spot, at $3,849 (inside your ‘happy’ range even if parking adds a small fee). Fulton is a residential street, not Oak/Fell. The listing appeared ‘today’ on Apartments.com.",
+        "<span class='flag'>Ask the square footage, which way the unit faces (a ground-floor #141 may be darker), whether the garage spot costs extra and fits a Mazda 3, and confirm the bedroom has an exterior window. 63-unit building, so it's less of a small-building feel.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "named contact (Jacob Duran, 408-449-7906) at a market price; viewing by appointment, no money asked up front."
+      ],
+      "who": "Jacob Duran (individual listing)",
+      "src": "Apartments.com",
+      "url": "https://www.apartments.com/listing/8snspe1",
+      "status": "active"
+    },
+    {
+      "id": "764-cole-5",
+      "name": "764 Cole St #5 (top floor of a classic 6-unit building, Cole Valley)",
+      "hood": "Cole Valley · Cole St between Frederick and Carl, by the N-Judah and Cole Valley shops; ~5 min walk to Golden Gate Park; ~25 min drive to Dogpatch",
+      "lat": 37.765,
+      "lng": -122.4502,
+      "approx": true,
+      "rent": 3220,
+      "allin": "$3,220 + parking if any fee (1-car side-by-side parking listed; fee not stated)",
+      "posted": null,
+      "updated": "2026-11-23",
+      "tags": [
+        [
+          "1-car side-by-side parking (confirm it's assigned to #5)",
+          "maybe"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Laundry: listing conflicts (in-unit vs shared)",
+          "maybe"
+        ],
+        [
+          "667 sq ft",
+          "yes"
+        ],
+        [
+          "Top floor, light-filled, rear yard view",
+          "yes"
+        ],
+        [
+          "Classic small building: likely rent controlled",
+          "yes"
+        ],
+        [
+          "Bedroom window: confirm",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Top-floor 1BR in a small classic Cole Valley building, a few minutes from GGP for running and tennis, with a dishwasher, 667 sq ft and parking, at $3,220. The kind of rent-controlled small-building place you described, at an ‘excellent’ price.",
+        "<span class='flag'>Confirm the parking space is assigned to this unit and its fee, whether laundry is in-unit or shared, and the bedroom window. The FAQ says no move-in dates within 2 months, so ask when it's actually available. Different building from 724 Cole already on this page.</span>"
+      ],
+      "scam": [
+        "Some caution",
+        "listed on Rentable by Barnwell Keagan LLC with an individual contact (Allen Maine) on a 310 (LA) phone number, and the listing's unit count conflicts with its description; tour in person and pay nothing before seeing it and signing a lease."
+      ],
+      "who": "Barnwell Keagan LLC (contact Allen Maine)",
+      "src": "Rentable",
+      "url": "https://www.rentable.co/san-francisco-ca/charming-top-floor-1-bedroom-in-cole-valley",
+      "status": "active"
+    },
     {
       "id": "1927-hayes",
       "name": "1927 Hayes St (condo, NoPa; unit # not listed)",
