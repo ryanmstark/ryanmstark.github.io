@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-24",
+  "postings": [
+    {
+      "title": "Senior RF Test Engineer",
+      "company": "TekShapers",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5970815229?se=VgAvo7Dn8RG3obL8FeuK5Q&utm_medium=api&utm_source=9349c45d&v=C95AC39FE05E237B9BD4C7B19DAAEDA4DD1DEF21",
+      "pay_range": "$90K\u2013$100K",
+      "top_requirements": [
+        "Perform hands\u2011on over\u2011the\u2011air (OTA) measurements and calibrations using RF chamber equipment such as R&S and Bluetest systems.",
+        "Develop and execute test plans for RF front\u2011end hardware, including call\u2011box and antenna\u2011port verification.",
+        "Troubleshoot and repair RF modules at the board level, including solder rework and component level diagnostics."
+      ],
+      "bonus_skills": [
+        "Python scripting for automated test",
+        "Experience with vector network analyzers",
+        "Knowledge of FCC/ETSI compliance testing"
+      ],
+      "summary": "The role focuses on RF hardware test and validation for defense\u2011related systems, providing extensive hands\u2011on measurement work that matches the candidate\u2019s RF test background. It is a senior\u2011level test engineering position with direct hardware interaction.",
+      "is_startup": false,
+      "adzuna_id": "5970815229"
+    },
+    {
+      "title": "Senior RF Test Engineer",
+      "company": "Centraprise Corp",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/land/ad/5970601778?se=VgAvo7Dn8RG3obL8FeuK5Q&utm_medium=api&utm_source=9349c45d&v=46702B274BFD3DF2F5FEFE5C6959DCC17DE56956",
+      "pay_range": "$105K\u2013$115K",
+      "top_requirements": [
+        "Execute OTA chamber measurements and characterize RF passive/active components such as filters, amplifiers, and splitters.",
+        "Develop and maintain test fixtures and call\u2011box setups for high\u2011frequency hardware verification.",
+        "Perform detailed solder\u2011rework and mechanical assembly troubleshooting on RF boards."
+      ],
+      "bonus_skills": [
+        "LabVIEW automation",
+        "Experience with Keysight test equipment",
+        "Understanding of RF safety standards"
+      ],
+      "summary": "A senior RF test engineer role that emphasizes hands\u2011on OTA testing and component validation, aligning well with the candidate\u2019s extensive RF test experience. The position offers a solid senior technical contribution.",
+      "is_startup": false,
+      "adzuna_id": "5970601778"
+    },
+    {
+      "title": "Senior RF Filter Design Engineer",
+      "company": "Murata America",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5969526855?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$100K\u2013$110K",
+      "top_requirements": [
+        "Design and optimize resonant acoustic\u2011wave and RF filters for 5G/6G and Wi\u2011Fi applications using 3\u2011D electromagnetic simulation tools.",
+        "Create and validate filter models in proprietary XBAR\u00ae software and verify performance against silicon measurements.",
+        "Collaborate with layout and silicon teams to translate filter specifications into production\u2011ready mask data."
+      ],
+      "bonus_skills": [
+        "CST Microwave Studio or HFSS",
+        "Python for data analysis",
+        "Experience with silicon\u2011based filter fabrication"
+      ],
+      "summary": "The position involves hands\u2011on RF filter design for next\u2011generation wireless chips, a natural extension of the candidate\u2019s RF communications background while moving toward IC\u2011centric work. It is a senior engineering role at a fast\u2011moving tech company.",
+      "is_startup": false,
+      "adzuna_id": "5969526855"
+    },
+    {
+      "title": "Senior RF Engineer (Design)",
+      "company": "Cygnify",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5972995437?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$140K\u2013$170K (estimate based on Singapore senior level)",
+      "top_requirements": [
+        "Lead end\u2011to\u2011end design of high\u2011performance RF modules, from system specification through schematic capture, layout, and prototype validation.",
+        "Perform RF link\u2011budget analysis, EVM testing, and compliance verification for communication radios.",
+        "Transfer validated designs to manufacturing, creating test procedures and documentation for volume production."
+      ],
+      "bonus_skills": [
+        "Experience with RFIC integration",
+        "Proficiency in ADS and HFSS",
+        "Knowledge of FCC/CE certification processes"
+      ],
+      "summary": "Senior RF engineer role focused on hands\u2011on RF module design and production transfer, directly leveraging the candidate\u2019s satellite communications and modem design experience while moving into a commercial IC environment.",
+      "is_startup": false,
+      "adzuna_id": "5972995437"
+    },
+    {
+      "title": "Lead RFIC & Analog Design Engineer",
+      "company": "Darwin Recruitment",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5966667716?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$150K\u2013$190K (estimate based on senior staff level)",
+      "top_requirements": [
+        "Design and prototype RFIC blocks (e.g., LNAs, mixers, VCOs) in a 65\u202fnm\u2011plus CMOS process, delivering silicon\u2011level performance targets.",
+        "Create and verify layout using advanced analog/RF layout tools, ensuring compliance with matching and isolation requirements.",
+        "Lead cross\u2011functional sign\u2011off activities, including silicon validation, yield analysis, and documentation for volume production."
+      ],
+      "bonus_skills": [
+        "Cadence Virtuoso expertise",
+        "TCAD device modeling",
+        "Experience with silicon\u2011photonic integration"
+      ],
+      "summary": "A senior RFIC and analog design position that emphasizes hands\u2011on circuit design and layout, perfectly aligned with the candidate\u2019s goal of moving into senior IC roles.",
+      "is_startup": false,
+      "adzuna_id": "5966667716"
+    },
+    {
+      "title": "Senior RF Integration Engineer \u2013 RFSOI & 3DIC Platforms",
+      "company": "U3 INFOTECH PTE. LTD.",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5947687826?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$130K\u2013$150K (estimate)",
+      "top_requirements": [
+        "Develop and verify RF\u2011SOI and RF\u2011SOI\u20113DIC platform designs, including device modeling, test\u2011structure creation, and silicon validation.",
+        "Collaborate with customers to define platform specifications and ensure successful qualification of new process nodes.",
+        "Perform measurement campaigns using network analyzers and spectrum analyzers to characterize RF performance across process corners."
+      ],
+      "bonus_skills": [
+        "TCAD simulation experience",
+        "Understanding of 3D\u2011IC integration flows",
+        "Scripting in MATLAB/Python for data analysis"
+      ],
+      "summary": "A senior engineering role focused on RF\u2011SOI platform development, providing hands\u2011on device and circuit validation that aligns with the candidate\u2019s RF design background while moving toward semiconductor\u2011level work.",
+      "is_startup": false,
+      "adzuna_id": "5947687826"
+    }
+  ]
+}
