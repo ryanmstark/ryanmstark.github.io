@@ -4,60 +4,6 @@
   "checked_at": "2026-11-24T19:52:00Z",
   "unique": [
     {
-      "id": "601-van-ness-amsi-666",
-      "name": "Opera Plaza 1BR, 666 sq ft “Stunning Views” (601 Van Ness Ave, unit # not listed)",
-      "hood": "Van Ness corridor / Civic Center · Opera Plaza condo complex",
-      "lat": 37.7814,
-      "lng": -122.4212,
-      "approx": true,
-      "rent": 3400,
-      "allin": "$3,400 + secured private parking for an additional fee (fee not shown; other Opera Plaza listings charge $250–$295) · est. ~$3,650–$3,700 all-in",
-      "posted": null,
-      "updated": "2026-11-24",
-      "tags": [
-        [
-          "Secured private parking for an extra fee (confirm it's an assigned spot)",
-          "maybe"
-        ],
-        [
-          "666 sq ft",
-          "yes"
-        ],
-        [
-          "Dishwasher not stated",
-          "maybe"
-        ],
-        [
-          "Laundry not stated (building has shared laundry)",
-          "maybe"
-        ],
-        [
-          "City views; building pool & gym",
-          "yes"
-        ],
-        [
-          "Condo (built 1982): no rent cap",
-          "no"
-        ],
-        [
-          "Bedroom window: confirm",
-          "maybe"
-        ]
-      ],
-      "notes": [
-        "Another individually owned Opera Plaza 1BR/1BA, listed by AMSI on Apartments.com as “Stunning Views Opera Plaza One Bedroom”. At $3,400 plus parking it should land under $3,750 all-in, comfortably in your excellent range, with a quick on-ramp to 101/280 for the Dogpatch commute. Separate from the 677 sq ft AMSI listing ($3,100) already on the page.",
-        "<span class='flag'>Ask the unit number, the parking fee and whether it's a designated garage space that fits your Mazda 3 (other Opera Plaza listings, e.g. #226 and #1022, describe their $250 garage parking as unassigned). Also confirm dishwasher and laundry. The deposit is listed at $5,100 (1.5× rent), which is high; California generally caps deposits at one month for most landlords, so ask about it.</span>"
-      ],
-      "scam": [
-        "Some caution",
-        "listed through AMSI (a known SF leasing company) at a price in line with other Opera Plaza 1BRs, but no individual agent is named and the deposit is 1.5× rent. Tour in person and pay nothing before seeing the unit."
-      ],
-      "who": "AMSI (no individual agent named)",
-      "url": "https://www.apartments.com/listing/2yv4pv9",
-      "src": "Apartments.com",
-      "status": "active"
-    },
-    {
       "id": "1426-11th-ave-1",
       "name": "1426 11th Ave #1 (bi-level carriage-house condo, 4-unit gated property)",
       "hood": "Inner Sunset · 11th Ave between Judah & Kirkham, ~5 blocks to Golden Gate Park and the N-Judah",
