@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-24",
   "search_at": "2026-11-24T23:05:00Z",
-  "checked_at": "2026-11-24T23:05:00Z",
+  "checked_at": "2026-11-24T23:55:39Z",
   "unique": [
     {
       "id": "4155-cesar-chavez-17",
@@ -1623,8 +1623,8 @@
       "who": "Landlord (name not shown; Craigslist relay email)",
       "url": "https://www.craigslist.org/view/d/san-francisco-bright-updated-bedroom/8VkztkBo59CiZeyi8pyp1t",
       "src": "Craigslist",
-      "status": "active",
-      "removed_at": null
+      "status": "removed",
+      "removed_at": "2026-11-24T23:55:33Z"
     },
     {
       "id": "1930-eddy-303",
