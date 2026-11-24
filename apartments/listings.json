@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-23",
-  "search_at": "2026-11-24T01:53:00Z",
-  "checked_at": "2026-11-24T13:50:00Z",
+  "asof": "2026-11-24",
+  "search_at": "2026-11-24T14:25:00Z",
+  "checked_at": "2026-11-24T14:25:00Z",
   "unique": [
     {
       "id": "1426-11th-ave-1",
@@ -119,7 +119,7 @@
       "rent": 3849,
       "allin": "$3,849 + parking if any fee (one dedicated spot in a secured private garage; fee not stated)",
       "posted": null,
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "tags": [
         [
           "Dedicated off-street spot in a secured garage",
@@ -152,7 +152,8 @@
       ],
       "notes": [
         "About as close to your #1 spot as it gets: on Fulton facing Alamo Square, with in-unit laundry, a new dishwasher and a dedicated garage spot, at $3,849 (inside your ‘happy’ range even if parking adds a small fee). Fulton is a residential street, not Oak/Fell. The listing appeared ‘today’ on Apartments.com.",
-        "<span class='flag'>Ask the square footage, which way the unit faces (a ground-floor #141 may be darker), whether the garage spot costs extra and fits a Mazda 3, and confirm the bedroom has an exterior window. 63-unit building, so it's less of a small-building feel.</span>"
+        "<span class='flag'>Ask the square footage, which way the unit faces (a ground-floor #141 may be darker), whether the garage spot costs extra and fits a Mazda 3, and confirm the bedroom has an exterior window. 63-unit building, so it's less of a small-building feel.</span>",
+        "<span class='flag'>Nov 24 check: the page body now shows $4,089 total per month (rent plus water, sewer and trash), and the description still carries an old &ldquo;Available 2/7/2026&rdquo; date. Confirm the current rent and move-in date.</span>"
       ],
       "scam": [
         "Low risk",
@@ -173,7 +174,7 @@
       "rent": 3220,
       "allin": "$3,220 + parking if any fee (1-car side-by-side parking listed; fee not stated)",
       "posted": null,
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "tags": [
         [
           "1-car side-by-side parking (confirm it's assigned to #5)",
@@ -432,7 +433,7 @@
       "lng": -122.4017,
       "approx": true,
       "url": "https://www.apartments.com/1103-de-haro-st-san-francisco-ca/m0lltjk",
-      "status": "active",
+      "status": "removed",
       "posted": "2026-11-19",
       "posted_approx": true,
       "updated": "2026-11-20",
@@ -473,7 +474,9 @@
         "Normal price for the area and a named lister with a phone number, but no company is given and the availability text conflicts. Tour in person and pay nothing before a lease."
       ],
       "who": "Stephen Dowdy (individual; phone on listing, no company named)",
-      "src": "Apartments.com"
+      "src": "Apartments.com",
+      "removed_at": "2026-11-24T14:25:00Z",
+      "removed_reason": "Apartments.com listing now redirects to search results (listing pulled), checked 2026-11-24."
     },
     {
       "id": "2225-23rd",
@@ -1083,7 +1086,7 @@
       "lng": -122.4178,
       "approx": true,
       "url": "https://www.zillow.com/homedetails/1515-15th-St-San-Francisco-CA-94103/2079355694_zpid",
-      "status": "active",
+      "status": "removed",
       "posted": "2026-11-09",
       "posted_approx": true,
       "updated": "2026-11-11",
@@ -1132,7 +1135,9 @@
         "the same unit appears on Zillow, Redfin and Apartments.com at market prices, with in-person tours; no requests for money up front. The landlord isn't named on Zillow, so get a name and confirm ownership before paying anything."
       ],
       "who": "Not named (condo owner or manager; contact through Zillow/Apartments.com)",
-      "src": "Zillow"
+      "src": "Zillow",
+      "removed_at": "2026-11-24T14:25:00Z",
+      "removed_reason": "Zillow shows 'Listing removed' on 2026-11-19."
     },
     {
       "id": "1724-waller-a",
@@ -1142,7 +1147,7 @@
       "lng": -122.4518,
       "approx": true,
       "url": "https://www.redfin.com/CA/San-Francisco/1724-Waller-St-94117/apartment/1724198",
-      "status": "active",
+      "status": "removed",
       "posted": "2026-11-12",
       "posted_approx": true,
       "updated": "2026-11-13",
@@ -1179,7 +1184,9 @@
         "listed by Rentals Inc., a licensed SF brokerage (415-992-6863), with the same unit on several sites at a market price; nothing asks for money before a tour."
       ],
       "who": "Rentals Inc. (brokerage)",
-      "src": "Redfin"
+      "src": "Redfin",
+      "removed_at": "2026-11-24T14:25:00Z",
+      "removed_reason": "Zumper shows #A occupied (0 units available) and ShowMojo says it is no longer on the market, checked 2026-11-24."
     },
     {
       "id": "45-ord-ct",
@@ -3106,15 +3113,16 @@
       ],
       "notes": [
         "A 1BR/1BA in a small 1951 four-unit condo building in Anza Vista with a deeded garage space, a private deck, shared garden, an updated kitchen (quartz, gas range, dishwasher) and downtown views from the living room, kitchen and bath. Small-building feel close to NoPa and the Divisadero corridor. Listed furnished on a 1-year lease, available now.",
-        "<span class='flag'>Stretch at $5,000: ask whether it can be rented unfurnished (possibly cheaper), what laundry there is, the square footage, the garage-space size, and what the extra fees are. Confirm the bedroom has an exterior window.</span>"
+        "<span class='flag'>Stretch at $5,000: ask whether it can be rented unfurnished (possibly cheaper), what laundry there is, the square footage, the garage-space size, and what the extra fees are. Confirm the bedroom has an exterior window.</span>",
+        "<span class='flag'>Nov 24: the Apartments.com listing was pulled, but Redfin's Anza Vista rentals page still shows it at $5,000 with parking. May be going off market.</span>"
       ],
       "scam": [
         "Low risk",
         "Listed by named Sotheby's International Realty agents (Clara Laines-Welch, Mary Landeros) at a market price, syndicated to several sites."
       ],
       "who": "Sotheby's International Realty (Clara Laines-Welch & Mary Landeros)",
-      "url": "https://www.forrentuniversity.com/ca/san-francisco/64-encanto-ave/rq99yb1",
-      "src": "Apartments.com / Zumper",
+      "url": "https://www.redfin.com/neighborhood/57/CA/San-Francisco/Anza-Vista/rentals",
+      "src": "Redfin",
       "status": "active"
     },
     {
@@ -3178,12 +3186,12 @@
       "lat": 37.7655,
       "lng": -122.4712,
       "posted": null,
-      "updated": "2026-11-20",
-      "price": "From $3,469 on Redfin (7 one-bedrooms, 644 sq ft); PadMapper earlier showed $4,079–$4,147",
+      "updated": "2026-11-24",
+      "price": "$4,079–$4,147 · 644 sq ft (B102 $4,079 and A107 $4,147 now; A209 $4,117 on Dec 7)",
       "parking": "Assigned parking (cost not listed)",
       "notes": "In-unit W/D, dishwasher, 7 one-bedrooms available. 126-unit complex directly across Lincoln Way from Golden Gate Park.",
       "seen": "Zumper",
-      "url": "https://www.zumper.com/apartment-buildings/p62302/park-west-inner-sunset-san-francisco-ca",
+      "url": "https://www.rentable.co/san-francisco-ca/park-west",
       "status": "active"
     },
     {
@@ -3251,7 +3259,7 @@
       "seen": "Zumper + HotPads + Zillow + 8+ Craigslist posts",
       "url": "https://hotpads.com/1395-golden-gate-avenue-san-francisco-ca-94115-242wmrx/pad",
       "status": "active",
-      "updated": "2026-11-18"
+      "updated": "2026-11-24"
     },
     {
       "id": "one-henry-adams",
@@ -3261,13 +3269,13 @@
       "lat": 37.7689,
       "lng": -122.4037,
       "posted": null,
-      "price": "$4,396–$4,932 · 654–771 sq ft (6 one-bedrooms on HotPads, each down $75)",
+      "price": "No 1BRs priced right now (all 1BR plans 'Available Soon'; only 2BRs priced)",
       "parking": "Garage, $275/mo",
       "notes": "Five 1BR floor plans, in-unit W/D. About $4,715–$5,027 all-in.",
       "seen": "Zumper",
       "url": "https://www.zumper.com/apartment-buildings/p208324/one-henry-adams-potrero-hill-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-16"
+      "updated": "2026-11-24"
     },
     {
       "id": "potrero-1010",
@@ -3277,13 +3285,13 @@
       "lat": 37.7663,
       "lng": -122.3962,
       "posted": null,
-      "price": "$4,062–$4,384 · 586–733 sq ft (6 one-bedrooms; junior 1BRs skipped)",
+      "price": "$4,607 · 689 sq ft full 1BR with balcony (junior 1BRs skipped)",
       "parking": "Assigned garage, $250/mo (confirm)",
       "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in. Redfin (Nov 16) shows 1BR plans from $3,513, so pricing may have dropped; confirm the plan isn't a junior 1BR.",
       "seen": "Zumper + Redfin",
       "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-16"
+      "updated": "2026-11-24"
     },
     {
       "id": "sunset-towers",
@@ -3293,13 +3301,13 @@
       "lat": 37.759,
       "lng": -122.4626,
       "posted": "2026-11-02T17:23:00-08:00",
-      "price": "$4,743–$5,573 · 631–771 sq ft (15 one-bedrooms; parking $250/mo)",
+      "price": "$4,485–$4,945 · 665–771 sq ft (7 one-bedrooms available now, more Dec–Apr; parking $250/mo)",
       "parking": "Garage (cost not listed)",
       "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
       "seen": "Zumper + PadMapper + Redfin + Craigslist",
       "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
       "status": "active",
-      "updated": "2026-11-18"
+      "updated": "2026-11-24"
     },
     {
       "id": "1720-golden-gate",
@@ -3330,8 +3338,10 @@
       "notes": "Dishwasher, laundry on-site. Zumper shows #206 “available now” at $3,995 (re-checked Nov 6); private garage +$200. North of your preferred area.",
       "seen": "Zumper + Rentable",
       "url": "https://www.zumper.com/apartment-buildings/p797927/340-arguello-boulevard-990r-laurel-heights-san-francisco-ca",
-      "status": "active",
-      "updated": "2026-11-16"
+      "status": "removed",
+      "updated": "2026-11-16",
+      "removed_at": "2026-11-24T14:25:00Z",
+      "removed_reason": "Rentable shows all 1BRs rented and the property not accepting new tenants, checked 2026-11-24."
     },
     {
       "id": "2110-market",
@@ -3361,10 +3371,10 @@
       "lng": -122.4329,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-23",
-      "price": "$4,899–$5,110 · 655 sq ft (2 qualifying one-bedrooms; 559 sq ft units skipped)",
+      "updated": "2026-11-24",
+      "price": "$4,858–$5,690 total monthly · 605–785 sq ft (7 one-bedrooms)",
       "parking": "Reserved spaces in controlled-access garage (fee not listed)",
-      "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price.",
+      "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price. Nov 24: Apartments.com's FAQ says 'Parking is not available' while the description mentions a garage, so confirm an assigned spot exists before touring.",
       "seen": "Zillow + Craigslist + Redfin",
       "url": "https://www.zillow.com/apartments/san-francisco-ca/the-fillmore-center/5XjVzy",
       "status": "active"
@@ -3377,8 +3387,8 @@
       "lat": 37.7768,
       "lng": -122.4194,
       "posted": null,
-      "updated": "2026-11-18",
-      "price": "$4,172–$4,902 · 611–788 sq ft (12 one-bedrooms; 529 sq ft plans skipped; assigned garage $375)",
+      "updated": "2026-11-24",
+      "price": "$4,451–$5,016 · 611–760 sq ft (529 sq ft plans skipped; assigned garage $375–$450)",
       "parking": "Assigned garage space $375/mo (assigned covered $400–$450), so all-in roughly $4,870–$5,390",
       "notes": "420-unit 2018 high-rise. Apartments.com lists in-unit W/D and dishwasher (Zumper says no in-unit laundry, so confirm). Good value pick: unit 0111 (657 sq ft, $4,491) or 0313 (760 sq ft, $4,761). <span class='flag'>Ask for a unit not facing Fell St, and confirm the garage entrance isn't off Fell.</span>",
       "seen": "Zumper + Apartments.com",
@@ -3394,8 +3404,8 @@
       "lng": -122.4247,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-16",
-      "price": "$4,512–$4,973 · 631–694 sq ft (6 one-bedrooms; 788 sq ft plans at $5,278+ skipped)",
+      "updated": "2026-11-24",
+      "price": "$4,653–$5,054 (4 priced one-bedrooms; gated garage ~$300/mo)",
       "parking": "Garage parking listed; assignment and monthly fee not shown, so confirm an assigned space",
       "notes": "Newer mid-size building with in-unit laundry (dishwasher not listed on HotPads, confirm). Best values: #0115 (671 sq ft, $4,562, available now) and #0413 (681 sq ft, $4,753, Dec 13). Walkable to Hayes Valley, Duboce Park and the Lower Haight, quick to the 101/280 on-ramp at Octavia. <span class='flag'>Parking would push all-in near or over $5,000; confirm the space is assigned and the fee.</span>",
       "seen": "HotPads + Redfin",
@@ -3445,12 +3455,12 @@
       "lng": -122.4315,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-23",
-      "price": "$4,340–$4,500 (#313 & #320 $4,340, #412 $4,500 on Zillow; #208 at $4,045 no longer shown)",
+      "updated": "2026-11-24",
+      "price": "$4,340–$4,500 (#320 $4,340, #412 $4,500, both available now)",
       "parking": "Garage parking listed on Zillow and Zumper; whether it's assigned and its fee aren't shown",
       "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span> <span class='flag'>An Apartments.com listing for #202 ($3,495) says &ldquo;street parking only&rdquo; and shared laundry, so garage spaces may not come with every unit — ask before touring.</span> <span class='flag'>New Craigslist reposts today list #320 at $4,940 and #412 at $5,100, higher than Zillow's figures &mdash; ask which price is current.</span>",
       "seen": "7 posts (5 Craigslist + Zumper + Zillow)",
-      "url": "https://www.zumper.com/apartment-buildings/p58977/400-duboce-avenue-lower-haight-san-francisco-ca",
+      "url": "https://www.rentcafe.com/apartments/ca/san-francisco/400-duboce-avenue/default.aspx",
       "status": "active"
     }
   ]
