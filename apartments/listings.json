@@ -1,8 +1,112 @@
 {
   "asof": "2026-11-24",
-  "search_at": "2026-11-24T19:52:00Z",
-  "checked_at": "2026-11-24T19:52:00Z",
+  "search_at": "2026-11-24T23:05:00Z",
+  "checked_at": "2026-11-24T23:05:00Z",
   "unique": [
+    {
+      "id": "4155-cesar-chavez-17",
+      "name": "4155 Cesar Chavez St #17 (top-floor 1BR, rent-controlled apartment building)",
+      "hood": "Noe Valley · Cesar Chavez between Castro & Diamond, next to Glen Park",
+      "lat": 37.7481,
+      "lng": -122.4371,
+      "approx": true,
+      "rent": 4295,
+      "allin": "$4,495 all-in ($4,295 + $200 assigned parking)",
+      "posted": null,
+      "updated": "2026-11-24",
+      "tags": [
+        [
+          "Assigned parking, +$200/mo",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "Shared on-site laundry (not in-unit)",
+          "maybe"
+        ],
+        [
+          "Top floor",
+          "yes"
+        ],
+        [
+          "Size not listed (confirm ≥575 sq ft)",
+          "maybe"
+        ],
+        [
+          "Subject to SF Rent Ordinance",
+          "yes"
+        ],
+        [
+          "Noe Valley: just outside your listed areas",
+          "maybe"
+        ]
+      ],
+      "notes": [
+        "Top-floor 1BR/1BA in a rent-controlled building on Cesar Chavez, listed by Anchor Realty. $4,495 all-in with an assigned $200 space, right at your &ldquo;happy&rdquo; line; water and garbage included. Noe Valley isn't on your list but sits between Glen Park and the Mission, with a quick run to 280/101 for Dogpatch (~15–20 min).",
+        "<span class='flag'>Cesar Chavez is a busy arterial: ask which side the unit faces. Confirm square footage, that the bedroom has an exterior window, and that the space fits the Mazda 3. Laundry is shared.</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Licensed brokerage (Anchor Realty, DRE 01208661) listing on both Zillow and Zumper at a market price."
+      ],
+      "who": "Anchor Realty, Inc. (management company)",
+      "url": "https://www.zillow.com/b/4155ceschav-san-francisco-ca-9NLrgB",
+      "src": "Zillow",
+      "status": "active"
+    },
+    {
+      "id": "2121-26th-201",
+      "name": "2121 26th St #201 (loft-style 1BR in a 5-unit building)",
+      "hood": "Potrero Hill · south slope, 26th St near Vermont/Kansas",
+      "lat": 37.7505,
+      "lng": -122.4045,
+      "approx": true,
+      "rent": 3850,
+      "allin": "$3,850 all-in (private garage included)",
+      "posted": null,
+      "updated": "2026-11-24",
+      "tags": [
+        [
+          "Private garage included",
+          "yes"
+        ],
+        [
+          "In-unit washer/dryer",
+          "yes"
+        ],
+        [
+          "Dishwasher",
+          "yes"
+        ],
+        [
+          "~1,500 sq ft, 1.5 baths, bonus room",
+          "yes"
+        ],
+        [
+          "Loft-style: confirm the bedroom is enclosed with an exterior window",
+          "maybe"
+        ],
+        [
+          "Small 5-unit building",
+          "yes"
+        ]
+      ],
+      "notes": [
+        "Large loft-style 1BR/1.5BA with a bonus room in a 5-unit Potrero Hill building managed by Chandler Properties. A private garage, in-unit laundry and a dishwasher are included at $3,850, well inside your &ldquo;excellent&rdquo; range, and it's about 5 minutes to Dogpatch.",
+        "<span class='flag'>Redfin still shows it but Zillow's building page says no units are available, so it may have just rented. As a &ldquo;loft-style&rdquo; unit, check the bedroom is a real enclosed room with a window. Chandler requires an in-person viewing before applying ($45 application fee).</span>"
+      ],
+      "scam": [
+        "Low risk",
+        "Established SF management company (Chandler Properties); requires an in-person viewing before applying."
+      ],
+      "who": "Chandler Properties",
+      "url": "https://www.zillow.com/b/2121-26th-street-san-francisco-ca-9NK4gk",
+      "src": "Zillow",
+      "status": "active"
+    },
     {
       "id": "1426-11th-ave-1",
       "name": "1426 11th Ave #1 (bi-level carriage-house condo, 4-unit gated property)",
@@ -270,7 +374,9 @@
       "who": "Golden Gate Properties (415 Properties)",
       "url": "https://apartments.com/1927-hayes-st-san-francisco-ca/pc8fy6r",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "Rentable now marks the units \"Rented\" (2026-11-24 check)"
     },
     {
       "id": "1560-mcallister-7",
@@ -972,7 +1078,7 @@
       "rent": 3695,
       "allin": "$3,695 + fees (price dropped from $4,750; one assigned garage space included)",
       "posted": null,
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "tags": [
         [
           "1 assigned garage space included",
@@ -1006,15 +1112,16 @@
       "notes": [
         "A second 1BR/1BA in the same Potrero Hill condo building as #201, listed by Progressive Property Group with one assigned garage space included. It's available now on a 12-month lease, and the owner pays water and trash. It's the closest option to work.",
         "<span class='flag'>At $4,750 with coin laundry and no dishwasher mentioned, this is pricier than #201 ($4,200) for what looks like a similar unit. A mirror of the same ad shows $3,695, so ask the current price. Confirm the dishwasher, square footage and that the bedroom has an exterior window.</span>",
-        "<span class='flag'>Nov 16: price dropped to $3,695 base (plus fees), “available now.” Dishwasher still not mentioned in the ad; confirm.</span>"
+        "<span class='flag'>Nov 16: price dropped to $3,695 base (plus fees), “available now.” Dishwasher still not mentioned in the ad; confirm.</span>",
+        "<span class='flag'>Nov 24 check: Zumper still shows #205 at $4,750 (not the reduced $3,695), &ldquo;ready for occupancy&rdquo; with tours open. Confirm the current price with Progressive Property Group.</span>"
       ],
       "scam": [
         "Low risk",
         "listed by an established SF property manager (Progressive Property Group, (415) 680-7546) at a market price."
       ],
       "who": "Progressive Property Group, Inc.",
-      "url": "https://www.rentable.co/san-francisco-ca/potrero-hill-1-br-1ba-parking-laundry-progressive",
-      "src": "Craigslist",
+      "url": "https://www.zumper.com/address/875-vermont-st-san-francisco-ca-94107-usa",
+      "src": "Zumper",
       "status": "active"
     },
     {
@@ -1302,7 +1409,7 @@
       "lng": -122.45,
       "approx": true,
       "url": "https://www.apartments.com/724-cole-st-san-francisco-ca/1q7wcx4/",
-      "status": "active",
+      "status": "removed",
       "posted": null,
       "updated": "2026-11-18",
       "rent": 3200,
@@ -1338,7 +1445,9 @@
         "listed by a named management company (Golden Gate Properties, 415-498-0068), and a second unit in the building is listed by a licensed brokerage."
       ],
       "who": "Golden Gate Properties",
-      "src": "Apartments.com"
+      "src": "Apartments.com",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "PadMapper says this unit (#1, $3,200) is no longer available (2026-11-24 check)"
     },
     {
       "id": "244-hermann-3",
@@ -1460,10 +1569,10 @@
       "lat": 37.7316,
       "lng": -122.4416,
       "approx": true,
-      "rent": 4000,
-      "allin": "$4,100 all-in ($4,000 + $100 garage)",
+      "rent": 4200,
+      "allin": "$4,300 all-in ($4,200 + $100 garage; price raised from $4,000)",
       "posted": "2026-10-23T16:32:00-07:00",
-      "updated": "2026-10-26",
+      "updated": "2026-11-24",
       "tags": [
         [
           "Garage parking ($100/mo) in a detached garage: confirm it's a designated space that fits a sedan",
@@ -1504,7 +1613,8 @@
       ],
       "notes": [
         "Light-filled, updated one-bedroom flat on one side of a detached building in Glen Park, with a rear bedroom, an eat-in kitchen with a gas stove that opens to the living room, an updated bath (shower, no tub), a private side yard and access to the shared rear yard. Landlord pays water and garbage; one-year lease; deposit is one month's rent. Cats and dogs OK. Near Canyon Market, Glen Park BART and quick 280 access to Dogpatch.",
-        "<span class='flag'>Dishwasher and square footage aren't listed, so ask about both before touring. Laundry is shared. The post says garage parking is &ldquo;included at $100 per month&rdquo;, which reads as $100 extra; confirm it's an assigned space. Three photos are virtually staged. A second copy of the post shows $4,200, so confirm the current price. Glen Park is a quiet, village-like area but a long way from your GGP / Alamo Square life. Better as a cheaper 1&ndash;2 year option.</span>"
+        "<span class='flag'>Dishwasher and square footage aren't listed, so ask about both before touring. Laundry is shared. The post says garage parking is &ldquo;included at $100 per month&rdquo;, which reads as $100 extra; confirm it's an assigned space. Three photos are virtually staged. A second copy of the post shows $4,200, so confirm the current price. Glen Park is a quiet, village-like area but a long way from your GGP / Alamo Square life. Better as a cheaper 1&ndash;2 year option.</span>",
+        "<span class='flag'>Re-activated Nov 24: the same Craigslist posting is live again at $4,200 (seen on the Craigslist 1BR list page; detail page not re-read, so confirm the garage fee is still $100).</span>"
       ],
       "scam": [
         "Some caution",
@@ -1513,8 +1623,8 @@
       "who": "Landlord (name not shown; Craigslist relay email)",
       "url": "https://www.craigslist.org/view/d/san-francisco-bright-updated-bedroom/8VkztkBo59CiZeyi8pyp1t",
       "src": "Craigslist",
-      "status": "removed",
-      "removed_at": "2026-11-10T03:37:11Z"
+      "status": "active",
+      "removed_at": null
     },
     {
       "id": "1930-eddy-303",
@@ -1851,7 +1961,9 @@
       "who": "ReLISTO (brokerage for the owner)",
       "url": "https://www.apartments.com/55-page-st-san-francisco-ca-unit-818/en5bkmn/",
       "src": "Redfin / Apartments.com",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "MLS lease record shows PH818 leased; Zillow shows it off market (2026-11-24 check)"
     },
     {
       "id": "1235-mcallister-125",
@@ -1900,7 +2012,8 @@
       ],
       "notes": [
         "701 sq ft 1BR/1BA condo with in-unit laundry, dishwasher, bay windows, a big private patio and a built-in dining booth (good for hosting). About $3,775 with the garage spot, under your $4,000 &ldquo;excellent&rdquo; line, two blocks from Alamo Square.",
-        "<span class='flag'>The underground garage space is run by the HOA for an extra $280; ask whether it's an assigned spot. Ground-level (#1xx) unit, so ask about light and street noise. Pet policy is contradictory on the listing. Some units in this building are BMR, so confirm this one has no special restrictions.</span>"
+        "<span class='flag'>The underground garage space is run by the HOA for an extra $280; ask whether it's an assigned spot. Ground-level (#1xx) unit, so ask about light and street noise. Pet policy is contradictory on the listing. Some units in this building are BMR, so confirm this one has no special restrictions.</span>",
+        "<span class='flag'>Nov 24 check: Zumper shows $3,595 + $280 garage ($3,875 all-in), 701 sq ft, but that listing looks stale; confirm the current price.</span>"
       ],
       "scam": [
         "Low risk",
@@ -2013,7 +2126,9 @@
       "who": "Progressive Property Group, Inc.",
       "url": "https://www.apartments.com/1350-divisadero-st-san-francisco-ca/5zc037p/",
       "src": "Apartments.com",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "Trulia/ApartmentList show the unit delisted; the source posting was stale (2026-11-24 check)"
     },
     {
       "id": "1960-hayes",
@@ -2474,7 +2589,9 @@
       "who": "Individual condo owner or agent (not shown)",
       "url": "https://www.zillow.com/homedetails/875-Vermont-St-APT-201-San-Francisco-CA-94107/2093593619_zpid/",
       "src": "Zillow",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "Redfin shows #201 off market; Zumper lists only other units (2026-11-24 check)"
     },
     {
       "id": "430-hayes-202",
@@ -2689,7 +2806,9 @@
       "who": "Pacific Management Group",
       "url": "https://www.zumper.com/apartment-buildings/p319627/741-potrero-hill-san-francisco-ca",
       "src": "Zumper",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "Zillow shows no available units; Zumper has no priced 1BR (2026-11-24 check)"
     },
     {
       "id": "2200-sacramento-104",
@@ -3061,7 +3180,9 @@
       "who": "Epic Real Estate & Asso. Inc. (Eugenia “Genie” Mantzoros; showings by Jen Perales)",
       "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/1340-scott-st/12979584",
       "src": "Rentler",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "Zumper rent history shows the unit rented (2026-11-24 check)"
     },
     {
       "id": "64-encanto",
@@ -3254,7 +3375,7 @@
       "lat": 37.7801,
       "lng": -122.4336,
       "posted": null,
-      "price": "$4,140–$6,900 · 620 sq ft (3 one-bedrooms; #207 $4,140 after a drop)",
+      "price": "$4,140 · 620 sq ft (#207; #105 at $6,900 skipped)",
       "parking": "Garage (optional fee)",
       "notes": "Elevator building, on-site laundry. HotPads shows 3 one-bedrooms from $4,140 (marked new today, Nov 7). Unit 207 recently dropped to $4,400. Two new Craigslist posts on the evening of Nov 12 (“1395 Golden Gate@Steiner/Parking”) at $3,945 and $4,400; the $3,945 one may be a smaller unit, so confirm it's a true 1BR.",
       "seen": "Zumper + HotPads + Zillow + 8+ Craigslist posts",
@@ -3270,11 +3391,11 @@
       "lat": 37.7689,
       "lng": -122.4037,
       "posted": null,
-      "price": "No 1BRs priced right now (all 1BR plans 'Available Soon'; only 2BRs priced)",
+      "price": "$4,396–$4,932 · 653–771 sq ft (N-309 679 sq ft $4,396 Nov 27; S-608 701 sq ft $4,468 Dec 4)",
       "parking": "Garage, $275/mo",
       "notes": "Five 1BR floor plans, in-unit W/D. About $4,715–$5,027 all-in.",
       "seen": "Zumper",
-      "url": "https://www.zumper.com/apartment-buildings/p208324/one-henry-adams-potrero-hill-san-francisco-ca",
+      "url": "https://www.zillow.com/apartments/san-francisco-ca/one-henry-adams/CkBVH9/",
       "status": "active",
       "updated": "2026-11-24"
     },
@@ -3286,11 +3407,11 @@
       "lat": 37.7663,
       "lng": -122.3962,
       "posted": null,
-      "price": "$4,607 · 689 sq ft full 1BR with balcony (junior 1BRs skipped)",
+      "price": "$4,308–$4,434 · 648–733 sq ft full 1BRs (648 sq ft with balcony $4,308–$4,383; 733 sq ft $4,434; junior 1BRs skipped)",
       "parking": "Assigned garage, $250/mo (confirm)",
       "notes": "True 1BR plans only; the cheaper “junior” 1BRs are excluded. In-unit W/D, some with balconies. About $4,410–$4,585 all-in. Redfin (Nov 16) shows 1BR plans from $3,513, so pricing may have dropped; confirm the plan isn't a junior 1BR.",
       "seen": "Zumper + Redfin",
-      "url": "https://www.zumper.com/apartment-buildings/p13179/potrero-1010-potrero-hill-san-francisco-ca",
+      "url": "https://hotpads.com/potrero-1010-san-francisco-ca-94107-wdhq8z/pad",
       "status": "active",
       "updated": "2026-11-24"
     },
@@ -3302,11 +3423,11 @@
       "lat": 37.759,
       "lng": -122.4626,
       "posted": "2026-11-02T17:23:00-08:00",
-      "price": "$4,485–$4,945 · 665–771 sq ft (7 one-bedrooms available now, more Dec–Apr; parking $250/mo)",
+      "price": "$4,230–$4,445+ · 650–767 sq ft (parking $250/mo)",
       "parking": "Garage (cost not listed)",
       "notes": "Balconies, dishwasher. Nov 2 Craigslist post: 1BR, ~665 sq ft, $4,669, garage parking, but it lists an on-site laundry room rather than in-unit W/D — confirm per unit. On the far western edge of your range.",
       "seen": "Zumper + PadMapper + Redfin + Craigslist",
-      "url": "https://www.zumper.com/apartment-buildings/p16482/avalon-sunset-towers-west-of-twin-peaks-san-francisco-ca",
+      "url": "https://www.zillow.com/apartments/san-francisco-ca/avalon-sunset-towers/5XjLKv/",
       "status": "active",
       "updated": "2026-11-24"
     },
@@ -3373,7 +3494,7 @@
       "approx": true,
       "posted": null,
       "updated": "2026-11-24",
-      "price": "$4,858–$5,690 total monthly · 605–785 sq ft (7 one-bedrooms)",
+      "price": "$5,111–$5,629 total monthly · 705–785 sq ft (5 one-bedrooms; now above $5k)",
       "parking": "Reserved spaces in controlled-access garage (fee not listed)",
       "notes": "Big 10-building Greystar complex. In-unit W/D on recent posts, fitness club, dog parks. Dishwasher not stated; confirm. Cheapest 1BR (M20306, 785 sq ft, $4,858) is in the OK range before the parking fee. Garage is off Eddy St, not Oak/Fell. Also reposts on Craigslist at lower teaser prices. Redfin shows 1BRs from $3,148+ (Nov 12 afternoon, 23 units available); that floor likely reflects the smallest/concession-priced unit, so confirm a 575+ sq ft 1BR price. Nov 24: Apartments.com's FAQ says 'Parking is not available' while the description mentions a garage, so confirm an assigned spot exists before touring.",
       "seen": "Zillow + Craigslist + Redfin",
@@ -3389,11 +3510,11 @@
       "lng": -122.4194,
       "posted": null,
       "updated": "2026-11-24",
-      "price": "$4,451–$5,016 · 611–760 sq ft (529 sq ft plans skipped; assigned garage $375–$450)",
+      "price": "$4,222–$4,902 · 611–788 sq ft (529 sq ft plans skipped; assigned garage $375–$450)",
       "parking": "Assigned garage space $375/mo (assigned covered $400–$450), so all-in roughly $4,870–$5,390",
       "notes": "420-unit 2018 high-rise. Apartments.com lists in-unit W/D and dishwasher (Zumper says no in-unit laundry, so confirm). Good value pick: unit 0111 (657 sq ft, $4,491) or 0313 (760 sq ft, $4,761). <span class='flag'>Ask for a unit not facing Fell St, and confirm the garage entrance isn't off Fell.</span>",
       "seen": "Zumper + Apartments.com",
-      "url": "https://www.apartments.com/150-van-ness-san-francisco-ca/8pdvlx3/",
+      "url": "https://www.zumper.com/apartment-buildings/p208890/150-van-ness-civic-center-san-francisco-ca",
       "status": "active"
     },
     {
@@ -3406,11 +3527,11 @@
       "approx": true,
       "posted": null,
       "updated": "2026-11-24",
-      "price": "$4,653–$5,054 (4 priced one-bedrooms; gated garage ~$300/mo)",
+      "price": "$4,497–$5,478 · 631–788 sq ft (#0115 671 sq ft $4,497 now; gated garage ~$300/mo)",
       "parking": "Garage parking listed; assignment and monthly fee not shown, so confirm an assigned space",
       "notes": "Newer mid-size building with in-unit laundry (dishwasher not listed on HotPads, confirm). Best values: #0115 (671 sq ft, $4,562, available now) and #0413 (681 sq ft, $4,753, Dec 13). Walkable to Hayes Valley, Duboce Park and the Lower Haight, quick to the 101/280 on-ramp at Octavia. <span class='flag'>Parking would push all-in near or over $5,000; confirm the space is assigned and the fee.</span>",
       "seen": "HotPads + Redfin",
-      "url": "https://hotpads.com/venn-on-market-san-francisco-ca-94102-sksbj1/pad",
+      "url": "https://www.zillow.com/apartments/san-francisco-ca/venn-on-market/5XnPbz/",
       "status": "active"
     },
     {
@@ -3422,8 +3543,8 @@
       "lng": -122.4196,
       "approx": true,
       "posted": null,
-      "updated": "2026-11-20",
-      "price": "$4,552–$5,127 · 665–666 sq ft (#A-312 $4,552, #A-402 $4,582, #B-718 $5,127; 467 sq ft plans skipped)",
+      "updated": "2026-11-24",
+      "price": "$4,556–$5,131 · 665–666 sq ft (#A-312 $4,556, #A-402 $4,586, #B-718 $5,131 avail. 11/29; 467 sq ft plans skipped)",
       "parking": "Garage parking listed; assignment and monthly fee not shown, so confirm an assigned space",
       "notes": "Newer building with in-unit laundry (dishwasher not listed on HotPads, confirm). Best values: #A-312 and #A-402, both ~665 sq ft and available now, each just dropped $62. Walk to Hayes Valley; quick to the 101 at Octavia/Mission. <span class='flag'>Parking fee will likely push all-in to roughly $4,900–$5,000; confirm the space is assigned.</span> Redfin's Lower Haight page showed a 1BR from $4,474 on Nov 20 (unit not named).",
       "seen": "HotPads + Redfin",
@@ -3445,7 +3566,9 @@
       "notes": "Large, roomy 1BRs (700+ sq ft, space for a desk and a dining table) with a dishwasher, in a quiet hilltop complex with on-site management. Shared laundry only, no in-unit W/D. About 10 min walk to NoPa/Divisadero. <span class='flag'>Base rent excludes required fees; ask for the parking cost and whether the space is assigned.</span>",
       "seen": "Zillow + Redfin",
       "url": "https://www.zillow.com/apartments/san-francisco-ca/terra-vista-apartments/5XjRrp",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "No 1BRs listed any more (only a 2BR), 2026-11-24 check"
     },
     {
       "id": "400-duboce",
@@ -3462,7 +3585,9 @@
       "notes": "Reposted building next to Duboce Park, a few blocks from Lower Haight and the N-Judah; some units have in-unit laundry. <span class='flag'>Confirm #320 comes with an assigned garage space (and its cost), has a dishwasher, and what the all-in price is — likely over $5,000 with parking.</span> <span class='flag'>An Apartments.com listing for #202 ($3,495) says &ldquo;street parking only&rdquo; and shared laundry, so garage spaces may not come with every unit — ask before touring.</span> <span class='flag'>New Craigslist reposts today list #320 at $4,940 and #412 at $5,100, higher than Zillow's figures &mdash; ask which price is current.</span>",
       "seen": "7 posts (5 Craigslist + Zumper + Zillow)",
       "url": "https://www.rentcafe.com/apartments/ca/san-francisco/400-duboce-avenue/default.aspx",
-      "status": "active"
+      "status": "removed",
+      "removed_at": "2026-11-24T23:05:00Z",
+      "removed_reason": "Only 1BRs listed are 563 and 451 sq ft, under the 575 sq ft minimum (2026-11-24 check)"
     }
   ]
 }
