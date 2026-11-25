@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-25",
+  "postings": [
+    {
+      "title": "Senior Principal Radar Systems Engineer",
+      "company": "E-Space",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5976734844?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$164,133\u2013$164,133",
+      "top_requirements": [
+        "Design and develop radar front\u2011end RF circuits, including low\u2011noise amplifiers and mixers, for low\u2011Earth\u2011orbit satellite platforms.",
+        "Perform end\u2011to\u2011end link\u2011budget analysis and RF system simulations to meet target detection range and resolution specifications.",
+        "Lead hardware bring\u2011up, test, and validation of radar subsystems in thermal\u2011vacuum and RF anechoic chambers."
+      ],
+      "bonus_skills": [
+        "MATLAB/Simulink",
+        "C/C++ firmware",
+        "Signal processing algorithms"
+      ],
+      "summary": "The role focuses on creating high\u2011performance radar hardware for a LEO satellite constellation, leveraging deep RF and signal\u2011processing expertise. It aligns with the candidate\u2019s background in satellite communications and hands\u2011on RF system design.",
+      "is_startup": false,
+      "adzuna_id": "5976734844"
+    },
+    {
+      "title": "Systems Algorithm Engineer",
+      "company": "Lyte AI",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5975758690?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$240,164\u2013$240,164",
+      "top_requirements": [
+        "Design custom silicon blocks for high\u2011speed data converters and RF front\u2011ends, including layout, simulation, and silicon validation.",
+        "Develop and optimize signal\u2011processing algorithms (e.g., OFDM modem, channel estimation) that run on the custom ASIC and interface with sensor data.",
+        "Perform full stack bring\u2011up from silicon characterization to firmware integration and system\u2011level testing on robotic platforms."
+      ],
+      "bonus_skills": [
+        "Verilog/SystemVerilog",
+        "Cadence Virtuoso",
+        "C++ for embedded DSP"
+      ],
+      "summary": "Lyte AI seeks a hands\u2011on engineer to create mixed\u2011signal ASICs for perception systems, a perfect fit for the candidate\u2019s modem design and signal\u2011processing background while moving into a non\u2011aerospace environment.",
+      "is_startup": true,
+      "adzuna_id": "5975758690"
+    },
+    {
+      "title": "Hiring for Electrical Engineer - Signal Processing & Analog Circuits | Cupertino, CA - Onsite || FTE",
+      "company": "PSRTEK",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5973491220?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$116,060\u2013$116,060",
+      "top_requirements": [
+        "Design and prototype analog front\u2011end circuits for high\u2011frequency signal conditioning, including filters, amplifiers, and mixers.",
+        "Implement and validate digital signal\u2011processing algorithms on FPGA or DSP hardware for real\u2011time data conversion.",
+        "Perform comprehensive network analysis and S\u2011parameter measurements to verify circuit performance against specifications."
+      ],
+      "bonus_skills": [
+        "NI LabVIEW",
+        "Altium Designer",
+        "Python for data analysis"
+      ],
+      "summary": "The role combines analog circuit design with signal\u2011processing implementation, directly leveraging the candidate\u2019s expertise in RF and modem hardware.",
+      "is_startup": false,
+      "adzuna_id": "5973491220"
+    },
+    {
+      "title": "Assistant/Principal Engineer (FPGA)",
+      "company": "STAR CAREER CONSULTING PTE. LTD.",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5941238667?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,080\u2013$1,560",
+      "top_requirements": [
+        "Translate system\u2011level communication requirements into detailed FPGA architecture and RTL specifications.",
+        "Develop and verify high\u2011speed serial interfaces (e.g., JESD204B, LVDS) for RF front\u2011end data acquisition.",
+        "Perform timing analysis, floorplanning, and hardware bring\u2011up to ensure FPGA designs meet stringent latency and jitter constraints."
+      ],
+      "bonus_skills": [
+        "VHDL/Verilog",
+        "Xilinx/Intel FPGA tools",
+        "Signal integrity simulation"
+      ],
+      "summary": "The FPGA engineering role involves hands\u2011on hardware design for communications and radar systems, leveraging the candidate\u2019s RF and digital design background.",
+      "is_startup": false,
+      "adzuna_id": "5941238667"
+    },
+    {
+      "title": "Satellite Systems Engineer - RF & Communications",
+      "company": "Rohde & Schwarz Asia Pte Ltd",
+      "location_label": "Singapore",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.sg/details/5940217667?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$1,080\u2013$1,440",
+      "top_requirements": [
+        "Configure and test satellite RF front\u2011end hardware, including spectrum analysis, link\u2011budget verification, and antenna alignment.",
+        "Develop Linux\u2011based automation scripts (Docker, Ansible) for multi\u2011server deployment of signal\u2011processing pipelines.",
+        "Perform end\u2011to\u2011end system validation, troubleshooting RF path losses, and ensuring compliance with satellite communication standards."
+      ],
+      "bonus_skills": [
+        "Python/Bash scripting",
+        "Docker containers",
+        "RF measurement equipment (VNA, spectrum analyzer)"
+      ],
+      "summary": "A hands\u2011on RF and communications engineering position at Rohde & Schwarz that matches the candidate\u2019s satellite communications and RF testing experience while moving toward broader telecom applications.",
+      "is_startup": false,
+      "adzuna_id": "5940217667"
+    }
+  ]
+}
