@@ -1,33 +1,5 @@
 {
-  "Lockheed Martin": [
-    "2026-11-18"
-  ],
-  "Rambus": [
-    "2026-11-18"
-  ],
-  "MIT Lincoln Laboratory": [
-    "2026-11-18"
-  ],
-  "DCS Corp": [
-    "2026-11-18"
-  ],
-  "MITRE Corporation": [
-    "2026-11-18"
-  ],
-  "Celero Communications": [
-    "2026-11-19"
-  ],
-  "Dolby": [
-    "2026-11-19"
-  ],
-  "Rivian": [
-    "2026-11-19"
-  ],
-  "OceanComm, Inc.": [
-    "2026-11-19"
-  ],
   "Cirrus Logic": [
-    "2026-11-19",
     "2026-11-20"
   ],
   "Cisco": [
@@ -71,5 +43,20 @@
   ],
   "Rohde & Schwarz Asia Pte Ltd": [
     "2026-11-25"
+  ],
+  "Marvell Technology": [
+    "2026-11-27"
+  ],
+  "Eliyan": [
+    "2026-11-27"
+  ],
+  "AttoTude": [
+    "2026-11-27"
+  ],
+  "Voyant Photonics": [
+    "2026-11-27"
+  ],
+  "Ferric": [
+    "2026-11-27"
   ]
 }

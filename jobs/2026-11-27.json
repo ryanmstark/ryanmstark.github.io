@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-27",
+  "postings": [
+    {
+      "title": "Senior Principal Analog/Mixed-Signal Architect \u2013 Optical Connectivity & Customer Solutions",
+      "company": "Marvell Technology",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5974027798?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$200K\u2013$300K",
+      "top_requirements": [
+        "Design and verify high\u2011performance analog/mixed\u2011signal front\u2011ends for optical connectivity, including transimpedance amplifiers, clock data recovery circuits, and equalizers.",
+        "Lead architecture trade\u2011offs for noise, linearity (IIP3), power, and area across 28\u202fnm\u2011plus CMOS processes while collaborating with layout and verification teams.",
+        "Develop and execute silicon bring\u2011up, measurement, and debug plans using high\u2011speed test equipment (VNA, BERT, eye\u2011diagram) to validate link budgets and compliance with industry standards."
+      ],
+      "bonus_skills": [
+        "Silicon photonics integration",
+        "Python\u2011based automated test scripts",
+        "Experience with SerDes IP blocks"
+      ],
+      "summary": "The role focuses on creating analog and mixed\u2011signal IP for optical interconnects, a natural fit for a senior engineer with RF and modem design experience looking to move into high\u2011performance IC design. Marvell\u2019s scale offers a compensation package that meets the candidate\u2019s target.",
+      "is_startup": false,
+      "adzuna_id": "5974027798"
+    },
+    {
+      "title": "Digital - Principal Systems/DSP Engineer",
+      "company": "Eliyan",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5972563411?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$148K\u2013$150K",
+      "top_requirements": [
+        "Define the end\u2011to\u2011end DSP architecture for 224\u202fGb/s and 448\u202fGb/s SerDes, including channel modeling, equalization, and clock\u2011data\u2011recovery algorithms.",
+        "Develop and validate CDR and adaptive equalizer algorithms in MATLAB/Simulink and port them to high\u2011performance C/C++ for silicon implementation on 3\u202fnm/2\u202fnm nodes.",
+        "Collaborate with layout, silicon validation, and test teams to bring up prototype silicon, perform eye\u2011diagram analysis, and iterate on algorithm parameters for optimal BER performance."
+      ],
+      "bonus_skills": [
+        "SerDes IP development",
+        "Advanced statistical signal processing",
+        "Python automation for test"
+      ],
+      "summary": "Eliyan\u2019s principal systems/DSP engineer role drives the core DSP for next\u2011generation high\u2011speed SerDes, aligning with the candidate\u2019s background in communications and modem design while offering a hands\u2011on, startup environment.",
+      "is_startup": true,
+      "adzuna_id": "5972563411"
+    },
+    {
+      "title": "DSP Integration Test Engineer",
+      "company": "AttoTude",
+      "location_label": "San Francisco Bay Area",
+      "region": "sf",
+      "url": "https://www.adzuna.com/details/5950450081?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$98K\u2013$100K",
+      "top_requirements": [
+        "Lead bring\u2011up and integration of high\u2011speed DSP cores on early\u2011stage prototype boards, including firmware loading, clock configuration, and signal path verification.",
+        "Develop automated test suites in Python/C to validate transmit and receive DSP functions against link\u2011budget specifications for intra\u2011DCI applications.",
+        "Troubleshoot hardware\u2011DSP interactions, perform eye\u2011diagram and constellation analysis, and iterate on firmware to achieve target BER and latency goals."
+      ],
+      "bonus_skills": [
+        "AttoTude DiAx cable technology knowledge",
+        "LabVIEW or similar test automation",
+        "RF PCB layout basics"
+      ],
+      "summary": "The DSP Integration Test Engineer position at AttoTude offers hands\u2011on work bringing up modem\u2011level DSP on prototype hardware, directly leveraging the candidate\u2019s communications and test experience in a small, innovative company.",
+      "is_startup": true,
+      "adzuna_id": "5950450081"
+    },
+    {
+      "title": "Principal ASIC Engineer (Mixed-Signal)",
+      "company": "Voyant Photonics",
+      "location_label": "New York City, NY",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5940268514?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$170K\u2013$260K",
+      "top_requirements": [
+        "Lead mixed\u2011signal ASIC design for silicon\u2011photonic FMCW LiDAR front\u2011ends, including transimpedance amplifiers, phase\u2011locked loops, and high\u2011speed ADC/DAC blocks.",
+        "Perform full\u2011chip simulation, corner analysis, and layout\u2011aware verification to meet stringent noise, linearity, and power\u2011budget targets.",
+        "Drive silicon bring\u2011up, measurement, and debug of photonic\u2011electronic co\u2011design prototypes using high\u2011frequency test equipment and custom firmware."
+      ],
+      "bonus_skills": [
+        "Silicon photonics integration",
+        "RF system budgeting",
+        "Cadence Virtuoso/Analog Design Environment"
+      ],
+      "summary": "Voyant Photonics seeks a principal ASIC engineer to create mixed\u2011signal chips for next\u2011gen LiDAR, a role that matches the candidate\u2019s RF/modem background while moving into cutting\u2011edge photonic ICs in a fast\u2011growing startup.",
+      "is_startup": true,
+      "adzuna_id": "5940268514"
+    },
+    {
+      "title": "Analog Mixed-Signal Circuit Design Engineer (Remote)",
+      "company": "Ferric",
+      "location_label": "New York City, NY",
+      "region": "outside_sf",
+      "url": "https://www.adzuna.com/details/5833307433?utm_medium=api&utm_source=9349c45d",
+      "pay_range": "$115K\u2013$170K",
+      "top_requirements": [
+        "Design analog and mixed\u2011signal voltage regulator circuits across multiple CMOS nodes, meeting specifications for noise, load regulation, and efficiency.",
+        "Create detailed schematic and layout designs, run corner and Monte\u2011Carlo simulations, and generate design documentation for silicon tape\u2011out.",
+        "Develop and execute silicon validation plans, including bench testing of regulator performance, transient response, and EMI compliance."
+      ],
+      "bonus_skills": [
+        "On\u2011chip inductor design",
+        "Cadence Virtuoso/Analog Layout",
+        "Python\u2011based measurement automation"
+      ],
+      "summary": "Ferric\u2019s analog mixed\u2011signal circuit design engineer role focuses on advanced voltage regulator IP, offering a hands\u2011on IC design opportunity that aligns with the candidate\u2019s experience in high\u2011performance analog/RF design, within a small, innovative company.",
+      "is_startup": true,
+      "adzuna_id": "5833307433"
+    }
+  ]
+}
