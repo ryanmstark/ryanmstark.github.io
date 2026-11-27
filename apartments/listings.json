@@ -1,7 +1,7 @@
 {
-  "asof": "2026-11-26",
-  "search_at": "2026-11-27T01:53:00Z",
-  "checked_at": "2026-11-27T12:32:50Z",
+  "asof": "2026-11-27",
+  "search_at": "2026-11-27T13:55:00Z",
+  "checked_at": "2026-11-27T13:55:00Z",
   "unique": [
     {
       "id": "4155-cesar-chavez-17",
@@ -736,7 +736,8 @@
       "who": "SF City Rents, PC",
       "url": "https://hotpads.com/2244-23rd-st-san-francisco-ca-94107-1m7asvm/3/pad",
       "src": "HotPads",
-      "status": "active"
+      "status": "excluded",
+      "excluded_reason": "Zillow listing for the same unit (SF City Rents, $4,200, shows at 2244 23rd St; Zillow files it under 2246 23rd St #3) says \"Street parking only\" and no laundry on site (2026-11-27 check), so no designated spot"
     },
     {
       "id": "310-carolina-201",
@@ -1552,7 +1553,8 @@
       "notes": [
         "A 700 sq ft 1BR in Cole Valley being renovated (quartz counters, marble backsplash, new kitchen flooring), with a reserved parking space available to rent. It's an older multi-unit building from an established SF landlord (Barsha Properties), so it's likely rent-controlled. Room for a desk and a small dining table at that size. Close to GGP, the Haight and the N-Judah; Dogpatch is about 20–25 min by car. If parking runs ~$200–300, all-in lands around $4,450–4,550, inside your \"happy\" range.",
         "<span class='flag'>Must confirm: (1) the reserved space is described as <b>compact</b>, so check it actually fits a Mazda 3 sedan (~15 ft long) and get the monthly fee; (2) no dishwasher is listed; (3) the description says on-site laundry even though the tags say in-unit; (4) the bedroom has an exterior window. Photos show the pre-renovation unit, so finishes may not be done at the showing.</span>",
-        "Nov 16: Zumper shows #1 available Dec 1 (tenant still in; showing during renovations). Same building also lists #26 (~700 sq ft, $3,195, available now, parking space rentable): <a href='https://aptsearch.northeastern.edu/housing/property/251-parnassus-ave/82xgbv0'>mirror listing</a>."
+        "Nov 16: Zumper shows #1 available Dec 1 (tenant still in; showing during renovations). Same building also lists #26 (~700 sq ft, $3,195, available now, parking space rentable): <a href='https://aptsearch.northeastern.edu/housing/property/251-parnassus-ave/82xgbv0'>mirror listing</a>.",
+        "<span class='flag'>Nov 27 check: Zumper still shows the #1 card ($4,250, 700 sq ft, available Dec 1, renovation underway) but the building page says 0 units listed and marks the unit “Occupied”. It may already be taken, so confirm with Barrett before planning a tour.</span>"
       ],
       "scam": [
         "Low risk",
