@@ -1,7 +1,7 @@
 {
   "asof": "2026-11-27",
-  "search_at": "2026-11-27T22:53:32Z",
-  "checked_at": "2026-11-27T23:29:44Z",
+  "search_at": "2026-11-28T01:55:42Z",
+  "checked_at": "2026-11-28T01:55:42Z",
   "unique": [
     {
       "id": "4155-cesar-chavez-17",
@@ -1176,17 +1176,17 @@
         "<span class='flag'>Re-activated Nov 16: Redfin shows it relisted as “new” (~3 hrs before this run) at $4,995 with parking.</span>",
         "<span class='flag'>Re-activated Nov 18: Rentler shows it &ldquo;Available Now&rdquo; at $4,995 with tandem garage parking, and Redfin lists it as new again (~3 hrs before this run). The manager keeps relisting it, so it may have been sitting for a while: room to negotiate.</span>",
         "<span class='flag'>Re-listed: Redfin marked this unit &ldquo;new 3 hrs ago&rdquo; on Nov 26 at the same $4,995 (tandem garage space included, ~960 sq ft, shared laundry, dishwasher). Listed by SF City Rents (DRE 02187202). Rentler shows a &ldquo;flagged for review&rdquo; notice, so verify the brokerage and see the unit in person before paying anything.</span>",
-        "<span class='flag'>Re-activated Nov 27: Rentler again shows #6 &ldquo;Available Now&rdquo; at $4,995 (listed ~4 days), and Redfin's Cole Valley page still shows it with parking. It keeps cycling on and off the sites, so the manager may be flexible on price; Rentler's &ldquo;flagged for review&rdquo; note is still there, so book through SF City Rents directly and pay nothing before touring.</span>"
+        "<span class='flag'>Re-activated Nov 27: Rentler again shows #6 &ldquo;Available Now&rdquo; at $4,995 (listed ~4 days), and Redfin's Cole Valley page still shows it with parking. It keeps cycling on and off the sites, so the manager may be flexible on price; Rentler's &ldquo;flagged for review&rdquo; note is still there, so book through SF City Rents directly and pay nothing before touring.</span>",
+        "<span class='flag'>Re-activated Nov 27 (evening): Redfin's Cole Valley page shows #6 &ldquo;new 3 hrs ago&rdquo; again at $4,995 with parking, 960 sq ft. The link opens Redfin's Cole Valley rentals list; find 135 Carl St there.</span>"
       ],
       "scam": [
         "Low risk",
         "listed by SF City Rents, an established SF property manager, at a market price with showings by request; Rentler shows a generic &ldquo;flagged for review&rdquo; note, so book the showing through the manager directly and pay nothing before touring."
       ],
       "who": "SF City Rents (property manager)",
-      "url": "https://www.rentler.com/places-for-rent/ca/san-francisco/135-carl-st-6/12175147",
+      "url": "https://www.redfin.com/neighborhood/548/CA/San-Francisco/Cole-Valley/rentals",
       "src": "Redfin / Rentler",
-      "status": "removed",
-      "removed_at": "2026-11-27T23:29:39Z"
+      "status": "active"
     },
     {
       "id": "1515-15th-208",
